@@ -1,0 +1,392 @@
+body{
+	background: url('../images/bg.jpg');
+	font-family: 'FuturaMedium', sans-serif;
+}
+
+#header{
+  background: url('../images/tile_bg.png') bottom center repeat-x;
+}
+
+#main, #location{
+  background: url('../images/tile_bg.png') bottom center repeat-x,
+  url('../images/shadow.png') top center repeat-x;
+}
+
+#header > .content,
+#main > .content,
+#location > .content,
+#footer > .content{
+  margin: 0 auto;
+  width: 1100px;
+}
+
+#header > .content{
+  height: 491px;
+  background: url('../images/top.png') no-repeat;
+}
+
+#header h1{
+  text-indent: -9999px;
+  margin: 0 0 100px;
+}
+
+#header span, nav ul li a{
+  text-transform: uppercase;
+  font-size: 16px;
+  text-shadow: 0px 1px 0px #ebfcf9;
+  filter: dropshadow(color=#ebfcf9, offx=0, offy=1);
+  color: #272727;
+}
+
+#header span{
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#header span.date{
+  margin-left: 40px;
+}
+
+#header span.location{
+  margin-left: 20px;
+}
+
+nav ul{
+  margin: 18px 0 0 27px;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  text-decoration: none;
+  background: #9ed0c3;
+  line-height: 36px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li:hover a{
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background: #9ed0c3; /* Old browsers */
+  background: -moz-linear-gradient(top, #9ed0c3 0%, #76a699 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9ed0c3), color-stop(100%,#76a699)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #9ed0c3 0%,#76a699 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #9ed0c3 0%,#76a699 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #9ed0c3 0%,#76a699 100%); /* IE10+ */
+  background: linear-gradient(top, #9ed0c3 0%,#76a699 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ed0c3', endColorstr='#76a699',GradientType=0 ); /* IE6-9 */
+
+  -webkit-box-shadow: 0px 0px 8px 1px #aeded2;
+  -moz-box-shadow: 0px 0px 8px 1px #aeded2;
+  box-shadow: 0px 0px 8px 1px #aeded2;
+}
+
+nav ul li#blog a{
+  width: 75px;
+  margin-right: 14px;
+}
+
+nav ul li#call a{
+  width: 121px;
+  margin-right: 11px;
+}
+
+nav ul li#tw a{
+  width: 104px;
+  background-image: url('../images/twitter.png') 87% 50% no-repeat; 
+  text-align: left;
+  padding-left: 17px;
+}
+
+#main > .content{
+  background: url('../images/drabinki.png') 30px 0 no-repeat;
+}
+
+#main .column{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.box{
+  background: #deeeea;
+  margin-top: -2px;
+}
+
+#main h2{
+  background: url('../images/sprites.png') no-repeat;
+  text-indent: -9999px;
+  height: 24px;
+  margin: 0 0 0 20px;
+}
+
+#main .column, #location .location{
+  padding-top: 20px;
+}
+
+#speakers{
+  padding-left: 86px;
+  width: 460px;
+  position: relative;
+}
+
+#main #speakers h2{
+  width: 128px;
+  background-position: 0 0;
+}
+
+#speakers .people{
+  width: 50px;
+  height: 110px;
+  position: absolute;
+  top: 135px;
+  left: 36px;
+  background: url('../images/lever.png') no-repeat;
+}
+
+#speakers .box{
+  
+}
+
+#speakers .comment_box{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #c5d5d1;
+  display: inline-block;
+  width: 100%;
+}
+
+#speakers .comment_box:first-child .avatar{
+  margin-top: 9px;
+}
+
+#speakers .avatar{
+  margin: 31px 29px 7px 10px;
+  background: #c0d3ce; /* Old browsers */
+  background: -moz-linear-gradient(top, #c0d3ce 0%, #76a095 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c0d3ce), color-stop(100%,#76a095)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c0d3ce 0%,#76a095 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c0d3ce 0%,#76a095 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c0d3ce 0%,#76a095 100%); /* IE10+ */
+  background: linear-gradient(top, #c0d3ce 0%,#76a095 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0d3ce', endColorstr='#76a095',GradientType=0 ); /* IE6-9 */
+  float: left;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+#speakers .comment_box:first-child .comment{
+  top: 9px;
+}
+
+#speakers .comment{
+  display: inline-block;
+  width: 295px;
+  height: 122px;
+  background: url('../images/speaker_area.png') no-repeat;
+  position: relative;
+  top: 31px;
+}
+
+#speakers .comment .name{
+  margin: 0 10px;
+  display: block;
+  background: url('../images/sp_hr.png') bottom center no-repeat;
+  padding: 10px 0;
+}
+
+#speakers .comment div{
+  padding: 10px;
+  font-size: 12px;
+  font-weight: normal;
+  height: 60px;
+  overflow: hidden;
+}
+
+#speakers .ribbon{
+  text-align: center;
+  width: 220px;
+  height: 36px;
+  line-height: 36px;
+  background: url('../images/ribbon.png') no-repeat;
+  color: #353635;
+  text-decoration: none;
+  font-size: 14px;
+  text-shadow: 0px 1px 0px #ebfcf9;
+  filter: dropshadow(color=#ebfcf9, offx=0, offy=1);
+  display: inline-block;
+  margin-top: 57px;
+}
+
+#speakers .new.comment_box{
+  position: relative;
+}
+
+#speakers .new.comment_box .avatar{
+  margin-top: 16px;
+  margin-bottom: 45px;
+}
+
+#speakers .platform{
+  width: 177px;
+  height: 149px;
+  position: absolute;
+  bottom: -52px;
+  right: -1px;
+  background: url('../images/platform.png') no-repeat;
+}
+
+#about{
+  margin-left: 38px;
+  position: relative;
+}
+
+#main #about h2{
+    background-position: 0 -63px;
+    width: 88px;
+}
+
+#about .box{
+  width: 387px;
+  height: 299px;
+  padding: 20px;
+}
+
+#about .people{
+  background: url('../images/elevator.png') no-repeat;
+  width: 102px;
+  height: 199px;
+  position: absolute;
+  top: 100px;
+  right: -32px;
+}
+
+#supporters{
+  margin-top: 22px;
+  margin-left: 38px;
+}
+
+#main #supporters h2{
+  margin-left: 70px;
+  background-position: 0 -96px;
+  width: 163px;
+}
+
+#supporters .box{
+  width: 427px;
+  height: 144px;
+  padding: 20px;
+}
+
+#speakers, #supporters{
+  margin-bottom: 50px;
+}
+
+#location .location{
+  width: 958px;
+  padding-left: 84px;
+  padding-bottom: 64px;
+  background: url('../images/drabinki.png') 30px -659px no-repeat;
+  position: relative;
+}
+
+#location h2{
+  color: #f1f8f7;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+#location h2 span{
+  text-indent: -9999px;
+  background: url('../images/sprites.png') 0 -30px no-repeat;
+  width: 130px;
+  height: 24px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 16px;
+}
+
+#location .box{
+  padding: 13px 13px 26px 16px;
+  text-align: right;
+}
+
+#location .box a{
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+  color: #2563d0;
+}
+
+#location .box a:hover{
+  text-decoration: underline;
+}
+
+#location .car{
+  position: absolute;
+  background: url('../images/car.png') no-repeat;
+  width: 266px;
+  height: 91px;
+  bottom: 35px;
+  left: -56px;
+}
+
+#location h2{
+  margin: 0;
+}
+
+#footer{
+  height: 330px;
+  background: url('../images/footer_bg.jpg') repeat-x;
+}
+
+#footer .content{
+  height: 100%;
+  position: relative;
+}
+
+p.soon{
+  text-align: center;
+  font-size: 24px;
+}
+
+#about .soon{
+  margin: 140px 0;
+}
+
+#supporters .soon{
+  margin: 60px 0;
+}
+
+#footer .made-by{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#footer .made-by p {
+  float: left;
+  line-height: 19px;
+  font-family: "Minion Pro",Times,"Times New Roman",serif;
+  font-size: 16px;
+  color: #fff;
+
+}
+
+footer .made-by a.logo-monterail {
+  color: white;
+  font-size: 0;
+  display: inline-block;
+  width: 100px;
+  height: 19px;
+  background: url('../images/logo-monterail-home.png') no-repeat top;
+  vertical-align: text-bottom;
+}
+
+::selection{background: #598aa7;}
+::-moz-selection{background: #598aa7;}
