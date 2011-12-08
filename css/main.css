@@ -390,3 +390,7 @@ footer .made-by a.logo-monterail {
 
 ::selection{background: #598aa7;}
 ::-moz-selection{background: #598aa7;}
+
+#supporters img {
+  margin: 3px;
+}
