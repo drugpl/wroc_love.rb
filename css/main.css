@@ -235,6 +235,7 @@ nav ul li#tw a{
   overflow: hidden;
   background: url('../images/speaker_bg.png') repeat-y;
   margin-left: 1px;
+  text-align: justify;
 }
 
 #speakers .comment div.bottom{
@@ -324,6 +325,10 @@ nav ul li#tw a{
   width: 427px;
   height: 244px;
   padding: 20px;
+}
+
+#supporters .box img {
+  margin-right: 20px;
 }
 
 #speakers, #supporters{
