@@ -9,3 +9,16 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'FuturaCondensedExtraBold';
+    src: url('../fonts/futura-condensedextrabold-webfont.eot');
+    src: url('../fonts/futura-condensedextrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura-condensedextrabold-webfont.woff') format('woff'),
+         url('../fonts/futura-condensedextrabold-webfont.ttf') format('truetype'),
+         url('../fonts/futura-condensedextrabold-webfont.svg#FuturaCondensedExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

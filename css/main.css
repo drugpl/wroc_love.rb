@@ -3,6 +3,24 @@ body{
 	font-family: 'FuturaMedium', sans-serif;
 }
 
+a{
+  color: #2563D0;
+  text-decoration: none;
+}
+
+#main a:hover{
+  text-decoration: underline;
+}
+
+img{
+  border: 0;
+}
+
+strong{
+  font-family: 'FuturaCondensedExtraBold';
+  font-weight: normal;
+}
+
 #header{
   background: url('../images/tile_bg.png') bottom center repeat-x;
 }
@@ -104,7 +122,8 @@ nav ul li#tw a{
 }
 
 #main > .content{
-  background: url('../images/drabinki.png') 30px 0 no-repeat;
+  background: url('../images/drabinki.png') 30px 0 no-repeat,
+  url('../images/drabinki_main.png') 30px 100% no-repeat;
 }
 
 #main .column{
@@ -143,7 +162,7 @@ nav ul li#tw a{
   width: 50px;
   height: 110px;
   position: absolute;
-  top: 135px;
+  bottom: 365px;
   left: 36px;
   background: url('../images/lever.png') no-repeat;
 }
@@ -186,7 +205,6 @@ nav ul li#tw a{
 #speakers .comment{
   display: inline-block;
   width: 295px;
-  height: 122px;
   background: url('../images/speaker_area.png') no-repeat;
   position: relative;
   top: 31px;
@@ -197,14 +215,35 @@ nav ul li#tw a{
   display: block;
   background: url('../images/sp_hr.png') bottom center no-repeat;
   padding: 10px 0;
+  text-decoration: none;
+  color: #222;
+}
+
+#speakers .comment .name:hover{
+  text-decoration: underline;
+}
+
+#speakers .comment_box:first-child .comment div.bottom{
+  position: absolute;
+  bottom: -21px;
 }
 
 #speakers .comment div{
   padding: 10px;
   font-size: 12px;
   font-weight: normal;
-  height: 60px;
   overflow: hidden;
+  background: url('../images/speaker_bg.png') repeat-y;
+  margin-left: 1px;
+}
+
+#speakers .comment div.bottom{
+  background: url('../images/speaker_bg_bottom.png') no-repeat;
+  width: 294px;
+  height: 26px;
+  margin-left: 1px;
+  display: inline-block;
+  padding: 0;
 }
 
 #speakers .ribbon{
@@ -251,9 +290,10 @@ nav ul li#tw a{
 }
 
 #about .box{
-  width: 387px;
-  height: 299px;
-  padding: 20px;
+  width: 367px;
+  height: 417px;
+  padding: 20px 40px 20px 20px;
+  font-size: 18px;
 }
 
 #about .people{
@@ -278,7 +318,7 @@ nav ul li#tw a{
 
 #supporters .box{
   width: 427px;
-  height: 144px;
+  height: 244px;
   padding: 20px;
 }
 
@@ -290,7 +330,8 @@ nav ul li#tw a{
   width: 958px;
   padding-left: 84px;
   padding-bottom: 64px;
-  background: url('../images/drabinki.png') 30px -659px no-repeat;
+  background: url('../images/drabinki.png') 30px -659px no-repeat,
+  url('../images/drabinki_location.png') 30px 0 no-repeat;
   position: relative;
 }
 
@@ -390,7 +431,3 @@ footer .made-by a.logo-monterail {
 
 ::selection{background: #598aa7;}
 ::-moz-selection{background: #598aa7;}
-
-#supporters img {
-  margin: 3px;
-}
