@@ -296,6 +296,10 @@ nav ul li#tw a{
   font-size: 18px;
 }
 
+#about .box p {
+  text-align: justify;
+}
+
 #about .people{
   background: url('../images/elevator.png') no-repeat;
   width: 102px;
