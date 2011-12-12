@@ -121,14 +121,31 @@ nav ul li#tw a{
   padding-left: 17px;
 }
 
+#main .bg{
+  width: 58px;
+  background: url('../images/ladder_main.png') 0 100% no-repeat;
+  display: table-cell;
+}
+
 #main > .content{
-  background: url('../images/drabinki.png') 30px 0 no-repeat,
-  url('../images/drabinki_main.png') 30px 100% no-repeat;
+  background: url('../images/ladder.png') 26px 0 no-repeat;
+  padding-bottom: 50px;
+  padding-top:44px;
 }
 
 #main .column{
   display: inline-block;
   vertical-align: top;
+}
+
+#main .column:last-child{
+  padding-left: 68px;
+  text-align: left;
+  width: 517px;
+}
+
+#main{
+  position: relative;
 }
 
 .box{
@@ -143,14 +160,25 @@ nav ul li#tw a{
   margin: 0 0 0 20px;
 }
 
-#main .column, #location .location{
+#speakers h2, #about h2{
+  position: absolute;
+}
+
+#speakers h2{
+  top: 20px;
+}
+
+#about h2{
+  top: -24px; 
+}
+
+#location .location{
   padding-top: 20px;
 }
 
 #speakers{
-  padding-left: 86px;
   width: 460px;
-  position: relative;
+  background: #DEEEEA;
 }
 
 #main #speakers h2{
@@ -168,7 +196,8 @@ nav ul li#tw a{
 }
 
 #speakers .box{
-  
+  padding-bottom: 163px;
+  width: 460px;
 }
 
 #speakers .comment_box{
@@ -235,7 +264,7 @@ nav ul li#tw a{
   overflow: hidden;
   background: url('../images/speaker_bg.png') repeat-y;
   margin-left: 1px;
-  text-align: justify;
+  text-align: left;
 }
 
 #speakers .comment div.bottom{
@@ -263,7 +292,9 @@ nav ul li#tw a{
 }
 
 #speakers .new.comment_box{
-  position: relative;
+  position: absolute;
+  bottom: 50px;
+  width: 460px;
 }
 
 #speakers .new.comment_box .avatar{
@@ -281,24 +312,24 @@ nav ul li#tw a{
 }
 
 #about{
-  margin-left: 38px;
+  margin-left: 0px;
   position: relative;
+  width:425px;
 }
 
 #main #about h2{
-    background-position: 0 -63px;
+    background-position: 0 -62px;
     width: 88px;
 }
 
 #about .box{
   width: 367px;
-  height: 417px;
   padding: 20px 40px 20px 20px;
   font-size: 18px;
 }
 
 #about .box p {
-  text-align: justify;
+  text-align: left;
 }
 
 #about .people{
@@ -306,43 +337,48 @@ nav ul li#tw a{
   width: 102px;
   height: 199px;
   position: absolute;
-  top: 100px;
-  right: -32px;
+  right: -73px;
+  top: 52px;
 }
 
-#supporters{
-  margin-top: 22px;
-  margin-left: 38px;
+#supporters, #patronage{
+  margin-left: 0px;
 }
 
-#main #supporters h2{
+#patronage{
+  background: url('../images/ladder_h2.png') no-repeat;
+}
+
+#main #supporters h2, #main #patronage h2{
   margin-left: 70px;
   background-position: 0 -96px;
   width: 163px;
+  margin-top: 15px;
+  display: inline-block;
 }
 
-#supporters .box{
+#main #patronage h2{
+  background-position: 0 -129px;
+}
+
+#supporters .box, #patronage .box{
   width: 427px;
-  height: 100px;
   padding: 20px;
 }
 
-#supporters .box img {
+#supporters .box img, #patronage .box img {
   vertical-align: middle;
   margin-right: 20px;
-}
-
-#speakers, #supporters{
-  margin-bottom: 50px;
 }
 
 #location .location{
   width: 958px;
   padding-left: 84px;
   padding-bottom: 64px;
-  background: url('../images/drabinki.png') 30px -659px no-repeat,
-  url('../images/drabinki_location.png') 30px 0 no-repeat;
+  padding-right: 58px;
+  background: url('../images/ladder_location.png') 0 0 no-repeat;
   position: relative;
+  display: inline-block;
 }
 
 #location h2{
@@ -441,3 +477,14 @@ footer .made-by a.logo-monterail {
 
 ::selection{background: #598aa7;}
 ::-moz-selection{background: #598aa7;}
+
+#main > .content {
+	display: table;
+}
+
+#main > .content .column {
+	display: table-cell;
+	vertical-align: top;
+}
+
+
