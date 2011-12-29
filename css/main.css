@@ -1,3 +1,4 @@
+
 body{
 	background: url('../images/bg.jpg');
 	font-family: 'FuturaMedium', sans-serif;
@@ -65,9 +66,9 @@ strong{
   line-height: 32px;
   background: #9ed0c3;
   margin-right: 10px;
-  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.4);
 }
 
 #nav_social li span{
@@ -185,7 +186,7 @@ nav ul li#blog a{
 }
 
 nav ul li#call a{
-  width: 121px;
+  width: 135px;
   margin-right: 11px;
 }
 
