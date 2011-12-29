@@ -41,6 +41,7 @@ strong{
 #header > .content{
   height: 491px;
   background: url('../images/top.png') no-repeat;
+  position: relative;
 }
 
 #header h1{
@@ -48,7 +49,81 @@ strong{
   margin: 0 0 100px;
 }
 
-#header span, nav ul li a{
+#nav_social{
+  position: absolute;
+  right: 26px;
+  top: 0;
+  padding: 9px 0 0;
+  margin: 0;
+  background: url('../images/hang.png') 10px 0 no-repeat;
+}
+
+#nav_social li{
+  list-style-type: none;
+  float: left;
+  padding: 0px 6px;
+  line-height: 32px;
+  background: #9ed0c3;
+  margin-right: 10px;
+  -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+#nav_social li span{
+  float: left;
+  line-height: 32px;
+  margin: 0;
+}
+
+#nav_social li a{
+  float: left;
+  cursor: pointer;
+}
+
+#nav_social li #tw, #nav_social li #fb, #nav_social li#newsletter span{
+  text-indent: -9999px;
+  font-size: 0;
+  height: 25px;
+  float: left;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+  margin: 0;
+  padding: 4px;
+}
+
+
+#nav_social li#newsletter a span{
+  float: right;
+  width: 30px;
+  background: url('../images/iconM.png') 4px 4px no-repeat;  
+}
+
+#nav_social li#newsletter a:hover span{
+  background: url('../images/iconMhover.png') 4px 4px no-repeat;  
+}
+
+#nav_social li #tw{
+  width: 26px;
+  background: url('../images/iconTW.png') 4px 4px no-repeat;
+}
+
+#nav_social li #tw:hover{
+  background: url('../images/iconTWhover.png') 4px 4px no-repeat;
+}
+
+#nav_social li #fb{
+  width: 16px;
+  background: url('../images/iconFB.png') 4px 4px no-repeat;
+}
+
+#nav_social li #fb:hover{
+  background: url('../images/iconFBhover.png') 4px 4px no-repeat;
+}
+
+#header span, nav ul li a, #nav_social li, #nav_social li a{
   text-transform: uppercase;
   font-size: 16px;
   text-shadow: 0px 1px 0px #ebfcf9;
@@ -114,38 +189,38 @@ nav ul li#call a{
   margin-right: 11px;
 }
 
-nav ul li#tw a{
+nav ul li#contact a{
   width: 104px;
-  background-image: url('../images/twitter.png') 87% 50% no-repeat; 
-  text-align: left;
-  padding-left: 17px;
+}
+
+
+#main .tmp{
+  width: 19px;
+  display: table-cell;
 }
 
 #main .bg{
   width: 58px;
-  background: url('../images/ladder_main.png') 0 100% no-repeat;
+  background: url('../images/ladder_main.png') 100% 100% no-repeat;
   display: table-cell;
+  padding-left: 26px;
 }
 
 #main > .content{
-  background: url('../images/ladder.png') 26px 0 no-repeat;
-  padding-bottom: 50px;
-  padding-top:44px;
+  background: url('../images/ladder.png') 54px 0 no-repeat;
 }
 
 #main .column{
   display: inline-block;
   vertical-align: top;
-}
-
-#main .column:last-child{
   padding-left: 68px;
   text-align: left;
-  width: 517px;
+  width: 468px;
 }
 
 #main{
   position: relative;
+  padding: 44px 0 50px;
 }
 
 .box{
@@ -176,9 +251,10 @@ nav ul li#tw a{
   padding-top: 20px;
 }
 
-#speakers{
+#speakers.column{
   width: 460px;
   background: #DEEEEA;
+  padding-left: 0;
 }
 
 #main #speakers h2{
@@ -276,7 +352,7 @@ nav ul li#tw a{
   padding: 0;
 }
 
-#speakers .ribbon{
+.ribbon{
   text-align: center;
   width: 220px;
   height: 36px;
@@ -338,7 +414,7 @@ nav ul li#tw a{
   height: 199px;
   position: absolute;
   right: -73px;
-  top: 52px;
+  top: 102px;
 }
 
 #supporters, #patronage{
@@ -376,7 +452,7 @@ nav ul li#tw a{
   padding-left: 84px;
   padding-bottom: 64px;
   padding-right: 58px;
-  background: url('../images/ladder_location.png') 0 0 no-repeat;
+  background: url('../images/ladder_location.png') 26px 0 no-repeat;
   position: relative;
   display: inline-block;
 }
