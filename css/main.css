@@ -352,6 +352,13 @@ nav ul li#contact a{
   padding: 0;
 }
 
+.block_ribbon{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 0;
+}
+
 .ribbon{
   text-align: center;
   width: 220px;
@@ -365,6 +372,12 @@ nav ul li#contact a{
   filter: dropshadow(color=#ebfcf9, offx=0, offy=1);
   display: inline-block;
   margin-top: 57px;
+}
+
+.block_ribbon .ribbon{
+  width: 240px;
+  background: url('../images/ribbon2.png') no-repeat;
+  margin-top: 0;
 }
 
 #speakers .new.comment_box{
