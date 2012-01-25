@@ -304,6 +304,11 @@ nav ul li#contact a{
   padding: 10px;
 }
 
+#speakers .long_avatar{
+  width: 80px;
+  height: 240px;
+}
+
 #speakers .comment_box:first-child .comment{
   top: 9px;
 }
