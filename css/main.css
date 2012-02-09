@@ -463,7 +463,8 @@ nav ul li#contact a{
 }
 
 #main #vim h2{
-  background-position: 0 -162px;
+  background-position: 0 -161px;
+	width: 212px;
 }
 
 #supporters .box, #patronage .box{
@@ -608,4 +609,5 @@ footer .made-by a.logo-monterail {
   padding: 20px 40px 20px 20px;
   font-size: 15px;
   text-align: left;
+	width: 407px;
 }
