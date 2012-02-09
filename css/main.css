@@ -407,7 +407,7 @@ nav ul li#contact a{
   background: url('../images/platform.png') no-repeat;
 }
 
-#about{
+#about {
   margin-left: 0px;
   position: relative;
   width:425px;
@@ -585,3 +585,18 @@ footer .made-by a.logo-monterail {
 }
 
 
+#vim {
+  margin-left: 0px;
+  position: relative;
+}
+
+#vim h2{
+    background-position: 0 -62px;
+    width: 88px;
+}
+
+#vim .box{
+  padding: 20px 40px 20px 20px;
+  font-size: 15px;
+  text-align: left;
+}
