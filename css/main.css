@@ -387,6 +387,11 @@ nav ul li#contact a{
   margin-top: 0;
 }
 
+.block_ribbon .ribbon.alt {
+  width: 270px;
+  background: url('../images/ribbon3.png') no-repeat;
+}
+
 #speakers .new.comment_box{
   position: absolute;
   bottom: 50px;
