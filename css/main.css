@@ -437,15 +437,15 @@ nav ul li#contact a{
   top: 102px;
 }
 
-#supporters, #patronage{
+#supporters, #patronage, #vim{
   margin-left: 0px;
 }
 
-#patronage{
+#patronage, #vim{
   background: url('../images/ladder_h2.png') no-repeat;
 }
 
-#main #supporters h2, #main #patronage h2{
+#main #supporters h2, #main #patronage h2, #main #vim h2 {
   margin-left: 70px;
   background-position: 0 -96px;
   width: 163px;
@@ -455,6 +455,10 @@ nav ul li#contact a{
 
 #main #patronage h2{
   background-position: 0 -129px;
+}
+
+#main #vim h2{
+  background-position: 0 -162px;
 }
 
 #supporters .box, #patronage .box{
