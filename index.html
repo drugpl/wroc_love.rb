@@ -1,830 +1,830 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta property="og:title" content="wroc_love.rb" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="wroc_love.rb" />
     <meta property="og:description" content="A fresh Ruby conference organized by thriving Wrocław Ruby community. We're keen on experimenting, value original ideas and diversity of opinions - as long as they're backed with valid arguments." />
     <meta property="og:image" content="http://wrocloverb.com/images/ruby_thumbnail.png" />
-		<title>wroc_love.rb</title>
-		<link href="css/style.css" rel="stylesheet" type="text/css" />
-		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> 
+    <title>wroc_love.rb</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> 
     <script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
     <!--[if lt IE 9]>
-			<script src="js/html5.js"></script>
-			<script type="text/javascript" src="js/selectivizr.js"></script> 
-		<![endif]-->
-      <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-24474861-1']);
-            _gaq.push(['_trackPageview']);
+    <script src="js/html5.js"></script>
+    <script type="text/javascript" src="js/selectivizr.js"></script> 
+    <![endif]-->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-24474861-1']);
+      _gaq.push(['_trackPageview']);
 
-            (function() {
-              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-      </script>
-      <script type="text/javascript">
-        $(function() {
-          $( "#tabs" ).tabs();
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+</script>
+<script type="text/javascript">
+  $(function() {
+      $( "#tabs" ).tabs();
+      });
+</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $(".events > div").click(function() {
+        $(".events > div").removeClass("selected");
+        $('.overlay').hide();
+        $(".events > div p").hide();
+        $(this).addClass("selected");
+        $('.overlay').show();
+        $(this).find('p').show();
         });
-      </script>
-			<script type="text/javascript">
-        $(document).ready(function() {
-          $(".events > div").click(function() {
-						$(".events > div").removeClass("selected");
-						$('.overlay').hide();
-						$(".events > div p").hide();
-				    $(this).addClass("selected");
-						$('.overlay').show();
-						$(this).find('p').show();
-					});
-					$(".overlay").click(function() {
-							$(this).hide();
-							$('.events > div p').hide();
-					    $('.events > div').removeClass('selected');
-					  });
+      $(".overlay").click(function() {
+        $(this).hide();
+        $('.events > div p').hide();
+        $('.events > div').removeClass('selected');
         });
-      </script>
-	</head>
-	<body>
-	  <div id="container">
-		  <header id="header">
-		    <div class="content">
-  			  <h1 id="title">wroc_love.rb</h1>
-  			  <ul id="nav_social">
-  			    <li id="newsletter"><a href="http://eepurl.com/iaSvw">Newsletter<span></span></a></li>
-  			    <li><span>follow us</span><a href="http://twitter.com/wrocloverb" id="tw">twitter</a><a href="http://www.facebook.com/wroclove.rb" id="fb">facebook</a>
-  			  </ul>
-  			  <span class="date">10-11 march 2012</span>
-  			  <span class="location">Wrocław, Poland</span>
-  			  <nav>
-  				  <ul>
-  					  <li id="blog"><a href="http://blog.wrocloverb.com/" target="_blank">blog</a></li>
-  					  <li id="tickets"><a href="http://www.eventbrite.com/event/2726199135" target="_blank">get tickets!</a></li>
-  					  <li id="contact"><a href="mailto:all@wrocloverb.com">contact</a></li>
-  				  </ul>
-  			  </nav>
-  			</div>
-  		</header>
-  		<section id="main">
-  		  <div class="content">
-  		    <section class="bg"></section>
-  		    <section id="speakers" class="column">
-		        <h2>Speakers</h2>
-		        <div class="box">
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/nick_sutterer.jpg" alt="avatar" />
-		            </div>
-		            <div class="comment">
-		              <a href="http://blog.wrocloverb.com/post/8595630865/as-you-already-know-from-our-twitter" class="name" target="_blank">Nick Sutterer</a>
-                  <div>
-                                      Nick Sutterer is proud to be a member of the Ruby open source community. His <a href="http://cells.rubyforge.org">Cells</a> and <a href="http://apotomo.de">Apotomo</a> projects have been bringing increased view modularity and event-driven programming to Rails for years. He has enjoyed attending, and speaking at, Ruby conferences around the world. Buy him a beer sometime, and with very little prompting, he will tell you why there should be no such thing as a double-render error, why you should not confuse your models with your resources, and how to play a mean bass in a punk rock band.
-                   </div>
-		              <div class="bottom"></div>
-		            </div>
-		          </div>
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/piotr_sarnacki.jpg" alt="avatar" />
-		            </div>
-		            <div class="comment">
-		              <a href="http://blog.wrocloverb.com/post/11687828797/if-you-were-at-rupy-2011-then-you-already-know" class="name" target="_blank">Piotr Sarnacki</a>
-		              <div>
-                                      Rails contributor (#17 by number of <a href="https://github.com/rails/rails/contributors">commits</a>) who greatly improved Rails Engines during Ruby Summer of Code in 2010 and afterwards. Freelancer. As an enterpreneur he recently launched <a href="http://stoliczku.pl">stoliczku.pl</a> which is a Rails 3.1 application that allows you to book a table in various restaurants. It uses Sproutcore under the hood to run rich client that helps managers control their restaurant business. Working with Rails since 2005.
-                                  </div>
-		              <div class="bottom"></div>
-		            </div>
-		          </div>
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/steve_klabnik.jpg" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/15626089020/steve-klabnik" class="name">Steve Klabnik</a>
-                  <div>
-                    Steve is a teacher, aspiring digital humanities scholar and open source developer. He maintains the <a href="http://hackety-hack.com/">Hackety Hack</a> project, which allows anyone to learn software development via Ruby. He was a Ruby Hero in 2011 and is involved with many Ruby-based open source projects. He's currently writing a book about APIs titled <a href="http://getsomere.st/">Get some REST</a>.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-		          </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/avdi_grimm.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/15373097663/avdi-grimm" class="name">Avdi Grimm</a>
-                  <div>
-                    Avdi Grimm has been hacking Ruby code for over 10 years, and is still loving it. He is chief aeronaut at <a href="http://shiprise.net/">ShipRise</a>, a consultancy specializing in sustainable software development and in helping geographically dispersed teams work more effectively. He lives in Southern Pennsylvania with his wife and four children, and in his copious spare time blogs and podcasts at <a href="http://avdi.org/devblog/">Virtuous Code</a> and <a href="http://wideteams.com/">Wide Teams</a>.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-		          </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/jim_gay.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/16342454204/jim-gay" class="name">Jim Gay</a>
-                  <div>
-                    Jim is the Lead Developer for <a href="http://radiantcms.org">Radiant CMS</a> and is a prolific
-                    contributor to it and many open-source projects. At <a href="http://www.saturnflyer.com">Saturn Flyer LLC</a>
-                    he's built numerous Radiant sites, custom applications, and award
-                    winning graphic design. Jim is the author of <a href="http://clean-ruby.com">Clean Ruby</a>, a
-                    yet-unreleased book about writing better object oriented Ruby code and
-                    using the DCI architecture. He's been a co-host of the <a href="http://ruby5.envylabs.com/">Ruby 5</a> podcast
-                    and has been professionally building Ruby and Rails applications since
-                    2006.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-		          </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/martin-sustrik-full-gray-80.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/16000963766/martin-sustrik" class="name">Martin Sústrik</a>
-                  <div>
-                    Martin Sústrik is an expert in the field of messaging middleware. He
-                    participated in the creation and reference implementation of the <a href="http://www.amqp.org/">AMQP</a>
-                    standard. He has been involved in different messaging projects in the
-                    financial industry. He is a founder and one of main contributors to the
-                    <a href="http://www.zeromq.org/">0MQ</a> project. Currently he's interested in integration of messaging
-                    technology with <a href="https://github.com/250bpm/linux-2.6">operating systems</a> and the Internet stack. He lives in
-                    <a href="http://en.wikipedia.org/wiki/Bratislava">Bratislava</a>.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-		          </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/roy_tomeij.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/17312555681/roy-tomeij" class="name">Roy Tomeij</a>
-                  <div>
-                    Roy Tomeij is co-founder of <a href="http://www.80beans.com">80beans</a> in Amsterdam, where he takes care of front-end architecture using an agile approach. He loves front-end meta languages like <a href="http://haml-lang.com/">Haml</a>, <a href="http://sass-lang.com/">Sass</a> & <a href="http://coffeescript.org/">CoffeeScript</a> because they are DRY, produce quick results & lead to better maintainable code. Roy has nearly seven years of professional front-end experience in Rails projects.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-		          <div class="comment_box">
-		            <div class="avatar long_avatar">
-		              <img src="images/railslove_ralph_jan_georg.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/16577304388/railslove-salesking" class="name">Ralph von der Heyden, Georg Leciejewski and&nbsp;Jan&nbsp;Kus</a>
-                  <div>
-                    Ralph and Jan are web developers at <a href="http://railslove.com/">Railslove</a>, 
-                    Georg is working hard to revolutionise invoicing with 
-                    <a href="http://www.salesking.eu/">SalesKing</a>. All three have known each other
-                    for years and have worked on a wide range of projects. Along the way, they’ve
-                    gained extensive experience on all levels of web application development and
-                    how to found and maintain profitable web businesses, without disregarding the
-                    challenge to have some serious fun along the way ;) They love all things cool
-                    and nerdy, but their fields of expertise are API design, Ruby, Rails, project
-                    management, and payment solutions. As developers and business founders they've
-                    had their fair share of falling into the pits of application development and
-                    would now like to share some of the insights they've gained from past mistakes.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/piotr_solnica.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="#" class="name">Piotr Solnica</a>
-                  <div>
-                    When Piotr’s not writing great code, he’s writing awesome code. As an open source enthusiast, he has been working as a web developer for over 6 years, including more than 3 years of professional experience with Ruby-based technologies, working with many international agile teams. Piotr is an unobtrusive JavaScript evangelist, an HTML/CSS purist and a Linux geek, too. During his free time Piotr supports open source software. He is a <a href="http://datamapper.org/">DataMapper</a> core team member.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/krzysztof_kowalik.jpg" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="#" class="name">Krzysztof Kowalik</a>
-                  <div>
-                    Krzysiek is a 23 years old freak from Poland, easy to recognize by his strange hairdos. He is an <a href="http://github.com/nu7hatch">Open Source contributor</a>, BSD and Arch Linux enthusiast, and inline-skating addict. He lives in <a href="http://en.wikipedia.org/wiki/Montevideo">Montevideo</a> and works for <a href="http://cuboxlabs.com">Cubox</a>, crafting awesome Go, Ruby, Python, and C code, and implementing clever ideas. He plays with *nix systems since got his first computer being a typical optimization monster and <a href="http://www.faqs.org/docs/artu/ch01s07.html">The Unix Philosophy</a> evangelist. Now his favorite pastime is MQ and distributed programming. Recently all his efforts goes into <a href="http://webrocket.io/">WebRocket</a> project - a new scale, distributed and open source websockets broker.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/michal_czyz.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="#" class="name">Michał Czyż</a>
-                  <div>
-                    Michał Czyż has been working professionally as a web developer since 2007, and from the very beginning of his professional career, his choice is Ruby on Rails. In 2010 he became a team leader, helping his teammates to follow the path to improvement. These experiences gave birth to several <a href="https://github.com/cs3b">open source</a>, documentation and testing solutions, that are used with great success in <a href="http://www.selleo.com/">Selleo</a>, where he currently works. Michał helped organize <a href="http://coderetre.at/">code retreat</a> in 2011 and he is also one of the core members of <a href="http://srug.pl/">SRUG</a> - a local Ruby users group community, where he is known for evangelizing best practices.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/nicolas_barrera.jpg" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="#" class="name">Nicolas Barrera</a>
-                  <div>
-                    DrummerHead is the lead Designer working at <a href="http://cuboxlabs.com/">Cubox</a> and has years of experience being a certified Expertologist. You can call what he does UX, UI, IA, Usability, Accesibility, Front end; or any other hyped acronym you want. In truth, he is just the bridge between information and humans getting what they want in the fastest and best way possible.
-                    <br>
-                    Whatever you do, if you do it with love and passion, it will come out fine and dandy!
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/piotr_szotkowski.jpg" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="#" class="name">Piotr Szotkowski</a>
-                  <div>
-                    Piotr Szotkowski is an assistant professor at Warsaw University of
-                    Technology (where he happily sneaks Ruby, EventMachine and newfangled
-                    database systems into the creaking world of twentieth-century academia),
-                    a Ruby developer at <a href="http://rebased.pl">Rebased</a> and an alumnus of
-                    <a href="http://university.rubymendicant.com">Mendicant University</a>.
-                    <br>
-                    He's also a long-time contributor to various open source projects for
-                    the civic sector and co-organiser of <a href="http://netwtorek.pl">NetWtorek</a>
-                    - monthly <a href="http://netsquared.org/share/meetup">NetTuesday</a>
-                    meetings of people from the NGO/non-profit and IT sectors,
-                    as well as <a href="http://sochack.pl">SocHack</a> - quarterly 48-hour
-                    hackatons for worthy causes, in coordination with <a href="http://www.rhok.org">Random
-                      Hacks of Kindness</a>, <a href="http://www.opendataday.org">Open Data
-                      Day</a> and <a href="http://www.openeducationweek.org">Open Education
-                      Week</a>
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-		          <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/florian_gilcher.png" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="#" class="name">Florian Gilcher</a>
-                  <div>
-                    Florian Gilcher is enjoying the ruby community since 2004. After using
-                    Rails most of the time, he is now involved in the
-                    <a href="http://padrinorb.com">Padrino</a> project. He contributes to the Ruby community
-                    by working on the german ruby website and by providing a german
-                    discussion board. During day, he runs a consulting company specialized
-                    in backend systems.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
-
-              <div class="comment_box">
-		            <div class="avatar">
-		              <img src="images/michal_taszycki.jpg" alt="avatar" />
-		            </div>
-		            <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/17221627747/michal-taszycki" class="name">Michał Taszycki</a>
-                  <div>
-                    After leaving the corporate universe and developing a few computer
-                    games (like <a href="http://www.mobygames.com/game/ps3/motorstorm">Motorstorm</a>
-                    and <a href="http://www.mobygames.com/game/windows/saints-row-2">Saints Row 2</a>)
-                    for the PS3, XBOX and PC, he
-                    entered the Ruby World. Today, he is making delicious software at
-                    <a href="http://applicake.com">Applicake</a>, managing projects and training fellow programmers during
-                    <a href="http://www.flickr.com/photos/71470546@N08/sets/72157628278787087/with/6454903049">Code Retreats</a>. 
-                    He enjoys pushing people out of their comfort zones and
-                    into new rewarding experiences.  He can talk for hours about how
-                    seemingly unrelated skills (such as running, dancing or juggling) can
-                    help you become a better programmer.
-                  </div>
-		              <div class="bottom"></div>
-		            </div>
-              </div>
+      });
+</script>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+      <div class="content">
+        <h1 id="title">wroc_love.rb</h1>
+        <ul id="nav_social">
+          <li id="newsletter"><a href="http://eepurl.com/iaSvw">Newsletter<span></span></a></li>
+          <li><span>follow us</span><a href="http://twitter.com/wrocloverb" id="tw">twitter</a><a href="http://www.facebook.com/wroclove.rb" id="fb">facebook</a>
+        </ul>
+        <span class="date">10-11 march 2012</span>
+        <span class="location">Wrocław, Poland</span>
+        <nav>
+        <ul>
+          <li id="blog"><a href="http://blog.wrocloverb.com/" target="_blank">blog</a></li>
+          <li id="tickets"><a href="http://www.eventbrite.com/event/2726199135" target="_blank">get tickets!</a></li>
+          <li id="contact"><a href="mailto:all@wrocloverb.com">contact</a></li>
+        </ul>
+        </nav>
+      </div>
+      </header>
+      <section id="main">
+      <div class="content">
+        <section class="bg"></section>
+        <section id="speakers" class="column">
+        <h2>Speakers</h2>
+        <div class="box">
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/nick_sutterer.jpg" alt="avatar" />
             </div>
-		        <div class="new comment_box">
-	            <div class="avatar">
-	              <img src="images/avatar_speaker.jpg" alt="avatar" />
-	            </div>
-	            <a href="http://c4p.wrocloverb.com/" class="ribbon" target="_blank">Want to be a speaker?</a>
-              <div class="platform"></div>
-	          </div>
-		      </section>
-  		    <section class="column">
-  		      <div id="about">
-  		        <h2>About</h2>
-  		        <div class="box">
-                          <p>A fresh Ruby conference organized by thriving local Ruby <a href="http://drug.org.pl">community</a>. We're keen on experimenting, value original ideas and diversity of opinions - as long as they're backed with valid arguments.</p>
-
-                          <p>While we love Ruby, we're definitely open for its friends: Coffeescript, Javascript - you name it! We would like to hear your ideas and have it confronted here.</p>
-
-                          <p>That said, besides the main track of the conference, <a href="http://blog.wrocloverb.com/post/14303357849/lightning-talks">lightning talks</a>, <a href="http://blog.wrocloverb.com/post/14665444932/fights">fights</a> and <a href="http://blog.wrocloverb.com/post/15019850928/open-space">open space</a> track will get the attention they deserve.</p>
-
-                          <p>You'll enjoy your stay in <a href="http://www.youtube.com/watch?v=CBC5Tm-HuyM">Wrocław</a>!</p>
-                        </div>
-  		        <div class="people"></div>
-  		      </div>
-  		      <div id="supporters">
-  		        <h2>Supporters</h2>
-  		        <div class="box">
-                <a href="https://github.com"><img src="images/github.png" width="125px" height="56px"></a>
-                <a href="http://anixe.pl/en"><img src="images/anixe.gif" width="136px" height="51px"></a>
-                <a href="http://rails.arkency.com"><img src="images/arkency.png" width="83px" height="83px"></a>
-                <a href="http://polak20.org"><img src="images/polak20.png" width="142px" height="49px"></a>
-                <a href="http://netguru.pl"><img src="images/netguru.jpg" width="174px" height="40px"></a>
-                <a href="http://railslove.com"><img src="images/railslove.png" width="170px" height="40px"></a>
-                <a href="http://monterail.com"><img src="images/monterail-small-logo.png" width="187px" height="37px"></a>
-                <a href="http://shellycloud.com"><img src="images/shelly_cloud_logo.png" width="180px" height="38px"></a>
-                <a href="http://espago.pl"><img src="images/espago.png" width="188px" height="37px"></a>
-                <a href="http://monibuds.com"><img src="images/monibuds.png" width="92px" height="74px"></a>
-                <div class="block_ribbon"><a href="https://gist.github.com/3edea1dbc018220d4a75" class="ribbon" target="_blank">Want to be a supporter?</a></div>
-  		        </div>
-  		      </div>
-
-  		      <div id="patronage">
-  		        <h2>Patronage</h2>
-  		        <div class="box">
-                <a href="http://osnews.pl"><img src="images/osnews.png" width="179px" height="38px"></a>
-                <a href="http://coderwall.com"><img src="images/coderwall2.png" width="187px" height="37px"></a>
-                <a href="http://pragprog.com"><img src="images/pragmatic2.png" width="172px" height="40px"></a>
-                <div class="block_ribbon"><a href="mailto:all@wrocloverb.com" class="ribbon" target="_blank">Want to be a media sponsor?</a></div>
-  		        </div>
-  		      </div>
-
-  		      <div id="vim">
-  		        <h2>Vim Workshop</h2>
-  		        <div class="box">
-                <p>
-                <a href="http://vimcasts.org/"><img src="images/vimcast2.gif" width="128px" height="78px" style="float: right; margin-left: 10px; margin-bottom: 10px;"></a>
-                If you need an excuse to spend even more time in Wrocław, here you have a great one. Drew Neil, the author of
-                upcoming "Practical Vim" book and <a href="http://vimcasts.org/">Vimcasts</a> creator can teach you a lot during
-                a 3 hour masterclass.
-                <br/><br/>
-                <a href="http://vimcasts.eventbrite.com/">Workshops</a> will take place on Friday before the conference.<br />
-                </p>
-                <div class="block_ribbon"><span class="ribbon alt">20% discount coupon: wroclovers12</span></div>
-  		        </div>
-  		      </div>
-            <div id="agenda">
-  		        <h2>Agenda</h2>
-              <div class="box">
-								<div class="overlay"></div>
-  		        	<div id="tabs">
-	                <ul>
-	                  <li><a href="#fri">Friday</a></li>
-	                  <li><a href="#sat">Saturday</a></li>
-	                  <li><a href="#sun">Sunday</a></li>
-	                </ul>
-	                <div id="fri">
-	                  <div class="calendar">
-                  		<div class="row">
-	                      <div class="hour">
-	                        9:00
-	                      </div>
-                    
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-	                    <div class="row">
-	                      <div class="hour">
-	                        10:00
-	                      </div>
-	                      <div class="events">
-	                        <div class="absolute time5">
-	                          <span>10:00-12:30</span>
-	                          <h3>aaa</h3>
-														
-		                         <p>
-															<span class="arrow"></span>
-															<span class="time">10:00 - 12:30</span>
-															<span class="title">aaa</span>
-
-															<span>
-
-															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
-															</span></p>
-														
-
-	                        </div>
-	                      </div>
-	                      <div class="events">
-	                        <div class="block">
-	                          <span>10:00-10:45</span>
-	                          <h3>bbb bbb bbb bbb bbb bbb bbb bbb bbbb bbbb bbb </h3>
-                            <p>
-															<span class="arrow"></span>
-															<span class="time">10:00 - 12:30</span>
-															<span class="title">aaa</span>
-
-															<span>
-
-															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
-															</span>
-														</p>
-														
-	                        </div>
-	                      </div>
-	                    </div>
-                  		<div class="row">
-	                      <div class="hour">
-	                        11:00
-	                      </div>
-                    
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        12:00
-	                      </div>
-                    
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-													<div class="block">
-	                          <span>10:00-10:45</span>
-	                          <h3>bbb bbb bbb bbb bbb bbb bbb bbb bbbb bbbb bbb </h3>
-                            <p>
-															<span class="arrow"></span>
-															<span class="time">10:00 - 12:30</span>
-															<span class="title">aaa</span>
-
-															<span>
-
-															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
-															</span>
-														</p>
-														
-	                        </div>
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        13:00
-	                      </div>
-                    
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        14:00
-	                      </div>
-                    
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        15:00
-	                      </div>
-                    
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-	                    <div class="row">
-	                      <div class="hour">
-	                        16:00
-	                      </div>
-                    
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-         
-	                  </div>
-	                </div>
-	                <div id="sat">
-	                  <div class="calendar">
-                  		<div class="row">
-	                      <div class="hour">
-	                        9:00
-	                      </div>
-
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-	                    <div class="row">
-	                      <div class="hour">
-	                        10:00
-	                      </div>
-	                      <div class="events">
-	                        <div class="absolute time3">
-	                          <span>10:00-12:30</span>
-	                          <h3>aaa</h3>
-
-		                         <p>
-															<span class="arrow"></span>
-															<span class="time">10:00 - 12:30</span>
-															<span class="title">aaa</span>
-
-															<span>
-
-															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
-															</span></p>
-
-
-	                        </div>
-	                      </div>
-	                      <div class="events">
-	                        <div class="block">
-	                          <span>10:00-10:45</span>
-	                          <h3>bbb</h3>
-                            <p>
-															<span class="arrow"></span>
-															<span class="time">10:00 - 12:30</span>
-															<span class="title">aaa</span>
-
-															<span>
-
-															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
-															</span>
-														</p>
-
-	                        </div>
-	                      </div>
-	                    </div>
-                  		<div class="row">
-	                      <div class="hour">
-	                        11:00
-	                      </div>
-
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        12:00
-	                      </div>
-
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        13:00
-	                      </div>
-
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        14:00
-	                      </div>
-
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-											<div class="row">
-	                      <div class="hour">
-	                        15:00
-	                      </div>
-
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-	                    <div class="row">
-	                      <div class="hour">
-	                        16:00
-	                      </div>
-
-	                      <div class="events">
-
-	                      </div>
-	                      <div class="events">
-
-	                      </div>
-	                    </div>
-
-	                  </div>
-	                </div>
-									
-	                <div id="sun">
-	                   <div class="calendar">
-	                  		<div class="row">
-		                      <div class="hour">
-		                        9:00
-		                      </div>
-
-		                      <div class="events">
-
-		                      </div>
-		                      <div class="events">
-
-		                      </div>
-		                    </div>
-		                    <div class="row">
-		                      <div class="hour">
-		                        10:00
-		                      </div>
-		                      <div class="events">
-		                        <div class="absolute time3">
-		                          <span>10:00-12:30</span>
-		                          <h3>aaa</h3>
-
-			                         <p>
-																<span class="arrow"></span>
-																<span class="time">10:00 - 12:30</span>
-																<span class="title">aaa</span>
-
-																<span>
-
-																lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
-																</span></p>
-
-
-		                        </div>
-		                      </div>
-		                      <div class="events">
-		                        <div class="block">
-		                          <span>10:00-10:45</span>
-		                          <h3>bbb</h3>
-	                            <p>
-																<span class="arrow"></span>
-																<span class="time">10:00 - 12:30</span>
-																<span class="title">aaa</span>
-
-																<span>
-
-																lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
-																</span>
-															</p>
-
-		                        </div>
-		                      </div>
-		                    </div>
-	                  		<div class="row">
-		                      <div class="hour">
-		                        11:00
-		                      </div>
-
-		                      <div class="events">
-
-		                      </div>
-		                      <div class="events">
-
-		                      </div>
-		                    </div>
-												<div class="row">
-		                      <div class="hour">
-		                        12:00
-		                      </div>
-
-		                      <div class="events">
-
-		                      </div>
-		                      <div class="events">
-
-		                      </div>
-		                    </div>
-												<div class="row">
-		                      <div class="hour">
-		                        13:00
-		                      </div>
-
-		                      <div class="events">
-
-		                      </div>
-		                      <div class="events">
-
-		                      </div>
-		                    </div>
-												<div class="row">
-		                      <div class="hour">
-		                        14:00
-		                      </div>
-
-		                      <div class="events">
-
-		                      </div>
-		                      <div class="events">
-
-		                      </div>
-		                    </div>
-												<div class="row">
-		                      <div class="hour">
-		                        15:00
-		                      </div>
-
-		                      <div class="events">
-
-		                      </div>
-		                      <div class="events">
-
-		                      </div>
-		                    </div>
-		                    <div class="row">
-		                      <div class="hour">
-		                        16:00
-		                      </div>
-
-		                      <div class="events">
-
-		                      </div>
-		                      <div class="events">
-
-		                      </div>
-		                    </div>
-
-		                  </div>
-		                </div>
-	                </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/8595630865/as-you-already-know-from-our-twitter" class="name" target="_blank">Nick Sutterer</a>
+              <div>
+                Nick Sutterer is proud to be a member of the Ruby open source community. His <a href="http://cells.rubyforge.org">Cells</a> and <a href="http://apotomo.de">Apotomo</a> projects have been bringing increased view modularity and event-driven programming to Rails for years. He has enjoyed attending, and speaking at, Ruby conferences around the world. Buy him a beer sometime, and with very little prompting, he will tell you why there should be no such thing as a double-render error, why you should not confuse your models with your resources, and how to play a mean bass in a punk rock band.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/piotr_sarnacki.jpg" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/11687828797/if-you-were-at-rupy-2011-then-you-already-know" class="name" target="_blank">Piotr Sarnacki</a>
+              <div>
+                Rails contributor (#17 by number of <a href="https://github.com/rails/rails/contributors">commits</a>) who greatly improved Rails Engines during Ruby Summer of Code in 2010 and afterwards. Freelancer. As an enterpreneur he recently launched <a href="http://stoliczku.pl">stoliczku.pl</a> which is a Rails 3.1 application that allows you to book a table in various restaurants. It uses Sproutcore under the hood to run rich client that helps managers control their restaurant business. Working with Rails since 2005.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/steve_klabnik.jpg" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/15626089020/steve-klabnik" class="name">Steve Klabnik</a>
+              <div>
+                Steve is a teacher, aspiring digital humanities scholar and open source developer. He maintains the <a href="http://hackety-hack.com/">Hackety Hack</a> project, which allows anyone to learn software development via Ruby. He was a Ruby Hero in 2011 and is involved with many Ruby-based open source projects. He's currently writing a book about APIs titled <a href="http://getsomere.st/">Get some REST</a>.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/avdi_grimm.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/15373097663/avdi-grimm" class="name">Avdi Grimm</a>
+              <div>
+                Avdi Grimm has been hacking Ruby code for over 10 years, and is still loving it. He is chief aeronaut at <a href="http://shiprise.net/">ShipRise</a>, a consultancy specializing in sustainable software development and in helping geographically dispersed teams work more effectively. He lives in Southern Pennsylvania with his wife and four children, and in his copious spare time blogs and podcasts at <a href="http://avdi.org/devblog/">Virtuous Code</a> and <a href="http://wideteams.com/">Wide Teams</a>.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/jim_gay.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/16342454204/jim-gay" class="name">Jim Gay</a>
+              <div>
+                Jim is the Lead Developer for <a href="http://radiantcms.org">Radiant CMS</a> and is a prolific
+                contributor to it and many open-source projects. At <a href="http://www.saturnflyer.com">Saturn Flyer LLC</a>
+                he's built numerous Radiant sites, custom applications, and award
+                winning graphic design. Jim is the author of <a href="http://clean-ruby.com">Clean Ruby</a>, a
+                yet-unreleased book about writing better object oriented Ruby code and
+                using the DCI architecture. He's been a co-host of the <a href="http://ruby5.envylabs.com/">Ruby 5</a> podcast
+                and has been professionally building Ruby and Rails applications since
+                2006.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/martin-sustrik-full-gray-80.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/16000963766/martin-sustrik" class="name">Martin Sústrik</a>
+              <div>
+                Martin Sústrik is an expert in the field of messaging middleware. He
+                participated in the creation and reference implementation of the <a href="http://www.amqp.org/">AMQP</a>
+                standard. He has been involved in different messaging projects in the
+                financial industry. He is a founder and one of main contributors to the
+                <a href="http://www.zeromq.org/">0MQ</a> project. Currently he's interested in integration of messaging
+                technology with <a href="https://github.com/250bpm/linux-2.6">operating systems</a> and the Internet stack. He lives in
+                <a href="http://en.wikipedia.org/wiki/Bratislava">Bratislava</a>.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/roy_tomeij.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/17312555681/roy-tomeij" class="name">Roy Tomeij</a>
+              <div>
+                Roy Tomeij is co-founder of <a href="http://www.80beans.com">80beans</a> in Amsterdam, where he takes care of front-end architecture using an agile approach. He loves front-end meta languages like <a href="http://haml-lang.com/">Haml</a>, <a href="http://sass-lang.com/">Sass</a> & <a href="http://coffeescript.org/">CoffeeScript</a> because they are DRY, produce quick results & lead to better maintainable code. Roy has nearly seven years of professional front-end experience in Rails projects.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar long_avatar">
+              <img src="images/railslove_ralph_jan_georg.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/16577304388/railslove-salesking" class="name">Ralph von der Heyden, Georg Leciejewski and&nbsp;Jan&nbsp;Kus</a>
+              <div>
+                Ralph and Jan are web developers at <a href="http://railslove.com/">Railslove</a>, 
+                Georg is working hard to revolutionise invoicing with 
+                <a href="http://www.salesking.eu/">SalesKing</a>. All three have known each other
+                for years and have worked on a wide range of projects. Along the way, they’ve
+                gained extensive experience on all levels of web application development and
+                how to found and maintain profitable web businesses, without disregarding the
+                challenge to have some serious fun along the way ;) They love all things cool
+                and nerdy, but their fields of expertise are API design, Ruby, Rails, project
+                management, and payment solutions. As developers and business founders they've
+                had their fair share of falling into the pits of application development and
+                would now like to share some of the insights they've gained from past mistakes.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/piotr_solnica.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="#" class="name">Piotr Solnica</a>
+              <div>
+                When Piotr’s not writing great code, he’s writing awesome code. As an open source enthusiast, he has been working as a web developer for over 6 years, including more than 3 years of professional experience with Ruby-based technologies, working with many international agile teams. Piotr is an unobtrusive JavaScript evangelist, an HTML/CSS purist and a Linux geek, too. During his free time Piotr supports open source software. He is a <a href="http://datamapper.org/">DataMapper</a> core team member.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/krzysztof_kowalik.jpg" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/17365552675/krzysztof-kowalik" class="name">Krzysztof Kowalik</a>
+              <div>
+                Krzysiek is a 23 years old freak from Poland, easy to recognize by his strange hairdos. He is an <a href="http://github.com/nu7hatch">Open Source contributor</a>, BSD and Arch Linux enthusiast, and inline-skating addict. He lives in <a href="http://en.wikipedia.org/wiki/Montevideo">Montevideo</a> and works for <a href="http://cuboxlabs.com">Cubox</a>, crafting awesome Go, Ruby, Python, and C code, and implementing clever ideas. He plays with *nix systems since got his first computer being a typical optimization monster and <a href="http://www.faqs.org/docs/artu/ch01s07.html">The Unix Philosophy</a> evangelist. Now his favorite pastime is MQ and distributed programming. Recently all his efforts goes into <a href="http://webrocket.io/">WebRocket</a> project - a new scale, distributed and open source websockets broker.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/michal_czyz.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="#" class="name">Michał Czyż</a>
+              <div>
+                Michał Czyż has been working professionally as a web developer since 2007, and from the very beginning of his professional career, his choice is Ruby on Rails. In 2010 he became a team leader, helping his teammates to follow the path to improvement. These experiences gave birth to several <a href="https://github.com/cs3b">open source</a>, documentation and testing solutions, that are used with great success in <a href="http://www.selleo.com/">Selleo</a>, where he currently works. Michał helped organize <a href="http://coderetre.at/">code retreat</a> in 2011 and he is also one of the core members of <a href="http://srug.pl/">SRUG</a> - a local Ruby users group community, where he is known for evangelizing best practices.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/nicolas_barrera.jpg" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="#" class="name">Nicolas Barrera</a>
+              <div>
+                DrummerHead is the lead Designer working at <a href="http://cuboxlabs.com/">Cubox</a> and has years of experience being a certified Expertologist. You can call what he does UX, UI, IA, Usability, Accesibility, Front end; or any other hyped acronym you want. In truth, he is just the bridge between information and humans getting what they want in the fastest and best way possible.
+                <br>
+                Whatever you do, if you do it with love and passion, it will come out fine and dandy!
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/piotr_szotkowski.jpg" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/17559480945/piotr-szotkowski" class="name">Piotr Szotkowski</a>
+              <div>
+                Piotr Szotkowski is an assistant professor at Warsaw University of
+                Technology (where he happily sneaks Ruby, EventMachine and newfangled
+                database systems into the creaking world of twentieth-century academia),
+                a Ruby developer at <a href="http://rebased.pl">Rebased</a> and an alumnus of
+                <a href="http://university.rubymendicant.com">Mendicant University</a>.
+                <br>
+                He's also a long-time contributor to various open source projects for
+                the civic sector and co-organiser of <a href="http://netwtorek.pl">NetWtorek</a>
+                - monthly <a href="http://netsquared.org/share/meetup">NetTuesday</a>
+                meetings of people from the NGO/non-profit and IT sectors,
+                as well as <a href="http://sochack.pl">SocHack</a> - quarterly 48-hour
+                hackatons for worthy causes, in coordination with <a href="http://www.rhok.org">Random
+                  Hacks of Kindness</a>, <a href="http://www.opendataday.org">Open Data
+                  Day</a> and <a href="http://www.openeducationweek.org">Open Education
+                  Week</a>
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/florian_gilcher.png" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="#" class="name">Florian Gilcher</a>
+              <div>
+                Florian Gilcher is enjoying the ruby community since 2004. After using
+                Rails most of the time, he is now involved in the
+                <a href="http://padrinorb.com">Padrino</a> project. He contributes to the Ruby community
+                by working on the german ruby website and by providing a german
+                discussion board. During day, he runs a consulting company specialized
+                in backend systems.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+
+          <div class="comment_box">
+            <div class="avatar">
+              <img src="images/michal_taszycki.jpg" alt="avatar" />
+            </div>
+            <div class="comment">
+              <a href="http://blog.wrocloverb.com/post/17221627747/michal-taszycki" class="name">Michał Taszycki</a>
+              <div>
+                After leaving the corporate universe and developing a few computer
+                games (like <a href="http://www.mobygames.com/game/ps3/motorstorm">Motorstorm</a>
+                and <a href="http://www.mobygames.com/game/windows/saints-row-2">Saints Row 2</a>)
+                for the PS3, XBOX and PC, he
+                entered the Ruby World. Today, he is making delicious software at
+                <a href="http://applicake.com">Applicake</a>, managing projects and training fellow programmers during
+                <a href="http://www.flickr.com/photos/71470546@N08/sets/72157628278787087/with/6454903049">Code Retreats</a>. 
+                He enjoys pushing people out of their comfort zones and
+                into new rewarding experiences.  He can talk for hours about how
+                seemingly unrelated skills (such as running, dancing or juggling) can
+                help you become a better programmer.
+              </div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+        </div>
+        <div class="new comment_box">
+          <div class="avatar">
+            <img src="images/avatar_speaker.jpg" alt="avatar" />
+          </div>
+          <a href="http://c4p.wrocloverb.com/" class="ribbon" target="_blank">Want to be a speaker?</a>
+          <div class="platform"></div>
+        </div>
+        </section>
+        <section class="column">
+        <div id="about">
+          <h2>About</h2>
+          <div class="box">
+            <p>A fresh Ruby conference organized by thriving local Ruby <a href="http://drug.org.pl">community</a>. We're keen on experimenting, value original ideas and diversity of opinions - as long as they're backed with valid arguments.</p>
+
+            <p>While we love Ruby, we're definitely open for its friends: Coffeescript, Javascript - you name it! We would like to hear your ideas and have it confronted here.</p>
+
+            <p>That said, besides the main track of the conference, <a href="http://blog.wrocloverb.com/post/14303357849/lightning-talks">lightning talks</a>, <a href="http://blog.wrocloverb.com/post/14665444932/fights">fights</a> and <a href="http://blog.wrocloverb.com/post/15019850928/open-space">open space</a> track will get the attention they deserve.</p>
+
+            <p>You'll enjoy your stay in <a href="http://www.youtube.com/watch?v=CBC5Tm-HuyM">Wrocław</a>!</p>
+          </div>
+          <div class="people"></div>
+        </div>
+        <div id="supporters">
+          <h2>Supporters</h2>
+          <div class="box">
+            <a href="https://github.com"><img src="images/github.png" width="125px" height="56px"></a>
+            <a href="http://anixe.pl/en"><img src="images/anixe.gif" width="136px" height="51px"></a>
+            <a href="http://rails.arkency.com"><img src="images/arkency.png" width="83px" height="83px"></a>
+            <a href="http://polak20.org"><img src="images/polak20.png" width="142px" height="49px"></a>
+            <a href="http://netguru.pl"><img src="images/netguru.jpg" width="174px" height="40px"></a>
+            <a href="http://railslove.com"><img src="images/railslove.png" width="170px" height="40px"></a>
+            <a href="http://monterail.com"><img src="images/monterail-small-logo.png" width="187px" height="37px"></a>
+            <a href="http://shellycloud.com"><img src="images/shelly_cloud_logo.png" width="180px" height="38px"></a>
+            <a href="http://espago.pl"><img src="images/espago.png" width="188px" height="37px"></a>
+            <a href="http://monibuds.com"><img src="images/monibuds.png" width="92px" height="74px"></a>
+            <div class="block_ribbon"><a href="https://gist.github.com/3edea1dbc018220d4a75" class="ribbon" target="_blank">Want to be a supporter?</a></div>
+          </div>
+        </div>
+
+        <div id="patronage">
+          <h2>Patronage</h2>
+          <div class="box">
+            <a href="http://osnews.pl"><img src="images/osnews.png" width="179px" height="38px"></a>
+            <a href="http://coderwall.com"><img src="images/coderwall2.png" width="187px" height="37px"></a>
+            <a href="http://pragprog.com"><img src="images/pragmatic2.png" width="172px" height="40px"></a>
+            <div class="block_ribbon"><a href="mailto:all@wrocloverb.com" class="ribbon" target="_blank">Want to be a media sponsor?</a></div>
+          </div>
+        </div>
+
+        <div id="vim">
+          <h2>Vim Workshop</h2>
+          <div class="box">
+            <p>
+            <a href="http://vimcasts.org/"><img src="images/vimcast2.gif" width="128px" height="78px" style="float: right; margin-left: 10px; margin-bottom: 10px;"></a>
+            If you need an excuse to spend even more time in Wrocław, here you have a great one. Drew Neil, the author of
+            upcoming "Practical Vim" book and <a href="http://vimcasts.org/">Vimcasts</a> creator can teach you a lot during
+            a 3 hour masterclass.
+            <br/><br/>
+            <a href="http://vimcasts.eventbrite.com/">Workshops</a> will take place on Friday before the conference.<br />
+            </p>
+            <div class="block_ribbon"><span class="ribbon alt">20% discount coupon: wroclovers12</span></div>
+          </div>
+        </div>
+        <div id="agenda">
+          <h2>Agenda</h2>
+          <div class="box">
+            <div class="overlay"></div>
+            <div id="tabs">
+              <ul>
+                <li><a href="#fri">Friday</a></li>
+                <li><a href="#sat">Saturday</a></li>
+                <li><a href="#sun">Sunday</a></li>
+              </ul>
+              <div id="fri">
+                <div class="calendar">
+                  <div class="row">
+                    <div class="hour">
+                      9:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      10:00
+                    </div>
+                    <div class="events">
+                      <div class="absolute time5">
+                        <span>10:00-12:30</span>
+                        <h3>aaa</h3>
+
+                        <p>
+                        <span class="arrow"></span>
+                        <span class="time">10:00 - 12:30</span>
+                        <span class="title">aaa</span>
+
+                        <span>
+
+                          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+                        </span></p>
+
+
+                      </div>
+                    </div>
+                    <div class="events">
+                      <div class="block">
+                        <span>10:00-10:45</span>
+                        <h3>bbb bbb bbb bbb bbb bbb bbb bbb bbbb bbbb bbb </h3>
+                        <p>
+                        <span class="arrow"></span>
+                        <span class="time">10:00 - 12:30</span>
+                        <span class="title">aaa</span>
+
+                        <span>
+
+                          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+                        </span>
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      11:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      12:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+                      <div class="block">
+                        <span>10:00-10:45</span>
+                        <h3>bbb bbb bbb bbb bbb bbb bbb bbb bbbb bbbb bbb </h3>
+                        <p>
+                        <span class="arrow"></span>
+                        <span class="time">10:00 - 12:30</span>
+                        <span class="title">aaa</span>
+
+                        <span>
+
+                          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+                        </span>
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      13:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      14:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      15:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      16:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+
                 </div>
               </div>
-  		      </div>
-  		    </section>
+              <div id="sat">
+                <div class="calendar">
+                  <div class="row">
+                    <div class="hour">
+                      9:00
+                    </div>
 
-  		    <section class="tmp"></section>
-  		  </div>
-  		  
-  		</section>
-  		<section id="location">
-  		  <div class="content">
-  		    <div class="location">
-	          <h2><span>Location</span>University of Wrocław, Institute of Computer Science</h2>
-	          <div class="box">
-	            <iframe width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A" style="color:#2563D0;text-align:left">View Larger Map</a></small>
+                    <div class="events">
 
-	          </div>
-	          <div class="car"></div>
-	        </div>
-	      </div>
-	    </section>
-  		<footer id="footer">
-  		  <div class="content">
-  		    <section class="made-by">
-            <p>From <a href="http://monterail.com" class="logo-monterail" title="Monterail is an offshore webdevelopment agency specializing in Ruby on Rails, based in Poland">Monterail.com</a> with love.
-            </p>
-          </section>
-  		  </div>
-  		</footer>
-  	</div>
-	</body>
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      10:00
+                    </div>
+                    <div class="events">
+                      <div class="absolute time3">
+                        <span>10:00-12:30</span>
+                        <h3>aaa</h3>
+
+                        <p>
+                        <span class="arrow"></span>
+                        <span class="time">10:00 - 12:30</span>
+                        <span class="title">aaa</span>
+
+                        <span>
+
+                          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+                        </span></p>
+
+
+                      </div>
+                    </div>
+                    <div class="events">
+                      <div class="block">
+                        <span>10:00-10:45</span>
+                        <h3>bbb</h3>
+                        <p>
+                        <span class="arrow"></span>
+                        <span class="time">10:00 - 12:30</span>
+                        <span class="title">aaa</span>
+
+                        <span>
+
+                          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+                        </span>
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      11:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      12:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      13:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      14:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      15:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      16:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div id="sun">
+                <div class="calendar">
+                  <div class="row">
+                    <div class="hour">
+                      9:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      10:00
+                    </div>
+                    <div class="events">
+                      <div class="absolute time3">
+                        <span>10:00-12:30</span>
+                        <h3>aaa</h3>
+
+                        <p>
+                        <span class="arrow"></span>
+                        <span class="time">10:00 - 12:30</span>
+                        <span class="title">aaa</span>
+
+                        <span>
+
+                          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+                        </span></p>
+
+
+                      </div>
+                    </div>
+                    <div class="events">
+                      <div class="block">
+                        <span>10:00-10:45</span>
+                        <h3>bbb</h3>
+                        <p>
+                        <span class="arrow"></span>
+                        <span class="time">10:00 - 12:30</span>
+                        <span class="title">aaa</span>
+
+                        <span>
+
+                          lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+                        </span>
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      11:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      12:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      13:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      14:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      15:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="hour">
+                      16:00
+                    </div>
+
+                    <div class="events">
+
+                    </div>
+                    <div class="events">
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section class="tmp"></section>
+    </div>
+
+    </section>
+    <section id="location">
+    <div class="content">
+      <div class="location">
+        <h2><span>Location</span>University of Wrocław, Institute of Computer Science</h2>
+        <div class="box">
+          <iframe width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A" style="color:#2563D0;text-align:left">View Larger Map</a></small>
+
+        </div>
+        <div class="car"></div>
+      </div>
+    </div>
+    </section>
+    <footer id="footer">
+    <div class="content">
+      <section class="made-by">
+      <p>From <a href="http://monterail.com" class="logo-monterail" title="Monterail is an offshore webdevelopment agency specializing in Ruby on Rails, based in Poland">Monterail.com</a> with love.
+      </p>
+      </section>
+    </div>
+    </footer>
+  </div>
+</body>
 </html>
