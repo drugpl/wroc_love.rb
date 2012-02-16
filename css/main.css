@@ -412,6 +412,12 @@ nav ul li#contact a{
   background: url('../images/platform.png') no-repeat;
 }
 
+#about, #supporters, #patronage, #vim, #agenda{
+  margin-left: 0px;
+	width: 468px;
+	display: inline-block;
+}
+
 #about {
   margin-left: 0px;
   position: relative;
@@ -442,15 +448,11 @@ nav ul li#contact a{
   top: 102px;
 }
 
-#supporters, #patronage, #vim{
-  margin-left: 0px;
-}
-
-#patronage, #vim{
+#patronage, #vim, #agenda{
   background: url('../images/ladder_h2.png') no-repeat;
 }
 
-#main #supporters h2, #main #patronage h2, #main #vim h2 {
+#main #supporters h2, #main #patronage h2, #main #vim h2, #main #agenda h2 {
   margin-left: 70px;
   background-position: 0 -96px;
   width: 163px;
@@ -465,6 +467,10 @@ nav ul li#contact a{
 #main #vim h2{
   background-position: 0 -161px;
 	width: 212px;
+}
+
+#main #agenda h2{
+  background-position: 0 -193px;
 }
 
 #supporters .box, #patronage .box{
@@ -592,6 +598,7 @@ footer .made-by a.logo-monterail {
 #main > .content .column {
 	display: table-cell;
 	vertical-align: top;
+	float: left;
 }
 
 
@@ -611,3 +618,178 @@ footer .made-by a.logo-monterail {
   text-align: left;
 	width: 407px;
 }
+
+#agenda .box{
+	width: 467px;
+}
+
+.ui-tabs { position: relative; padding: 11px 7px; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0 0 30px; padding: 0; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 4px 0 0; border: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none !important; width: 147px; height: 30px; line-height: 30px; text-align: center; background: #fff; text-transform: uppercase; color: #000;-webkit-box-shadow: 1px 0px 1px 0px #88a19a;-moz-box-shadow: 1px 0px 1px 0px #88a19a;box-shadow: 1px 0px 1px 0px #88a19a;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a{color: #fff;background: #87a099;-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.6);box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.6);}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 10px 0; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+
+.calendar{
+    width: 450px;
+    display: inline-block;
+}
+
+.calendar .row{
+    display: table;
+    background: #cfe2df;
+    margin-bottom: 1px;
+    height: 40px
+}
+
+.calendar .hour, .calendar .events{
+    display: table-cell;
+}
+
+.calendar .hour{
+		font-size: 9px;
+		color: #525252;
+		line-height: 40px;
+		vertical-align: top;
+		text-align: right;
+		padding-right: 5px;
+		width: 34px;
+		border-right: 1px solid #DEEEEA;
+}
+
+.calendar .events{
+    width: 204px;
+		margin-left:1px ;
+    position: relative;
+		vertical-align: top;
+}
+
+.calendar .events h3{
+	font-size: 12px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.calendar .events span{
+	float: right;
+	font-size: 9px;
+	color: #525252;
+}
+
+.calendar .block{
+	min-height: 30px;
+}
+
+.calendar .block, .calendar .absolute{
+    background: rgba(255,255,255,0.5);
+		vertical-align: top;
+}
+
+.calendar .block:hover, .calendar .absolute:hover{
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+}
+
+.calendar .events .selected{
+	background: #fff;
+}
+
+.overlay{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.calendar .events p{
+	display: none;
+	position: absolute;
+	width: 400px;
+	left: -450px;
+	top: -20px;
+	background: #e2eceb;
+	-webkit-box-shadow: 0px 0px 21px 8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 21px 8px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 21px 8px rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	font-size: 12px;
+	font-weight: normal;
+	z-index: 10;
+}
+
+.calendar .events > div{
+	padding: 5px;
+}
+
+.calendar .events p span{
+	font-size: 12px;
+}
+
+.calendar .events p .arrow{
+	position: absolute;
+	width: 15px;
+	height: 18px;
+	background: url('../images/overlay_arrow.png') no-repeat;
+	top: 20px;
+	right: -15px;
+}
+
+.calendar .events p .time{
+	float: right;
+	color: #3f3f3f;
+}
+
+.calendar .events p .title{
+	color: #333;
+	font-size: 18px;
+	display: block;
+	float: none;
+	padding-bottom: 10px;
+}
+
+.calendar .absolute{
+    position: absolute;
+    width: 194px;
+		z-index: 2;
+}
+
+.time2{
+    height: 71px;
+}
+
+.time3{
+    height: 112px;
+}
+
+.time4{
+    height: 153px;
+}
+
+.time5{
+    height: 194px;
+}
+
+.time6{
+    height: 235px;
+}
+
+.time7{
+    height: 276px;
+}
+
+.time8{
+    height: 317px;
+}
+
+.time9{
+    height: 358px;
+}
+
+

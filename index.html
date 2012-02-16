@@ -7,7 +7,9 @@
     <meta property="og:image" content="http://wrocloverb.com/images/ruby_thumbnail.png" />
 		<title>wroc_love.rb</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
-		<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> 
+    <script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+    <!--[if lt IE 9]>
 			<script src="js/html5.js"></script>
 			<script type="text/javascript" src="js/selectivizr.js"></script> 
 		<![endif]-->
@@ -21,6 +23,28 @@
               ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
+      </script>
+      <script type="text/javascript">
+        $(function() {
+          $( "#tabs" ).tabs();
+        });
+      </script>
+			<script type="text/javascript">
+        $(document).ready(function() {
+          $(".events > div").click(function() {
+						$(".events > div").removeClass("selected");
+						$('.overlay').hide();
+						$(".events > div p").hide();
+				    $(this).addClass("selected");
+						$('.overlay').show();
+						$(this).find('p').show();
+					});
+					$(".overlay").click(function() {
+							$(this).hide();
+							$('.events > div p').hide();
+					    $('.events > div').removeClass('selected');
+					  });
+        });
       </script>
 	</head>
 	<body>
@@ -358,6 +382,422 @@
                 </p>
                 <div class="block_ribbon"><span class="ribbon alt">20% discount coupon: wroclovers12</span></div>
   		        </div>
+  		      </div>
+            <div id="agenda">
+  		        <h2>Agenda</h2>
+              <div class="box">
+								<div class="overlay"></div>
+  		        	<div id="tabs">
+	                <ul>
+	                  <li><a href="#fri">Friday</a></li>
+	                  <li><a href="#sat">Saturday</a></li>
+	                  <li><a href="#sun">Sunday</a></li>
+	                </ul>
+	                <div id="fri">
+	                  <div class="calendar">
+                  		<div class="row">
+	                      <div class="hour">
+	                        9:00
+	                      </div>
+                    
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+	                    <div class="row">
+	                      <div class="hour">
+	                        10:00
+	                      </div>
+	                      <div class="events">
+	                        <div class="absolute time5">
+	                          <span>10:00-12:30</span>
+	                          <h3>aaa</h3>
+														
+		                         <p>
+															<span class="arrow"></span>
+															<span class="time">10:00 - 12:30</span>
+															<span class="title">aaa</span>
+
+															<span>
+
+															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+															</span></p>
+														
+
+	                        </div>
+	                      </div>
+	                      <div class="events">
+	                        <div class="block">
+	                          <span>10:00-10:45</span>
+	                          <h3>bbb bbb bbb bbb bbb bbb bbb bbb bbbb bbbb bbb </h3>
+                            <p>
+															<span class="arrow"></span>
+															<span class="time">10:00 - 12:30</span>
+															<span class="title">aaa</span>
+
+															<span>
+
+															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+															</span>
+														</p>
+														
+	                        </div>
+	                      </div>
+	                    </div>
+                  		<div class="row">
+	                      <div class="hour">
+	                        11:00
+	                      </div>
+                    
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        12:00
+	                      </div>
+                    
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+													<div class="block">
+	                          <span>10:00-10:45</span>
+	                          <h3>bbb bbb bbb bbb bbb bbb bbb bbb bbbb bbbb bbb </h3>
+                            <p>
+															<span class="arrow"></span>
+															<span class="time">10:00 - 12:30</span>
+															<span class="title">aaa</span>
+
+															<span>
+
+															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+															</span>
+														</p>
+														
+	                        </div>
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        13:00
+	                      </div>
+                    
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        14:00
+	                      </div>
+                    
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        15:00
+	                      </div>
+                    
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+	                    <div class="row">
+	                      <div class="hour">
+	                        16:00
+	                      </div>
+                    
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+         
+	                  </div>
+	                </div>
+	                <div id="sat">
+	                  <div class="calendar">
+                  		<div class="row">
+	                      <div class="hour">
+	                        9:00
+	                      </div>
+
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+	                    <div class="row">
+	                      <div class="hour">
+	                        10:00
+	                      </div>
+	                      <div class="events">
+	                        <div class="absolute time3">
+	                          <span>10:00-12:30</span>
+	                          <h3>aaa</h3>
+
+		                         <p>
+															<span class="arrow"></span>
+															<span class="time">10:00 - 12:30</span>
+															<span class="title">aaa</span>
+
+															<span>
+
+															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+															</span></p>
+
+
+	                        </div>
+	                      </div>
+	                      <div class="events">
+	                        <div class="block">
+	                          <span>10:00-10:45</span>
+	                          <h3>bbb</h3>
+                            <p>
+															<span class="arrow"></span>
+															<span class="time">10:00 - 12:30</span>
+															<span class="title">aaa</span>
+
+															<span>
+
+															lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+															</span>
+														</p>
+
+	                        </div>
+	                      </div>
+	                    </div>
+                  		<div class="row">
+	                      <div class="hour">
+	                        11:00
+	                      </div>
+
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        12:00
+	                      </div>
+
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        13:00
+	                      </div>
+
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        14:00
+	                      </div>
+
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+											<div class="row">
+	                      <div class="hour">
+	                        15:00
+	                      </div>
+
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+	                    <div class="row">
+	                      <div class="hour">
+	                        16:00
+	                      </div>
+
+	                      <div class="events">
+
+	                      </div>
+	                      <div class="events">
+
+	                      </div>
+	                    </div>
+
+	                  </div>
+	                </div>
+									
+	                <div id="sun">
+	                   <div class="calendar">
+	                  		<div class="row">
+		                      <div class="hour">
+		                        9:00
+		                      </div>
+
+		                      <div class="events">
+
+		                      </div>
+		                      <div class="events">
+
+		                      </div>
+		                    </div>
+		                    <div class="row">
+		                      <div class="hour">
+		                        10:00
+		                      </div>
+		                      <div class="events">
+		                        <div class="absolute time3">
+		                          <span>10:00-12:30</span>
+		                          <h3>aaa</h3>
+
+			                         <p>
+																<span class="arrow"></span>
+																<span class="time">10:00 - 12:30</span>
+																<span class="title">aaa</span>
+
+																<span>
+
+																lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+																</span></p>
+
+
+		                        </div>
+		                      </div>
+		                      <div class="events">
+		                        <div class="block">
+		                          <span>10:00-10:45</span>
+		                          <h3>bbb</h3>
+	                            <p>
+																<span class="arrow"></span>
+																<span class="time">10:00 - 12:30</span>
+																<span class="title">aaa</span>
+
+																<span>
+
+																lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet
+																</span>
+															</p>
+
+		                        </div>
+		                      </div>
+		                    </div>
+	                  		<div class="row">
+		                      <div class="hour">
+		                        11:00
+		                      </div>
+
+		                      <div class="events">
+
+		                      </div>
+		                      <div class="events">
+
+		                      </div>
+		                    </div>
+												<div class="row">
+		                      <div class="hour">
+		                        12:00
+		                      </div>
+
+		                      <div class="events">
+
+		                      </div>
+		                      <div class="events">
+
+		                      </div>
+		                    </div>
+												<div class="row">
+		                      <div class="hour">
+		                        13:00
+		                      </div>
+
+		                      <div class="events">
+
+		                      </div>
+		                      <div class="events">
+
+		                      </div>
+		                    </div>
+												<div class="row">
+		                      <div class="hour">
+		                        14:00
+		                      </div>
+
+		                      <div class="events">
+
+		                      </div>
+		                      <div class="events">
+
+		                      </div>
+		                    </div>
+												<div class="row">
+		                      <div class="hour">
+		                        15:00
+		                      </div>
+
+		                      <div class="events">
+
+		                      </div>
+		                      <div class="events">
+
+		                      </div>
+		                    </div>
+		                    <div class="row">
+		                      <div class="hour">
+		                        16:00
+		                      </div>
+
+		                      <div class="events">
+
+		                      </div>
+		                      <div class="events">
+
+		                      </div>
+		                    </div>
+
+		                  </div>
+		                </div>
+	                </div>
+                </div>
+              </div>
   		      </div>
   		    </section>
 
