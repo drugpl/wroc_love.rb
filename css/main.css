@@ -619,6 +619,10 @@ footer .made-by a.logo-monterail {
 	width: 407px;
 }
 
+#agenda{
+	position: relative;
+}
+
 #agenda .box{
 	width: 467px;
 }
@@ -843,4 +847,24 @@ footer .made-by a.logo-monterail {
 	width: 130px;
 	height: 20px;
 	overflow: hidden;
+}
+
+#gist, #ical{
+	text-indent: -9999px;
+	height: 21px;
+	position: absolute;
+	top: 14px;
+}
+
+#gist{
+	width: 102px;
+	background: url('../images/gist.png') no-repeat;
+	right: 160px;
+	top: 15px;
+}
+
+#ical{
+	width: 99px;
+	background: url('../images/ical.png') no-repeat;
+	right: 48px;
 }
