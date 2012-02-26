@@ -266,18 +266,18 @@ nav ul li#contact a{
   width: 460px;
 }
 
-#speakers .comment_box{
+.comment_box{
   border-top: 1px solid #fff;
   border-bottom: 1px solid #c5d5d1;
   display: inline-block;
   width: 100%;
 }
 
-#speakers .comment_box:first-child .avatar{
+.comment_box:first-child .avatar{
   margin-top: 9px;
 }
 
-#speakers .avatar{
+.avatar{
   margin: 31px 29px 7px 10px;
   background: #c0d3ce; /* Old browsers */
   background: -moz-linear-gradient(top, #c0d3ce 0%, #76a095 100%); /* FF3.6+ */
@@ -293,16 +293,16 @@ nav ul li#contact a{
   padding: 10px;
 }
 
-#speakers .long_avatar{
+.long_avatar{
   width: 80px;
   height: 240px;
 }
 
-#speakers .comment_box:first-child .comment{
+.comment_box:first-child .comment{
   top: 9px;
 }
 
-#speakers .comment{
+.comment{
   display: inline-block;
   width: 295px;
   background: url('../images/speaker_area.png') no-repeat;
@@ -310,7 +310,7 @@ nav ul li#contact a{
   top: 31px;
 }
 
-#speakers .comment .name{
+.comment .name{
   margin: 0 10px;
   display: block;
   background: url('../images/sp_hr.png') bottom center no-repeat;
@@ -319,16 +319,16 @@ nav ul li#contact a{
   color: #222;
 }
 
-#speakers .comment .name:hover{
+.comment .name:hover{
   text-decoration: underline;
 }
 
-#speakers .comment_box:first-child .comment div.bottom{
+.comment_box:first-child .comment div.bottom{
   position: absolute;
   bottom: -21px;
 }
 
-#speakers .comment div{
+.comment div{
   padding: 10px;
   font-size: 12px;
   font-weight: normal;
@@ -338,7 +338,7 @@ nav ul li#contact a{
   text-align: left;
 }
 
-#speakers .comment div.bottom{
+.comment div.bottom{
   background: url('../images/speaker_bg_bottom.png') no-repeat;
   width: 294px;
   height: 26px;
@@ -437,11 +437,11 @@ nav ul li#contact a{
   top: 102px;
 }
 
-#patronage, #vim {
+#patronage, #vim, #speakers2 {
   background: url('../images/ladder_h2.png') no-repeat;
 }
 
-#main #supporters h2, #main #patronage h2, #main #vim h2, #main #agenda h2 {
+#main #supporters h2, #main #patronage h2, #main #vim h2, #main #agenda h2, #main #speakers2 h2 {
   margin-left: 70px;
   background-position: 0 -96px;
   width: 163px;
@@ -460,6 +460,10 @@ nav ul li#contact a{
 
 #main #agenda h2{
   background-position: 0 -193px;
+}
+
+#main #speakers2 h2{
+  background-position: 0 0;
 }
 
 #supporters .box, #patronage .box{
