@@ -466,6 +466,14 @@ nav ul li#contact a{
   background-position: 0 0;
 }
 
+#main #get_tickets {
+  position: absolute;
+  top: -19px;
+  left: 50%;
+  margin: 0 0 0 -294px;
+  z-index: 10;
+}
+
 #supporters .box, #patronage .box{
   width: 427px;
   padding: 20px;
