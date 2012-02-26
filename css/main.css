@@ -222,7 +222,7 @@ nav ul li#contact a{
 
 #main{
   position: relative;
-  padding: 44px 0 50px;
+  padding: 4px 0 50px;
 }
 
 .box{
@@ -237,31 +237,19 @@ nav ul li#contact a{
   margin: 0 0 0 20px;
 }
 
-#speakers h2, #about h2{
-  position: absolute;
-}
-
-#speakers h2{
-  top: 20px;
-}
-
-#about h2{
-  top: -24px; 
-}
-
 #location .location{
   padding-top: 20px;
 }
 
 #speakers.column{
   width: 460px;
-  background: #DEEEEA;
   padding-left: 0;
 }
 
 #main #speakers h2{
   width: 128px;
   background-position: 0 0;
+  margin-top: 18px;
 }
 
 #speakers .people{
@@ -412,7 +400,7 @@ nav ul li#contact a{
   background: url('../images/platform.png') no-repeat;
 }
 
-#about, #supporters, #patronage, #vim, #agenda{
+#about, #supporters, #patronage, #vim {
   margin-left: 0px;
 	width: 468px;
 	display: inline-block;
@@ -425,8 +413,9 @@ nav ul li#contact a{
 }
 
 #main #about h2{
-    background-position: 0 -62px;
-    width: 88px;
+  background-position: 0 -62px;
+  width: 88px;
+  margin-top: 18px;
 }
 
 #about .box{
@@ -448,7 +437,7 @@ nav ul li#contact a{
   top: 102px;
 }
 
-#patronage, #vim, #agenda{
+#patronage, #vim {
   background: url('../images/ladder_h2.png') no-repeat;
 }
 
@@ -620,82 +609,133 @@ footer .made-by a.logo-monterail {
 }
 
 #agenda{
+  width: 1016px;
+  padding: 0 0 0 84px;
+  margin: 0 auto;
 	position: relative;
 }
 
-#agenda .box{
-	width: 467px;
+#main #agenda h2{
+  margin-left: 0;
 }
 
-.ui-tabs { position: relative; padding: 11px 7px; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
-.ui-tabs .ui-tabs-nav { margin: 0 0 30px; padding: 0; }
-.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 4px 0 0; border: 0 !important; padding: 0; white-space: nowrap; }
-.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none !important; width: 147px; height: 30px; line-height: 30px; text-align: center; background: #fff; text-transform: uppercase; color: #000;-webkit-box-shadow: 1px 0px 1px 0px #88a19a;-moz-box-shadow: 1px 0px 1px 0px #88a19a;box-shadow: 1px 0px 1px 0px #88a19a;}
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a{color: #fff;background: #87a099;-webkit-box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.6);box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.6);}
-.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
-.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
-.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 10px 0; background: none; }
-.ui-tabs .ui-tabs-hide { display: none !important; }
+#agenda .box{
+  background: none;
+}
 
+#agenda .links{
+  float: right;
+  margin: 15px 22px 0 0;
+}
+
+#agenda .links a{
+  display: inline-block;
+  text-indent: -9999px;
+  height: 21px;
+  overflow: hidden;
+  margin: 0 0 0 15px;
+}
+
+#agenda .links .gist{
+  width: 102px;
+  background: url('../images/gist.png') no-repeat;
+}
+
+#agenda .links .ical{
+  width: 99px;
+  background: url('../images/ical.png') no-repeat;
+}
+
+#agenda .day{
+  float: left;
+  margin: 0 0 0 17px;
+}
+
+#agenda .day#fri{
+  margin-left: 0;
+}
+
+#agenda .day > h3{
+  margin: 12px 0 6px 0;
+}
 
 .calendar{
-    width: 450px;
-    display: inline-block;
+  background: #deeeea;
+  width: 320px;
+  display: inline-block;
 }
 
 .calendar .row{
-    display: table;
-    background: #cfe2df;
-    margin-bottom: 1px;
-    height: 60px
-}
-
-.calendar .hour, .calendar .events{
-    display: table-cell;
+  background: #cfe2df;
+  margin-bottom: 1px;
+  height: 59px;
+  width: 320px;
 }
 
 .calendar .hour{
-		font-size: 9px;
-		color: #525252;
-		line-height: 40px;
-		vertical-align: top;
-		text-align: right;
-		padding-right: 5px;
-		width: 34px;
-		border-right: 1px solid #DEEEEA;
+  float: left;
+  font-size: 9px;
+  color: #525252;
+  line-height: 40px;
+  vertical-align: top;
+  text-align: right;
+  padding-right: 5px;
+  width: 33px;
+  height: 59px;
+  border-right: 1px solid #DEEEEA;
 }
 
 .calendar .events{
-    width: 204px;
-		margin-left:1px ;
-    position: relative;
-		vertical-align: top;
+  float: left;
+  width: 140px;
+  height: 1px;
+  position: relative;
 }
 
-.calendar .events h3{
-	font-size: 12px;
-	margin: 0;
-	font-weight: normal;
+.calendar .events.major{
+  width: 200px;
 }
 
-.calendar .events span{
-	float: right;
-	font-size: 9px;
-	color: #525252;
+.calendar .events.minor{
+  width: 80px;
 }
 
-.calendar .events div{
-    background: rgba(255,255,255,0.5);
-		vertical-align: top;
+.calendar .events.only{
+  width: 280px;
 }
 
-.calendar .events div:hover{
-    background: rgba(255,255,255,0.7);
-    cursor: pointer;
+.calendar .events > div {
+  background: rgba(255,255,255,0.5);
+  vertical-align: top;
+  position: absolute;
+  width: 100%;
 }
 
-.calendar .events .selected{
-	background: #fff;
+.calendar .events > div h3{
+  padding: 5px;
+  font-size: 12px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.calendar .events > div span{ /* Y U NO CLASS?? */
+  padding: 5px 5px 0 0;
+  float: right;
+  font-size: 9px;
+  color: #525252;
+}
+
+.calendar .events + .events > div {
+  margin-left: 1px;
+}
+
+.calendar .events > div:hover{
+  background: rgba(255,255,255,0.7);
+  cursor: pointer;
+}
+
+.calendar .events > div.selected{
+  background: #fff;
 }
 
 .overlay{
@@ -724,8 +764,9 @@ footer .made-by a.logo-monterail {
 	line-height: 18px;
 }
 
-.calendar .events > div{
-	padding: 5px;
+#fri .calendar .events p{
+	left: auto;
+	right: -455px;
 }
 
 .calendar .events p span{
@@ -734,12 +775,18 @@ footer .made-by a.logo-monterail {
 }
 
 .calendar .events p .arrow{
-	position: absolute;
-	width: 15px;
-	height: 18px;
-	background: url('../images/overlay_arrow.png') no-repeat;
-	top: 20px;
-	right: -15px;
+  position: absolute;
+  width: 15px;
+  height: 18px;
+  background: url('../images/overlay_arrow.png') no-repeat;
+  top: 20px;
+  right: -15px;
+}
+
+#fri .calendar .events p .arrow{
+  background: url('../images/overlay_arrow_left.png') no-repeat;
+  right: auto;
+  left: -15px;
 }
 
 .calendar .events p .time{
@@ -755,66 +802,60 @@ footer .made-by a.logo-monterail {
 	padding-bottom: 10px;
 }
 
-.calendar .events div{
-    position: absolute;
-    width: 190px;
-		z-index: 2;
-}
-
 .t15{
-	height: 5px;
+	height: 15px;
 }
 
 .t30{
-	height: 20px;
+	height: 30px;
 }
 
 .t45{
-	height: 35px;
+	height: 45px;
 }
 
 .t60{
-	height: 50px;
+	height: 60px;
 }
 
 .t75{
-	height: 66px;
+	height: 75px;
 }
 
 .t90{
-	height: 81px;
+	height: 90px;
 }
 
 .t120{
-    height: 111px;
+    height: 120px;
 }
 
 .t180{
-    height: 172px;
+    height: 180px;
 }
 
 .t240{
-    height: 233px;
+    height: 240px;
 }
 
 .t300{
-    height: 294px;
+    height: 300px;
 }
 
 .t360{
-    height: 355px;
+    height: 360px;
 }
 
 .t420{
-    height: 416px;
+    height: 420px;
 }
 
 .t480{
-    height: 477px;
+    height: 480px;
 }
 
 .t540{
-    height: 538px;
+    height: 540px;
 }
 
 .t720{
@@ -842,29 +883,10 @@ footer .made-by a.logo-monterail {
 
 
 .t30 h3{
-	line-height: 20px;
-	float: left;
-	width: 130px;
-	height: 20px;
-	overflow: hidden;
-}
-
-#gist, #ical{
-	text-indent: -9999px;
-	height: 21px;
-	position: absolute;
-	top: 14px;
-}
-
-#gist{
-	width: 102px;
-	background: url('../images/gist.png') no-repeat;
-	right: 160px;
-	top: 15px;
-}
-
-#ical{
-	width: 99px;
-	background: url('../images/ical.png') no-repeat;
-	right: 48px;
+  line-height: 20px;
+  margin-right: 60px;
+  height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
