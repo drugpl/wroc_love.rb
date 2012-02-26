@@ -717,6 +717,7 @@ footer .made-by a.logo-monterail {
 }
 
 .calendar .events > div {
+  background: #fff;
   background: rgba(255,255,255,0.5);
   vertical-align: top;
   position: absolute;
@@ -742,6 +743,7 @@ footer .made-by a.logo-monterail {
 }
 
 .calendar .events > div:hover{
+  background: #fff;
   background: rgba(255,255,255,0.7);
   cursor: pointer;
 }
