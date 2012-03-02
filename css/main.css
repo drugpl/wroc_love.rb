@@ -895,8 +895,20 @@ footer .made-by a.logo-monterail {
 	margin-top: 45px;
 }
 
+.calendar .events > div.t15 h3{
+  padding-top: 1px;
+  font-size: 10px;
+}
 
-.t30 h3{
+.calendar .events > div.t15 span{
+  padding-top: 1px;
+}
+
+.calendar .events > div.t15 p{
+  top: -34px;
+}
+
+.calendar .events > div.t30 h3{
   line-height: 20px;
   margin-right: 60px;
   height: 20px;
