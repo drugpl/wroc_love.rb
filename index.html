@@ -233,42 +233,51 @@ projects. But in the end of the day it feels just great, doesn't it?
                     </div>
                   </div>
                 </div>
+
                 <div class="row">
                   <div class="hour">11:00</div>
                   <div class="events major">
                     <div class="t30 mq2">
-                      <span>11:30-12:00</span>
-                      <h3>Persist, Little Objects!</h3>
+                      <span>11:00-11:30</span>
+                      <h3>Rails: past, present and the future</h3>
                       <p>
                         <span class="arrow"></span>
-                        <span class="time">11:30 - 12:00</span>
-                        <span class="title">Persist, Little Objects!</span>
-                        <span class="speaker">Piotr Szotkowski</span>
+                        <span class="time">11:00 - 11:30</span>
+                        <span class="title">Rails: past, present and the future</span>
+                        <span class="speaker">Piotr Sarnacki</span>
                         <span>
-                        Object persistence in Ruby is a tricky subject – everyone knows how to do it (‘simply use an ORM, plug it into a relational database and you’re done!’), most know the drawbacks (‘well, sure, you need to use a document database for the more schema-less cases… or serialise the variable parts… and, of course, object references need to be handled separately…’), but few experiment with alternatives.<br>
-                        <br>
-                         This talk, after recalling the popular database-driven persistence solutions, concentrates on the less known, but more interesting and often quite useful approaches – from file-based PStore (ideal for small apps), through Candy’s out-of-the-way magic, to MagLev’s true cross-process transparent object persistence. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">12:00</div>
-                  <div class="events major">
-                    <div class="t30 mq1">
-                      <span>12:15-12:45</span>
-                      <h3>TBA</h3>
-                      <p>
-                        <span class="arrow"></span>
-                        <span class="time">12:15 - 12:45</span>
-                        <span class="title">TBA</span>
-                        <span class="speaker">Avdi Grimm</span>
-                        <span>
+                          TBA
                         </span>
                       </p>
                     </div>
                   </div>
                 </div>
+
+                <div class="row">
+                  <div class="hour">12:00</div>
+                  <div class="events major">
+                    <div class="t30 mq1">
+                      <span>12:15-12:45</span>
+                      <h3>Decoupling Persistence (Like There’s Some Tomorrow)</h3>
+                      <p>
+                        <span class="arrow"></span>
+                        <span class="time">11:30 - 12:00</span>
+                        <span class="title">Decoupling Persistence<br />(Like There’s Some Tomorrow)</span>
+                        <span class="speaker">Piotr Szotkowski</span>
+                        <span>
+                          ‘When I open up a Rails project and the models dir is full of 100% ActiveRecord classes I shudder. Model ≠ Persistence.’ — Ben Mabey
+                          <br/>
+                          <br/>
+                          From DCI to presenters, from Uncle Bob’s architecture talk and Avdi Grimm’s upcoming ‘Objects on Rails’ book to the proliferation of (competing? complementing?) database systems, it seems the time has come to seriously consider decoupling our objects’ persistence from the rest of the application.
+                          <br/>
+                          <br/>
+                          This talk – after describing the general vices of strong object/database coupling and the all-too-usual rails g model-driven development – covers the various approaches to separating the objects’ persistence layer, along with their virtues (cleaner, simpler tests! backend independence! no RDBMS-related shortcuts impacting the design!) and potential vices (performance? perceived compexity? YAGNI?).
+                      </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="row">
                   <div class="hour">13:00</div>
                 </div>
@@ -284,7 +293,11 @@ projects. But in the end of the day it feels just great, doesn't it?
                         <span class="title">JRuby vs. Rubinius</span>
                         <span class="speaker">Tim Lossen vs. Dirkjan Bussink</span>
                         <span>
-                        Which Ruby VM is the best? Let see it in a fight! </span>
+                          After breeze introduction of the aforementioned projects you'll witness fighters struggling in a combat of questions. Is it speed and performance that makes difference? Or tooling and extensibility that convinces judges? Maybe there'll be a KO on concurrency and production readyness?
+                          <br/>
+                          <br/>
+                          What you'll ask to affect final verdict?
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -431,7 +444,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                         <span class="arrow"></span>
                         <span class="time">10:45 - 11:15</span>
                         <span class="title">TBA</span>
-                        <span class="speaker">Piotr Sarnacki</span>
+                        <span class="speaker">TBA</span>
                         <span>
                         </span>
                       </p>
@@ -499,14 +512,22 @@ projects. But in the end of the day it feels just great, doesn't it?
                   <div class="events major">
                     <div class="t45 mq1">
                       <span>14:15-15:00</span>
-                      <h3>Rails and OOP</h3>
+                      <h3>Rails vs. OOP</h3>
                       <p>
                         <span class="arrow"></span>
                         <span class="time">14:15 - 15:00</span>
-                        <span class="title">Rails and OOP</span>
-                        <span class="speaker">fight - several speakers</span>
+                        <span class="title">Rails vs. OOP</span>
+                        <span class="speaker"> Steve Klabnik, Nick Sutterer, Jim Gay, Andrzej Krzywda, Piotr Szotkowski</span>
                         <span>
-                        This is all about the recent OOP movements in the Rails world. There are quite a few problems that people focus on and quite a few proposed solutions. We want to cover topics like persistence and domain logic separation, DCI, backend/frontend separation and @unclebob ideas - "Rails is not your app". </span>
+                          A lot has been said recently about the topic of Rails and OOP. We consider this issue very important in our community. This fight is all about the recent OOP movements in the Rails world. There are quite a few problems that people focus on and quite a few proposed solutions. 
+                        <br>
+                        <br>
+                          We want to cover topics like:
+                          persistence and domain logic separation, DCI, backend/frontend separation, "Objects on Rails", TDD and unclebob's "Rails is not your app".
+                          Each of this approaches tries to solve the problem differently. 
+                        <br>
+                        <br>
+                          We gathered a group of people that have some interesting opinions on this topic. We want to put them on stage and start the discussion. There will be questions prepared before the discussion, to ensure that we go through all of the important topics. Additionally, we’re planning to have questions from the audience.
                       </p>
                     </div>
                   </div>
