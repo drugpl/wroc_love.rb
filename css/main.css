@@ -762,7 +762,7 @@ footer .made-by a.logo-monterail {
 	z-index: 1;
 }
 
-.calendar .events p{
+.calendar .events p.popupbox {
 	display: none;
 	position: absolute;
 	width: 400px;
@@ -778,17 +778,21 @@ footer .made-by a.logo-monterail {
 	line-height: 18px;
 }
 
-#fri .calendar .events p{
+#fri .calendar .events p.popupbox {
 	left: auto;
 	right: -455px;
 }
 
-.calendar .events p span{
+#fri .calendar .events p.sightseeing {
+  height: 400px;
+}
+
+.calendar .events p.popupbox span{
 	font-size: 13px;
 	float: left;
 }
 
-.calendar .events p .arrow{
+.calendar .events p.popupbox .arrow{
   position: absolute;
   width: 15px;
   height: 18px;
@@ -797,18 +801,18 @@ footer .made-by a.logo-monterail {
   right: -15px;
 }
 
-#fri .calendar .events p .arrow{
+#fri .calendar .events p.popupbox .arrow{
   background: url('../images/overlay_arrow_left.png') no-repeat;
   right: auto;
   left: -15px;
 }
 
-.calendar .events p .time{
+.calendar .events p.popupbox .time{
 	float: right;
 	color: #3f3f3f;
 }
 
-.calendar .events p .title{
+.calendar .events p.popupbox .title{
 	color: #333;
 	font-size: 18px;
 	display: block;
@@ -824,7 +828,7 @@ footer .made-by a.logo-monterail {
 	height: 30px;
 }
 
-.t45{
+.t45
 	height: 45px;
 }
 

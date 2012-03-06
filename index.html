@@ -7,7 +7,9 @@
     <meta property="og:image" content="http://wrocloverb.com/images/ruby_thumbnail.png" />
     <title>wroc_love.rb</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/slides.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> 
+    <script type="text/javascript" src="js/slides.min.jquery.js"></script> 
     <!--[if lt IE 9]>
     <script src="js/html5.js"></script>
     <script type="text/javascript" src="js/selectivizr.js"></script> 
@@ -29,14 +31,50 @@
         $(".events > div").removeClass("selected");
         $('.overlay').hide();
         $(".events > div p").hide();
+        $('.events > div #slides').hide();
+
         $(this).addClass("selected");
         $('.overlay').show();
         $(this).find('p').show();
+        $(this).find('#slides').show();
         });
       $(".overlay").click(function() {
         $(this).hide();
         $('.events > div p').hide();
+        $('.events > div #slides').hide();
         $('.events > div').removeClass('selected');
+        });
+      });
+  $(function(){
+       $('#slides').slides({
+          preload: true,
+          preloadImage: 'img/loading.gif',
+          play: 5000,
+          pause: 2500,
+          hoverPause: true,
+          animationStart: function(current){
+            $('.caption').animate({
+              bottom:-35
+            },100);
+            if (window.console && console.log) {
+              // example return of current slide number
+              console.log('animationStart on slide: ', current);
+            };
+          },
+          animationComplete: function(current){
+            $('.caption').animate({
+              bottom:0
+            },200);
+            if (window.console && console.log) {
+              // example return of current slide number
+              console.log('animationComplete on slide: ', current);
+            };
+          },
+          slidesLoaded: function() {
+            $('.caption').animate({
+              bottom:0
+            },200);
+          }
         });
       });
 </script>
@@ -87,7 +125,7 @@
                     <div class="t480">
                       <span>10:00-18:00</span>
                       <h3>Hackathon &amp;&nbsp;Coworking</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:00 - 18:00</span>
                         <span class="title">Hackathon & Coworking</span>
@@ -112,7 +150,7 @@
                     <div class="t180">
                       <span>14:00-17:00</span>
                       <h3>Vimcasts afternoon workshop</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">14:00 - 17:00</span>
                         <span class="title">Vimcasts afternoon workshop</span>
@@ -133,6 +171,42 @@
                 </div>
                 <div class="row">
                   <div class="hour">18:00</div>
+                  <div class="events">
+                    <div class="t180">
+                      <span>18:00-21:00</span>
+                      <h3>Sightseeing</h3>
+                      <p class="popupbox sightseeing">
+                        <span class="arrow"></span>
+                        <span class="time">18:00 - 21:00</span>
+                        <span class="title">Sightseeing</span>
+                        <span>
+                          One does not simply leave Wrocław without sightseeing!
+                        </span>
+        <div id="slides" style="display: none;">
+          <div class="slides_container">
+            <div class="slide">
+              <a href="http://www.flickr.com/photos/nertog/3196557277/sizes/m/in/photostream/" title="Wrocław by night (photo by nertog) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-1.jpg" width="400" height="266" alt="Wroclaw by night"></a>
+              <div class="caption" style="bottom:0">
+                <p>Wrocław by night</p>
+              </div>
+            </div>
+            <div class="slide">
+              <a href="http://www.flickr.com/photos/nertog/3196557735/sizes/m/in/photostream/" title="Rynek (photo by nertog)| Flickr - Photo Sharing!" target="_blank"><img src="img/slide-2.jpg" width="400" height="266" alt="Rynek"></a>
+              <div class="caption">
+                <p>Rynek</p>
+              </div>
+            </div>
+            <div class="slide">
+              <a href="http://www.flickr.com/photos/paracon/6085702441/sizes/m/in/photostream/" title="Pręgierz (photo by paracon) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-3.jpg" width="400" height="266" alt="Pręgierz"></a>
+              <div class="caption">
+                <p>Pręgierz</p>
+              </div>
+            </div>
+          </div>
+        </div>
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div class="row">
                   <div class="hour">19:00</div>
@@ -146,7 +220,7 @@
                     <div class="t180">
                       <span>21:00</span>
                       <h3>Before party</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">21:00</span>
                         <span class="title">Before party</span>
@@ -179,7 +253,7 @@
                     <div class="t15">
                       <span>10:00-10:15</span>
                       <h3>Opening talk</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:00 - 10:15</span>
                         <span class="title">Opening talk</span>
@@ -191,7 +265,7 @@
                     <div class="t45 mq2">
                       <span>10:30-11:15</span>
                       <h3>It's All About Respect!</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:30 - 11:15</span>
                         <span class="title">It's All About Respect!</span>
@@ -209,7 +283,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t540">
                       <span>10:00-19:00</span>
                       <h3>Open space</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:00 - 19:00</span>
                         <span class="title">Open space</span>
@@ -228,7 +302,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq2">
                       <span>11:00-11:30</span>
                       <h3>Rails: past, present and the future</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">11:00 - 11:30</span>
                         <span class="title">Rails: past, present and the future</span>
@@ -247,7 +321,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq1">
                       <span>12:15-12:45</span>
                       <h3>Decoupling Persistence (Like There’s Some Tomorrow)</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">11:30 - 12:00</span>
                         <span class="title">Decoupling Persistence<br />(Like There’s Some Tomorrow)</span>
@@ -275,7 +349,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t45 mq1">
                       <span>14:15-15:00</span>
                       <h3>JRuby vs. Rubinius</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">14:15 - 15:00</span>
                         <span class="title">JRuby vs. Rubinius</span>
@@ -296,7 +370,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq1">
                       <span>15:15-15:45</span>
                       <h3>Fear of adding processes</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">15:15 - 15:45</span>
                         <span class="title">Fear of adding processes</span>
@@ -313,7 +387,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30">
                       <span>16:00-16:30</span>
                       <h3>User perspective testing, using Ruby</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">16:00 - 16:30</span>
                         <span class="title">User perspective testing, using Ruby</span>
@@ -325,7 +399,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq3">
                       <span>16:45-17:15</span>
                       <h3>DataMapper 2</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">16:45 - 17:15</span>
                         <span class="title">DataMapper 2</span>
@@ -342,7 +416,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq2">
                       <span>17:30-18:00</span>
                       <h3>It's Business Time</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">17:30 - 18:00</span>
                         <span class="title">It's Business Time</span>
@@ -359,7 +433,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t45 mq1">
                       <span>18:15-19:30</span>
                       <h3>Lightning Talks</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">18:15 - 19:30</span>
                         <span class="title">Lightning Talks</span>
@@ -381,7 +455,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t180">
                       <span>21:00</span>
                       <h3>Main party</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">21:00</span>
                         <span class="title">Main party</span>
@@ -414,7 +488,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30">
                       <span>10:00-10:30</span>
                       <h3>Programming Workout</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:00 - 10:30</span>
                         <span class="title">Programming Workout</span>
@@ -428,7 +502,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq3">
                       <span>10:45-11:15</span>
                       <h3>Testing Fishbowl</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:45 - 11:15</span>
                         <span class="title">Testing Fishbowl</span>
@@ -445,7 +519,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t540">
                       <span>10:00-19:00</span>
                       <h3>Open space</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:00 - 19:00</span>
                         <span class="title">Open space</span>
@@ -463,7 +537,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq2">
                       <span>11:30-12:00</span>
                       <h3>Designing Hypermedia APIs</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">11:30 - 12:00</span>
                         <span class="title">Designing Hypermedia APIs</span>
@@ -482,7 +556,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq1">
                       <span>12:15-12:45</span>
                       <h3>Modular &amp; reusable front-end code with HTML5, Sass and CoffeeScript</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">12:15 - 12:45</span>
                         <span class="title">Modular & reusable front-end code with HTML5, Sass and CoffeeScript</span>
@@ -504,7 +578,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t45 mq1">
                       <span>14:15-15:00</span>
                       <h3>Rails vs. OOP</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">14:15 - 15:00</span>
                         <span class="title">Rails vs. OOP</span>
@@ -529,7 +603,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq1">
                       <span>15:15-15:45</span>
                       <h3>Responsive Web Design</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">15:15 - 15:45</span>
                         <span class="title">Responsive Web Design</span>
@@ -548,7 +622,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30">
                       <span>16:00-16:30</span>
                       <h3>Get out of the trap</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">16:00 - 16:30</span>
                         <span class="title">Get out of the trap!</span>
@@ -560,7 +634,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq3">
                       <span>16:45-17:15</span>
                       <h3>Distributed Hell</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">16:45 - 17:15</span>
                         <span class="title">Distributed Hell</span>
@@ -577,7 +651,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t30 mq2">
                       <span>17:30-18:00</span>
                       <h3>ØMQ: A way towards fully distributed architectures</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">17:30 - 18:00</span>
                         <span class="title">ØMQ: A way towards fully distributed architectures</span>
@@ -594,7 +668,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t45 mq1">
                       <span>18:15-19:30</span>
                       <h3>Lightning Talks</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">18:15 - 19:30</span>
                         <span class="title">Lightning Talks</span>
@@ -616,7 +690,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                     <div class="t180">
                       <span>21:00</span>
                       <h3>Closing Drinkup</h3>
-                      <p>
+                      <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">21:00</span>
                         <span class="title">Closing Drinkup</span>
