@@ -45,6 +45,20 @@
         $('.events > div').removeClass('selected');
         });
       });
+  $(function () {
+    var maps = $("#location div.maps iframe");
+    var switchTo = function (elem) {
+      maps.css({ zIndex: 0 });
+      elem.css({ zIndex: 10 })
+      $("#location div.venues a").removeClass("current").eq(maps.index(elem)).addClass("current");
+    };
+    $("#location div.venues a").click(function (e) {
+      e.preventDefault();
+      var target = $($(this).attr("href"));
+      switchTo(target);
+    });
+    switchTo(maps.eq(0));
+  });
   $(function(){
        $('#slides').slides({
           preload: true,
@@ -128,9 +142,10 @@
                       <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:00 - 18:00</span>
-                        <span class="title">Hackathon & Coworking</span>
+                        <span class="title">Hackathon &amp; Coworking</span>
                         <span>
-                        If you plan to arrive earlier on friday that's the place for you to hack some code and have a beer before the party! </span>
+                        If you plan to arrive earlier on friday that's the place for you to hack some code and have a beer before the party!<br /><br /><b>Pub Jaskinia</b>, ul. Kościuszki 34. See <a href="#location">map</a> below.
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -225,7 +240,7 @@
                         <span class="time">21:00</span>
                         <span class="title">Before party</span>
                         <span>
-                        <img src="http://fotowroclaw.blox.pl/resource/spacerownik_09_27_09_2008.jpg" style="width: 400px; height: 268px">
+                        <img src="http://fotowroclaw.blox.pl/resource/spacerownik_09_27_09_2008.jpg" style="width: 400px; height: 268px"><br /><br /><b>Pub Jaskinia</b>, ul. Kościuszki 34. See <a href="#location">map</a> below.
                         </span>
                       </p>
                     </div>
@@ -461,6 +476,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                         <span class="title">Main party</span>
                         <span>
                         <img src="http://www.dora-metal.pl/files/gallery/fotob-53.jpg" style="width: 400px; height: 268px">
+                        <br /><br /><b>Cynamon Bar</b>, Plac Grunwaldzki 23. See <a href="#location">map</a> below.
                         </span>
                       </p>
                     </div>
@@ -696,6 +712,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                         <span class="title">Closing Drinkup</span>
                         <span>
                         <img src="http://files.myopera.com/hiroshitomioka/blog/PAP_0002.JPG" style="width: 400px; height: 268px">
+                        <br /><br /><b>Bierhalle</b>, Rynek 24. See <a href="#location">map</a> below.
                         </span>
                       </p>
                     </div>
@@ -1019,12 +1036,21 @@ projects. But in the end of the day it feels just great, doesn't it?
       <section id="location">
         <div class="content">
           <div class="location">
-            <h2><span>Location</span>University of Wrocław, Institute of Computer Science</h2>
+            <h2><span>Location</span></h2>
+            <div class="venues">
+              <a href="#location-uni"><big>University of Wrocław, Institute of Computer Science</big></a> |
+              <a href="#location-jaskinia">Pub Jaskinia (hackathon + before party)</a><br />
+              <a href="#location-cynamon">Cynamon Bar (main party)</a> |
+              <a href="#location-bierhalle">Bierhalle (closing drinkup)</a>
+            </div>
             <div class="box">
-              <iframe width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A&amp;output=embed">
-              </iframe>
-              <br />
-              <small><a href="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A" style="color:#2563D0;text-align:left">View Larger Map</a></small>
+              <div class="maps">
+                <iframe id="location-uni" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A&amp;output=embed">
+                </iframe>
+                <iframe id="location-jaskinia" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=ul.+Ko%C5%9Bciuszki+34,+Wroc%C5%82aw&amp;aq=&amp;sll=50.78504,16.870745&amp;sspn=1.05231,2.298889&amp;ie=UTF8&amp;hq=&amp;hnear=Genera%C5%82a+Tadeusza+Ko%C5%9Bciuszki+34,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie,+Poland&amp;t=m&amp;ll=51.10945,17.052326&amp;spn=0.021555,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                <iframe id="location-cynamon" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Cynamon+Bar,+Plac+++Grunwaldzki,+Wroc%C5%82aw,+Polska&amp;aq=0&amp;oq=cynamon&amp;sll=51.111471,17.032456&amp;sspn=0.016327,0.03592&amp;ie=UTF8&amp;hq=Cynamon+Bar,&amp;hnear=Plac+Grunwaldzki,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie,+Poland&amp;t=m&amp;ll=51.119203,17.067347&amp;spn=0.02155,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                <iframe id="location-bierhalle" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bierhalle,+Rynek-Ratusz,+Wroclaw,+Poland&amp;aq=0&amp;oq=bierhalle&amp;sll=51.114044,17.067132&amp;sspn=0.008163,0.01796&amp;ie=UTF8&amp;hq=Bierhalle,+Rynek-Ratusz,+Wroclaw,+Poland&amp;t=m&amp;cid=956955554105224576&amp;hnear=&amp;ll=51.116832,17.047348&amp;spn=0.021552,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+              </div><!-- .maps -->
             </div>
             <div class="car">
             </div>
