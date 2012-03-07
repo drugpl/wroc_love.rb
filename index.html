@@ -45,6 +45,20 @@
         $('.events > div').removeClass('selected');
         });
       });
+  $(function () {
+    var maps = $("#location div.maps iframe");
+    var switchTo = function (elem) {
+      maps.css({ zIndex: 0 });
+      elem.css({ zIndex: 10 })
+      $("#location div.venues a").removeClass("current").eq(maps.index(elem)).addClass("current");
+    };
+    $("#location div.venues a").click(function (e) {
+      e.preventDefault();
+      var target = $($(this).attr("href"));
+      switchTo(target);
+    });
+    switchTo(maps.eq(0));
+  });
   $(function(){
        $('#slides').slides({
           preload: true,
@@ -56,19 +70,11 @@
             $('.caption').animate({
               bottom:-35
             },100);
-            if (window.console && console.log) {
-              // example return of current slide number
-              console.log('animationStart on slide: ', current);
-            };
           },
           animationComplete: function(current){
             $('.caption').animate({
               bottom:0
             },200);
-            if (window.console && console.log) {
-              // example return of current slide number
-              console.log('animationComplete on slide: ', current);
-            };
           },
           slidesLoaded: function() {
             $('.caption').animate({
@@ -128,9 +134,13 @@
                       <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">10:00 - 18:00</span>
-                        <span class="title">Hackathon & Coworking</span>
+                        <span class="title">Hackathon &amp; Coworking</span>
                         <span>
-                        If you plan to arrive earlier on friday that's the place for you to hack some code and have a beer before the party! </span>
+                          If you plan to arrive earlier on friday that's the place for you to hack some code and have a beer before the party!<br /><br />
+                          Beware, this place has no internet connectivity! Make your own backup of rubygems ;)
+                          </br></br>
+                          <b>Pub Jaskinia</b>, ul. Kościuszki 34. See <a href="#location">map</a> below.
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -172,8 +182,8 @@
                 <div class="row">
                   <div class="hour">18:00</div>
                   <div class="events">
-                    <div class="t180">
-                      <span>18:00-21:00</span>
+                    <div class="t120">
+                      <span>18:00-20:00</span>
                       <h3>Sightseeing</h3>
                       <p class="popupbox sightseeing">
                         <span class="arrow"></span>
@@ -250,23 +260,27 @@
                 </div>
                 <div class="row">
                   <div class="hour">20:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">21:00</div>
                   <div class="events only">
-                    <div class="t180">
-                      <span>21:00</span>
+                    <div class="t240" style="height: 239px; margin-top: 1px;">
+                      <span>20:00</span>
                       <h3>Before party</h3>
                       <p class="popupbox">
                         <span class="arrow"></span>
                         <span class="time">21:00</span>
                         <span class="title">Before party</span>
                         <span>
-                        <img src="http://fotowroclaw.blox.pl/resource/spacerownik_09_27_09_2008.jpg" style="width: 400px; height: 268px">
+                          <img src="http://fotowroclaw.blox.pl/resource/spacerownik_09_27_09_2008.jpg" style="width: 400px; height: 268px"><br /><br /><b>Pub Jaskinia</b>, ul. Kościuszki 34. See <a href="#location">map</a> below.
+
+                          <br/><br/>
+                          We organize a before party at Jaskinia bar so you can warm up before the event.
+                          The party officially starts at 20.00 but don't hesitate to come earlier. Hackathon and coworking are also held there so you can meet the people from 10.00.
                         </span>
                       </p>
                     </div>
                   </div>
+                </div>
+                <div class="row">
+                  <div class="hour">21:00</div>
                 </div>
                 <div class="row">
                   <div class="hour">22:00</div>
@@ -345,7 +359,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                         <span class="title">Rails: past, present and the future</span>
                         <span class="speaker">Piotr Sarnacki</span>
                         <span>
-                          TBA
+                          Rails is getting older and there was a lot changes along the way, including The Big Rewrite from 2.3 to 3.0. Was it worth it? Where is rails heading now? In this talk I will try to address these and other questions connected with rails status and progress.
                         </span>
                       </p>
                     </div>
@@ -467,7 +481,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                 <div class="row">
                   <div class="hour">18:00</div>
                   <div class="events major">
-                    <div class="t45 mq1">
+                    <div class="t75 mq1">
                       <span>18:15-19:30</span>
                       <h3>Lightning Talks</h3>
                       <p class="popupbox">
@@ -481,27 +495,31 @@ projects. But in the end of the day it feels just great, doesn't it?
                   </div>
                 </div>
                 <div class="row">
-                  <div class="hour">19:00</div>
+                  <div class="hour">19:00</div> 
+                  <div class="events only">
+                    <div class="t270 mq2" style="margin-top: 31px; height: 269px;">
+                      <span>19:30</span>
+                      <h3>Main party</h3>
+                      <p class="popupbox">
+                        <span class="arrow"></span>
+                        <span class="time">19:30</span>
+                        <span class="title">Main party</span>
+                        <span>
+                        <img src="http://www.dora-metal.pl/files/gallery/fotob-53.jpg" style="width: 400px; height: 268px">
+                        <br /><br /><b>Cynamon Bar</b>, Plac Grunwaldzki 23. See <a href="#location">map</a> below.
+                        <br/><br/>
+                        It's only 10 minutes on foot from the venue. Besides beers and drinks they serve excellent food so you can go there for a lunch or dinner too. Cynamon bar is set at the back of Grunwaldzki Center next to University of Environmental and Life Sciences.
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+
                 </div>
                 <div class="row">
                   <div class="hour">20:00</div>
                 </div>
                 <div class="row">
                   <div class="hour">21:00</div>
-                  <div class="events only">
-                    <div class="t180">
-                      <span>21:00</span>
-                      <h3>Main party</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">21:00</span>
-                        <span class="title">Main party</span>
-                        <span>
-                        <img src="http://www.dora-metal.pl/files/gallery/fotob-53.jpg" style="width: 400px; height: 268px">
-                        </span>
-                      </p>
-                    </div>
-                  </div>
                 </div>
                 <div class="row">
                   <div class="hour">22:00</div>
@@ -702,7 +720,7 @@ projects. But in the end of the day it feels just great, doesn't it?
                 <div class="row">
                   <div class="hour">18:00</div>
                   <div class="events major">
-                    <div class="t45 mq1">
+                    <div class="t75 mq1">
                       <span>18:15-19:30</span>
                       <h3>Lightning Talks</h3>
                       <p class="popupbox">
@@ -717,27 +735,30 @@ projects. But in the end of the day it feels just great, doesn't it?
                 </div>
                 <div class="row">
                   <div class="hour">19:00</div>
+                  <div class="events only">
+                    <div class="t270 mq2" style="margin-top: 31px; height: 269px;">
+                      <span>19:30</span>
+                      <h3>Closing Drinkup</h3>
+                      <p class="popupbox">
+                        <span class="arrow"></span>
+                        <span class="time">19:30</span>
+                        <span class="title">Closing Drinkup</span>
+                        <span>
+                        <img src="images/bierhallepils.jpg" style="width: 400px; height: 391px">
+                        <br /><br /><b>Bierhalle</b>, Rynek 24. See <a href="#location">map</a> below.
+                        <br /><br />
+                        The conference is not over - Sunday evening is celebration time. Share your impressions in Bierhalle in the heart of Wrocław. The drinkup starts at 19.30 and lasts until the last guest. Besides alcohol you can order a dinner too.
+                        </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
                 <div class="row">
                   <div class="hour">20:00</div>
                 </div>
                 <div class="row">
                   <div class="hour">21:00</div>
-                  <div class="events only">
-                    <div class="t180">
-                      <span>21:00</span>
-                      <h3>Closing Drinkup</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">21:00</span>
-                        <span class="title">Closing Drinkup</span>
-                        <span>
-                        <img src="http://files.myopera.com/hiroshitomioka/blog/PAP_0002.JPG" style="width: 400px; height: 268px">
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+               </div>
                 <div class="row">
                   <div class="hour">22:00</div>
                 </div>
@@ -935,17 +956,19 @@ projects. But in the end of the day it feels just great, doesn't it?
             <div id="supporters">
               <h2>Supporters</h2>
               <div class="box">
-                <a href="https://github.com"><img src="images/github.png" width="125px" height="56px"></a>
-                <a href="http://anixe.pl/en"><img src="images/anixe.gif" width="136px" height="51px"></a>
-                <a href="http://rails.arkency.com"><img src="images/arkency.png" width="83px" height="83px"></a>
-                <a href="http://polak20.org"><img src="images/polak20.png" width="142px" height="49px"></a>
-                <a href="http://netguru.pl"><img src="images/netguru.jpg" width="174px" height="40px"></a>
-                <a href="http://railslove.com"><img src="images/railslove.png" width="170px" height="40px"></a>
-                <a href="http://monterail.com"><img src="images/monterail-small-logo.png" width="187px" height="37px"></a>
-                <a href="http://shellycloud.com"><img src="images/shelly_cloud_logo.png" width="180px" height="38px"></a>
-                <a href="http://espago.pl"><img src="images/espago.png" width="188px" height="37px"></a>
-                <a href="http://monibuds.com"><img src="images/monibuds.png" width="92px" height="74px"></a>
-                <a href="http://wooga.com"><img src="images/wooga2.png" width="157px" height="44px"></a>
+                <a href="http://www.uni.wroc.pl/"><img src="images/uwr.png" alt="Uniwersytet Wrocławski" width="136" height="51"></a>
+                <a href="http://ksi.cs.uni.wroc.pl/"><img src="images/ksi.png" alt="Koło Studentów Informatyki" width="83" height="83"></a>
+                <a href="https://github.com"><img src="images/github.png" width="125" height="56"></a>
+                <a href="http://anixe.pl/en"><img src="images/anixe.gif" width="136" height="51"></a>
+                <a href="http://rails.arkency.com"><img src="images/arkency.png" width="83" height="83"></a>
+                <a href="http://polak20.org"><img src="images/polak20.png" width="142" height="49"></a>
+                <a href="http://netguru.pl"><img src="images/netguru.jpg" width="174" height="40"></a>
+                <a href="http://railslove.com"><img src="images/railslove.png" width="170" height="40"></a>
+                <a href="http://monterail.com"><img src="images/monterail-small-logo.png" width="187" height="37"></a>
+                <a href="http://shellycloud.com"><img src="images/shelly_cloud_logo.png" width="180" height="38"></a>
+                <a href="http://espago.pl"><img src="images/espago.png" width="188" height="37"></a>
+                <a href="http://monibuds.com"><img src="images/monibuds.png" width="92" height="74"></a>
+                <a href="http://wooga.com"><img src="images/wooga2.png" width="157" height="44"></a>
                 <div class="block_ribbon">
                   <a href="https://gist.github.com/3edea1dbc018220d4a75" class="ribbon" target="_blank">Want to be a supporter?</a>
                 </div>
@@ -1056,12 +1079,21 @@ projects. But in the end of the day it feels just great, doesn't it?
       <section id="location">
         <div class="content">
           <div class="location">
-            <h2><span>Location</span>University of Wrocław, Institute of Computer Science</h2>
+            <h2><span>Location</span></h2>
+            <div class="venues">
+              <a href="#location-uni"><big>University of Wrocław, Institute of Computer Science</big></a> |
+              <a href="#location-jaskinia">Pub Jaskinia (hackathon + before party)</a><br />
+              <a href="#location-cynamon">Cynamon Bar (main party)</a> |
+              <a href="#location-bierhalle">Bierhalle (closing drinkup)</a>
+            </div>
             <div class="box">
-              <iframe width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A&amp;output=embed">
-              </iframe>
-              <br />
-              <small><a href="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=pl&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.118933,17.062798&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A" style="color:#2563D0;text-align:left">View Larger Map</a></small>
+              <div class="maps">
+                <iframe id="location-uni" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.116832,17.047348&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A&amp;output=embed">
+                </iframe>
+                <iframe id="location-jaskinia" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=ul.+Ko%C5%9Bciuszki+34,+Wroc%C5%82aw&amp;aq=&amp;sll=50.78504,16.870745&amp;sspn=1.05231,2.298889&amp;ie=UTF8&amp;hq=&amp;hnear=Genera%C5%82a+Tadeusza+Ko%C5%9Bciuszki+34,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie,+Poland&amp;t=m&amp;ll=51.10945,17.052326&amp;spn=0.021555,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                <iframe id="location-cynamon" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Cynamon+Bar,+Plac+++Grunwaldzki,+Wroc%C5%82aw,+Polska&amp;aq=0&amp;oq=cynamon&amp;sll=51.111471,17.032456&amp;sspn=0.016327,0.03592&amp;ie=UTF8&amp;hq=Cynamon+Bar,&amp;hnear=Plac+Grunwaldzki,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie,+Poland&amp;t=m&amp;ll=51.116832,17.047348&amp;spn=0.02155,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                <iframe id="location-bierhalle" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bierhalle,+Rynek-Ratusz,+Wroclaw,+Poland&amp;aq=0&amp;oq=bierhalle&amp;sll=51.114044,17.067132&amp;sspn=0.008163,0.01796&amp;ie=UTF8&amp;hq=Bierhalle,+Rynek-Ratusz,+Wroclaw,+Poland&amp;t=m&amp;cid=956955554105224576&amp;hnear=&amp;ll=51.116832,17.047348&amp;spn=0.021552,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+              </div><!-- .maps -->
             </div>
             <div class="car">
             </div>

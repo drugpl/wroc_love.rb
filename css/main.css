@@ -500,6 +500,8 @@ nav ul li#contact a{
   font-size: 15px;
   font-weight: normal;
   line-height: 25px;
+  height: 24px;
+  float: left;
 }
 
 #location h2 span{
@@ -513,6 +515,7 @@ nav ul li#contact a{
 }
 
 #location .box{
+  clear: both;
   padding: 13px 13px 26px 16px;
   text-align: right;
 }
@@ -535,10 +538,43 @@ nav ul li#contact a{
   height: 91px;
   bottom: 35px;
   left: -56px;
+  z-index: 20;
 }
 
 #location h2{
   margin: 0;
+}
+
+#location div.venues {
+  margin: -20px 0 0 0;
+  color: #666;
+  float: left;
+  width: 760px;
+}
+
+#location div.venues a {
+  color: #333;
+}
+
+#location div.venues a:hover {
+  color: #fff;
+}
+
+#location div.venues a.current {
+  color: #fff;
+}
+
+#location div.maps {
+  width: 929px;
+  height: 400px;
+  position: relative;
+}
+
+#location div.maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 #footer{
@@ -854,6 +890,10 @@ footer .made-by a.logo-monterail {
 
 .t240{
     height: 240px;
+}
+
+.t270{
+    height: 270px;
 }
 
 .t300{
