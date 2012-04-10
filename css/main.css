@@ -959,3 +959,29 @@ footer .made-by a.logo-monterail {
   white-space: nowrap;
   overflow: hidden;
 }
+
+#videos {
+  width: 1000px;
+  padding: 0 0 20px 58px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#videos div.video {
+  float: left;
+  width: 460px;
+  margin: 0 20px 20px 0;
+  padding: 0 10px 20px 10px;
+  background: url('../images/video.png') bottom left repeat-x;
+}
+
+#videos div.video h3 {
+  margin: 0 -10px 0 -10px;
+  padding: 15px 10px;
+  background: url('../images/video_title.png') top left repeat-x;
+  font-size: 14px;
+}
+
+#videos div.video h3 a {
+  color: #222;
+}
