@@ -962,26 +962,60 @@ footer .made-by a.logo-monterail {
 
 #videos {
   width: 1000px;
-  padding: 0 0 20px 58px;
+  padding: 3px 0 20px 58px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 #videos div.video {
+  width: 990px;
+  overflow: hidden;
+  margin: 0 0 20px 0;
+}
+
+#videos div.video div.text {
   float: left;
-  width: 460px;
-  margin: 0 20px 20px 0;
-  padding: 0 10px 20px 10px;
-  background: url('../images/video.png') bottom left repeat-x;
+  width: 370px;
+  background:
+    url('../images/video_title.png') top left repeat-x,
+    url('../images/video.png') bottom left repeat-x;
+  padding: 10px;
 }
 
 #videos div.video h3 {
-  margin: 0 -10px 0 -10px;
-  padding: 15px 10px;
-  background: url('../images/video_title.png') top left repeat-x;
+  margin: 10px 0 10px 0;
   font-size: 14px;
 }
 
 #videos div.video h3 a {
   color: #222;
+}
+
+#videos div.video h4 a {
+  color: #222;
+}
+
+#videos div.video div.avatar {
+  margin: 1px 20px 2px 0;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px;
+  height: auto;
+}
+
+#videos div.video div.avatar img {
+  display: block;
+}
+
+#videos div.video div.no_avatar {
+  float: left;
+  width: 100px;
+  height: 1px;
+  margin: 0 20px 0 0;
+}
+
+#videos div.video iframe {
+  float: right;
+  padding: 1px;
+  margin: 1px 0 0 0;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px;
+  background: #000;
 }
