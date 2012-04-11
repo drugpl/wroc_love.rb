@@ -4,6 +4,11 @@ body{
 	font-family: 'FuturaMedium', sans-serif;
 }
 
+body.not{
+  color: white;
+  font-size: 76px;
+}
+
 a{
   color: #2563D0;
   text-decoration: none;
@@ -26,9 +31,13 @@ strong{
   background: url('../images/tile_bg.png') bottom center repeat-x;
 }
 
-#main, #location{
+#location{
   background: url('../images/tile_bg.png') bottom center repeat-x,
   url('../images/shadow.png') top center repeat-x;
+}
+
+#main {
+  background: url('../images/shadow.png') top center repeat-x;
 }
 
 #header > .content,
@@ -400,7 +409,7 @@ nav ul li#contact a{
   background: url('../images/platform.png') no-repeat;
 }
 
-#about, #supporters, #patronage, #vim {
+#about, #patronage, #vim {
   margin-left: 0px;
 	width: 468px;
 	display: inline-block;
@@ -474,8 +483,12 @@ nav ul li#contact a{
   z-index: 10;
 }
 
-#supporters .box, #patronage .box{
+#patronage .box{
   width: 427px;
+  padding: 20px;
+}
+
+#supporters .box{
   padding: 20px;
 }
 
@@ -578,8 +591,7 @@ nav ul li#contact a{
 }
 
 #footer{
-  height: 330px;
-  background: url('../images/footer_bg.jpg') repeat-x;
+  height: 30px;
 }
 
 #footer .content{
@@ -961,24 +973,21 @@ footer .made-by a.logo-monterail {
 }
 
 #videos {
-  width: 1000px;
+  width: 1250px;
   padding: 3px 0 20px 58px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 #videos div.video {
-  width: 990px;
+  width: 1240px;
   overflow: hidden;
   margin: 0 0 20px 0;
 }
 
 #videos div.video div.text {
   float: left;
-  width: 370px;
-  background:
-    url('../images/video_title.png') top left repeat-x,
-    url('../images/video.png') bottom left repeat-x;
+  width: 500px;
   padding: 10px;
 }
 
@@ -1018,4 +1027,13 @@ footer .made-by a.logo-monterail {
   margin: 1px 0 0 0;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 2px;
   background: #000;
+}
+
+#videos div.video div.na {
+  float: right;
+  padding: 1px;
+  margin: 1px 0 0 0;
+  width: 560px;
+  height: 316px;
+  background: url('../images/na.png') no-repeat;
 }

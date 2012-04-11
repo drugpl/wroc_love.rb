@@ -24,67 +24,9 @@
        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();
-</script>
-<script type="text/javascript">
-  $(document).ready(function() {
-      $(".events > div").click(function() {
-        $(".events > div").removeClass("selected");
-        $('.overlay').hide();
-        $(".events > div p").hide();
-        $('.events > div #slides').hide();
-
-        $(this).addClass("selected");
-        $('.overlay').show();
-        $(this).find('p').show();
-        $(this).find('#slides').show();
-        });
-      $(".overlay").click(function() {
-        $(this).hide();
-        $('.events > div p').hide();
-        $('.events > div #slides').hide();
-        $('.events > div').removeClass('selected');
-        });
-      });
-  $(function () {
-    var maps = $("#location div.maps iframe");
-    var switchTo = function (elem) {
-      maps.css({ zIndex: 0 });
-      elem.css({ zIndex: 10 })
-      $("#location div.venues a").removeClass("current").eq(maps.index(elem)).addClass("current");
-    };
-    $("#location div.venues a").click(function (e) {
-      e.preventDefault();
-      var target = $($(this).attr("href"));
-      switchTo(target);
-    });
-    switchTo(maps.eq(0));
-  });
-  $(function(){
-       $('#slides').slides({
-          preload: true,
-          preloadImage: 'img/loading.gif',
-          play: 5000,
-          pause: 2500,
-          hoverPause: true,
-          animationStart: function(current){
-            $('.caption').animate({
-              bottom:-35
-            },100);
-          },
-          animationComplete: function(current){
-            $('.caption').animate({
-              bottom:0
-            },200);
-          },
-          slidesLoaded: function() {
-            $('.caption').animate({
-              bottom:0
-            },200);
-          }
-        });
-      });
-</script>
+    </script>
   </head>
+
   <body>
     <div id="container">
       <header id="header">
@@ -119,7 +61,7 @@
               <p>Rails did a lot to bring REST to developers, but its conception leaves the REST devotee feeling a bit empty. "Where's the hypermedia?" she says. "REST isn't RPC," he may cry. "WTF??!?!" you may think. "I have it right there! resources :posts ! What more is there? RPC? Huh?"</p>
                <p>In this talk, Steve will explain how to design your APIs so that they truly embrace the web and HTTP. Just as there's an impedance mismatch between our databases, our ORMs, and our models, there's an equal mismatch between our applications, our APIs, and our clients. Pros and cons of this approach will be discussed, as well as why we aren't building things this way yet.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/0PB_pO_jU38" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/0PB_pO_jU38" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -133,7 +75,7 @@
               <h4><a href="http://www.youtube.com/watch?v=wOYQDSeKthY" target="_blank">Rails: past, present and the future</a></h4>
               <p>Rails is getting older and there was a lot changes along the way, including The Big Rewrite from 2.3 to 3.0. Was it worth it? Where is rails heading now? In this talk I will try to address these and other questions connected with rails status and progress.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/wOYQDSeKthY" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/wOYQDSeKthY" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -147,7 +89,7 @@
               <h4><a href="http://www.youtube.com/watch?v=lhFSc0dWsto" target="_blank">It's Business Time</a></h4>
               <p>Discover a complement to your MVC ways that puts your business needs in plain view. Learn how DCI (Data, Context, and Interaction) allows you to keep your application architecture lean by turning your use cases into executable code. Make your application easy to read, easy to understand, and easy to reuse.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/lhFSc0dWsto" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/lhFSc0dWsto" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -162,7 +104,7 @@
               <p>Most Ruby developers use Rails for their everyday projects. Often they toy around with front-end themselves or outsource it, ending up tangled in a web of css-all-over-the-place.</p>
               <p>Keeping your front-end code clean is hard. Before you know it you're suffering from CSS specificity issues and not-really-generic partials. Find out how to keep things tidy using the HTML5 document outline and modular Sass &amp; CoffeeScript, for truly reusable code.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/T6-75HdADc8" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/T6-75HdADc8" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -179,7 +121,7 @@
               <p>From DCI to presenters, from Uncle Bob’s architecture talk and Avdi Grimm’s upcoming ‘Objects on Rails’ book to the proliferation of (competing? complementing?) database systems, it seems the time has come to seriously consider decoupling our objects’ persistence from the rest of the application.</p>
               <p>This talk – after describing the general vices of strong object/database coupling and the all-too-usual rails g model-driven development – covers the various approaches to separating the objects’ persistence layer, along with their virtues (cleaner, simpler tests! backend independence! no RDBMS-related shortcuts impacting the design!) and potential vices (performance? perceived compexity? YAGNI?).</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/w7Eol9N3jGI" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/w7Eol9N3jGI" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -193,7 +135,7 @@
               <h4><a href="http://www.youtube.com/watch?v=MU4RvuvpT8w" target="_blank">DataMapper 2</a></h4>
               <p>I would like to describe all of the pieces that we're working on: new relational algebra engine, new model definition and introspection layers, new validation library and other things that will become part of DM2 (better migrations, UoW library, optimizer layer). The talk would be in the context of a better way of handling business logic in Rails apps.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/MU4RvuvpT8w" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/MU4RvuvpT8w" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -209,7 +151,7 @@
               <p>Responsive Web Design is all about having the same content visible in all devices, from tiny mobiles to huge monitors, preserving proper readability and adapting to the medium. It also entails a new way of creating content, in which interaction between designers and programmers is more important. In the Ruby world programmers generally feel proud of being "agile", however when you zoom out, you see that the interaction between designers and programmers is more waterfally than you'd want.</p>
               <p>In the talk I will present the concept of responsiveness and teach with examples how to make a layout responsive with the one-two punch of fluid layouts and media queries. I will also show how to make the interaction between designers and programmers be truly collaborative and not just a pass-me-down PSD from the designer to implementors and programmers.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/MNZnHrnQ56U" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/MNZnHrnQ56U" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -226,7 +168,7 @@
               <p>We want to cover topics like: persistence and domain logic separation, DCI, backend/frontend separation, "Objects on Rails", TDD and unclebob's "Rails is not your app". Each of this approaches tries to solve the problem differently. </p>
               <p>We gathered a group of people that have some interesting opinions on this topic. We want to put them on stage and start the discussion. There will be questions prepared before the discussion, to ensure that we go through all of the important topics. Additionally, we’re planning to have questions from the audience.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/jk8FEssfc90" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/jk8FEssfc90" frameborder="0" allowfullscreen></iframe>
           </div><!-- .video -->
 
           <div class="video">
@@ -237,1007 +179,195 @@
               <p>All you wanted to question about testing but was afraid to flame. In this heated debate where everyone can participate we may focus on the following discussion starters: cucumber vs. object oriented tests, tdd vs. bdd, full-stack vs. frontend/backend testing, steak vs. bbq, rspec vs. minitest or just no-tests drama.</p>
               <p>Discussion will be conducted under rules of a <a href="http://en.wikipedia.org/wiki/Fishbowl_(conversation)">Fishbowl</a>.</p>
             </div><!-- .text -->
-            <iframe width="460" height="264" src="http://www.youtube.com/embed/IoiZtvXWGjI" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/IoiZtvXWGjI" frameborder="0" allowfullscreen></iframe>
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/tim_lossen.png" alt="Tim Lossen" />
+              <img src="images/dirkjan_bussink.jpg" alt="Dirkjan Bussink" />
+            </div>
+            <div class="text">
+              <h3>Tim Lossen</h3>
+              <p>
+                <a href="http://tim.lossen.de">Tim</a> really enjoys talking about himself in the third person. Not. He lives in Berlin with his girlfriend and two lovely little daughters. Tim is deeply in love with Ruby and recently helped to organize <a href="http://euruko2011.org">Euruko 2011</a>. He works as backend engineer at social gaming startup <a href="http://wooga.com">Wooga</a>. At night Tim likes to go down to the basement and hack on secret hardware projects like Superglobe or <a href="http://evercu.be">Evercube</a>.
+              </p>
+
+              <h3>Dirkjan Bussink</h3>
+              <p>
+                Dirkjan Bussink spends his working days between cows in the scenic country side of the Netherlands at <a href="http://www.nedap.com">Nedap</a>. There he works on software and sometimes even plays with actual hardware devices. As one of his hobby's he likes tinkering with <a href="http://rubini.us">Rubinius</a> and has been an active contributor for the last three years.
+              </p>
+
+              <h4><a href="http://www.youtube.com/watch?v=AYYGage3B-I" target="_blank">JRuby vs. Rubinius (Fight)</a></h4>
+              <p>
+                After breeze introduction of the aforementioned projects you'll witness fighters struggling in a combat of questions. Is it speed and performance that makes difference? Or tooling and extensibility that convinces judges? Maybe there'll be a KO on concurrency and production readyness?
+              </p>
+            </div><!-- .text -->
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/IoiZtvXWGjI" frameborder="0" allowfullscreen></iframe>
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/martin-sustrik-full-gray-80.png" alt="Martin Sustrik" />
+            </div>
+            <div class="text">
+              <h3>Martin Sústrik</h3>
+              <p>
+                Martin Sústrik is an expert in the field of messaging middleware. He participated in the creation and reference implementation of the <a href="http://www.amqp.org/">AMQP</a>
+                standard. He has been involved in different messaging projects in the financial industry. He is a founder and one of main contributors to the <a href="http://www.zeromq.org/">0MQ</a> project. Currently he's interested in integration of messaging technology with <a href="https://github.com/250bpm/linux-2.6">operating systems</a> and the Internet stack. He lives in <a href="http://en.wikipedia.org/wiki/Bratislava">Bratislava</a>.
+              </p>
+
+              <h4><a href="#" target="_blank">ØMQ: A way towards fully distributed architectures</a></h4>
+              <p>
+                This talk covers ØMQ basics.
+              </p>
+            </div><!-- .text -->
+            <iframe width="560" height="315" src="http://www.youtube.com/embed/RcfT3b79UYM" frameborder="0" allowfullscreen></iframe>
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/nick_sutterer.jpg" alt="Nick Sutterer" />
+            </div>
+            <div class="text">
+              <h3>Nick Sutterer</h3>
+              <p>
+                Nick Sutterer is proud to be a member of the Ruby open source community. His <a href="http://cells.rubyforge.org">Cells</a> and <a href="http://apotomo.de">Apotomo</a> projects have been bringing increased view modularity and event-driven programming to Rails for years. He has enjoyed attending, and speaking at, Ruby conferences around the world. Buy him a beer sometime, and with very little prompting, he will tell you why there should be no such thing as a double-render error, why you should not confuse your models with your resources, and how to play a mean bass in a punk rock band.
+              </p>
+
+              <h4><a href="#" target="_blank">It's All About Respect!</a></h4>
+              <p>
+                Open-Source is driven by innovation from the people. Controversial ideas often change the way software developers write software. It can be a tedious, awkward task to promote, develop and maintain such projects. But in the end of the day it feels just great, doesn't it?
+              </p>
+            </div><!-- .text -->
+            <div class="na">&nbsp;</div>
+            <!--<iframe width="560" height="316" src="http://www.youtube.com/watch?v=yDZKIHFdLX8" frameborder="0" allowfullscreen></iframe>-->
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/florian_gilcher.png" alt="Florian Gilcher" />
+            </div>
+            <div class="text">
+              <h3>Florian Gilcher</h3>
+              <p>
+                Florian Gilcher is enjoying the ruby community since 2004. After using Rails most of the time, he is now involved in the <a href="http://padrinorb.com">Padrino</a> project. He contributes to the Ruby community by working on the german ruby website and by providing a german discussion board. During day, he runs a consulting company specialized in backend systems.
+              </p>
+
+              <h4><a href="#" target="_blank">Fear of adding processes</a></h4>
+              <p>
+                In object-oriented programming, there is a well-known anti-pattern called 'Fear of Adding Classes'. It describes the fear of solving a problem by adding another class because of the (often wrongfully) perceived added complexity. With systems moving towards a distributed nature through the usage of external services, a similar pattern can be seen: the fear of adding dedicated components, mostly independent processes to the system, because of the fear of added management overhead through doing so.
+              </p>
+            </div><!-- .text -->
+            <div class="na">&nbsp;</div>
+            <!--<iframe width="560" height="316" src="http://www.youtube.com/embed/BYmHOF58bDY" frameborder="0" allowfullscreen></iframe>-->
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/michal_taszycki.jpg" alt="Michał Taszycki" />
+            </div>
+            <div class="text">
+              <h3>Michał Taszycki</h3>
+              <p>
+                After leaving the corporate universe and developing a few computer games (like <a href="http://www.mobygames.com/game/ps3/motorstorm">Motorstorm</a>
+                and <a href="http://www.mobygames.com/game/windows/saints-row-2">Saints Row 2</a>) for the PS3, XBOX and PC, he entered the Ruby World. Today, he is making delicious software at <a href="http://applicake.com">Applicake</a>, managing projects and training fellow programmers during <a href="http://www.flickr.com/photos/71470546@N08/sets/72157628278787087/with/6454903049">Code Retreats</a>. He enjoys pushing people out of their comfort zones and into new rewarding experiences. He can talk for hours about how seemingly unrelated skills (such as running, dancing or juggling) can help you become a better programmer.
+              </p>
+
+              <h4><a href="#" target="_blank">Programming Workout</a></h4>
+              <p>
+                Times are changing... Technology is moving forward... Command line tools are becoming obsolete... Programmers today don't need to touch type... Using mouse to copy and paste is perfectly fine... You can always look up those design patterns on the web... Your IDE can do a lot of things for you so you don't need to think... Can you feel that? Can you feel that this is TRUE? Then stop being UNPROFESSIONAL and think again! 
+              </p>
+              <p>
+                In this talk I'm gonna convince you that learning seemingly obsolete skills can have huge impact on your productivity. I'll show you how those skills and other seemingly unimportant factors can impact your career. I will help you to find a way to improve them in order to become a better programmer. I'll also show you tools that can facilitate this process. You will either leave this talk with strong resolution to level up, or curl up in your comfort zone with your lovely mouse and IDE. I will show you how PROGRAMMERS WORK OUT.
+              </p>
+            </div><!-- .text -->
+            <iframe width="560" height="316" src="http://www.youtube.com/embed/wXQLil_SGCI" frameborder="0" allowfullscreen></iframe>
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/railslove_ralph_jan_georg.png" alt="" />
+            </div>
+            <div class="text">
+              <h3>Ralph von der Heyden, Georg Leciejewski and&nbsp;Jan&nbsp;Kus</h3>
+              <p>
+                Ralph and Jan are web developers at <a href="http://railslove.com/">Railslove</a>, Georg is working hard to revolutionise invoicing with <a href="http://www.salesking.eu/">SalesKing</a>. All three have known each other for years and have worked on a wide range of projects. Along the way, they’ve gained extensive experience on all levels of web application development and how to found and maintain profitable web businesses, without disregarding the challenge to have some serious fun along the way ;) They love all things cool and nerdy, but their fields of expertise are API design, Ruby, Rails, project management, and payment solutions. As developers and business founders they've had their fair share of falling into the pits of application development and would now like to share some of the insights they've gained from past mistakes.
+              </p>
+
+              <h4><a href="#" target="_blank">Get out of the trap!</a></h4>
+              <p>
+                In our talk we share some of the most interesting, absurd, or funny insights and moments we experienced in our past couple of years. As developers and business founders, we present the best of our own mistakes and show you how we got out of the pits we fell into. Believe us, we’ve been there as well and, hopefully, attending our talk will help you not making the mistakes we already made for you ;) It will be serious fun! The talk will cover both technical and other subjects.
+              </p>
+            </div><!-- .text -->
+            <div class="na">&nbsp;</div>
+            <!--<iframe width="560" height="316" src="http://www.youtube.com/embed/yDZKIHFdLX8" frameborder="0" allowfullscreen></iframe>-->
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/krzysztof_kowalik.jpg" alt="" />
+            </div>
+            <div class="text">
+              <h3>Krzysztof Kowalik</h3>
+              <p>
+                Krzysiek is a 23 years old freak from Poland, easy to recognize by his strange hairdos. He is an <a href="http://github.com/nu7hatch">Open Source contributor</a>, BSD and Arch Linux enthusiast, and inline-skating addict. He lives in <a href="http://en.wikipedia.org/wiki/Montevideo">Montevideo</a> and works for <a href="http://cuboxlabs.com">Cubox</a>, crafting awesome Go, Ruby, Python, and C code, and implementing clever ideas. He plays with *nix systems since got his first computer being a typical optimization monster and <a href="http://www.faqs.org/docs/artu/ch01s07.html">The Unix Philosophy</a> evangelist. Now his favorite pastime is MQ and distributed programming. Recently all his efforts goes into <a href="http://webrocket.io/">WebRocket</a> project - a new scale, distributed and open source websockets broker.
+              </p>
+
+              <h4><a href="#" target="_blank">Get out of the trap!</a></h4>
+              <p>
+                Oh gush! There's more and more people visiting your web app, what you gonna do! Many instances connected through single database or cluster! It may work... but you do it wrong! Don't message through shared data, share the data through messaging! During this talk you gonna find out how to design and build cloud-ready distributed web applications correctly, how to scale them according to your needs and finally how to test and deploy them fast and easily. You have to see this!
+              </p>
+            </div><!-- .text -->
+            <div class="na">&nbsp;</div>
+            <!--<iframe width="560" height="316" src="" frameborder="0" allowfullscreen></iframe>-->
+          </div><!-- .video -->
+
+          <div class="video">
+            <div class="avatar">
+              <img src="images/michal_czyz.png" alt="Michał Czyż" />
+            </div>
+            <div class="text">
+              <h3>Michał Czyż</h3>
+              <p>
+                Michał Czyż has been working professionally as a web developer since 2007, and from the very beginning of his professional career, his choice is Ruby on Rails. In 2010 he became a team leader, helping his teammates to follow the path to improvement. These experiences gave birth to several <a href="https://github.com/cs3b">open source</a>, documentation and testing solutions, that are used with great success in <a href="http://www.selleo.com/">Selleo</a>, where he currently works. Michał helped organize <a href="http://coderetre.at/">code retreat</a> in 2011 and he is also one of the core members of <a href="http://srug.pl/">SRUG</a> - a local Ruby users group community, where he is known for evangelizing best practices.
+              </p>
+
+              <h4><a href="#" target="_blank">User perspective testing, using Ruby</a></h4>
+              <p>
+                I would like to share our team experience in testing and tell the story of "how we get there" - successive stages of evolution (not writing tests at all, rspec, rspec story runner, cucumber). I will show you how we are doing it now (rspec + capybara + our custom dsl) and why we took more object oriented approach, taking user's perspective for writing integration and acceptance tests. I'll also tell you how we integrate all of this in form of documentation in applications we make.
+              </p>
+            </div><!-- .text -->
+            <div class="na">&nbsp;</div>
+            <!--<iframe width="560" height="316" src="" frameborder="0" allowfullscreen></iframe>-->
           </div><!-- .video -->
 
         </div><!-- #videos -->
-        <div id="agenda">
-          <h2>Agenda</h2>
-          <div class="links">
-            <a href="https://gist.github.com/37d07cae58cf85aa03ae" class="gist">Download Gist</a>
-            <a href="https://www.google.com/calendar/ical/ke5b7dsutq24krr6jv7bv0f76o%40group.calendar.google.com/public/basic.ics" class="ical">Download iCal</a>
-          </div><!-- .links -->
+
+        <div id="supporters">
+          <h2>Supporters</h2>
           <div class="box">
-            <div class="overlay">
-            </div>
-            <div id="fri" class="day">
-              <h3>Friday</h3>
-              <div class="calendar">
-                <div class="row">
-                  <div class="hour">9:00</div>
-                  <div class="events"></div>
-                </div>
-                <div class="row">
-                  <div class="hour">10:00</div>
-                  <div class="events">
-                  </div>
-                  <div class="events">
-                    <div class="t480">
-                      <span>10:00-18:00</span>
-                      <h3>Hackathon &amp;&nbsp;Coworking</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">10:00 - 18:00</span>
-                        <span class="title">Hackathon &amp; Coworking</span>
-                        <span>
-                          If you plan to arrive earlier on friday that's the place for you to hack some code and have a beer before the party!<br /><br />
-                          </br></br>
-                          <b>Pub Jaskinia</b>, ul. Kościuszki 34. See <a href="#location">map</a> below.
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">11:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">12:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">13:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">14:00</div>
-                  <div class="events">
-                    <div class="t180">
-                      <span>14:00-17:00</span>
-                      <h3>Vimcasts afternoon workshop</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">14:00 - 17:00</span>
-                        <span class="title">Vimcasts afternoon workshop</span>
-                        <span>
-                        Requires separate <a href="http://vimcasts.eventbrite.com/">registration</a>. More details on <a href="http://wroclaw-vimcasts-pm-eorg.eventbrite.co.uk/?ebtv=C">event page</a>. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">15:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">16:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">17:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">18:00</div>
-                  <div class="events">
-                    <div class="t120">
-                      <span>18:00-20:00</span>
-                      <h3>Sightseeing</h3>
-                      <p class="popupbox sightseeing">
-                        <span class="arrow"></span>
-                        <span class="time">18:00 - 20:00</span>
-                        <span class="title">Sightseeing</span>
-                        <span>
-                          One does not simply leave Wrocław without sightseeing!
-                        </span>
-
-                        <div id="slides" style="display: none;">
-                          <div class="slides_container">
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/nertog/3196557277/sizes/m/in/photostream/" title="Wrocław by night (photo by nertog) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-1.jpg" width="400" height="266" alt="Wroclaw by night"></a>
-                              <div class="caption" style="bottom:0">
-                                <p>Wrocław by night</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/nertog/3196557735/sizes/m/in/photostream/" title="Rynek (photo by nertog)| Flickr - Photo Sharing!" target="_blank"><img src="img/slide-2.jpg" width="400" height="266" alt="Rynek"></a>
-                              <div class="caption">
-                                <p>Rynek</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/paracon/6085702441/sizes/m/in/photostream/" title="Pręgierz (photo by paracon) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-3.jpg" width="400" height="266" alt="Pręgierz"></a>
-                              <div class="caption">
-                                <p>Pręgierz</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/paracon/6085714345/sizes/m/in/photostream/" title="Rynek (photo by paracon) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-4.jpg" width="400" height="266" alt="Rynek"></a>
-                              <div class="caption" style="bottom:0">
-                                <p>Rynek</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/akkordarbeit/5078253080/sizes/m/in/photostream/" title="Dwarfs (photo by akkordarbeit)| Flickr - Photo Sharing!" target="_blank"><img src="img/slide-5.jpg" width="400" height="240" alt="Dwarfs"></a>
-                              <div class="caption">
-                                <p>Look out for Dwarfs, they are everywhere</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/41836833@N06/5022297965/sizes/m/in/photostream/" title="Japanese Garden (photo by Rantes) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-6.jpg" width="400" height="266" alt="Garden"></a>
-                              <div class="caption">
-                                <p>Japanese Garden</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/klearchos/3763906194/sizes/m/in/photostream/" title="Cathedral (photo by Klearchos Kapoutsis) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-7.jpg" width="400" height="266" alt="Cathedral"></a>
-                              <div class="caption" style="bottom:0">
-                                <p>Cathedral</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/klearchos/4336479530/sizes/m/in/photostream/" title="Castle (photo by Klearchos Kapoutsis) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-8.jpg" width="400" height="266" alt="Castle"></a>
-                              <div class="caption" style="bottom:0">
-                                <p>Castle of Wrocław in Leśnica</p>
-                              </div>
-                            </div>
-                            <div class="slide">
-                              <a href="http://www.flickr.com/photos/olgierd/5295747139/sizes/m/in/photostream/" title="Grunwaldzki (photo by Olgierd) | Flickr - Photo Sharing!" target="_blank"><img src="img/slide-9.jpg" width="400" height="300" alt="Grunwaldzki"></a>
-                              <div class="caption" style="bottom:0">
-                                <p>Plac Grunwaldzki</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">19:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">20:00</div>
-                  <div class="events only">
-                    <div class="t240" style="height: 239px; margin-top: 1px;">
-                      <span>20:00</span>
-                      <h3>Before party</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">20:00</span>
-                        <span class="title">Before party</span>
-                        <span>
-                          <img src="http://fotowroclaw.blox.pl/resource/spacerownik_09_27_09_2008.jpg" style="width: 400px; height: 268px"><br /><br /><b>Pub Jaskinia</b>, ul. Kościuszki 34. See <a href="#location">map</a> below.
-
-                          <br/><br/>
-                          We organize a before party at Jaskinia bar so you can warm up before the event.
-                          The party officially starts at 20.00 but don't hesitate to come earlier. Hackathon and coworking are also held there so you can meet the people from 10.00.
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">21:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">22:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">23:00</div>
-                </div>
-              </div>
-            </div><!-- #fri -->
-            <div id="sat" class="day">
-              <h3>Saturday</h3>
-              <div class="calendar">
-                <div class="row">
-                  <div class="hour">
-                     9:00
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">10:00</div>
-                  <div class="events major">
-                    <div class="t15">
-                      <span>10:00-10:15</span>
-                      <h3>Opening talk</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">10:00 - 10:15</span>
-                        <span class="title">Opening talk</span>
-                        <span class="speaker">DRUG</span>
-                        <span>
-                        </span>
-                      </p>
-                    </div>
-                    <div class="t45 mq2">
-                      <span>10:30-11:15</span>
-                      <h3>It's All About Respect!</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">10:30 - 11:15</span>
-                        <span class="title">It's All About Respect!</span>
-                        <span class="speaker">Nick Sutterer</span>
-                        <span>
-                          Open-Source is driven by innovation from the people. Controversial
-ideas often change the way software developers write software. It can
-be a tedious, awkward task to promote, develop and maintain such
-projects. But in the end of the day it feels just great, doesn't it?
-                        </span>
-                      </p>
-                    </div>
-                  </div><!-- .events -->
-                  <div class="events minor">
-                    <div class="t540">
-                      <span>10:00-19:00</span>
-                      <h3>Open space</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">10:00 - 19:00</span>
-                        <span class="title">Open space</span>
-                        <span>
-                          Have you ever attended interesting talk and just before you managed to asked a question speakers time ran out? Have you ever gave a talk and felt it had too short time constraint?
-                          We provide an open-space track for both of you. <br><br>Open-space track has no speakers pre-assigned. Want to speak and have a group of listeners? Register just like for a lightning talk on a flipchart and have separate room with seats and whiteboard for chatting and presenting. Want to promote a project of yours? No problem. Just let others use this room too!
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="hour">11:00</div>
-                  <div class="events major">
-                    <div class="t30 mq2">
-                      <span>11:30-12:00</span>
-                      <h3>Rails: past, present and the future</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">11:30 - 12:00</span>
-                        <span class="title">Rails: past, present and the future</span>
-                        <span class="speaker">Piotr Sarnacki</span>
-                        <span>
-                          Rails is getting older and there was a lot changes along the way, including The Big Rewrite from 2.3 to 3.0. Was it worth it? Where is rails heading now? In this talk I will try to address these and other questions connected with rails status and progress.
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="hour">12:00</div>
-                  <div class="events major">
-                    <div class="t30 mq1">
-                      <span>12:15-12:45</span>
-                      <h3>Decoupling Persistence (Like There’s Some Tomorrow)</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">12:15 - 12:45</span>
-                        <span class="title">Decoupling Persistence<br />(Like There’s Some Tomorrow)</span>
-                        <span class="speaker">Piotr Szotkowski</span>
-                        <span>
-                          ‘When I open up a Rails project and the models dir is full of 100% ActiveRecord classes I shudder. Model ≠ Persistence.’ — Ben Mabey
-                          <br/>
-                          <br/>
-                          From DCI to presenters, from Uncle Bob’s architecture talk and Avdi Grimm’s upcoming ‘Objects on Rails’ book to the proliferation of (competing? complementing?) database systems, it seems the time has come to seriously consider decoupling our objects’ persistence from the rest of the application.
-                          <br/>
-                          <br/>
-                          This talk – after describing the general vices of strong object/database coupling and the all-too-usual rails g model-driven development – covers the various approaches to separating the objects’ persistence layer, along with their virtues (cleaner, simpler tests! backend independence! no RDBMS-related shortcuts impacting the design!) and potential vices (performance? perceived compexity? YAGNI?).
-                      </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="hour">13:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">14:00</div>
-                  <div class="events major">
-                    <div class="t45 mq1">
-                      <span>14:15-15:00</span>
-                      <h3>JRuby vs. Rubinius</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">14:15 - 15:00</span>
-                        <span class="title">JRuby vs. Rubinius</span>
-                        <span class="speaker">Tim Lossen vs. Dirkjan Bussink</span>
-                        <span>
-                          After breeze introduction of the aforementioned projects you'll witness fighters struggling in a combat of questions. Is it speed and performance that makes difference? Or tooling and extensibility that convinces judges? Maybe there'll be a KO on concurrency and production readyness?
-                          <br/>
-                          <br/>
-                          What you'll ask to affect final verdict?
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">15:00</div>
-                  <div class="events major">
-                    <div class="t30 mq1">
-                      <span>15:15-15:45</span>
-                      <h3>Fear of adding processes</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">15:15 - 15:45</span>
-                        <span class="title">Fear of adding processes</span>
-                        <span class="speaker">Florian Gilcher</span>
-                        <span>
-                        In object-oriented programming, there is a well-known anti-pattern called 'Fear of Adding Classes'. It describes the fear of solving a problem by adding another class because of the (often wrongfully) perceived added complexity. With systems moving towards a distributed nature through the usage of external services, a similar pattern can be seen: the fear of adding dedicated components, mostly independent processes to the system, because of the fear of added management overhead through doing so. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">16:00</div>
-                  <div class="events major">
-                    <div class="t30">
-                      <span>16:00-16:30</span>
-                      <h3>User perspective testing, using Ruby</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">16:00 - 16:30</span>
-                        <span class="title">User perspective testing, using Ruby</span>
-                        <span class="speaker">Michał Czyż</span>
-                        <span>
-                        I would like to share our team experience in testing and tell the story of "how we get there" - successive stages of evolution (not writing tests at all, rspec, rspec story runner, cucumber). I will show you how we are doing it now (rspec + capybara + our custom dsl) and why we took more object oriented approach, taking user's perspective for writing integration and acceptance tests. I'll also tell you how we integrate all of this in form of documentation in applications we make. </span>
-                      </p>
-                    </div>
-                    <div class="t30 mq3">
-                      <span>16:45-17:15</span>
-                      <h3>DataMapper 2</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">16:45 - 17:15</span>
-                        <span class="title">DataMapper 2</span>
-                        <span class="speaker">Piotr Solnica</span>
-                        <span>
-                        I would like to describe all of the pieces that we're working on: new relational algebra engine, new model definition and introspection layers, new validation library and other things that will become part of DM2 (better migrations, UoW library, optimizer layer). The talk would be in the context of a better way of handling business logic in Rails apps. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">17:00</div>
-                  <div class="events major">
-                    <div class="t30 mq2">
-                      <span>17:30-18:00</span>
-                      <h3>It's Business Time</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">17:30 - 18:00</span>
-                        <span class="title">It's Business Time</span>
-                        <span class="speaker">Jim Gay</span>
-                        <span>
-                        Discover a complement to your MVC ways that puts your business needs in plain view. Learn how DCI (Data, Context, and Interaction) allows you to keep your application architecture lean by turning your use cases into executable code. Make your application easy to read, easy to understand, and easy to reuse. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">18:00</div>
-                  <div class="events major">
-                    <div class="t75 mq1">
-                      <span>18:15-19:30</span>
-                      <h3>Lightning Talks</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">18:15 - 19:30</span>
-                        <span class="title">Lightning Talks</span>
-                        <span>
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">19:00</div> 
-                  <div class="events only">
-                    <div class="t270 mq2" style="margin-top: 31px; height: 269px;">
-                      <span>19:30</span>
-                      <h3>Main party</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">19:30</span>
-                        <span class="title">Main party</span>
-                        <span>
-                        <img src="http://www.dora-metal.pl/files/gallery/fotob-53.jpg" style="width: 400px; height: 268px">
-                        <br /><br /><b>Cynamon Bar</b>, Plac Grunwaldzki 23. See <a href="#location">map</a> below.
-                        <br/><br/>
-                        It's only 10 minutes on foot from the venue. Besides beers and drinks they serve excellent food so you can go there for a lunch or dinner too. Cynamon bar is set at the back of Grunwaldzki Center next to University of Environmental and Life Sciences.
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="row">
-                  <div class="hour">20:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">21:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">22:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">23:00</div>
-                </div>
-              </div>
-            </div><!-- #sat -->
-            <div id="sun" class="day">
-              <h3>Sunday</h3>
-              <div class="calendar">
-                <div class="row">
-                  <div class="hour">
-                     9:00
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">10:00</div>
-                  <div class="events major">
-                    <div class="t30">
-                      <span>10:00-10:30</span>
-                      <h3>Programming Workout</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">10:00 - 10:30</span>
-                        <span class="title">Programming Workout</span>
-                        <span class="speaker">Michał Taszycki</span>
-                        <span>
-                        Times are changing... Technology is moving forward... Command line tools are becoming obsolete... Programmers today don't need to touch type... Using mouse to copy and paste is perfectly fine... You can always look up those design patterns on the web... Your IDE can do a lot of things for you so you don't need to think... Can you feel that? Can you feel that this is TRUE? Then stop being UNPROFESSIONAL and think again! <br>
-                        <br>
-                         In this talk I'm gonna convince you that learning seemingly obsolete skills can have huge impact on your productivity. I'll show you how those skills and other seemingly unimportant factors can impact your career. I will help you to find a way to improve them in order to become a better programmer. I'll also show you tools that can facilitate this process. You will either leave this talk with strong resolution to level up, or curl up in your comfort zone with your lovely mouse and IDE. I will show you how PROGRAMMERS WORK OUT. </span>
-                      </p>
-                    </div>
-                    <div class="t30 mq3">
-                      <span>10:45-11:15</span>
-                      <h3>Testing Fishbowl</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">10:45 - 11:15</span>
-                        <span class="title">Testing Fishbowl</span>
-                        <span class="speaker"></span>
-                        <span>
-                          All you wanted to question about testing but was afraid to flame. In this heated debate where everyone can participate we may focus on the following discussion starters: cucumber vs. object oriented tests, tdd vs. bdd, full-stack vs. frontend/backend testing, steak vs. bbq, rspec vs. minitest or just no-tests drama.
-                          <br/><br/>
-                          Discussion will be conducted under rules of a <a href="http://en.wikipedia.org/wiki/Fishbowl_(conversation)">Fishbowl</a>.
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="events minor">
-                    <div class="t540">
-                      <span>10:00-19:00</span>
-                      <h3>Open space</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">10:00 - 19:00</span>
-                        <span class="title">Open space</span>
-                        <span>
-                          Have you ever attended interesting talk and just before you managed to asked a question speakers time ran out? Have you ever gave a talk and felt it had too short time constraint?
-                          We provide an open-space track for both of you. <br><br>Open-space track has no speakers pre-assigned. Want to speak and have a group of listeners? Register just like for a lightning talk on a flipchart and have separate room with seats and whiteboard for chatting and presenting. Want to promote a project of yours? No problem. Just let others use this room too!
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">11:00</div>
-                  <div class="events major">
-                    <div class="t30 mq2">
-                      <span>11:30-12:00</span>
-                      <h3>Designing Hypermedia APIs</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">11:30 - 12:00</span>
-                        <span class="title">Designing Hypermedia APIs</span>
-                        <span class="speaker">Steve Klabnik</span>
-                        <span>
-                        Rails did a lot to bring REST to developers, but its conception leaves the REST devotee feeling a bit empty. "Where's the hypermedia?" she says. "REST isn't RPC," he may cry. "WTF??!?!" you may think. "I have it right there! resources :posts ! What more is there? RPC? Huh?" <br>
-                        <br>
-                         In this talk, Steve will explain how to design your APIs so that they truly embrace the web and HTTP. Just as there's an impedance mismatch between our databases, our ORMs, and our models, there's an equal mismatch between our applications, our APIs, and our clients. Pros and cons of this approach will be discussed, as well as why we aren't building things this way yet. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">12:00</div>
-                  <div class="events major">
-                    <div class="t30 mq1">
-                      <span>12:15-12:45</span>
-                      <h3>Modular &amp; reusable front-end code with HTML5, Sass and CoffeeScript</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">12:15 - 12:45</span>
-                        <span class="title">Modular & reusable front-end code with HTML5, Sass and CoffeeScript</span>
-                        <span class="speaker">Roy Tomeij</span>
-                        <span>
-                        Most Ruby developers use Rails for their everyday projects. Often they toy around with front-end themselves or outsource it, ending up tangled in a web of css-all-over-the-place.<br>
-                        <br>
-                         Keeping your front-end code clean is hard. Before you know it you're suffering from CSS specificity issues and not-really-generic partials. Find out how to keep things tidy using the HTML5 document outline and modular Sass & CoffeeScript, for truly reusable code. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">13:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">14:00</div>
-                  <div class="events major">
-                    <div class="t45 mq1">
-                      <span>14:15-15:00</span>
-                      <h3>Rails vs. OOP</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">14:15 - 15:00</span>
-                        <span class="title">Rails vs. OOP</span>
-                        <span class="speaker"> Steve Klabnik, Nick Sutterer, Jim Gay, Andrzej Krzywda, Piotr Szotkowski</span>
-                        <span>
-                          A lot has been said recently about the topic of Rails and OOP. We consider this issue very important in our community. This fight is all about the recent OOP movements in the Rails world. There are quite a few problems that people focus on and quite a few proposed solutions. 
-                        <br>
-                        <br>
-                          We want to cover topics like:
-                          persistence and domain logic separation, DCI, backend/frontend separation, "Objects on Rails", TDD and unclebob's "Rails is not your app".
-                          Each of this approaches tries to solve the problem differently. 
-                        <br>
-                        <br>
-                          We gathered a group of people that have some interesting opinions on this topic. We want to put them on stage and start the discussion. There will be questions prepared before the discussion, to ensure that we go through all of the important topics. Additionally, we’re planning to have questions from the audience.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">15:00</div>
-                  <div class="events major">
-                    <div class="t30 mq1">
-                      <span>15:15-15:45</span>
-                      <h3>Responsive Web Design</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">15:15 - 15:45</span>
-                        <span class="title">Responsive Web Design</span>
-                        <span class="speaker">Nicolas Barrera</span>
-                        <span>
-                        Responsive Web Design is all about having the same content visible in all devices, from tiny mobiles to huge monitors, preserving proper readability and adapting to the medium. It also entails a new way of creating content, in which interaction between designers and programmers is more important. In the Ruby world programmers generally feel proud of being "agile", however when you zoom out, you see that the interaction between designers and programmers is more waterfally than you'd want.<br>
-                        <br>
-                         In the talk I will present the concept of responsiveness and teach with examples how to make a layout responsive with the one-two punch of fluid layouts and media queries. I will also show how to make the interaction between designers and programmers be truly collaborative and not just a pass-me-down PSD from the designer to implementors and programmers. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">16:00</div>
-                  <div class="events major">
-                    <div class="t30">
-                      <span>16:00-16:30</span>
-                      <h3>Get out of the trap</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">16:00 - 16:30</span>
-                        <span class="title">Get out of the trap!</span>
-                        <span class="speaker">Ralph von der Heyden, Georg Leciejewski and Jan Kus</span>
-                        <span>
-                        In our talk we share some of the most interesting, absurd, or funny insights and moments we experienced in our past couple of years. As developers and business founders, we present the best of our own mistakes and show you how we got out of the pits we fell into. Believe us, we’ve been there as well and, hopefully, attending our talk will help you not making the mistakes we already made for you ;) It will be serious fun! The talk will cover both technical and other subjects. </span>
-                      </p>
-                    </div>
-                    <div class="t30 mq3">
-                      <span>16:45-17:15</span>
-                      <h3>Distributed Hell</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">16:45 - 17:15</span>
-                        <span class="title">Distributed Hell</span>
-                        <span class="speaker">Krzysztof Kowalik</span>
-                        <span>
-                        Oh gush! There's more and more people visiting your web app, what you gonna do! Many instances connected through single database or cluster! It may work... but you do it wrong! Don't message through shared data, share the data through messaging! During this talk you gonna find out how to design and build cloud-ready distributed web applications correctly, how to scale them according to your needs and finally how to test and deploy them fast and easily. You have to see this! </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">17:00</div>
-                  <div class="events major">
-                    <div class="t30 mq2">
-                      <span>17:30-18:00</span>
-                      <h3>ØMQ: A way towards fully distributed architectures</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">17:30 - 18:00</span>
-                        <span class="title">ØMQ: A way towards fully distributed architectures</span>
-                        <span class="speaker">Martin Sustrik</span>
-                        <span>
-                        This talk will cover ØMQ basics. </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">18:00</div>
-                  <div class="events major">
-                    <div class="t75 mq1">
-                      <span>18:15-19:30</span>
-                      <h3>Lightning Talks</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">18:15 - 19:30</span>
-                        <span class="title">Lightning Talks</span>
-                        <span>
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">19:00</div>
-                  <div class="events only">
-                    <div class="t270 mq2" style="margin-top: 31px; height: 269px;">
-                      <span>19:30</span>
-                      <h3>Closing Drinkup</h3>
-                      <p class="popupbox">
-                        <span class="arrow"></span>
-                        <span class="time">19:30</span>
-                        <span class="title">Closing Drinkup</span>
-                        <span>
-                        <img src="images/bierhallepils.jpg" style="width: 400px; height: 391px">
-                        <br /><br /><b>Bierhalle</b>, Rynek 24. See <a href="#location">map</a> below.
-                        <br /><br />
-                        The conference is not over - Sunday evening is celebration time. Share your impressions in Bierhalle in the heart of Wrocław. The drinkup starts at 19.30 and lasts until the last guest. Besides alcohol you can order a dinner too.
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="hour">20:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">21:00</div>
-               </div>
-                <div class="row">
-                  <div class="hour">22:00</div>
-                </div>
-                <div class="row">
-                  <div class="hour">23:00</div>
-                </div>
-              </div><!-- .calendar -->
-            </div><!-- .day -->
-          </div><!-- .box -->
-        </div><!-- #agenda -->
-        <div class="content">
-          <section class="bg"></section>
-          <section id="speakers" class="column">
-            <h2>Speakers</h2>
-            <div class="box">
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/nick_sutterer.jpg" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/7626898521/what-a-boring-day-nothing-happend-oh-wait-nick" class="name" target="_blank">Nick Sutterer</a>
-                  <div>
-                     Nick Sutterer is proud to be a member of the Ruby open source community. His <a href="http://cells.rubyforge.org">Cells</a> and <a href="http://apotomo.de">Apotomo</a> projects have been bringing increased view modularity and event-driven programming to Rails for years. He has enjoyed attending, and speaking at, Ruby conferences around the world. Buy him a beer sometime, and with very little prompting, he will tell you why there should be no such thing as a double-render error, why you should not confuse your models with your resources, and how to play a mean bass in a punk rock band.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/piotr_sarnacki.jpg" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/11687828797/if-you-were-at-rupy-2011-then-you-already-know" class="name" target="_blank">Piotr Sarnacki</a>
-                  <div>
-                     Rails contributor (#17 by number of <a href="https://github.com/rails/rails/contributors">commits</a>) who greatly improved Rails Engines during Ruby Summer of Code in 2010 and afterwards. Freelancer. As an enterpreneur he recently launched <a href="http://stoliczku.pl">stoliczku.pl</a> which is a Rails 3.1 application that allows you to book a table in various restaurants. It uses Sproutcore under the hood to run rich client that helps managers control their restaurant business. Working with Rails since 2005.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/steve_klabnik.jpg" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/15626089020/steve-klabnik" class="name">Steve Klabnik</a>
-                  <div>
-                     Steve is a teacher, aspiring digital humanities scholar and open source developer. He maintains the <a href="http://hackety-hack.com/">Hackety Hack</a> project, which allows anyone to learn software development via Ruby. He was a Ruby Hero in 2011 and is involved with many Ruby-based open source projects. He's currently writing a book about APIs titled <a href="http://getsomere.st/">Get some REST</a>.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-
-              <!-- sorry folks, Avdi couldn't make it this year! -->
-
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/jim_gay.png" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/16342454204/jim-gay" class="name">Jim Gay</a>
-                  <div>
-                     Jim is the Lead Developer for <a href="http://radiantcms.org">Radiant CMS</a> and is a prolific contributor to it and many open-source projects. At <a href="http://www.saturnflyer.com">Saturn Flyer LLC</a>
-                    he's built numerous Radiant sites, custom applications, and award winning graphic design. Jim is the author of <a href="http://clean-ruby.com">Clean Ruby</a>, a yet-unreleased book about writing better object oriented Ruby code and using the DCI architecture. He's been a co-host of the <a href="http://ruby5.envylabs.com/">Ruby 5</a> podcast and has been professionally building Ruby and Rails applications since 2006.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/martin-sustrik-full-gray-80.png" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/16000963766/martin-sustrik" class="name">Martin Sústrik</a>
-                  <div>
-                     Martin Sústrik is an expert in the field of messaging middleware. He participated in the creation and reference implementation of the <a href="http://www.amqp.org/">AMQP</a>
-                    standard. He has been involved in different messaging projects in the financial industry. He is a founder and one of main contributors to the <a href="http://www.zeromq.org/">0MQ</a> project. Currently he's interested in integration of messaging technology with <a href="https://github.com/250bpm/linux-2.6">operating systems</a> and the Internet stack. He lives in <a href="http://en.wikipedia.org/wiki/Bratislava">Bratislava</a>.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/roy_tomeij.png" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/17312555681/roy-tomeij" class="name">Roy Tomeij</a>
-                  <div>
-                     Roy Tomeij is co-founder of <a href="http://www.80beans.com">80beans</a> in Amsterdam, where he takes care of front-end architecture using an agile approach. He loves front-end meta languages like <a href="http://haml-lang.com/">Haml</a>, <a href="http://sass-lang.com/">Sass</a> & <a href="http://coffeescript.org/">CoffeeScript</a> because they are DRY, produce quick results & lead to better maintainable code. Roy has nearly seven years of professional front-end experience in Rails projects.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar long_avatar">
-                  <img src="images/railslove_ralph_jan_georg.png" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/16577304388/railslove-salesking" class="name">Ralph von der Heyden, Georg Leciejewski and&nbsp;Jan&nbsp;Kus</a>
-                  <div>
-                     Ralph and Jan are web developers at <a href="http://railslove.com/">Railslove</a>, Georg is working hard to revolutionise invoicing with <a href="http://www.salesking.eu/">SalesKing</a>. All three have known each other for years and have worked on a wide range of projects. Along the way, they’ve gained extensive experience on all levels of web application development and how to found and maintain profitable web businesses, without disregarding the challenge to have some serious fun along the way ;) They love all things cool and nerdy, but their fields of expertise are API design, Ruby, Rails, project management, and payment solutions. As developers and business founders they've had their fair share of falling into the pits of application development and would now like to share some of the insights they've gained from past mistakes.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/piotr_solnica.png" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="#" class="name">Piotr Solnica</a>
-                  <div>
-                     When Piotr’s not writing great code, he’s writing awesome code. As an open source enthusiast, he has been working as a web developer for over 6 years, including more than 3 years of professional experience with Ruby-based technologies, working with many international agile teams. Piotr is an unobtrusive JavaScript evangelist, an HTML/CSS purist and a Linux geek, too. During his free time Piotr supports open source software. He is a <a href="http://datamapper.org/">DataMapper</a> core team member.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/krzysztof_kowalik.jpg" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="http://blog.wrocloverb.com/post/17365552675/krzysztof-kowalik" class="name">Krzysztof Kowalik</a>
-                  <div>
-                     Krzysiek is a 23 years old freak from Poland, easy to recognize by his strange hairdos. He is an <a href="http://github.com/nu7hatch">Open Source contributor</a>, BSD and Arch Linux enthusiast, and inline-skating addict. He lives in <a href="http://en.wikipedia.org/wiki/Montevideo">Montevideo</a> and works for <a href="http://cuboxlabs.com">Cubox</a>, crafting awesome Go, Ruby, Python, and C code, and implementing clever ideas. He plays with *nix systems since got his first computer being a typical optimization monster and <a href="http://www.faqs.org/docs/artu/ch01s07.html">The Unix Philosophy</a> evangelist. Now his favorite pastime is MQ and distributed programming. Recently all his efforts goes into <a href="http://webrocket.io/">WebRocket</a> project - a new scale, distributed and open source websockets broker.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/michal_czyz.png" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="#" class="name">Michał Czyż</a>
-                  <div>
-                     Michał Czyż has been working professionally as a web developer since 2007, and from the very beginning of his professional career, his choice is Ruby on Rails. In 2010 he became a team leader, helping his teammates to follow the path to improvement. These experiences gave birth to several <a href="https://github.com/cs3b">open source</a>, documentation and testing solutions, that are used with great success in <a href="http://www.selleo.com/">Selleo</a>, where he currently works. Michał helped organize <a href="http://coderetre.at/">code retreat</a> in 2011 and he is also one of the core members of <a href="http://srug.pl/">SRUG</a> - a local Ruby users group community, where he is known for evangelizing best practices.
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-              <div class="comment_box">
-                <div class="avatar">
-                  <img src="images/nicolas_barrera.jpg" alt="avatar" />
-                </div>
-                <div class="comment">
-                  <a href="#" class="name">Nicolas Barrera</a>
-                  <div>
-                     DrummerHead is the lead Designer working at <a href="http://cuboxlabs.com/">Cubox</a> and has years of experience being a certified Expertologist. You can call what he does UX, UI, IA, Usability, Accesibility, Front end; or any other hyped acronym you want. In truth, he is just the bridge between information and humans getting what they want in the fastest and best way possible. <br>
-                     Whatever you do, if you do it with love and passion, it will come out fine and dandy!
-                  </div>
-                  <div class="bottom">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="new comment_box">
-              <div class="avatar">
-                <img src="images/avatar_speaker.jpg" alt="avatar" />
-              </div>
-              <!-- <a href="http://c4p.wrocloverb.com/" class="ribbon" target="_blank">Want to be a speaker?</a> -->
-              <div class="platform">
-              </div>
-            </div>
-          </section><!-- .column#speakers -->
-          <section class="column">
-            <div id="about">
-              <h2>About</h2>
-              <div class="box">
-                <p>
-                  A fresh Ruby conference organized by thriving local Ruby <a href="http://drug.org.pl">community</a>. We're keen on experimenting, value original ideas and diversity of opinions - as long as they're backed with valid arguments.
-                </p>
-                <p>
-                  While we love Ruby, we're definitely open for its friends: Coffeescript, Javascript - you name it! We would like to hear your ideas and have it confronted here.
-                </p>
-                <p>
-                  That said, besides the main track of the conference, <a href="http://blog.wrocloverb.com/post/14303357849/lightning-talks">lightning talks</a>, <a href="http://blog.wrocloverb.com/post/14665444932/fights">fights</a> and <a href="http://blog.wrocloverb.com/post/15019850928/open-space">open space</a> track will get the attention they deserve.
-                </p>
-                <p>
-                  You'll enjoy your stay in <a href="http://www.youtube.com/watch?v=CBC5Tm-HuyM">Wrocław</a>!
-                </p>
-              </div>
-              <div class="people">
-              </div>
-            </div><!-- #about -->
-            <div id="supporters">
-              <h2>Supporters</h2>
-              <div class="box">
-                <a href="http://www.uni.wroc.pl/"><img src="images/uwr.png" alt="Uniwersytet Wrocławski" width="136" height="51"></a>
-                <a href="http://ksi.cs.uni.wroc.pl/"><img src="images/ksi.png" alt="Koło Studentów Informatyki" width="83" height="83"></a>
-                <a href="https://github.com"><img src="images/github.png" width="125" height="56"></a>
-                <a href="http://anixe.pl/en"><img src="images/anixe.gif" width="136" height="51"></a>
-                <a href="http://rails.arkency.com"><img src="images/arkency.png" width="83" height="83"></a>
-                <a href="http://polak20.org"><img src="images/polak20.png" width="142" height="49"></a>
-                <a href="http://netguru.pl"><img src="images/netguru.jpg" width="174" height="40"></a>
-                <a href="http://railslove.com"><img src="images/railslove.png" width="170" height="40"></a>
-                <a href="http://monterail.com"><img src="images/monterail-small-logo.png" width="187" height="37"></a>
-                <a href="http://shellycloud.com"><img src="images/shelly_cloud_logo.png" width="180" height="38"></a>
-                <a href="http://espago.pl"><img src="images/espago.png" width="188" height="37"></a>
-                <a href="http://monibuds.com"><img src="images/monibuds.png" width="92" height="74"></a>
-                <a href="http://wooga.com"><img src="images/wooga2.png" width="157" height="44"></a>
-                <div class="block_ribbon">
-                  <a href="https://gist.github.com/3edea1dbc018220d4a75" class="ribbon" target="_blank">Want to be a supporter?</a>
-                </div>
-              </div>
-            </div><!-- #supporter -->
-            <div id="patronage">
-              <h2>Patronage</h2>
-              <div class="box">
-                <a href="http://osnews.pl"><img src="images/osnews.png" width="179px" height="38px"></a>
-                <a href="http://coderwall.com"><img src="images/coderwall2.png" width="187px" height="37px"></a>
-                <a href="http://pragprog.com"><img src="images/pragmatic2.png" width="172px" height="40px"></a>
-                <div class="block_ribbon">
-                  <a href="mailto:all@wrocloverb.com" class="ribbon" target="_blank">Want to be a media sponsor?</a>
-                </div>
-              </div>
-            </div><!-- #patronage -->
-            <div id="vim">
-              <h2>Vim Workshop</h2>
-              <div class="box">
-                <p>
-                  <a href="http://vimcasts.org/"><img src="images/vimcast2.gif" width="128px" height="78px" style="float: right; margin-left: 10px; margin-bottom: 10px;"></a>
-                  If you need an excuse to spend even more time in Wrocław, here you have a great one. Drew Neil, the author of upcoming "Practical Vim" book and <a href="http://vimcasts.org/">Vimcasts</a> creator can teach you a lot during a 3 hour masterclass. <br/><br/>
-                  <a href="http://vimcasts.eventbrite.com/">Workshop</a> will take place on Friday before the conference.<br />
-                </p>
-                <div class="block_ribbon">
-                  <span class="ribbon alt">20% discount coupon: wroclovers12</span>
-                </div>
-              </div>
-            </div><!-- #vim -->
-            <div id="speakers2">
-              <h2>Speakers</h2>
-              <div class="box">
-                <div class="comment_box">
-                  <div class="avatar">
-                    <img src="images/piotr_szotkowski.jpg" alt="avatar" />
-                  </div>
-                  <div class="comment">
-                    <a href="http://blog.wrocloverb.com/post/17559480945/piotr-szotkowski" class="name">Piotr Szotkowski</a>
-                    <div>
-                       Piotr Szotkowski is an assistant professor at Warsaw University of Technology (where he happily sneaks Ruby, EventMachine and newfangled database systems into the creaking world of twentieth-century academia), a Ruby developer at <a href="http://rebased.pl">Rebased</a> and an alumnus of <a href="http://university.rubymendicant.com">Mendicant University</a>. <br>
-                       He's also a long-time contributor to various open source projects for the civic sector and co-organiser of <a href="http://netwtorek.pl">NetWtorek</a>
-                      - monthly <a href="http://netsquared.org/share/meetup">NetTuesday</a>
-                      meetings of people from the NGO/non-profit and IT sectors, as well as <a href="http://sochack.pl">SocHack</a> - quarterly 48-hour hackatons for worthy causes, in coordination with <a href="http://www.rhok.org">Random Hacks of Kindness</a>, <a href="http://www.opendataday.org">Open Data Day</a> and <a href="http://www.openeducationweek.org">Open Education Week</a>
-                    </div>
-                    <div class="bottom">
-                    </div>
-                  </div>
-                </div>
-                <div class="comment_box">
-                  <div class="avatar">
-                    <img src="images/florian_gilcher.png" alt="avatar" />
-                  </div>
-                  <div class="comment">
-                    <a href="#" class="name">Florian Gilcher</a>
-                    <div>
-                       Florian Gilcher is enjoying the ruby community since 2004. After using Rails most of the time, he is now involved in the <a href="http://padrinorb.com">Padrino</a> project. He contributes to the Ruby community by working on the german ruby website and by providing a german discussion board. During day, he runs a consulting company specialized in backend systems.
-                    </div>
-                    <div class="bottom">
-                    </div>
-                  </div>
-                </div>
-                <div class="comment_box">
-                  <div class="avatar">
-                    <img src="images/michal_taszycki.jpg" alt="avatar" />
-                  </div>
-                  <div class="comment">
-                    <a href="http://blog.wrocloverb.com/post/17221627747/michal-taszycki" class="name">Michał Taszycki</a>
-                    <div>
-                       After leaving the corporate universe and developing a few computer games (like <a href="http://www.mobygames.com/game/ps3/motorstorm">Motorstorm</a>
-                      and <a href="http://www.mobygames.com/game/windows/saints-row-2">Saints Row 2</a>) for the PS3, XBOX and PC, he entered the Ruby World. Today, he is making delicious software at <a href="http://applicake.com">Applicake</a>, managing projects and training fellow programmers during <a href="http://www.flickr.com/photos/71470546@N08/sets/72157628278787087/with/6454903049">Code Retreats</a>. He enjoys pushing people out of their comfort zones and into new rewarding experiences. He can talk for hours about how seemingly unrelated skills (such as running, dancing or juggling) can help you become a better programmer.
-                    </div>
-                    <div class="bottom">
-                    </div>
-                  </div>
-                </div>
-                <div class="comment_box">
-                  <div class="avatar">
-                    <img src="images/tim_lossen.png" alt="avatar" />
-                  </div>
-                  <div class="comment">
-                    <a href="#" class="name">Tim Lossen</a>
-                    <div>
-                      <a href="http://tim.lossen.de">Tim</a> really enjoys talking about himself in the third person. Not. He lives in Berlin with his girlfriend and two lovely little daughters. Tim is deeply in love with Ruby and recently helped to organize <a href="http://euruko2011.org">Euruko 2011</a>. He works as backend engineer at social gaming startup <a href="http://wooga.com">Wooga</a>. At night Tim likes to go down to the basement and hack on secret hardware projects like Superglobe or <a href="http://evercu.be">Evercube</a>.
-                    </div>
-                    <div class="bottom">
-                    </div>
-                  </div>
-                </div>
-                <div class="comment_box">
-                  <div class="avatar">
-                    <img src="images/dirkjan_bussink.jpg" alt="avatar" />
-                  </div>
-                  <div class="comment">
-                    <a href="#" class="name">Dirkjan Bussink</a>
-                    <div>
-                      Dirkjan Bussink spends his working days between cows in the scenic country side of the Netherlands at <a href="http://www.nedap.com">Nedap</a>. There he works on software and sometimes even plays with actual hardware devices. As one of his hobby's he likes tinkering with <a href="http://rubini.us">Rubinius</a> and has been an active contributor for the last three years.
-                    </div>
-                    <div class="bottom">
-                    </div>
-                  </div>
-                </div>
-              </div><!-- .box -->
-            </div><!-- #speakers2 -->
-          </section><!-- .column -->
-          <section class="tmp"></section>
-        </div><!-- .content -->
-      </section><!-- #main -->
-      <section id="location">
-        <div class="content">
-          <div class="location">
-            <h2><span>Location</span></h2>
-            <div class="venues">
-              <a href="#location-uni"><big>University of Wrocław, Institute of Computer Science</big></a> |
-              <a href="#location-jaskinia">Pub Jaskinia (hackathon + before party)</a><br />
-              <a href="#location-cynamon">Cynamon Bar (main party)</a> |
-              <a href="#location-bierhalle">Bierhalle (closing drinkup)</a>
-            </div>
-            <div class="box">
-              <div class="maps">
-                <iframe id="location-uni" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.pl/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,+Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw&amp;aq=3&amp;sll=51.111871,17.05248&amp;sspn=0.010844,0.033045&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Uniwersytet+Wroc%C5%82awski.+Wydzia%C5%82+matematyki+i+informatyki,&amp;hnear=Marii+Sk%C5%82odowskiej-Curie,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie&amp;t=m&amp;ll=51.116832,17.047348&amp;spn=0.021551,0.079737&amp;z=14&amp;iwloc=A&amp;output=embed">
-                </iframe>
-                <iframe id="location-jaskinia" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=ul.+Ko%C5%9Bciuszki+34,+Wroc%C5%82aw&amp;aq=&amp;sll=50.78504,16.870745&amp;sspn=1.05231,2.298889&amp;ie=UTF8&amp;hq=&amp;hnear=Genera%C5%82a+Tadeusza+Ko%C5%9Bciuszki+34,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie,+Poland&amp;t=m&amp;ll=51.10945,17.052326&amp;spn=0.021555,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-                <iframe id="location-cynamon" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Cynamon+Bar,+Plac+++Grunwaldzki,+Wroc%C5%82aw,+Polska&amp;aq=0&amp;oq=cynamon&amp;sll=51.111471,17.032456&amp;sspn=0.016327,0.03592&amp;ie=UTF8&amp;hq=Cynamon+Bar,&amp;hnear=Plac+Grunwaldzki,+Wroc%C5%82aw,+dolno%C5%9Bl%C4%85skie,+Poland&amp;t=m&amp;ll=51.116832,17.047348&amp;spn=0.02155,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-                <iframe id="location-bierhalle" width="929" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Bierhalle,+Rynek-Ratusz,+Wroclaw,+Poland&amp;aq=0&amp;oq=bierhalle&amp;sll=51.114044,17.067132&amp;sspn=0.008163,0.01796&amp;ie=UTF8&amp;hq=Bierhalle,+Rynek-Ratusz,+Wroclaw,+Poland&amp;t=m&amp;cid=956955554105224576&amp;hnear=&amp;ll=51.116832,17.047348&amp;spn=0.021552,0.079651&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-              </div><!-- .maps -->
-            </div>
-            <div class="car">
-            </div>
+            <a href="http://www.uni.wroc.pl/"><img src="images/uwr.png" alt="Uniwersytet Wrocławski" width="136" height="51"></a>
+            <a href="http://ksi.cs.uni.wroc.pl/"><img src="images/ksi.png" alt="Koło Studentów Informatyki" width="83" height="83"></a>
+            <a href="https://github.com"><img src="images/github.png" width="125" height="56"></a>
+            <a href="http://anixe.pl/en"><img src="images/anixe.gif" width="136" height="51"></a>
+            <a href="http://rails.arkency.com"><img src="images/arkency.png" width="83" height="83"></a>
+            <a href="http://polak20.org"><img src="images/polak20.png" width="142" height="49"></a>
+            <a href="http://netguru.pl"><img src="images/netguru.jpg" width="174" height="40"></a>
+            <a href="http://railslove.com"><img src="images/railslove.png" width="170" height="40"></a>
+            <a href="http://monterail.com"><img src="images/monterail-small-logo.png" width="187" height="37"></a>
+            <a href="http://shellycloud.com"><img src="images/shelly_cloud_logo.png" width="180" height="38"></a>
+            <a href="http://espago.pl"><img src="images/espago.png" width="188" height="37"></a>
+            <a href="http://monibuds.com"><img src="images/monibuds.png" width="92" height="74"></a>
+            <a href="http://wooga.com"><img src="images/wooga2.png" width="157" height="44"></a>
           </div>
         </div>
-      </section><!-- #location -->
+      </section>
       <footer id="footer">
         <div class="content">
           <section class="made-by">
             <p>
-              From <a href="http://monterail.com" class="logo-monterail" title="Monterail is an offshore webdevelopment agency specializing in Ruby on Rails, based in Poland">Monterail.com</a> with love.
+              Website design: from <a href="http://monterail.com" class="logo-monterail" title="Monterail is an offshore webdevelopment agency specializing in Ruby on Rails, based in Poland">Monterail.com</a> with love.
             </p>
           </section>
         </div>
