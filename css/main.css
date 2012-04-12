@@ -7,6 +7,7 @@ body{
 body.not{
   color: white;
   font-size: 76px;
+  background-color: #DEEEEA;
 }
 
 a{
@@ -28,7 +29,7 @@ strong{
 }
 
 #header{
-  background: url('../images/tile_bg.png') bottom center repeat-x;
+  background: url('../images/tile_bg2.png') bottom center repeat-x;
 }
 
 #location{
@@ -37,7 +38,8 @@ strong{
 }
 
 #main {
-  background: url('../images/shadow.png') top center repeat-x;
+  background: url('../images/shadow2.png') top center repeat-x;
+  background-color: #DEEEEA;
 }
 
 #header > .content,
@@ -218,7 +220,7 @@ nav ul li#contact a{
 }
 
 #main > .content{
-  background: url('../images/ladder.png') 54px 0 no-repeat;
+  background: url('../images/ladder.png') 54px 0 no-repeat top;
 }
 
 #main .column{
@@ -231,7 +233,7 @@ nav ul li#contact a{
 
 #main{
   position: relative;
-  padding: 4px 0 50px;
+  padding: 0px;
 }
 
 .box{
@@ -240,8 +242,8 @@ nav ul li#contact a{
 }
 
 #main h2{
-  background: url('../images/sprites.png') no-repeat;
-  text-indent: -9999px;
+  /*background: url('../images/sprites.png') no-repeat;*/
+  /*text-indent: -9999px; */
   height: 24px;
   margin: 0 0 0 20px;
 }
@@ -452,7 +454,7 @@ nav ul li#contact a{
 
 #main #supporters h2, #main #patronage h2, #main #vim h2, #main #agenda h2, #main #speakers2 h2 {
   margin-left: 70px;
-  background-position: 0 -96px;
+  /*background-position: 0 -96px;*/
   width: 163px;
   margin-top: 15px;
   display: inline-block;
@@ -490,6 +492,8 @@ nav ul li#contact a{
 
 #supporters .box{
   padding: 20px;
+  background-color: #ddd;
+  background: url('../images/shadow3.png') repeat-x top;
 }
 
 #supporters .box img, #patronage .box img {
@@ -591,7 +595,7 @@ nav ul li#contact a{
 }
 
 #footer{
-  height: 30px;
+  height: 0px;
 }
 
 #footer .content{
