@@ -1,7 +1,7 @@
 @import bourbon/bourbon
 @import font-awesome
 
-$background-light:  rgba(222,238,234,0.4)
+$background-light:  rgba(222,238,234,0.6)
 $background-dark:   rgba(158,208,195,0.8)
 $border-inside:     darken($background-dark, 10%)
 $background:        rgba(222,238,234,0.8)
@@ -61,7 +61,7 @@ input
   left:             50%
   top:              50%
   margin-left:      -300px
-  margin-top:       -125px
+  margin-top:       -150px
   padding:          1em
 
 #box
@@ -75,25 +75,6 @@ input
   margin-right:     -1em
   padding:          1em
   margin-bottom:    1.4em
-
-//#icons
-//  position: absolute
-//  float:right
-//  right: 2em
-//  top: 0
-//
-//  p
-//    +border-radius(40px)
-//    margin-left: 1em
-//    display: inline-block
-//    height: 80px
-//    width:  80px
-//    border: 1px solid $border-inside
-//    background-color: $background-dark
-//
-//    &:hover
-//      background-color: darken($background-dark, 10%)
-//      border-color: darken($border-inside, 10%)
 
 p
   font-weight:  bold
@@ -123,6 +104,8 @@ input
 
 button
   +button($border)
+  text-transform: uppercase
+  font-family:    'Lato', $verdana
 
 h1, h2
   font-size:     2.5em
