@@ -1,0 +1,97 @@
+@import bourbon/bourbon
+
+$background-dark: rgba(158,208,195,0.8)
+$border-inside:   darken($background-dark, 10%)
+$background:      rgba(222,238,234,0.8)
+$foreground:      #252525
+$border:          #7dada0
+$shadow:          #ebfcf9
+$footer:          #272727
+
+body
+  margin:           0
+  padding:          0
+  font-family:      $verdana
+  text-shadow:      0px 1px 0px $shadow
+  background:       url("/images/background.jpg") no-repeat center center fixed
+  background-size:  cover
+
+a
+  text-decoration:  none
+
+  &:link, &:visited
+    color: $foreground
+
+#main
+  +border-radius(10px)
+  +box-shadow(0 0 3px 2px hsla(0, 0%, 0%, 0.30))
+  background-color: $background
+  color:            $foreground
+  width:            600px
+  height:           250px
+  position:         absolute
+  left:             50%
+  top:              50%
+  margin-left:      -300px
+  margin-top:       -125px
+  padding:          1em
+
+.content
+  position: relative
+
+#coolbox
+  +border-radius(10px 0)
+  border-right:     1px solid $border-inside
+  border-bottom:    1px solid $border-inside
+  display:          inline-block
+  background-color: $background-dark
+  margin-top:       -1em
+  margin-left:      -1em
+  padding:          1em
+  margin-bottom:    1.4em
+
+p
+  font-weight:  bold
+
+#content
+  text-align: center
+
+form
+  margin: auto
+  display: inline-block
+
+input
+  +box-shadow(0 0 1px 1px $border)
+  +border-radius(3px)
+  border:           none
+  background-color: white
+  font-size:        11px
+  padding:          7px
+
+button
+  +button($border)
+
+h1, h2
+  font-family:   'Play', $verdana
+  font-size:     2.5em
+  margin-bottom: 0.2em
+  margin-top:    0
+
+h2
+  font-size:     1.2em
+
+footer
+  width:        100%
+  position:     absolute
+  bottom:       0
+  left:         0
+  color:        $footer
+  font-size:    0.8em
+  text-align:   center
+
+  p
+    display: inline-block
+
+  a
+    text-decoration: underline
+
