@@ -19,8 +19,6 @@ body
   font-family:      'Open Sans', $verdana
 
 a
-  text-decoration:  none
-
   &:link, &:visited
     color: $foreground
 
@@ -30,8 +28,16 @@ a
   text-transform:   uppercase
   font-size:        85%
   padding:          .5em
-  color:            #333
+  color:            #555
   text-shadow:      none
+  font-weight:      bold
+
+  a
+    &:link, &:visited
+      color: #000
+
+input
+  width: 15em
 
 #main
   +border-radius(10px)
@@ -59,27 +65,30 @@ a
   padding:          1em
   margin-bottom:    1.4em
 
-#icons
-  position: absolute
-  float:right
-  right: 2em
-  top: 0
-
-  p
-    +border-radius(40px)
-    margin-left: 1em
-    display: inline-block
-    height: 80px
-    width:  80px
-    border: 1px solid $border-inside
-    background-color: $background-dark
-
-    &:hover
-      background-color: darken($background-dark, 10%)
-      border-color: darken($border-inside, 10%)
+//#icons
+//  position: absolute
+//  float:right
+//  right: 2em
+//  top: 0
+//
+//  p
+//    +border-radius(40px)
+//    margin-left: 1em
+//    display: inline-block
+//    height: 80px
+//    width:  80px
+//    border: 1px solid $border-inside
+//    background-color: $background-dark
+//
+//    &:hover
+//      background-color: darken($background-dark, 10%)
+//      border-color: darken($border-inside, 10%)
 
 p
   font-weight:  bold
+
+  a
+    font-weight: bold
 
 p.location
   text-transform: uppercase
@@ -130,20 +139,21 @@ footer
     display: inline-block
 
   a
-    text-decoration: underline
+    font-weight: bold
+    color:       $foreground
 
 #legal
   font-family:    'Lato', $verdana
   text-shadow:    none
   position:       absolute
-  bottom:         0
+  bottom:         10px
   float:          left
-  left:           0
+  left:           10px
   font-size:      75%
-  margin-left:    10px
   text-transform: uppercase
-  color:          #999
+  color:          #777
+  font-weight:    bold
 
   a
-    font-weight: normal
-    color:       #888
+    color: #777
+    font-weight: bold
