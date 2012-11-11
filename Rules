@@ -17,6 +17,9 @@ compile '/stylesheets/*' do
   filter :sass, style: :compressed
 end
 
+compile '/static/*' do
+end
+
 compile '*' do
   unless item.binary?
     filter :haml
@@ -26,6 +29,11 @@ end
 
 route '/stylesheets/*' do
   item.identifier.chop + '.css'
+end
+
+route '/static/*' do
+  # /static/foo.html -> /foo.html
+  item.identifier[7..-2]
 end
 
 route '*' do
