@@ -36,10 +36,7 @@ a
   margin-top:       -125px
   padding:          1em
 
-.content
-  position: relative
-
-#coolbox
+#box
   +border-radius(10px 0)
   border-right:     1px solid $border-inside
   border-bottom:    1px solid $border-inside
@@ -49,6 +46,25 @@ a
   margin-left:      -1em
   padding:          1em
   margin-bottom:    1.4em
+
+#icons
+  position: absolute
+  float:right
+  right: 2em
+  top: 0
+
+  p
+    +border-radius(40px)
+    margin-left: 1em
+    display: inline-block
+    height: 80px
+    width:  80px
+    border: 1px solid $border-inside
+    background-color: $background-dark
+
+    &:hover
+      background-color: darken($background-dark, 10%)
+      border-color: darken($border-inside, 10%)
 
 p
   font-weight:  bold
@@ -86,7 +102,7 @@ footer
   bottom:       0
   left:         0
   color:        $footer
-  font-size:    0.8em
+  font-size:    0.6em
   text-align:   center
 
   p
@@ -95,3 +111,15 @@ footer
   a
     text-decoration: underline
 
+#legal
+  text-shadow:  none
+  position:     absolute
+  bottom:       0
+  float:        right
+  right:        0
+  font-size:    8px
+  margin-right: 10px
+
+  a
+    font-weight: normal
+    color:       #999
