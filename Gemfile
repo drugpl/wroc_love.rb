@@ -9,4 +9,6 @@ gem "rdiscount" # for Markdown in HAML
 
 gem "fssm"
 gem "adsf"
+gem "rack"
+gem "rack-rewrite", require: "rack/rewrite"
 
