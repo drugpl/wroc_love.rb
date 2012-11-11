@@ -6,9 +6,20 @@
     %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/screen.css", :media => "screen"}
     %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Play:400,700|Lato:400,700|Open+Sans:400,700"}
   %body
-    #previous
-      Previous editions:
-      %a(href="http://2012.wrocloverb.com") 2012
+    #topbar
+      .previous
+        Previous editions:
+        %a(href="http://2012.wrocloverb.com") 2012
+
+      .links
+        Follow us:
+        %a(href="https://twitter.com/wrocloverb")
+          twitter
+        %a(href="https://facebook.com/wroclove.rb")
+          facebook
+        %a(href="http://blog.wrocloverb.com")
+          tumblr
+
     #main
       = yield
     #legal

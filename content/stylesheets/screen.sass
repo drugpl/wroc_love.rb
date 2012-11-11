@@ -1,4 +1,5 @@
 @import bourbon/bourbon
+@import font-awesome
 
 $background-light:  rgba(222,238,234,0.4)
 $background-dark:   rgba(158,208,195,0.8)
@@ -8,11 +9,13 @@ $foreground:        #252525
 $border:            #7dada0
 $shadow:            #ebfcf9
 $footer:            #272727
+$link:              darken(rgb(158,208,195), 40%)
+
+@include font-face('FontAwesome', '../fonts/fontawesome-webfont')
 
 body
   margin:           0
   padding:          0
-  font-family:      'Open Sans', $verdana
   background:       url("/images/background.jpg") no-repeat center center fixed
   background-size:  cover
   text-shadow:      0px 1px 0px $shadow
@@ -22,7 +25,8 @@ a
   &:link, &:visited
     color: $foreground
 
-#previous
+#topbar
+  display:          table
   font-family:      'Lato', $verdana
   background-color: $background-light
   text-transform:   uppercase
@@ -31,10 +35,17 @@ a
   color:            #555
   text-shadow:      none
   font-weight:      bold
+  width:            100%
 
-  a
-    &:link, &:visited
-      color: #000
+  .links, .previous
+    display: table-cell
+
+    a
+      color:        $link
+      margin-right: .3em
+
+  .links
+    text-align: right
 
 input
   width: 15em
@@ -95,6 +106,7 @@ p.location
   font-weight:    normal
 
 #content
+  margin-top: 2em
   text-align: center
 
 form
