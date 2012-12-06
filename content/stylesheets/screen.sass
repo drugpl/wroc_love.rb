@@ -65,13 +65,16 @@ input
   background-color: $background
   color:            $foreground
   width:            600px
-  height:           300px
+  height:           400px
   position:         absolute
   left:             50%
   top:              50%
   margin-left:      -300px
   margin-top:       -150px
   padding:          1em
+
+  a.cfp
+    color: darken($background-dark, 50%)
 
   @include media($mobile)
     position:     static
