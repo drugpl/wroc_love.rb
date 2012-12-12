@@ -17,6 +17,13 @@ compile '/stylesheets/*' do
   filter :sass, style: :compressed
 end
 
+compile '/javascripts/*' do
+  # sprockets filter is a hack
+  # any filter before it will be ignored
+  filter :sprockets
+  filter :uglify_js
+end
+
 compile '/static/*' do
 end
 
@@ -29,6 +36,10 @@ end
 
 route '/stylesheets/*' do
   item.identifier.chop + '.css'
+end
+
+route '/javascripts/*' do
+  item.identifier.chop + '.js'
 end
 
 route '/static/*' do
