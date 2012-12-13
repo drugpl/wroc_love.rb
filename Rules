@@ -18,9 +18,7 @@ compile '/stylesheets/*' do
 end
 
 compile '/javascripts/*' do
-  # sprockets filter is a hack
-  # any filter before it will be ignored
-  filter :sprockets
+  filter :sprockets, :assets_path => "content/javascripts"
   filter :uglify_js
 end
 
