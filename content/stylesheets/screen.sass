@@ -1,175 +1,159 @@
 @import bourbon/bourbon
 @import neat/neat
-@import font-awesome
 
-$background-light:  rgba(222,238,234,0.6)
-$background-dark:   rgba(158,208,195,0.8)
-$border-inside:     darken($background-dark, 10%)
-$background:        rgba(222,238,234,0.8)
-$foreground:        #252525
-$border:            #7dada0
-$shadow:            #ebfcf9
-$footer:            #272727
-$link:              darken(rgb(158,208,195), 40%)
-$mobile:            new-breakpoint(max-width 600px)
+// Colors
+$accent: #d41b2d
+$text-color: #100203
+$background-color: #fff
 
-@include font-face('FontAwesome', '../fonts/fontawesome-webfont')
+// Sizes
+$font-size: 14px
+$line-height: 1.3
+
+// A convenient shorthand for setting calculating things using the modular scale
+// based on font-size
+//
+// Inspired by Foundation 3.0
+@function ms($n)
+    @return floor(golden-ratio($font-size, $n))
+
+// Lightweight reset
+body, h1, h2, h3, p, ul
+    margin: 0
+    padding: 0
+
+///////////////////////////////////////////////////////////////////////////////
 
 body
-  margin:           0
-  padding:          0
-  background:       url("/images/background.jpg") no-repeat center center fixed
-  background-size:  cover
-  text-shadow:      0px 1px 0px $shadow
-  font-family:      'Open Sans', $verdana
-
-  @include media($mobile)
-    font-size: 90%
-
-a
-  &:link, &:visited
-    color: $foreground
-
-#topbar
-  display:          table
-  font-family:      'Lato', $verdana
-  background-color: $background-light
-  text-transform:   uppercase
-  font-size:        85%
-  padding:          .5em 0
-  color:            #555
-  text-shadow:      none
-  font-weight:      bold
-  width:            100%
-
-  .links, .previous
-    padding: 0 .5em
-    display: table-cell
-
-    a
-      color:        $link
-      margin-right: .3em
-
-  .links
-    text-align: right
-
-input
-  width: 15em
-
-  @include media($mobile)
-    width: 10em
-
-#main
-  +border-radius(10px)
-  +box-shadow(0 0 3px 2px hsla(0, 0%, 0%, 0.30))
-  background-color: $background
-  color:            $foreground
-  width:            600px
-  height:           400px
-  position:         absolute
-  left:             50%
-  top:              50%
-  margin-left:      -300px
-  margin-top:       -150px
-  padding:          1em
-
-  a.cfp
-    color: darken($background-dark, 50%)
-
-  @include media($mobile)
-    position:     static
-    width:        inherit
-    height:       inherit
-    margin:       1em
-
-#box
-  background-color: $background-dark
-  text-align:       center
-  +border-radius(10px 10px 0 0)
-  border-right:     1px solid $border-inside
-  border-bottom:    1px solid $border-inside
-  margin-top:       -1em
-  margin-left:      -1em
-  margin-right:     -1em
-  padding:          1em
-  margin-bottom:    1.4em
-
-p
-  font-weight:  bold
-
-  a
-    font-weight: bold
-
-p.location
-  text-transform: uppercase
-  font-weight:    normal
-
-#content
-  margin-top: 2em
-  text-align: center
-
-form
-  margin: auto
-  display: inline-block
-
-input
-  +box-shadow(0 0 1px 1px $border)
-  +border-radius(3px)
-  border:           none
-  background-color: white
-  font-size:        11px
-  padding:          7px
-
-button
-  +button($border)
-  text-transform: uppercase
-  font-family:    'Lato', $verdana
-
-h1, h2
-  font-size:     2.5em
-  margin-bottom: 0.2em
-  margin-top:    0
+    background: $background-color
+    color: $text-color
+    font-family: "Open Sans", $verdana
+    font-size: ms(0)
+    line-height: $line-height
 
 h1
-  font-family:  'Play', $verdana
-  font-size:    300%
-
+    font-size: ms(2)
 h2
-  text-transform: uppercase
-  font-family:   'Lato', $verdana
-  font-size:     1.2em
+    font-size: ms(1)
+a
+    color: $accent
 
-footer
-  width:        100%
-  position:     absolute
-  bottom:       0
-  left:         0
-  color:        $footer
-  font-size:    0.8em
-  text-align:   center
+#topbar
+    background: $text-color
+    color: $background-color
+    overflow: hidden
 
-  @include media($mobile)
-    display: none
+    font-size: 0.8em
+    padding: 0.25em 0.5em
 
-  p
+    a
+        text-decoration: none
+        color: mix($accent, $background-color)
+        &:hover
+            text-decoration: underline
+
+    .previous
+        float: left
+    .links
+        float: right
+
+.site_header, .main_nav
+    background: $accent
+    color: $background-color
+    text-align: center
+
+.site_header
+    padding: 3em 0 2em
+    -webkit-font-smoothing: antialiased
+
+    h1
+        font-size: ms(3)
+
+    .date, .location
+        display: block
+
+.main_nav
+    margin-bottom: 1em
+
+    li
+        display: inline
+
+    a
+        display: inline-block
+        padding: 0.5em 1em
+        color: $background-color
+        text-transform: uppercase
+        text-decoration: none
+
+        &:hover
+            background-color: mix($accent, $background-color, 80%)
+
+.content
+    +outer-container
+
+    h1
+        text-transform: uppercase
+        text-align: center
+        margin: 1em 0
+
+    a
+        text-decoration: none
+
+        &:hover
+            text-decoration: underline
+
+.content p, .site_footer p
+    margin-bottom: 1em
+
+.tickets
+    display: block
+    font-size: ms(2)
+    text-align: center
+    background: mix($accent, $background-color, 50%)
+    color: $text-color
+    padding: 1em 0
+    margin: 1em 0
+
+    &:hover
+        text-decoration: none
+        background: mix($accent, $background-color, 30%)
+
+.about
+    margin: 1em 0
+    font-size: ms(1)
+
+.speaker
     display: inline-block
+    width: 24%
+    margin: 1%
+    padding: 4px
+    background: $accent
+    color: $background-color
+    margin-right: -4px
+    -webkit-font-smoothing: antialiased
 
-  a
-    font-weight: bold
-    color:       $foreground
+    +box-sizing(border-box)
 
-#legal
-  font-family:    'Lato', $verdana
-  text-shadow:    none
-  position:       absolute
-  bottom:         10px
-  float:          left
-  left:           10px
-  font-size:      75%
-  text-transform: uppercase
-  color:          #777
-  font-weight:    bold
+    h2, h3
+        padding: 0 6px
+    h2
+        font-size: ms(1)
+    h3
+        font-size: ms(0)
+        padding-bottom: 2px
 
-  a
-    color: #777
-    font-weight: bold
+    .photo
+        width: 100%
+
+.call_for_papers
+    margin: 1em 0
+    text-align: center
+    font-size: ms(1)
+
+    h2
+        font-size: ms(2)
+        margin-top: 1em
+
+.site_footer
+    text-align: center
+    margin: 4em 0 12em

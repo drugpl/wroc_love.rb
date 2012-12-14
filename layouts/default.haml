@@ -2,23 +2,12 @@
 %html(lang="en")
   %head
     %meta(charset="utf-8")
-    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
+    / %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
     %title wroc_love.rb
     %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/screen.css", :media => "screen"}
-    %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Play:400,700|Lato:400,700|Open+Sans:400,700"}
-
-    :javascript
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-24474861-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
+    %link{:rel => "stylesheet", :type => "text/css", :href => "//fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700"}
   %body
-    #topbar
+    %section#topbar
       .previous
         Previous editions:
         %a(href="http://2012.wrocloverb.com") 2012
@@ -26,17 +15,44 @@
       .links
         Follow us:
         %a(href="https://twitter.com/wrocloverb")
-          twitter
+          Twitter
         %a(href="https://facebook.com/wroclove.rb")
-          facebook
+          Facebook
         %a(href="http://lanyrd.com/2013/wrocloverb")
-          lanyrd
+          Lanyrd
         %a(href="http://blog.wrocloverb.com")
-          tumblr
+          Tumblr
 
-    #main
-      = yield
-    #legal
-      photo by supervillain / CC-BY via
-      %a(href="http://www.flickr.com/photos/jarkko/6822921654/sizes/l/in/photostream/") flickr
+    %section#main
+      %header.site_header
+        %img.logo(src="/images/logo.png" alt="wroc_love.rb logo" width="192" height="192")
+        %h1 wroc_love.rb
+        %h2
+          %span.date March 1-3 2013
+          %span.location Wrocław, Poland
 
+      %nav.main_nav
+        %ul
+          %li
+            %a(href="#speakers") Speakers
+          %li
+            %a(href="#agenda") Agenda
+          %li
+            %a(href="#workshops") Workshops
+          %li
+            %a(href="#venue") Venue
+          %li
+            %a(href="#sponsors") Sponsors
+          %li
+            %a(href="http://blog.wrocloverb.com") Blog
+
+      .content
+        = yield
+
+      %footer.site_footer
+        %p
+          %a(href="http://drug.org.pl")
+            %img(src="/images/drug-logo.png" alt="DRUG logo")
+        %p
+          This community event is proudly organized by
+          %a(href="http://drug.org.pl/") DRUG

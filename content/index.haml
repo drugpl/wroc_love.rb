@@ -1,29 +1,23 @@
-%header
-  #box
-    %h1 wroc_love.rb
-    %h2 March 1–3 2013&nbsp;&nbsp;&nbsp;&nbsp;Wrocław, Poland
-
-#content
+%article.about
   %p
-    Your next year Ruby conference.
-    %br
-    %br
+    %strong wroc_love.rb
+    is an awesome conference that will let you learn things, hang out with awesome people and hate in the open space.
+    Being community-organised allows for greater freedom in everything, so it'll be cool. This copy won't probably stay here long.
 
-    Become our contributed speaker,
-    %br
-    %a{:href => "http://cfp.wrocloverb.com", :class => 'cfp'} CALL FOR PAPERS
-    has just begun!
-    %br
-    %br
-    Keep up to date with speakers,
-    %br
-    agenda and tickets announcements:
+%a.tickets(href="#tickets") Get tickets!
 
-  %form{:method => "POST", :action => "http://stevepopolsku.us2.list-manage.com/subscribe/post?u=11963149428be1f1d9d2a5dae&amp;id=f7625e18e2"}
-    %input{:name => "EMAIL", :placeholder => "email address"}
-    %button(type="submit") Subscribe
+%article#speakers
+  %header.subheader
+    %h1 Speakers
 
-%footer
-  %p This community event is proudly organized by
-  %a(href="http://drug.org.pl") DRUG
+  - 7.times do
+    .speaker
+      %img.photo(src="/images/norris.jpg")
+      %h2 Chuck Norris
+      %h3 Roundhouse LLC
 
+  .call_for_papers
+    %h2 Do you want to be a speaker?
+    %p
+      Show us what you've got and
+      %a(href="http://cfp.wrocloverb.com") submit your proposal
