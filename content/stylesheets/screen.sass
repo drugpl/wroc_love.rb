@@ -120,10 +120,15 @@ input
   font-size:        11px
   padding:          7px
 
-button
+button, .button
   +button($border)
+  color: white !important
   text-transform: uppercase
   font-family:    'Lato', $verdana
+
+.button-large
+  padding: 1em
+  font-size: 100%
 
 h1, h2
   font-size:     2.5em
@@ -144,8 +149,8 @@ footer
   position:     absolute
   bottom:       0
   left:         0
-  color:        $footer
-  font-size:    0.8em
+  color:        lighten($footer, 30%)
+  font-size:    0.7em
   text-align:   center
 
   @include media($mobile)
@@ -156,7 +161,8 @@ footer
 
   a
     font-weight: bold
-    color:       $foreground
+    //color:       $foreground
+    color:        lighten($footer, 30%) !important
 
 #legal
   font-family:    'Lato', $verdana
