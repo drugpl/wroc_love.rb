@@ -1,0 +1,54 @@
+.agenda
+  position: relative
+  // min-width: 960px
+
+  .times, .days, .days ul
+    margin: 0
+    padding: 0
+
+  .times
+    padding-top: 3em
+
+    li
+      display: block
+      font-size: 1.2em
+      line-height: 2em
+      color: #aaa
+      border-top: 1px solid #ddd
+
+      &:last-child
+        border-bottom: 1px solid #ddd
+
+  .days
+    position: absolute
+    top: 0
+    left: 10%
+    width: 90%
+
+    > li
+      display: inline-block
+      list-style: none
+      // width: 33.33333333%; // 100% / 3
+      text-align: center
+      padding: 0 5px
+
+  .day
+    font-size: 1.5em
+    line-height: 2em
+
+  .days ul
+    position: relative
+
+    li
+      position: absolute
+      list-style: none
+      // font-size: 0.875em
+      // line-height: 1.3
+      background: #ddd
+      width: 100%
+      text-align: left
+      // padding: 0.25em 0.5em
+      border-bottom: 1px dotted #fff
+      // -webkit-box-sizing: border-box
+      // -moz-box-sizing: border-box
+      // box-sizing: border-box

@@ -10,14 +10,46 @@
   %header.subheader
     %h1 Speakers
 
-  - 7.times do
-    .speaker
-      %img.photo(src="/images/norris.jpg")
-      %h2 Chuck Norris
-      %h3 Roundhouse LLC
-
   .call_for_papers
     %h2 Do you want to be a speaker?
     %p
       Show us what you've got and
       %a(href="http://cfp.wrocloverb.com") submit your proposal
+
+  - 7.times do |i|
+    .speaker{:class => (i==2) ? 'active' : 'inactive'}
+      %img.photo(src="/images/norris.jpg")
+      %h2 Steve Klabnik
+      .description
+        %p.bio
+          Steve is a teacher, aspiring digital humanities scholar and open source developer. He maintains the
+          %a(href="#") Hackety Hack
+          project, which allows anyone to learn software development via Ruby. He was a Ruby Hero in 2011 and is involved with many Ruby-based open source projects. He's currently writing a book about APIs titled
+          %a(href="#") Get some REST
+          \.
+
+        %h3 Talk - Designing Hypermedia APIs
+        .talk
+          %p
+            Rails did a lot to bring REST to developers, but its conception leaves the REST devotee feeling a bit empty. "Where's the hypermedia?" she says. "REST isn't RPC," he may cry. "WTF??!?!" you may think. "I have it right there! resources :posts ! What more is there? RPC? Huh?"
+          %p
+            In this talk, Steve will explain how to design your APIs so that they truly embrace the web and HTTP. Just as there's an impedance mismatch between our databases, our ORMs, and our models, there's an equal mismatch between our applications, our APIs, and our clients. Pros and cons of this approach will be discussed, as well as why we aren't building things this way yet.
+
+%article#agenda
+  %header.subheader
+    %h1 Agenda
+  #agenda_area
+
+/ %article#workshops
+/   %header.subheader
+/     %h1 Workshops
+
+/   %p To be announced.
+
+%article#venue
+  %header.subheader
+    %h1 Venue
+
+  %h2 Main venue
+  .venue
+    %img.map(src="http://maps.googleapis.com/maps/api/staticmap?center=51.110793,17.052903&zoom=16&size=600x360&sensor=false&markers=51.110793,17.052903")
