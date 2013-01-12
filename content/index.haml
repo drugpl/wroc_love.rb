@@ -1,28 +1,56 @@
-%header
-  #box
-    %h1 wroc_love.rb
-    %h2 March 1–3 2013&nbsp;&nbsp;&nbsp;&nbsp;Wrocław, Poland
+%article.speakers
+  %h1 Speakers
 
-#content
-  %p
-    Your this year Ruby conference.
-    %br
-    %br
+  .speaker{:style => 'background-image: url(http://lorempixel.com/g/635/476/)'}
+    .description
+      .info
+        %h2 Chuck Norris
+        %h3 Missing in Action
+      .content
+        %p
+          When Piotr’s not writing great code, he’s writing awesome code. As an open source enthusiast, he has been working as a web developer for over 6 years, including more than 3 years of professional experience with Ruby-based technologies.
+        %p
+          I would like to describe all of the pieces that we're working on: new relational algebra engine, new model definition and introspection layers, new validation library and other things that will become part of DM2 (better migrations, UoW library, optimizer layer). The talk would be in the context of a better way of handling business logic in Rails apps.
 
-    %a{:href => "https://tito.io/wrocloverb/2013", :class => 'button button-first button-large'} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buy tickets&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    %a{:href => "http://cfp.wrocloverb.com", :class => 'button button-large'} Become a speaker
+  .speaker{:style => 'background-image: url(http://lorempixel.com/g/635/476/)'}
+    .description
+      .info
+        %h2 Mr. T
+        %h3 The A-Team
+      .content
+        %p
+          When Piotr’s not writing great code, he’s writing awesome code. As an open source enthusiast, he has been working as a web developer for over 6 years, including more than 3 years of professional experience with Ruby-based technologies.
+        %p
+          I would like to describe all of the pieces that we're working on: new relational algebra engine, new model definition and introspection layers, new validation library and other things that will become part of DM2 (better migrations, UoW library, optimizer layer). The talk would be in the context of a better way of handling business logic in Rails apps.
+  .speaker{:style => 'background-image: url(http://lorempixel.com/g/635/476/)'}
+    .description
+      .info
+        %h2 Sylvester Stallone
+        %h3 John Rambo
+      .content
+        %p
+          When Piotr’s not writing great code, he’s writing awesome code. As an open source enthusiast, he has been working as a web developer for over 6 years, including more than 3 years of professional experience with Ruby-based technologies.
+        %p
+          I would like to describe all of the pieces that we're working on: new relational algebra engine, new model definition and introspection layers, new validation library and other things that will become part of DM2 (better migrations, UoW library, optimizer layer). The talk would be in the context of a better way of handling business logic in Rails apps.
 
-    %br
-    %br
-    Keep up to date with speakers,
-    %br
-    agenda and tickets announcements:
+.additional
+  %article.about
+    %h1 About
 
-  %form{:method => "POST", :action => "http://stevepopolsku.us2.list-manage.com/subscribe/post?u=11963149428be1f1d9d2a5dae&amp;id=f7625e18e2"}
-    %input{:name => "EMAIL", :placeholder => "email address"}
-    %button(type="submit") Subscribe
+    %p
+      DrummerHead is the lead Designer working at
+      %a{:href=>'#'} Cubox
+      and has years of experience being a certified Expertologist. You can call what he does UX, UI, IA, Usability, Accesibility, Front end; or any other hyped acronym you want. In truth, he is just the bridge between information and humans getting what they want in the fastest and best way possible.
 
-%footer
-  %p This community event is proudly organized by
-  %a(href="http://drug.org.pl") DRUG
+    %p
+      Responsive Web Design is all about having the same content visible in all devices, from tiny mobiles to huge monitors, preserving proper readability and adapting to the medium. It also entails a new way of creating content, in which interaction between designers and programmers is more important. In the Ruby world programmers generally feel proud of being "agile", however when you zoom out, you see that the interaction between designers and programmers is more waterfally than you'd want.
 
+    %p
+      In the talk I will present the concept of responsiveness and teach with examples how to make a layout responsive with the one-two punch of fluid layouts and media queries. I will also show how to make the interaction between designers and programmers be truly collaborative and not just a pass-me-down PSD from the designer to implementors and programmers.
+
+  %article.supporters
+    %h1 Supporters
+
+    - 15.times do
+      %a{:href => 'http://drug.org.pl'}
+        %img{:src => '/images/drug-logo.png', :alt => 'DRUG'}

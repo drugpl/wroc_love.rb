@@ -1,5 +1,350 @@
 @import 'bourbon/bourbon';
 
+$bg-color:       #FFF;
+$text-color:     #000;
+$accent:         #E94343;
+$dark-button:    #3F4C4A;
+$light-button:   #FFF;
+$heading-on-red: #323D3A;
+$link-hover:     #F8A25F;
+
+$shadow-level:   20%;
+
+$page-width:     1120px;
+$main-column:     635px;
+$column-spacing:   60px;
+$second-column: $page-width - $main-column - $column-spacing;
+
+////////////////////////////////////////////////////////////////////////////////
+// UNIVERSAL STYLES
+
+body, h1, h2, h3, nav ul, ul.actions {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: #fff;
+    background: $bg-color;
+    color: $text-color;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: $accent;
+}
+a:hover {
+    color: $link-hover;
+}
+
+.container {
+    width: $page-width;
+    margin: 0 auto;
+}
+
+ul.horizontal li {
+    display: inline;
+    list-style: none;
+}
+
+.actions a {
+    margin-right: 20px;
+}
+
+.button {
+    background: $dark-button;
+    color: $bg-color;
+
+    display: inline-block;
+    position: relative;
+    padding: 1em 3em;
+    border-bottom: 4px solid mix(#000, $dark-button, $shadow-level);
+
+    font-size: 14px;
+    line-height: 1;
+
+    border-radius: 3px;
+    @include transition(all 0.05s);
+
+    &:hover {
+        color: $bg-color;
+        border-bottom-width: 6px;
+        top: -2px;
+        margin-bottom: -2px;
+    }
+    &:active {
+        border-bottom-width: 0;
+        top: 4px;
+    }
+
+    &.light {
+        background: $light-button;
+        color: $accent;
+        border-bottom-color: mix(#000, $light-button, $shadow-level);
+    }
+}
+
+section h1 {
+    color: $accent;
+    font-size: 41px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// STRUCTURE-SPECIFIC STYLES
+
+header {
+    background: $accent;
+
+    .container {
+        padding: 20px 0 80px;
+        position: relative;
+        background: url(/images/topgraphic.jpg) no-repeat right bottom;
+    }
+
+    .logo {
+        padding: 5px 0;
+    }
+
+    .info {
+        color: $heading-on-red;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 1.2;
+        margin: 0.25em 0 1em;
+
+        strong {
+            font-weight: inherit;
+            color: $bg-color;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+
+    .actions {
+        height: 50px; // prevents movement of the background
+    }
+}
+
+.topnav {
+    position: absolute;
+    right: 0;
+    top: 15px;
+
+    a {
+        display: inline-block;
+        margin-right: 40px;
+        padding-right: 16px + 10px; // sprite width + real padding
+
+        background: url(/images/icon-sprite.png) no-repeat 100% 0;
+        color: $bg-color;
+        font-size: 14px;
+        font-weight: 500; // medium?
+        line-height: 1;
+        text-transform: lowercase;
+
+        text-shadow: 0 1px 0 rgba(#000, 0.3);
+        -webkit-font-smoothing: antialiased;
+
+        &:hover {
+            text-shadow: 0 0 5px $bg-color;
+        }
+
+        &.twitter {
+            background-position: 100% -16px;
+        }
+    }
+}
+
+.main_section {
+    @include clearfix;
+    margin: 40px auto;
+}
+
+.additional {
+    float: left;
+    width: $second-column;
+    margin-left: $column-spacing;
+}
+
+.speakers {
+    float: left;
+    width: $main-column;
+
+    h1 {
+        font-size: 82px;
+        margin-bottom: 20px;
+        padding-left: 110px;
+
+        &:before {
+            content: url(/images/clip-guitar.png);
+            position: absolute;
+            top: -10px;
+            left: 0;
+        }
+    }
+}
+
+.speaker {
+    $inactive-height: 238px;
+    $active-height: 476px;
+    $info-height: 97px;
+
+    position: relative;
+    margin-bottom: 20px;
+    width: $main-column;
+    height: $inactive-height;
+    overflow: hidden;
+    background-position: center;
+
+    @include transition(height 0.5s);
+
+    img { margin-bottom: -6px; }
+
+    h2, h3 {
+        font-size: 41px;
+        line-height: 1;
+    }
+    h2 { color: $accent; }
+    h3 {
+        color: $bg-color;
+        font-weight: normal;
+    }
+
+    .description {
+        position: absolute;
+        top: $inactive-height - $info-height;
+        left: 0;
+        overflow: hidden;
+
+        color: $bg-color;
+        -webkit-font-smoothing: antialiased;
+
+        @include transition(top 0.5s);
+    }
+    .info {
+        display: inline-block;
+    }
+    .content {
+        height: $active-height - ($inactive-height - $info-height) / 2;
+    }
+    .info, .content {
+        padding: 0.5em 1em;
+        background: rgba(#000, 0.7);
+    }
+
+    &.active, &:hover {
+        height: $active-height;
+
+        .description {
+            top: ($inactive-height - $info-height) / 2;
+        }
+    }
+}
+
+.about {
+    a { font-weight: bold; }
+
+    h1 {
+        margin: 30px 0 50px;
+        padding-left: 70px;
+
+        &:before {
+            content: url(/images/clip-coffee.png);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+.supporters {
+    h1 {
+        margin: 30px 0;
+        padding-left: 90px;
+
+        &:before {
+            content: url(/images/clip-barrels.png);
+            position: absolute;
+            top: -5px;
+            left: 0;
+        }
+    }
+}
+
+footer {
+    background: $accent url(/images/footer-bg.gif);
+    color: $bg-color;
+    padding: 20px 0 60px;
+
+    .container {
+        position: relative;
+    }
+
+    h1 {
+        font-size: 41px;
+        text-transform: uppercase;
+
+        display: inline;
+        margin-right: 20px;
+
+        -webkit-font-smoothing: antialiased;
+    }
+
+    h2 {
+        color: $heading-on-red;
+        font-family: Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+
+        display: inline;
+    }
+
+    .map {
+        margin: 10px 0;
+        background: #f2f2f2;
+        height: 340px;
+        border-radius: 3px;
+
+        &:before {
+            content: url(/images/clip-rocket.png);
+            position: absolute;
+            top: 38px;
+            left: -40px;
+        }
+
+        &:after {
+            content: url(/images/clip-map.png);
+            position: absolute;
+            bottom: -4px;
+            right: 20px;
+        }
+    }
+}
+
+.bottomnav {
+    position: relative;
+    z-index: 1;
+
+    li {
+        margin-right: 40px;
+    }
+    a {
+        color: $bg-color;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        vertical-align: top;
+        text-transform: lowercase;
+        -webkit-font-smoothing: antialiased;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }

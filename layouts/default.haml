@@ -2,10 +2,9 @@
 %html(lang="en")
   %head
     %meta(charset="utf-8")
-    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
+    / %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
     %title wroc_love.rb
-    %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/screen.css", :media => "screen"}
-    %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Play:400,700|Lato:400,700|Open+Sans:400,700"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/main.css", :media => "screen"}
 
     :javascript
       var _gaq = _gaq || [];
@@ -18,25 +17,49 @@
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
        })();
   %body
-    #topbar
-      .previous
-        Previous editions:
-        %a(href="http://2012.wrocloverb.com") 2012
+    %header#top
+      .container
+        %h1.logo
+          %img{:src => '/images/logo.png', :alt => 'wroc_love.rb'}
+        %nav.topnav
+          %ul.horizontal
+            %li
+              %a.newsletter{:href => '#newsletter'} Newsletter
+            %li
+              %a.twitter{:href => 'https://twitter.com/wrocloverb'} Follow us
+        %h2.info
+          1-3 March 2013
+          %br
+          Wrocław
+          %strong Poland
 
-      .links
-        Follow us:
-        %a(href="https://twitter.com/wrocloverb")
-          twitter
-        %a(href="https://facebook.com/wroclove.rb")
-          facebook
-        %a(href="http://lanyrd.com/2013/wrocloverb")
-          lanyrd
-        %a(href="http://blog.wrocloverb.com")
-          tumblr
+        %ul.actions.horizontal
+          %li
+            %a.button.dark{:href => 'http://blog.wrocloverb.com/'} Blog
+          %li
+            %a.button.light{:href => 'http://cfp.wrocloverb.com/'} Call for Papers
 
-    #main
+    %section.main_section.container
       = yield
-    #legal
-      photo by supervillain / CC-BY via
-      %a(href="http://www.flickr.com/photos/jarkko/6822921654/sizes/l/in/photostream/") flickr
 
+    %footer
+      .container
+        %article.location
+          %h1 Location
+          %h2 University of Wrocław, Institute of Computer Science
+
+          .map
+
+        %nav.bottomnav
+          %ul.horizontal
+            %li
+              %a{:href => '#top'}
+                %img{:src => '/images/logo-small.png', :alt => 'wroc_love.rb'}
+            %li
+              %a{:href => 'http://blog.wrocloverb.com/'} Blog
+            %li
+              %a{:href => 'http://cfp.wrocloverb.com/'} Call for Papers
+            %li
+              %a{:href => '#newsletter'} Newsletter
+            %li
+              %a{:href => 'https://twitter.com/wrocloverb'} Follow us
