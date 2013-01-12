@@ -344,7 +344,7 @@ footer {
         -webkit-font-smoothing: antialiased;
 
         &:hover {
-            text-decoration: underline;
+            text-shadow: 0 0 5px $bg-color;
         }
     }
 }
