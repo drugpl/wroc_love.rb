@@ -14,7 +14,7 @@
 #   because “*” matches zero or more characters.
 #
 compile '/stylesheets/*' do
-  filter :sass, style: :compressed
+  filter :sass, style: :compressed, syntax: :scss
 end
 
 compile '/static/*' do
