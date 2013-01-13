@@ -17,6 +17,11 @@ compile '/stylesheets/*' do
   filter :sass, style: :compressed, syntax: :scss
 end
 
+compile '/javascripts/*' do
+  filter :sprockets, :assets_path => "content/javascripts"
+  filter :uglify_js
+end
+
 compile '/static/*' do
 end
 
@@ -29,6 +34,10 @@ end
 
 route '/stylesheets/*' do
   item.identifier.chop + '.css'
+end
+
+route '/javascripts/*' do
+  item.identifier.chop + '.js'
 end
 
 route '/static/*' do

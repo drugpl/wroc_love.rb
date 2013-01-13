@@ -6,6 +6,9 @@ gem "sass"
 gem "bourbon"
 gem "neat"
 gem "rdiscount" # for Markdown in HAML
+gem "coffee-script"
+gem "uglifier"
+gem "sprockets"
 
 gem "fssm"
 gem "adsf"
