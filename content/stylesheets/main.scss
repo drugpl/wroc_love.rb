@@ -55,7 +55,7 @@ ul.horizontal li {
     margin-right: 20px;
 }
 
-.button {
+a.button {
     background: $dark-button;
     color: $bg-color;
 
@@ -71,7 +71,6 @@ ul.horizontal li {
     @include transition(all 0.05s);
 
     &:hover {
-        color: $bg-color;
         border-bottom-width: 6px;
         top: -2px;
         margin-bottom: -2px;
