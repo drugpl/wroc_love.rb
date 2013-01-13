@@ -1,0 +1,66 @@
+.agenda {
+  position: relative;
+  // min-width: 960px;
+
+  .times {
+    margin: 0;
+    padding: 0;
+  }
+  .days {
+    margin: 0;
+    padding: 0;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .times {
+    padding-top: 3em;
+
+    li {
+      display: block;
+      font-size: 1.2em;
+      line-height: 2em;
+      color: #aaaaaa;
+      border-top: 1px solid #dddddd;
+
+      &:last-child {
+        border-bottom: 1px solid #dddddd;
+      }
+    }
+  }
+
+  .days {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 90%;
+    > li {
+      display: inline-block;
+      list-style: none;
+      // width: 20%; // 100% / 5
+      text-align: center;
+      padding: 0 5px;
+    }
+  }
+
+  .day {
+    font-size: 1.5em;
+    line-height: 2em;
+  }
+
+  .days ul {
+    position: relative;
+
+    li {
+      position: absolute;
+      list-style: none;
+      background: #dddddd;
+      width: 100%;
+      text-align: left;
+      border-bottom: 1px dotted #fff;
+    }
+  }
+}

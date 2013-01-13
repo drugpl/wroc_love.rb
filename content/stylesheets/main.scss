@@ -1,4 +1,5 @@
 @import 'bourbon/bourbon';
+@import 'agenda';
 
 $bg-color:       #FFF;
 $text-color:     #000;
@@ -169,6 +170,36 @@ header {
     float: left;
     width: $second-column;
     margin-left: $column-spacing;
+}
+
+.agenda {
+    margin-bottom: 40px;
+
+    .day {
+        color: $accent;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .days li {
+        @include box-sizing(border-box);
+    }
+    .days > li {
+        width: 33.33333333%;
+    }
+    .times {
+        padding-top: 32px;
+    }
+    .times li {
+        font-size: 14px;
+    }
+    .days ul li {
+        font-size: 12px;
+        background: $accent;
+        color: $bg-color;
+        padding: 0.25em 0.5em;
+        -webkit-font-smoothing: antialiased;
+    }
 }
 
 .speakers {
