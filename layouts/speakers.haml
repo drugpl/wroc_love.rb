@@ -1,0 +1,11 @@
+%script{:id => 'speakers-template', :type => 'text/x-handlebars-template'}
+  {{#each speakers}}
+  .speaker{:style => 'background-image: url({{photo_url}})'}
+    .description
+      .info
+        %h2 {{name}}
+        %h3 {{talk_title}}
+      .content
+        {{bio}}
+  {{/each}}
+
