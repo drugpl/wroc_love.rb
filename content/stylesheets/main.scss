@@ -34,8 +34,6 @@ body {
 
 a {
     text-decoration: none;
-}
-a:link {
     color: $accent;
 }
 a:hover {
@@ -275,7 +273,7 @@ header {
     .info, .content {
         padding: 0.5em 1em;
         background: rgba(#000, 0.7);
-        font-size: 12px;
+        font-size: 14px;
     }
 
     &.active, &:hover {
@@ -300,6 +298,12 @@ header {
             top: 0;
             left: 0;
         }
+    }
+
+    h2 {
+        color: $accent;
+        text-transform: uppercase;
+        font-size: 21px;
     }
 }
 
