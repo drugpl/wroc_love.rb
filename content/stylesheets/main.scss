@@ -174,7 +174,6 @@ header {
 .additional {
     float: left;
     width: $second-column;
-    margin-left: $column-spacing;
 }
 
 .agenda {
@@ -209,7 +208,7 @@ header {
 
 .speakers {
     float: left;
-    width: $main-column;
+    width: $main-column + 20px;
 
     h1 {
         font-size: 82px;
@@ -226,23 +225,28 @@ header {
 }
 
 .speaker {
-    $inactive-height: 238px;
-    $active-height: 476px;
-    $info-height: 97px;
+    $inactive-height: 396px;
+    $active-height: 396px;
+    $info-height: 35px;
 
     position: relative;
-    margin-bottom: 20px;
-    width: $main-column;
+    display: inline-block;
+    margin: 0 20px 20px 0;
+    width: floor(($main-column - 40px) / 2);
     height: $inactive-height;
     overflow: hidden;
     background-position: center;
 
     @include transition(height 0.5s);
 
+    &:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
     img { margin-bottom: -6px; }
 
     h2, h3 {
-        font-size: 41px;
+        font-size: 24px;
         line-height: 1;
     }
     h2 { color: $accent; }
@@ -266,18 +270,19 @@ header {
         display: inline-block;
     }
     .content {
-        height: $active-height - ($inactive-height - $info-height) / 2;
+        height: $active-height - $info-height - 40px;
     }
     .info, .content {
         padding: 0.5em 1em;
         background: rgba(#000, 0.7);
+        font-size: 12px;
     }
 
     &.active, &:hover {
         height: $active-height;
 
         .description {
-            top: ($inactive-height - $info-height) / 2;
+            top: 40px;
         }
     }
 }
