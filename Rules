@@ -23,7 +23,7 @@ end
 
 compile '/javascripts/*' do
   filter :sprockets, :assets_path => "content/javascripts"
-  filter :uglify_js
+  # filter :uglify_js
 end
 
 compile '/static/*' do
