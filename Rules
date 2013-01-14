@@ -13,6 +13,10 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 #
+
+compile '/api/*' do
+end
+
 compile '/stylesheets/*' do
   filter :sass, style: :compressed, syntax: :scss
 end
@@ -30,6 +34,10 @@ compile '*' do
     filter :haml
     layout 'default'
   end
+end
+
+route '/api/*' do
+  item.identifier.chop + '.json'
 end
 
 route '/stylesheets/*' do
