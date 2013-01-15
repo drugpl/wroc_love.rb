@@ -18,9 +18,19 @@
   ],
   "supporters": [
     {
-      "name": "DRUG",
-      "website_url": "http://drug.org.pl",
-      "logo_url": "images/drug-logo.png"
+      "name": "Selleo",
+      "website_url": "http://selleo.com/",
+      "logo_url": "/images/supporter-selleo.png"
+    },
+    {
+      "name": "Anixe",
+      "website_url": "http://www.anixe.pl/",
+      "logo_url": "/images/supporter-anixe.png"
+    },
+    {
+      "name": "Github",
+      "website_url": "https://github.com/",
+      "logo_url": "/images/supporter-github.png"
     }
   ]
 }

@@ -225,7 +225,7 @@ header {
 .speaker {
     $inactive-height: 396px;
     $active-height: 396px;
-    $info-height: 35px;
+    $info-height: 37px;
 
     position: relative;
     display: inline-block;
@@ -318,6 +318,10 @@ header {
             top: -5px;
             left: 0;
         }
+    }
+    a {
+        display: inline-block;
+        margin: 0 20px 20px 0;
     }
 }
 
