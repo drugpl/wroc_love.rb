@@ -3,12 +3,17 @@
 #= require handlebars_view
 #= require data_source
 
+hideLoading = ->
+  $('.loading').hide()
+
 callback = (data) ->
+  hideLoading()
   new HandlebarsView('speakers').render($('.speakers'), data)
   new HandlebarsView('supporters').render($('.supporters'), data)
 
 errback = ->
-  "do something meaningful here"
+  hideLoading()
+  new HandlebarsView('error').render($('.speakers'))
 
 $ ->
   DataSource.fetchAll callback, errback
