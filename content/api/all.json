@@ -18,6 +18,11 @@
   ],
   "supporters": [
     {
+      "name": "Arkency",
+      "website_url": "http://arkency.com/",
+      "logo_url": "/images/supporter-arkency.png"
+    },
+    {
       "name": "Selleo",
       "website_url": "http://selleo.com/",
       "logo_url": "/images/supporter-selleo.png"
