@@ -2,8 +2,12 @@
 %html(lang="en")
   %head
     %meta(charset="utf-8")
-    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1"}
-    %title wroc_love.rb
+    %meta{:property => "og:title", :content => 'wroc_love.rb - March 1-3rd 2013'}
+    %meta{:property => "og:type", :content => 'website'}
+    %meta{:property => "og:image", :content => 'http://wrocloverb.com/images/wroclove-logo-rect.png'}
+    %meta{:property => "og:url", :content => 'http://wrocloverb.com/'}
+    %meta{:property => "og:description", :content => 'wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.'}
+    %title wroc_love.rb 2013 - Wrocław, Poland - The Ruby conference where ideas are being confronted
     %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/main.css", :media => "screen"}
 
     = render 'analytics'
