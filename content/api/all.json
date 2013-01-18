@@ -36,6 +36,11 @@
       "name": "Github",
       "website_url": "https://github.com/",
       "logo_url": "/images/supporter-github.png"
+    },
+    {
+      "name": "Yammer",
+      "website_url": "https://www.yammer.com/",
+      "logo_url": "/images/supporter-yammer.png"
     }
   ]
 }
