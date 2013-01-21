@@ -37,6 +37,13 @@
       "website_url": "https://github.com/",
       "logo_url": "/images/supporter-github.png"
     }
+  ],
+  "partners": [
+    {
+      "name": "Monterail",
+      "website_url": "http://monterail.com/",
+      "logo_url": "/images/partner-monterail.png"
+    }
   ]
 }
 

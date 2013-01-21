@@ -1,0 +1,5 @@
+%script{:id => 'partners-template', :type => 'text/x-handlebars-template'}
+  {{#each partners}}
+  %a(href='{{website_url}}')
+    %img{:src => '{{logo_url}}', :alt => '{{name}}'}
+  {{/each}}
