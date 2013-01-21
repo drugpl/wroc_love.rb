@@ -359,8 +359,8 @@ footer {
         background: #f2f2f2;
         height: 340px;
         border-radius: 3px;
-
         &:before {
+
             content: url(/images/clip-rocket.png);
             position: absolute;
             top: 38px;
@@ -396,4 +396,12 @@ footer {
             text-shadow: 0 0 5px $bg-color;
         }
     }
+}
+
+.designed {
+  text-align: right;
+  margin-top: 50px;
+  font-size: 90%;
+  vertical-align: top;
+  color: darken($accent, 30);
 }
