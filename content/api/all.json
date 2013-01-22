@@ -51,6 +51,11 @@
       "name": "Github",
       "website_url": "https://github.com/",
       "logo_url": "/images/supporter-github.png"
+    },
+    {
+      "name": "Shelly Cloud",
+      "website_url": "https://shellycloud.com/?r=wrocloverb",
+      "logo_url": "/images/supporter-shelly-cloud.png"
     }
   ],
   "partners": [
