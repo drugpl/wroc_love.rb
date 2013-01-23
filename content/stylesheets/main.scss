@@ -256,33 +256,24 @@ header {
 
     .description {
         position: absolute;
-        top: $inactive-height - $info-height;
+        bottom: 0;
         left: 0;
         overflow: hidden;
 
         color: $bg-color;
         -webkit-font-smoothing: antialiased;
 
-        @include transition(top 0.5s);
+        &.animated {
+            @include transition(bottom 0.5s);
+        }
     }
     .info {
         display: inline-block;
-    }
-    .content {
-        height: $active-height - $info-height - 40px;
     }
     .info, .content {
         padding: 0.5em 1em;
         background: rgba(#000, 0.7);
         font-size: 13px;
-    }
-
-    &.active, &:hover {
-        height: $active-height;
-
-        .description {
-            top: 40px;
-        }
     }
 }
 
