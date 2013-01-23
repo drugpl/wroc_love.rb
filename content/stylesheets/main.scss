@@ -326,6 +326,19 @@ header {
     }
 }
 
+.twitter h1 {
+    // margin: 30px 0 45px;
+    margin-bottom: 20px;
+    padding-left: 85px;
+
+    &:before {
+        content: url(/images/clip-twitter.png);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
 footer {
     background: $accent url(/images/footer-bg.gif);
     color: $bg-color;
