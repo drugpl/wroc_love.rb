@@ -64,6 +64,14 @@
       "website_url": "http://monterail.com/",
       "logo_url": "/images/partner-monterail.png"
     }
+  ],
+  "venues": [
+    {
+      "name": "University of Wrocław, Institute of Computer Science",
+      "address": "Fryderyka Joliot-Curie 15, 50-383 Wrocław, Poland",
+      "latitude": 51.11085,
+      "longtitude": 17.05323
+    }
   ]
 }
 
