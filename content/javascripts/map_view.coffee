@@ -18,6 +18,8 @@ class window.MapView
     }).addTo(map);
 
     for venue in data.venues
-      L.marker([venue.latitude, venue.longtitude], {icon: icon}).addTo(map)
-        .bindPopup("<h2>#{venue.name}</h2><p>#{venue.address}</p>")
+      marker = L.marker([venue.latitude, venue.longtitude], {icon: icon})
+      marker.addTo(map)
+      marker.bindPopup("<h2>#{venue.name}</h2><p>#{venue.address}</p>")
+      marker.openPopup() if venue.showPopup
 
