@@ -359,10 +359,9 @@ footer {
     display: inline;
   }
 
-  .map {
+  .map_container {
     margin: 10px 0;
     background: #f2f2f2;
-    height: 340px;
     border-radius: 3px;
     overflow: hidden;
 
@@ -376,10 +375,15 @@ footer {
 
     &:after {
       content: url(/images/clip-map.png);
+      z-index: 100;
       position: absolute;
       bottom: -4px;
       right: 20px;
     }
+  }
+
+  .map {
+    height: 340px;
 
     .leaflet-popup-content-wrapper {
       border-radius: 0px !important;
@@ -396,13 +400,12 @@ footer {
     .leaflet-popup-tip {
       background: rgba(#000, 0.7);
     }
-
   }
 }
 
 .bottomnav {
   position: relative;
-  z-index: 1;
+  z-index: 101;
 
   li {
     margin-right: 40px;
