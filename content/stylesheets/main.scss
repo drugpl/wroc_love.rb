@@ -20,386 +20,389 @@ $second-column: $page-width - $main-column - $column-spacing;
 // UNIVERSAL STYLES
 
 body, h1, h2, h3, nav ul, ul.actions {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: $bg-color;
-    color: $text-color;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+  background: $bg-color;
+  color: $text-color;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 a {
-    text-decoration: none;
-    color: $accent;
+  text-decoration: none;
+  color: $accent;
 }
 a:hover {
-    color: $link-hover;
+  color: $link-hover;
 }
 
 .container {
-    width: $page-width;
-    margin: 0 auto;
+  width: $page-width;
+  margin: 0 auto;
 }
 
 ul.horizontal li {
-    display: inline;
-    list-style: none;
+  display: inline;
+  list-style: none;
 }
 
 .actions a {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 a.button {
-    background: $dark-button;
-    color: $bg-color;
+  background: $dark-button;
+  color: $bg-color;
 
-    display: inline-block;
-    position: relative;
-    padding: 1em 2em;
-    border-bottom: 4px solid mix(#000, $dark-button, $shadow-level);
+  display: inline-block;
+  position: relative;
+  padding: 1em 2em;
+  border-bottom: 4px solid mix(#000, $dark-button, $shadow-level);
 
-    font-size: 14px;
-    line-height: 1;
+  font-size: 14px;
+  line-height: 1;
 
-    border-radius: 3px;
+  border-radius: 3px;
 
-    @include transition(all 0.05s);
+  @include transition(all 0.05s);
 
-    &:hover {
-        border-bottom-width: 6px;
-        top: -2px;
-        margin-bottom: -2px;
-    }
-    &:active {
-        border-bottom-width: 0;
-        top: 4px;
-    }
+  &:hover {
+    border-bottom-width: 6px;
+    top: -2px;
+    margin-bottom: -2px;
+  }
+  &:active {
+    border-bottom-width: 0;
+    top: 4px;
+  }
 
-    &.light {
-        background: $light-button;
-        color: $accent;
-        border-bottom-color: mix(#000, $light-button, $shadow-level);
-    }
+  &.light {
+    background: $light-button;
+    color: $accent;
+    border-bottom-color: mix(#000, $light-button, $shadow-level);
+  }
 }
 
 section h1 {
-    color: $accent;
-    font-size: 41px;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
+  color: $accent;
+  font-size: 41px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .loading {
-    height: 16px;
-    background: url(/images/loading.gif) no-repeat top left;
+  height: 16px;
+  background: url(/images/loading.gif) no-repeat top left;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
 // STRUCTURE-SPECIFIC STYLES
 
 header {
-    background: $accent;
+  background: $accent;
 
-    .container {
-        padding: 20px 0 80px;
-        position: relative;
-        background: url(/images/topgraphic.jpg) no-repeat right bottom;
+  .container {
+    padding: 20px 0 80px;
+    position: relative;
+    background: url(/images/topgraphic.jpg) no-repeat right bottom;
+  }
+
+  .logo {
+    padding: 5px 0;
+  }
+
+  .info {
+    color: $heading-on-red;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 0.25em 0 1em;
+
+    strong {
+      font-weight: inherit;
+      color: $bg-color;
+      -webkit-font-smoothing: antialiased;
     }
+  }
 
-    .logo {
-        padding: 5px 0;
-    }
-
-    .info {
-        color: $heading-on-red;
-        font-weight: 500;
-        font-size: 42px;
-        line-height: 1.2;
-        margin: 0.25em 0 1em;
-
-        strong {
-            font-weight: inherit;
-            color: $bg-color;
-            -webkit-font-smoothing: antialiased;
-        }
-    }
-
-    .actions {
-        height: 50px; // prevents movement of the background
-    }
+  .actions {
+    height: 50px; // prevents movement of the background
+  }
 }
 
 .topnav {
-    position: absolute;
-    right: 0;
-    top: 15px;
+  position: absolute;
+  right: 0;
+  top: 15px;
 
-    a {
-        display: inline-block;
-        margin-right: 40px;
-        padding-right: 16px + 10px; // sprite width + real padding
+  a {
+    display: inline-block;
+    margin-right: 40px;
+    padding-right: 16px + 10px; // sprite width + real padding
 
-        background: url(/images/icon-sprite.png) no-repeat 100% 0;
-        color: $bg-color;
-        font-size: 14px;
-        font-weight: 500; // medium?
-        line-height: 1;
-        text-transform: lowercase;
+    background: url(/images/icon-sprite.png) no-repeat 100% 0;
+    color: $bg-color;
+    font-size: 14px;
+    font-weight: 500; // medium?
+    line-height: 1;
+    text-transform: lowercase;
 
-        text-shadow: 0 1px 0 rgba(#000, 0.3);
-        -webkit-font-smoothing: antialiased;
+    text-shadow: 0 1px 0 rgba(#000, 0.3);
+    -webkit-font-smoothing: antialiased;
 
-        &:hover {
-            text-shadow: 0 0 5px $bg-color;
-        }
-
-        &.twitter {
-            background-position: 100% -16px;
-        }
+    &:hover {
+      text-shadow: 0 0 5px $bg-color;
     }
+
+    &.twitter {
+      background-position: 100% -16px;
+    }
+  }
 }
 
 .main_section {
-    @include clearfix;
-    margin: 40px auto;
+  @include clearfix;
+  margin: 40px auto;
 }
 
 .additional {
-    float: left;
-    width: $second-column;
+  float: left;
+  width: $second-column;
 }
 
 .agenda {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 
-    .day {
-        color: $accent;
-        font-size: 16px;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    .days li {
-        @include box-sizing(border-box);
-    }
-    .days > li {
-        width: 33.33333333%;
-    }
-    .times {
-        padding-top: 32px;
-    }
-    .times li {
-        font-size: 14px;
-    }
-    .days ul li {
-        font-size: 12px;
-        background: $accent;
-        color: $bg-color;
-        padding: 0.25em 0.5em;
-        -webkit-font-smoothing: antialiased;
-    }
+  .day {
+    color: $accent;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .days li {
+    @include box-sizing(border-box);
+  }
+  .days > li {
+    width: 33.33333333%;
+  }
+  .times {
+    padding-top: 32px;
+  }
+  .times li {
+    font-size: 14px;
+  }
+  .days ul li {
+    font-size: 12px;
+    background: $accent;
+    color: $bg-color;
+    padding: 0.25em 0.5em;
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 .speakers {
-    float: left;
-    width: $main-column + 20px;
+  float: left;
+  width: $main-column + 20px;
 
-    h1 {
-        font-size: 82px;
-        margin-bottom: 20px;
-        padding-left: 110px;
+  h1 {
+    font-size: 82px;
+    margin-bottom: 20px;
+    padding-left: 110px;
 
-        &:before {
-            content: url(/images/clip-guitar.png);
-            position: absolute;
-            top: -10px;
-            left: 0;
-        }
+    &:before {
+      content: url(/images/clip-guitar.png);
+      position: absolute;
+      top: -10px;
+      left: 0;
     }
+  }
 }
 
 .speaker {
-    $inactive-height: 396px;
-    $active-height: 396px;
-    $info-height: 37px;
+  $inactive-height: 396px;
+  $active-height: 396px;
+  $info-height: 37px;
 
-    position: relative;
-    display: inline-block;
-    margin: 0 20px 20px 0;
-    width: floor(($main-column - 40px) / 2);
-    height: $inactive-height;
+  position: relative;
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  width: floor(($main-column - 40px) / 2);
+  height: $inactive-height;
+  overflow: hidden;
+  background-position: center;
+
+  @include transition(height 0.5s);
+
+  &:nth-of-type(2n+1) {
+    margin-right: 0;
+  }
+
+  img { margin-bottom: -6px; }
+
+  h2, h3 {
+    font-size: 24px;
+    line-height: 1;
+  }
+  h2 { color: $accent; }
+  h3 {
+    color: $bg-color;
+    font-weight: normal;
+  }
+
+  .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     overflow: hidden;
-    background-position: center;
 
-    @include transition(height 0.5s);
+    color: $bg-color;
+    -webkit-font-smoothing: antialiased;
 
-    &:nth-of-type(2n+1) {
-        margin-right: 0;
+    &.animated {
+      @include transition(bottom 0.5s);
     }
-
-    img { margin-bottom: -6px; }
-
-    h2, h3 {
-        font-size: 24px;
-        line-height: 1;
-    }
-    h2 { color: $accent; }
-    h3 {
-        color: $bg-color;
-        font-weight: normal;
-    }
-
-    .description {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-
-        color: $bg-color;
-        -webkit-font-smoothing: antialiased;
-
-        &.animated {
-            @include transition(bottom 0.5s);
-        }
-    }
-    .info {
-        display: inline-block;
-    }
-    .info, .content {
-        padding: 0.5em 1em;
-        background: rgba(#000, 0.7);
-        font-size: 13px;
-    }
+  }
+  .info {
+    display: inline-block;
+  }
+  .info, .content {
+    padding: 0.5em 1em;
+    background: rgba(#000, 0.7);
+    font-size: 13px;
+  }
 }
 
 .about {
-    a { font-weight: bold; }
+  a { font-weight: bold; }
 
-    h1 {
-        margin: 30px 0 45px;
-        padding-left: 70px;
+  h1 {
+    margin: 30px 0 45px;
+    padding-left: 70px;
 
-        &:before {
-            content: url(/images/clip-coffee.png);
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
+    &:before {
+      content: url(/images/clip-coffee.png);
+      position: absolute;
+      top: 0;
+      left: 0;
     }
+  }
 
-    h2 {
-        color: $accent;
-        text-transform: uppercase;
-        font-size: 21px;
-    }
+  h2 {
+    color: $accent;
+    text-transform: uppercase;
+    font-size: 21px;
+  }
 }
 
 .supporters, .partners {
-    h1 {
-        margin: 30px 0 45px;
-        padding-left: 90px;
+  h1 {
+    margin: 30px 0 45px;
+    padding-left: 90px;
 
-        &:before {
-            content: url(/images/clip-barrels.png);
-            position: absolute;
-            top: -5px;
-            left: 0;
-        }
+    &:before {
+      content: url(/images/clip-barrels.png);
+      position: absolute;
+      top: -5px;
+      left: 0;
     }
-    a {
-        display: inline-block;
-        margin: 0 20px 20px 0;
-    }
+  }
+  a {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+  }
 }
 
 .twitter h1 {
-    // margin: 30px 0 45px;
-    margin-bottom: 20px;
-    padding-left: 85px;
+  // margin: 30px 0 45px;
+  margin-bottom: 20px;
+  padding-left: 85px;
 
-    &:before {
-        content: url(/images/clip-twitter.png);
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+  &:before {
+    content: url(/images/clip-twitter.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 footer {
-    background: $accent url(/images/footer-bg.gif);
-    color: $bg-color;
-    padding: 20px 0 60px;
+  background: $accent url(/images/footer-bg.gif);
+  color: $bg-color;
+  padding: 20px 0 60px;
 
-    .container {
-        position: relative;
+  .container {
+    position: relative;
+  }
+
+  h1 {
+    font-size: 41px;
+    text-transform: uppercase;
+
+    display: inline;
+    margin-right: 20px;
+
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h2 {
+    color: $heading-on-red;
+    font-family: Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    display: inline;
+  }
+
+  .map {
+    margin: 10px 0;
+    background: #f2f2f2;
+    height: 340px;
+    border-radius: 3px;
+    overflow: hidden;
+
+    &:before {
+      z-index: 100;
+      content: url(/images/clip-rocket.png);
+      position: absolute;
+      top: 38px;
+      left: -40px;
     }
 
-    h1 {
-        font-size: 41px;
-        text-transform: uppercase;
-
-        display: inline;
-        margin-right: 20px;
-
-        -webkit-font-smoothing: antialiased;
+    &:after {
+      content: url(/images/clip-map.png);
+      position: absolute;
+      bottom: -4px;
+      right: 20px;
     }
 
-    h2 {
-        color: $heading-on-red;
-        font-family: Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-size: 15px;
-        font-weight: 500;
-
-        display: inline;
-    }
-
-    .map {
-        margin: 10px 0;
-        background: #f2f2f2;
-        height: 340px;
-        border-radius: 3px;
-        &:before {
-
-            content: url(/images/clip-rocket.png);
-            position: absolute;
-            top: 38px;
-            left: -40px;
-        }
-
-        &:after {
-            content: url(/images/clip-map.png);
-            position: absolute;
-            bottom: -4px;
-            right: 20px;
-        }
-    }
+  }
 }
 
 .bottomnav {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 
-    li {
-        margin-right: 40px;
-    }
-    a {
-        color: $bg-color;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18px;
-        vertical-align: top;
-        text-transform: lowercase;
-        -webkit-font-smoothing: antialiased;
+  li {
+    margin-right: 40px;
+  }
+  a {
+    color: $bg-color;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    vertical-align: top;
+    text-transform: lowercase;
+    -webkit-font-smoothing: antialiased;
 
-        &:hover {
-            text-shadow: 0 0 5px $bg-color;
-        }
+    &:hover {
+      text-shadow: 0 0 5px $bg-color;
     }
+  }
 }
 
 .designed {
