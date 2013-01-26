@@ -381,6 +381,22 @@ footer {
       right: 20px;
     }
 
+    .leaflet-popup-content-wrapper {
+      border-radius: 0px !important;
+      background: rgba(#000, 0.7);
+
+      h2 {
+        color: $accent;
+      }
+
+      p {
+      }
+    }
+
+    .leaflet-popup-tip {
+      background: rgba(#000, 0.7);
+    }
+
   }
 }
 

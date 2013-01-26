@@ -11,5 +11,5 @@ class window.MapView
 
     for venue in data.venues
       L.marker([venue.latitude, venue.longtitude]).addTo(map)
-        .bindPopup("<h1>#{venue.name}</h1><p>#{venue.address}</p>")
+        .bindPopup("<h2>#{venue.name}</h2><p>#{venue.address}</p>")
 
