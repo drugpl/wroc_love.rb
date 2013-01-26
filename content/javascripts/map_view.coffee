@@ -1,5 +1,8 @@
+#= require leaflet
+
 class window.MapView
   render: (selector, data) =>
+    L.Icon.Default.imagePath = 'images'
     map = L.map(selector[0]).setView([51.108, 17.046], 14)
 
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {

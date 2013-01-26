@@ -1,6 +1,4 @@
 #= require jquery
-#= require leaflet
-#= require handlebars
 #= require handlebars_view
 #= require map_view
 #= require data_source
