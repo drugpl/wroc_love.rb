@@ -36,4 +36,3 @@ errback = ->
 
 $ ->
   DataSource.fetchAll callback, errback
-

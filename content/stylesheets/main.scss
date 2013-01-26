@@ -350,14 +350,14 @@ footer {
     -webkit-font-smoothing: antialiased;
   }
 
-  h2 {
-    color: $heading-on-red;
-    font-family: Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
+  // h2 {
+  //   color: $heading-on-red;
+  //   font-family: Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  //   font-size: 15px;
+  //   font-weight: 500;
 
-    display: inline;
-  }
+  //   display: inline;
+  // }
 
   .map_container {
     margin: 10px 0;
@@ -390,10 +390,12 @@ footer {
       background: rgba(#000, 0.7);
 
       h2 {
-        color: $accent;
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
       }
 
       p {
+        line-height: 1.5;
       }
     }
 
