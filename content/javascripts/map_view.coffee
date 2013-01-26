@@ -11,7 +11,8 @@ class window.MapView
         shadowSize: [41, 41]
         shadowAnchor: [12, 40]
 
-    map = L.map(selector[0]).setView([51.108, 17.046], 14)
+    map = L.map(selector[0], attributionControl: false)
+    map.setView([51.108, 17.046], 14)
 
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
