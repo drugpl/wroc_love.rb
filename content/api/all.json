@@ -56,6 +56,11 @@
       "name": "Shelly Cloud",
       "website_url": "https://shellycloud.com/?r=wrocloverb",
       "logo_url": "/images/supporter-shelly-cloud.png"
+    },
+    {
+      "name": "netguru",
+      "website_url": "http://netguru.co/",
+      "logo_url": "/images/supporter-netguru.png"
     }
   ],
   "partners": [
