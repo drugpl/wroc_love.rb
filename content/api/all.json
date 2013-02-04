@@ -29,6 +29,11 @@
       "name": "Jan Stępień",
       "bio": "A programming languages polyglot and your fellow geek born and raised in the arguably picturesque city of <a href='https://en.wikipedia.org/wiki/Warsaw'>Warsaw</a>. Graduating with MSc in Computer Science from Warsaw University of Technology in early February 2013. When in front of the keyboard he's most probably juggling with bits of Ruby, C, Clojure and Haskell. When offline, he can be found outdoors; either preparing for the next marathon in forests surrounding Warsaw or wandering with a way too big backpack somewhere in the <a href='https://en.wikipedia.org/wiki/Carpathian_Mountains'>Carpathian</a> wilderness.",
       "photo_url": "/images/speaker-jan-stepien.jpg"
+    },
+    {
+      "name": "Florian Plank",
+      "bio": "Florian solves problems on the open web. He works with his tiny software shop Polarblau somewhere close to the polar circle for companies of all sizes around the globe. Between gigs he builds http://pleaserevise.com and http://heypayme.com/. Florian prefers Ruby over PHP, Coffeescript over Javascript, beer over bubbly, open source over proprietary software, bike over car, work over meetings, small over big, action over talk, learning over degrees and his family over everything.",
+      "photo_url": "/images/speaker-florian-plank.jpg"
     }
   ],
   "supporters": [
