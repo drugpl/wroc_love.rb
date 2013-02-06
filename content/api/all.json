@@ -34,6 +34,11 @@
       "name": "Florian Plank",
       "bio": "Florian solves problems on the open web. He works with his tiny software shop Polarblau somewhere close to the polar circle for companies of all sizes around the globe. Between gigs he builds http://pleaserevise.com and http://heypayme.com/. Florian prefers Ruby over PHP, Coffeescript over Javascript, beer over bubbly, open source over proprietary software, bike over car, work over meetings, small over big, action over talk, learning over degrees and his family over everything.",
       "photo_url": "/images/speaker-florian-plank.jpg"
+    },
+    {
+      "name": "Bryan Helmkamp",
+      "bio": "Bryan (@brynary) is the founder of Code Climate, an automated code review tool for Ruby apps, and the lead organizer of the Gotham Ruby Conference in NYC. For the last seven years, he's been an active in the Ruby community as an acclaimed speaker, author and open source contributor. In 2009, he received a Ruby Hero Award for his efforts.",
+      "photo_url": "/images/speaker-bryan-helmkamp.jpg"
     }
   ],
   "supporters": [
