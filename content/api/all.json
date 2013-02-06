@@ -39,6 +39,11 @@
       "name": "Bryan Helmkamp",
       "bio": "Bryan (@brynary) is the founder of Code Climate, an automated code review tool for Ruby apps, and the lead organizer of the Gotham Ruby Conference in NYC. For the last seven years, he's been an active in the Ruby community as an acclaimed speaker, author and open source contributor. In 2009, he received a Ruby Hero Award for his efforts.",
       "photo_url": "/images/speaker-bryan-helmkamp.jpg"
+    },
+    {
+      "name": "Andrzej Krzywda",
+      "bio": "",
+      "photo_url": "/images/speaker-andrzej-krzywda.jpg"
     }
   ],
   "supporters": [
