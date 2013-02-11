@@ -44,6 +44,26 @@
       "name": "Andrzej Krzywda",
       "bio": "Ruby and Coffee programmer. The founder of Arkency and GameBoxed. Rails teacher at University of Wroclaw. He's originally a backend developer, with Rails experience since 2004. He knows all the pains and beauty of Rails. Now, after working for the last 2 years on frontends, he knows how to build them properly.",
       "photo_url": "/images/speaker-andrzej-krzywda.jpg"
+    },
+    {
+      "name": "Piotr Sarnacki",
+      "bio": "Rails contributor and Ember.js enthusiast. Currently works on Travis CI as a part of OSS Grant Program sponsored by EngineYard.",
+      "photo_url": "/images/speaker-piotr-sarnacki.jpg"
+    },
+    {
+      "name": "David Dahl",
+      "bio": "Seven years ago he got asked to join a friends startup. Very simple stuff, one web server, editing php scripts live. That was the start of a fantastic journey that has now taken him to ad analytics startup Burt, where they show that there's more to metrics the clicks. On a normal day, they process tens of thousands of requests per second, in real time, in JRuby. On his spare time, he sings in two metal bands, plays competitive Starcraft II and collects single malts.",
+      "photo_url": "/images/speaker-david-dahl.jpg"
+    },
+    {
+      "name": "Adam Hawkins",
+      "bio": "Ruby and web development guy. He came to Ruby from Rails. He's focused mainly on writing API's for client side frameworks and works daily on his Ember.js application. His favorite thing to do is hacking on code while listening to trance. His pet project is ruby code to automatically organize and manage his massive movie collection. His small claim to internet fame is the 'Advanced Caching in Rails' blog post. He has spoken at RejectJS in Berlin and Frozen Rails in Helsinki. Living in Hamburg and loving going to more local conferences over the bigger one. Likes to talk to share his ideas with people and meeting fellow programmers.",
+      "photo_url": "/images/speaker-adam-hawkins.jpg"
+    },
+    {
+      "name": "Piotr Niełacny",
+      "bio": "A programmer who uses things you wouldn't use in production.",
+      "photo_url": "/images/speaker-piotr-nielacny.jpg"
     }
   ],
   "supporters": [
