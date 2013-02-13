@@ -333,17 +333,15 @@ header {
 }
 
 .supporters, .partners {
-  width: 50%;
-  float: left;
-
   a {
     display: inline-block;
     margin: 0 20px 20px 0;
   }
 }
 
-.organizers {
-  clear: both;
+.bottom_column {
+  float: left;
+  width: 60%;
 }
 
 .organizer {
@@ -371,6 +369,9 @@ header {
 }
 
 .twitter {
+  float: left;
+  width: 40%;
+
   h1 {
     // margin: 30px 0 45px;
     font-size: 41px;
