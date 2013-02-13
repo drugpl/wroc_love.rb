@@ -108,6 +108,11 @@
       "name": "Monterail",
       "website_url": "http://monterail.com/",
       "logo_url": "/images/partner-monterail.png"
+    },
+    {
+      "name": "University of Wrocław",
+      "website_url": "http://www.uni.wroc.pl/",
+      "logo_url": "/images/partner-uniwroc.png"
     }
   ],
   "venues": [
