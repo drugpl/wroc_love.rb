@@ -1,0 +1,7 @@
+%script{:id => 'organizers-template', :type => 'text/x-handlebars-template'}
+  {{#each organizers}}
+  .organizer
+    %img{:src => '{{photo_url}}'}
+    .info
+      %h2 {{name}}
+  {{/each}}

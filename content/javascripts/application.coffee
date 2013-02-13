@@ -26,6 +26,7 @@ callback = (data) ->
   new HandlebarsView('speakers').render($('.speakers'), data)
   new HandlebarsView('supporters').render($('.supporters'), data)
   new HandlebarsView('partners').render($('.partners'), data)
+  new HandlebarsView('organizers').render($('.organizers'), data)
 
   setupAnimations()
 

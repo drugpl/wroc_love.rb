@@ -140,6 +140,36 @@
         {"from": "16:00", "to": "18:00", "title": "Some talk"}
       ]
     ]
-  }
+  },
+  "organizers": [
+    {
+      "name": "Andrzej Krzywda",
+      "photo_url": "/images/wroclove-logo-rect.png"
+    },
+    {
+      "name": "Jan Szumiec",
+      "photo_url": "/images/wroclove-logo-rect.png"
+    },
+    {
+      "name": "Mateusz Lenik",
+      "photo_url": "/images/wroclove-logo-rect.png"
+    },
+    {
+      "name": "Michał Łomnicki",
+      "photo_url": "/images/wroclove-logo-rect.png"
+    },
+    {
+      "name": "Paweł Pacana",
+      "photo_url": "/images/wroclove-logo-rect.png"
+    },
+    {
+      "name": "Rafał Hirsz",
+      "photo_url": "/images/wroclove-logo-rect.png"
+    },
+    {
+      "name": "Robert Pankowecki",
+      "photo_url": "/images/wroclove-logo-rect.png"
+    }
+  ]
 }
 

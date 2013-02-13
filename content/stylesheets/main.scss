@@ -90,7 +90,7 @@ a.button {
 
 section h1 {
   color: $accent;
-  font-size: 41px;
+  font-size: 82px;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -168,7 +168,11 @@ header {
 
 .main_section {
   @include clearfix;
-  margin: 40px auto;
+  margin: 0 auto 80px;
+
+  article {
+    margin: 30px 0;
+  }
 }
 
 .additional {
@@ -176,42 +180,34 @@ header {
   width: $second-column;
 }
 
-.agenda {
-  margin-bottom: 40px;
+.about {
+  a { font-weight: bold; }
 
-  .day {
+  h1 {
+    font-size: 70px;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  h2 {
     color: $accent;
-    font-size: 16px;
-    font-weight: bold;
     text-transform: uppercase;
+    font-size: 21px;
   }
-  .days li {
-    @include box-sizing(border-box);
-  }
-  .days > li {
-    width: 33.33333333%;
-  }
-  .times {
-    padding-top: 32px;
-  }
-  .times li {
-    font-size: 14px;
-  }
-  .days ul li {
-    font-size: 12px;
-    background: $accent;
-    color: $bg-color;
-    padding: 0.25em 0.5em;
-    -webkit-font-smoothing: antialiased;
+
+  p {
+    margin: 15px 0 45px;
+    text-align: justify;
+    font-size: 20px;
   }
 }
 
 .speakers {
-  float: left;
-  width: $main-column + 20px;
+  // float: left;
+  // width: $main-column + 20px;
 
   h1 {
-    font-size: 82px;
+    // font-size: 82px;
     margin-bottom: 20px;
     padding-left: 110px;
 
@@ -231,15 +227,15 @@ header {
 
   position: relative;
   display: inline-block;
-  margin: 0 20px 20px 0;
-  width: floor(($main-column - 40px) / 2);
+  margin: 0 10px 6px -4px;
+  width: floor(($page-width - 40px) / 4);
   height: $inactive-height;
   overflow: hidden;
   background-position: center;
 
   @include transition(height 0.5s);
 
-  &:nth-of-type(2n+1) {
+  &:nth-of-type(4n+1) {
     margin-right: 0;
   }
 
@@ -278,31 +274,53 @@ header {
   }
 }
 
-.about {
-  a { font-weight: bold; }
+.agenda {
+  margin-bottom: 40px;
 
   h1 {
-    margin: 30px 0 45px;
-    padding-left: 70px;
+    // font-size: 82px;
+    padding-left: 112px;
 
     &:before {
       content: url(/images/clip-coffee.png);
       position: absolute;
-      top: 0;
+      top: 10px;
       left: 0;
     }
   }
 
-  h2 {
+  .day {
     color: $accent;
+    font-size: 16px;
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 21px;
+  }
+  .days li {
+    @include box-sizing(border-box);
+  }
+  .days > li {
+    width: 33.33333333%;
+  }
+  .times {
+    padding-top: 32px;
+  }
+  .times li {
+    font-size: 14px;
+  }
+  .days ul li {
+    font-size: 12px;
+    background: $accent;
+    color: $bg-color;
+    padding: 0.25em 0.5em;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
-.supporters, .partners {
+
+.supporters, .partners, .organizers {
   h1 {
-    margin: 30px 0 45px;
+    margin: 30px 0;
+    font-size: 41px;
     padding-left: 90px;
 
     &:before {
@@ -312,22 +330,59 @@ header {
       left: 0;
     }
   }
+}
+
+.supporters, .partners {
+  width: 50%;
+  float: left;
+
   a {
     display: inline-block;
     margin: 0 20px 20px 0;
   }
 }
 
-.twitter h1 {
-  // margin: 30px 0 45px;
-  margin-bottom: 20px;
-  padding-left: 85px;
+.organizers {
+  clear: both;
+}
 
-  &:before {
-    content: url(/images/clip-twitter.png);
+.organizer {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 10px 0;
+
+  img {
+    width: 146px;
+    margin-bottom: -6px;
+    background: #666;
+  }
+
+  h2 {
+    font-size: 13px;
+    background: rgba(#000, 0.7);
+    color: $accent;
+    padding: 0.25em 0.5em;
+    display: inline-block;
+
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.twitter {
+  h1 {
+    // margin: 30px 0 45px;
+    font-size: 41px;
+    margin-bottom: 20px;
+    padding-left: 85px;
+
+    &:before {
+      content: url(/images/clip-twitter.png);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 }
 
