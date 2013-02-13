@@ -339,6 +339,21 @@ header {
   }
 }
 
+.supporters {
+  a {
+    width: 170px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    margin-left: -4px;
+    vertical-align: top;
+  }
+  a:last-child { margin-right: 0; }
+
+  img {
+    vertical-align: middle;
+  }
+}
 .bottom_column {
   float: left;
   width: 60%;
