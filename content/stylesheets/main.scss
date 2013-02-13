@@ -336,6 +336,13 @@ header {
   a {
     display: inline-block;
     margin: 0 20px 20px 0;
+    text-align: center;
+    margin-left: -4px;
+    vertical-align: top;
+  }
+
+  img {
+    vertical-align: middle;
   }
 }
 
@@ -344,16 +351,18 @@ header {
     width: 170px;
     height: 110px;
     line-height: 110px;
-    text-align: center;
-    margin-left: -4px;
-    vertical-align: top;
   }
   a:last-child { margin-right: 0; }
+}
 
-  img {
-    vertical-align: middle;
+.partners {
+  a {
+    width: 202px;
+    height: 70px;
+    line-height: 70px;
   }
 }
+
 .bottom_column {
   float: left;
   width: 60%;
