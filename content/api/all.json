@@ -74,6 +74,11 @@
       "name": "Florian Gilcher",
       "bio": "Florian can call himself old-school: when Rails came out, he was already programming Ruby. Unsurprisingly, he started working with it immediately until he found his new web development bliss in Padrino, to which he frequently commits. He also manages parts of the german Ruby forum and the german Ruby website. He runs a consulting business specializing in non-standard backend solutions. Along with some others, he organizes eurucamp.",
       "photo_url": "/images/speaker-florian-gilcher.jpg"
+    },
+    {
+      "name": "Richard Schneeman",
+      "bio": "Richard <a href='http://twitter.com/schneems'>@schneems</a> writes Ruby at Heroku and teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as Wicked, Sextant, and oPRO. Richard is a proud graduate of Space Camp and an advocate of home brewed beer.",
+      "photo_url": "/images/speaker-richard-schneeman.jpg"
     }
   ],
   "supporters": [
