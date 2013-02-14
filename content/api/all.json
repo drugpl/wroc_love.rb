@@ -127,27 +127,64 @@
       "latitude": 51.11085,
       "longtitude": 17.05323,
       "showPopup": true
+    },
+    {
+      "name": "Browar Mieszczański",
+      "address": "Hubska 44",
+      "latitude": 51.091820,
+      "longtitude": 17.043837,
+      "showPopup": false
+    },
+    {
+      "name": "Mleczarnia",
+      "address": "Włodkowica 5",
+      "latitude": 51.108379,
+      "longtitude": 17.024316,
+      "showPopup": false
+    },
+    {
+      "name": "Bierhalle",
+      "address": "Rynek 24",
+      "latitude": 51.11022,
+      "longtitude": 17.03289,
+      "showPopup": false
     }
   ],
   "agenda": {
     "dayLabels": ["Friday", "Saturday", "Sunday"],
-    "from": "08:00",
-    "to":   "18:00",
+    "from": "10:00",
+    "to":   "23:30",
     "data": [
       [
-        {"from": "08:00", "to": "10:00", "title": "Some talk"},
-        {"from": "10:00", "to": "12:00", "title": "Some talk"},
-        {"from": "12:00", "to": "14:00", "title": "Some talk"}
+        {"from": "12:00", "to": "18:00", "title": "Open space, hackathons, QA sessions and socializing"},
+        {"from": "18:15", "to": "18:45", "title": "FP vs. OOP fight"},
+        {"from": "19:00", "to": "19:30", "title": "Speed = Money"},
+        {"from": "19:45", "to": "20:15", "title": "Programmer productivity"},
+        {"from": "20:30", "to": "23:30", "title": "Party on place"}
       ],
       [
-        {"from": "10:00", "to": "12:00", "title": "Some talk"},
-        {"from": "14:00", "to": "16:00", "title": "Some talk"},
-        {"from": "16:00", "to": "18:00", "title": "Some talk"}
+        {"from": "10:00", "to": "10:45", "title": "The Not-So-Big Software Design"},
+        {"from": "11:00", "to": "11:30", "title": "Services and Rails: The Shit They Don't Tell You"},
+        {"from": "11:45", "to": "12:15", "title": "Building a Real-Time Analytics Engine in JRuby"},
+        {"from": "12:30", "to": "13:00", "title": "How to Lie, Cheat and Steal"},
+        {"from": "15:00", "to": "15:30", "title": "Ember.js vs. Hexagonal.js fight"},
+        {"from": "15:45", "to": "16:15", "title": "Dear God, what am I doing? Concurrency and parallel processing"},
+        {"from": "16:30", "to": "17:00", "title": "DCI"},
+        {"from": "17:15", "to": "17:45", "title": "Topaz Ruby"},
+        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "23:30", "title": "Party in Mleczarnia"}
       ],
       [
-        {"from": "12:00", "to": "14:00", "title": "Some talk"},
-        {"from": "14:00", "to": "16:00", "title": "Some talk"},
-        {"from": "16:00", "to": "18:00", "title": "Some talk"}
+        {"from": "10:00", "to": "10:30", "title": "Refactoring Fat Models with Patterns"},
+        {"from": "10:45", "to": "11:30", "title": "Ports and Adapters architecture - a place for everything and everything in its place"},
+        {"from": "11:45", "to": "12:15", "title": "A la carte, please!"},
+        {"from": "12:30", "to": "13:00", "title": "Security, Secrets, and Shenanigans"},
+        {"from": "15:00", "to": "15:30", "title": "Ruby meets security panel"},
+        {"from": "15:45", "to": "16:15", "title": "Things you can't do in Ruby"},
+        {"from": "16:30", "to": "17:00", "title": "OO Design and the history of philosophy"},
+        {"from": "17:15", "to": "17:45", "title": "Embrace the static. Cherish the functional. Remain a Rubyist."},
+        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "23:30", "title": "Party in Bierhalle"}
       ]
     ]
   },
