@@ -79,6 +79,11 @@
       "name": "Richard Schneeman",
       "bio": "Richard <a href='http://twitter.com/schneems'>@schneems</a> writes Ruby at Heroku and teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as Wicked, Sextant, and oPRO. Richard is a proud graduate of Space Camp and an advocate of home brewed beer.",
       "photo_url": "/images/speaker-richard-schneeman.jpg"
+    },
+    {
+      "name": "Stefan Wintermeyer",
+      "bio": "Stefan wrote a book about Ruby on Rails 3.2 and a couple of books about Asterisk and FreeSWITCH. He is a founder and Managing Director AMOOMA GmbH.",
+      "photo_url": "/images/speaker-stefan-wintermeyer.jpg"
     }
   ],
   "supporters": [
