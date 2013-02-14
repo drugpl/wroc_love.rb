@@ -191,7 +191,11 @@
       ],
       [
         {"from": "10:00", "to": "10:30", "title": "Refactoring Fat Models with Patterns"},
-        {"from": "10:45", "to": "11:30", "title": "Ports and Adapters architecture - a place for everything and everything in its place"},
+        {"from": "10:45", "to": "11:30", 
+          "title": "Ports and Adapters architecture - a place for everything and everything in its place",
+          "speaker": "Sławomir Sobótka",
+          "description": "Ports and Adapters architecture is a synthesis of the modern software engineering. In its flexible Micro Kernel we will find a place for Domain Driven Design, Command-query Responsibility Segregation, Event Sourcing and plugins. Kernel is protected by hard shell of Ports, which provides testability, scalability and SOA-Ready strategy. However, the outer aura made of Adapters opens system for: multi-device capability, Event Driven Architecture, Rest and Saga. Everything is integrated within elegant 'Hexagon' where there is 'A place for everything and everything in its place'. During the presentation, I'll encourage you to communicate and solve problems using visualizing techniques and your visual intelligence."
+        },
         {"from": "11:45", "to": "12:15", "title": "A la carte, please!"},
         {"from": "12:30", "to": "13:00", "title": "Security, Secrets, and Shenanigans"},
         {"from": "15:00", "to": "15:30", "title": "Ruby Meets Security panel"},
