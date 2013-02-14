@@ -101,6 +101,11 @@
       "name": "netguru",
       "website_url": "http://netguru.co/",
       "logo_url": "/images/supporter-netguru.png"
+    },
+    {
+      "name": "Lunar Logic Polska",
+      "website_url": "http://lunarlogicpolska.com/",
+      "logo_url": "/images/supporter-llp.png"
     }
   ],
   "partners": [
