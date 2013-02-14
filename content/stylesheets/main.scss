@@ -352,7 +352,7 @@ header {
     height: 110px;
     line-height: 110px;
   }
-  a:last-child { margin-right: 0; }
+  a:nth-child(6) { margin-right: 0; }
 }
 
 .partners {
