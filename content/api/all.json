@@ -169,7 +169,7 @@
         {"from": "12:00", "to": "18:00", "title": "Open space, hackathons, QA sessions and socializing"},
         {"from": "18:15", "to": "18:45", "title": "FP vs. OOP fight"},
         {"from": "19:00", "to": "19:30", "title": "Speed = Money"},
-        {"from": "19:45", "to": "20:15", "title": "Programmer productivity"},
+        {"from": "19:45", "to": "20:15", "title": "Programmer Productivity fishbowl"},
         {"from": "20:30", "to": "23:30", "title": "Party on place"}
       ],
       [
@@ -189,7 +189,7 @@
         {"from": "10:45", "to": "11:30", "title": "Ports and Adapters architecture - a place for everything and everything in its place"},
         {"from": "11:45", "to": "12:15", "title": "A la carte, please!"},
         {"from": "12:30", "to": "13:00", "title": "Security, Secrets, and Shenanigans"},
-        {"from": "15:00", "to": "15:30", "title": "Ruby meets security panel"},
+        {"from": "15:00", "to": "15:30", "title": "Ruby Meets Security panel"},
         {"from": "15:45", "to": "16:15", "title": "Things you can't do in Ruby"},
         {"from": "16:30", "to": "17:00", "title": "OO Design and the history of philosophy"},
         {"from": "17:15", "to": "17:45", "title": "Embrace the static. Cherish the functional. Remain a Rubyist."},
