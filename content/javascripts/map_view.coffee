@@ -12,7 +12,7 @@ class window.MapView
         shadowAnchor: [12, 40]
 
     map = L.map(selector[0], attributionControl: false)
-    map.setView([51.108, 17.046], 14)
+    map.setView([51.108, 17.037], 13)
 
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -21,6 +21,6 @@ class window.MapView
     for venue in data.venues
       marker = L.marker([venue.latitude, venue.longtitude], {icon: icon})
       marker.addTo(map)
-      marker.bindPopup("<h2>#{venue.name}</h2><p>#{venue.address}</p>")
+      marker.bindPopup("<h2>#{venue.name}</h2><p><small>#{venue.address}</small></p><p>#{venue.description}</p>")
       marker.openPopup() if venue.showPopup
 

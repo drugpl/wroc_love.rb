@@ -138,28 +138,32 @@
   "venues": [
     {
       "name": "University of Wrocław, Institute of Computer Science",
-      "address": "Fryderyka Joliot-Curie 15, Wrocław, Poland",
+      "address": "Fryderyka Joliot-Curie 15, Wrocław",
+      "description": "Main venue",
       "latitude": 51.11085,
       "longtitude": 17.05323,
       "showPopup": true
     },
     {
       "name": "Browar Mieszczański",
-      "address": "Hubska 44",
+      "address": "Hubska 44, Wrocław",
+      "description": "Friday venue",
       "latitude": 51.091820,
       "longtitude": 17.043837,
-      "showPopup": false
+      "showPopup": true
     },
     {
       "name": "Mleczarnia",
-      "address": "Włodkowica 5",
+      "address": "Włodkowica 5, Wrocław",
+      "description": "",
       "latitude": 51.108379,
       "longtitude": 17.024316,
       "showPopup": false
     },
     {
       "name": "Bierhalle",
-      "address": "Rynek 24",
+      "address": "Rynek 24, Wrocław",
+      "description": "",
       "latitude": 51.11022,
       "longtitude": 17.03289,
       "showPopup": false

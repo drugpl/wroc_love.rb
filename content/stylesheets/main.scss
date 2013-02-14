@@ -476,6 +476,13 @@ footer {
 
       p {
         line-height: 1.5;
+        margin-top: 0;
+        margin-bottom: 0.2em;
+
+        small {
+          font-size: 0.9em;
+          -webkit-font-smoothing: antialiased;
+        }
       }
     }
 
