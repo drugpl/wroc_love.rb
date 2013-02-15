@@ -348,11 +348,11 @@ header {
 
 .supporters {
   a {
-    width: 170px;
+    width: 140px;
     height: 110px;
     line-height: 110px;
   }
-  a:nth-child(6) { margin-right: 0; }
+  a:last-of-type { margin-right: 0; }
 }
 
 .partners {
