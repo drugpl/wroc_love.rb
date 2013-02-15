@@ -172,14 +172,14 @@
   "agenda": {
     "dayLabels": ["Friday", "Saturday", "Sunday"],
     "from": "10:00",
-    "to":   "23:30",
+    "to":   "23:15",
     "data": [
       [
         {"from": "12:00", "to": "18:00", "title": "Open space, hackathons, QA sessions and socializing"},
         {"from": "18:15", "to": "18:45", "title": "FP vs. OOP fight"},
         {"from": "19:00", "to": "19:30", "title": "Speed = Money"},
         {"from": "19:45", "to": "20:15", "title": "Programmer Productivity fishbowl"},
-        {"from": "20:30", "to": "23:30", "title": "Party on place"}
+        {"from": "20:30", "to": "23:15", "title": "Party on place"}
       ],
       [
         {"from": "10:00", "to": "10:45", "title": "The Not-So-Big Software Design"},
@@ -191,11 +191,11 @@
         {"from": "16:30", "to": "17:00", "title": "DCI != #extend && DCI != use case in code"},
         {"from": "17:15", "to": "17:45", "title": "Topaz Ruby"},
         {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
-        {"from": "21:00", "to": "23:30", "title": "Party in Mleczarnia"}
+        {"from": "21:00", "to": "23:15", "title": "Party in Mleczarnia"}
       ],
       [
         {"from": "10:00", "to": "10:30", "title": "Refactoring Fat Models with Patterns"},
-        {"from": "10:45", "to": "11:30", 
+        {"from": "10:45", "to": "11:30",
           "title": "Ports and Adapters architecture - a place for everything and everything in its place",
           "speaker": "Sławomir Sobótka",
           "description": "Ports and Adapters architecture is a synthesis of the modern software engineering. In its flexible Micro Kernel we will find a place for Domain Driven Design, Command-query Responsibility Segregation, Event Sourcing and plugins. Kernel is protected by hard shell of Ports, which provides testability, scalability and SOA-Ready strategy. However, the outer aura made of Adapters opens system for: multi-device capability, Event Driven Architecture, Rest and Saga. Everything is integrated within elegant 'Hexagon' where there is 'A place for everything and everything in its place'. During the presentation, I'll encourage you to communicate and solve problems using visualizing techniques and your visual intelligence."
@@ -207,7 +207,7 @@
         {"from": "16:30", "to": "17:00", "title": "OO Design and the history of philosophy"},
         {"from": "17:15", "to": "17:45", "title": "Embrace the static. Cherish the functional. Remain a Rubyist."},
         {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
-        {"from": "21:00", "to": "23:30", "title": "Party in Bierhalle"}
+        {"from": "21:00", "to": "23:15", "title": "Party in Bierhalle"}
       ]
     ]
   },

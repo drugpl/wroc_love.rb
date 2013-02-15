@@ -21,13 +21,17 @@
 
     li {
       display: block;
-      font-size: 1.2em;
+      font-size: 0.85em;
       line-height: 2em;
-      color: #aaaaaa;
-      border-top: 1px solid #dddddd;
+      color: #bbb;
+      border-top: 1px solid #ddd;
+
+      &:nth-child(4n+1) {
+        color: #888;
+      }
 
       &:last-child {
-        border-bottom: 1px solid #dddddd;
+        border-bottom: 1px solid #ddd;
       }
     }
   }

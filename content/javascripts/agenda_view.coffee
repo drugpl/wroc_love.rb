@@ -7,6 +7,7 @@ class @AgendaView
       days: json.agenda.dayLabels
       from: json.agenda.from
       to: json.agenda.to
+      step: 15
 
     $.each json.agenda.data, (dayIndex, day) ->
       for thing in day
