@@ -121,6 +121,11 @@
       "name": "Lunar Logic Polska",
       "website_url": "http://lunarlogicpolska.com/",
       "logo_url": "/images/supporter-llp.png"
+    },
+    {
+      "name": "Yammer",
+      "website_url": "http://yammer.com",
+      "logo_url": "/images/supporter-yammer.png"
     }
   ],
   "partners": [
