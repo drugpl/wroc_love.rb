@@ -1,7 +1,8 @@
 %script{:id => 'organizers-template', :type => 'text/x-handlebars-template'}
   {{#each organizers}}
   .organizer
-    %img{:src => '{{photo_url}}'}
+    %a{:href => '{{link_url}}'}
+      %img{:src => '{{photo_url}}'}
     .info
       %h2 {{name}}
   {{/each}}

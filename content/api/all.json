@@ -219,31 +219,38 @@
   "organizers": [
     {
       "name": "Andrzej Krzywda",
-      "photo_url": "/images/organizer-andrzej-krzywda.jpg"
+      "photo_url": "/images/organizer-andrzej-krzywda.jpg",
+      "link_url": "https://twitter.com/andrzejkrzywda"
     },
     {
       "name": "Jan Szumiec",
-      "photo_url": "/images/organizer-jan-szumiec.jpg"
+      "photo_url": "/images/organizer-jan-szumiec.jpg",
+      "link_url": "https://twitter.com/jasiek_"
     },
     {
       "name": "Mateusz Lenik",
-      "photo_url": "/images/organizer-mateusz-lenik.jpg"
+      "photo_url": "/images/organizer-mateusz-lenik.jpg",
+      "link_url": "https://twitter.com/_mlen"
     },
     {
       "name": "Michał Łomnicki",
-      "photo_url": "http://www.gravatar.com/avatar/5ac931514fa7deadb59ed29909c233b8?s=150"
+      "photo_url": "http://www.gravatar.com/avatar/5ac931514fa7deadb59ed29909c233b8?s=150",
+      "link_url": "https://twitter.com/mlomnicki"
     },
     {
       "name": "Paweł Pacana",
-      "photo_url": "/images/organizer-pawel-pacana.jpg"
+      "photo_url": "/images/organizer-pawel-pacana.jpg",
+      "link_url": "https://twitter.com/pawelpacana"
     },
     {
       "name": "Rafał Hirsz",
-      "photo_url": "/images/organizer-rafal-hirsz.jpg"
+      "photo_url": "/images/organizer-rafal-hirsz.jpg",
+      "link_url": "https://twitter.com/hdevo"
     },
     {
       "name": "Marcin Pietraszek",
-      "photo_url": "/images/organizer-marcin-pietraszek.jpg"
+      "photo_url": "/images/organizer-marcin-pietraszek.jpg",
+      "link_url": "http://marcin.pietraszek.pl/"
     }
   ]
 }
