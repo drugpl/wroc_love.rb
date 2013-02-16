@@ -335,9 +335,9 @@ header {
 .supporters, .partners {
   a {
     display: inline-block;
-    margin: 0 20px 20px 0;
+    margin: 0 20px 20px;
     text-align: center;
-    margin-left: -4px;
+    // margin-left: -4px;
     vertical-align: top;
   }
 
@@ -348,18 +348,21 @@ header {
 
 .supporters {
   a {
-    width: 140px;
-    height: 110px;
-    line-height: 110px;
+    width: 236px;
+    height: 93px;
+    line-height: 93px;
   }
-  a:last-of-type { margin-right: 0; }
 }
 
 .partners {
   a {
-    width: 202px;
-    height: 70px;
-    line-height: 70px;
+    // width: 202px;
+    height: 54px;
+    line-height: 54px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
   }
 }
 
