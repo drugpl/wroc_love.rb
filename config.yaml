@@ -80,7 +80,6 @@ watcher:
   notify_on_compilation_failure: true
 
 deploy:
-  deploy:
   default:
     kind: rsync
     dst:  "wrocloverb@wrocloverb.com:current"
