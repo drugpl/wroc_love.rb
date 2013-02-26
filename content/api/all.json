@@ -126,6 +126,21 @@
       "name": "Yammer",
       "website_url": "http://yammer.com",
       "logo_url": "/images/supporter-yammer.png"
+    },
+    {
+      "name": "Future Simple",
+      "website_url": "http://www.futuresimple.com",
+      "logo_url": "/images/supporter-fs.png"
+    },
+    {
+      "name": "Shapp.ly",
+      "website_url": "http://shapp.ly",
+      "logo_url": "/images/supporter-shapply.png"
+    },
+    {
+      "name": "X8",
+      "website_url": "http://x8.io",
+      "logo_url": "/images/supporter-x8.png"
     }
   ],
   "partners": [
