@@ -218,59 +218,59 @@ header {
       left: 0;
     }
   }
-}
 
-.speaker {
-  $inactive-height: 396px;
-  $active-height: 396px;
-  $info-height: 37px;
+  > .speaker {
+    $inactive-height: 396px;
+    $active-height: 396px;
+    $info-height: 37px;
 
-  position: relative;
-  display: inline-block;
-  margin: 0 10px 6px -4px;
-  width: floor(($page-width - 40px) / 4);
-  height: $inactive-height;
-  overflow: hidden;
-  background-position: center;
-
-  @include transition(height 0.5s);
-
-  &:nth-of-type(4n+1) {
-    margin-right: 0;
-  }
-
-  img { margin-bottom: -6px; }
-
-  h2, h3 {
-    font-size: 24px;
-    line-height: 1;
-  }
-  h2 { color: $accent; }
-  h3 {
-    color: $bg-color;
-    font-weight: normal;
-  }
-
-  .description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-
-    color: $bg-color;
-    -webkit-font-smoothing: antialiased;
-
-    &.animated {
-      @include transition(bottom 0.5s);
-    }
-  }
-  .info {
+    position: relative;
     display: inline-block;
-  }
-  .info, .content {
-    padding: 0.5em 1em;
-    background: rgba(#000, 0.7);
-    font-size: 13px;
+    margin: 0 10px 6px -4px;
+    width: floor(($page-width - 40px) / 4);
+    height: $inactive-height;
+    overflow: hidden;
+    background-position: center;
+
+    @include transition(height 0.5s);
+
+    &:nth-of-type(4n+1) {
+      margin-right: 0;
+    }
+
+    img { margin-bottom: -6px; }
+
+    h2, h3 {
+      font-size: 24px;
+      line-height: 1;
+    }
+    h2 { color: $accent; }
+    h3 {
+      color: $bg-color;
+      font-weight: normal;
+    }
+
+    .description {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+
+      color: $bg-color;
+      -webkit-font-smoothing: antialiased;
+
+      &.animated {
+        @include transition(bottom 0.5s);
+      }
+    }
+    .info {
+      display: inline-block;
+    }
+    .info, .content {
+      padding: 0.5em 1em;
+      background: rgba(#000, 0.7);
+      font-size: 13px;
+    }
   }
 }
 
@@ -313,6 +313,11 @@ header {
     color: $bg-color;
     padding: 0.25em 0.5em;
     -webkit-font-smoothing: antialiased;
+  }
+
+  .title {
+    font-weight: bold;
+    text-transform: uppercase;
   }
 }
 
