@@ -127,8 +127,11 @@ class @Agenda
         height = diff * @px_ms_ratio
 
         # Create the element
+        element_text = "<strong>#{from.format('HH:mm')}</strong> <span class='title'>#{data.title}</span>"
+        element_text += " - <span class='speaker'>#{data.speaker}</span>" if data.speaker?
+
         element = $('<li/>')
-            .html("<strong>#{from.format('HH:mm')}</strong> #{data.title}")
+            .html(element_text)
             .css(
                 top: top
                 height: height
