@@ -214,7 +214,7 @@
         {"from": "21:00", "to": "23:15", "title": "Party in Mleczarnia"}
       ],
       [
-        {"from": "10:00", "to": "10:30", "title": "Refactoring Fat Models with Patterns", "speaker": "Bryan Helmkamp"},
+        {"from": "10:00", "to": "10:30", "title": "Embrace the static. Cherish the functional. Remain a Rubyist.", "speaker": "Jan Stępień"},
         {"from": "10:45", "to": "11:30",
           "title": "Ports and Adapters architecture - a place for everything and everything in its place",
           "speaker": "Sławomir Sobótka",
@@ -225,7 +225,7 @@
         {"from": "15:00", "to": "15:30", "title": "Ruby Meets Security panel", "speaker": "Bryan Helmkamp, Piotr Niełacny, Richard Schneeman"},
         {"from": "15:45", "to": "16:15", "title": "Things you can't do in Ruby", "speaker": "Piotr Niełacny"},
         {"from": "16:30", "to": "17:00", "title": "OO Design and the history of philosophy", "speaker": "Steve Klabnik"},
-        {"from": "17:15", "to": "17:45", "title": "Embrace the static. Cherish the functional. Remain a Rubyist.", "speaker": "Jan Stępień"},
+        {"from": "17:15", "to": "17:45", "title": "Refactoring Fat Models with Patterns", "speaker": "Bryan Helmkamp"},
         {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
         {"from": "21:00", "to": "23:15", "title": "Party in Bierhalle"}
       ]
