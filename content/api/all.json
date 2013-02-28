@@ -190,7 +190,7 @@
     }
   ],
   "agenda": {
-    "dayLabels": ["Friday", "Saturday", "Sunday"],
+    "dayLabels": ["Friday in Browar Mieszczański", "Saturday in University", "Sunday in University"],
     "from": "10:00",
     "to":   "23:15",
     "data": [
@@ -198,7 +198,7 @@
         {"from": "12:00", "to": "18:00", "title": "Open space, hackathons, QA sessions and socializing"},
         {"from": "18:15", "to": "18:45", "title": "FP vs. OOP fight", "speaker": "Norbert Wójtowicz, Tymon Tobolski, Piotr Żołnierek, Andrzej Krzywda, Przemysław Kowalczyk, Jan Filipowski"},
         {"from": "19:00", "to": "19:30", "title": "Speed = Money", "speaker": "Stefan Wintermeyer"},
-        {"from": "19:45", "to": "20:15", "title": "Programmer Productivity fishbowl", "speaker": "Michał Taszycki, Robert Pankowecki"},
+        {"from": "19:45", "to": "20:15", "title": "Programmer Productivity fishbowl", "speaker": "Michał Taszycki, Robert Pankowecki, Alex Koppel"},
         {"from": "20:30", "to": "23:15", "title": "Party on place"}
       ],
       [
