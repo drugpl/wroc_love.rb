@@ -1,10 +1,14 @@
 %script{:id => 'speakers-template', :type => 'text/x-handlebars-template'}
   {{#each speakers}}
-  .speaker{:style => 'background-image: url({{photo_url}})'}
+  .speaker
+    .photo{:style => 'background-image: url({{photo_url}})'}
+      %img{:src => '{{photo_url}}'}
     .description
       .info
         %h2 {{name}}
+        %h3 DEAR GOD, WHAT AM I DOING? CONCURRENCY AND PARALLEL PROCESSING
+        %p {{bio}}
       .content
-        {{bio}}
+        %iframe.player{:src => 'http://www.youtube.com/embed/ZZ5LpwO-An4?enablejsapi=1', :width => 704, :height => 396, :frameborder => 0}
   {{/each}}
 

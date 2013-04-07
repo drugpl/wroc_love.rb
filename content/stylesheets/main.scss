@@ -207,11 +207,7 @@ header {
 }
 
 .speakers {
-  // float: left;
-  // width: $main-column + 20px;
-
   h1 {
-    // font-size: 82px;
     margin-bottom: 20px;
     padding-left: 110px;
 
@@ -224,56 +220,93 @@ header {
   }
 
   > .speaker {
-    $inactive-height: 396px;
-    $active-height: 396px;
-    $info-height: 37px;
-
-    position: relative;
-    display: inline-block;
-    margin: 0 10px 6px -4px;
-    width: floor(($page-width - 40px) / 4);
-    height: $inactive-height;
     overflow: hidden;
-    background-position: center;
-
-    @include transition(height 0.5s);
-
-    &:nth-of-type(4n+1) {
-      margin-right: 0;
-    }
-
-    img { margin-bottom: -6px; }
+    margin-bottom: 20px;
 
     h2, h3 {
-      font-size: 24px;
-      line-height: 1;
+      color: $accent;
     }
-    h2 { color: $accent; }
-    h3 {
-      color: $bg-color;
-      font-weight: normal;
+
+    h2 {
+      font-size: 32px;
+      line-height: 1.2;
+      margin: 15px 0;
+    }
+
+    p {
+      color: #fff;
+    }
+
+    .photo {
+      float: left;
+      position: relative;
+      background: center no-repeat;
+      width: 270px;
+      height: 396px;
+
+      &:after {
+        content: ' ';
+        position: absolute;
+        right: -10px;
+        top: 0;
+        width: 10px;
+        height: 396px;
+        @include linear-gradient(right, rgba(#111, 0), rgba(#111, 1));
+      }
+
+      img { display: none; }
     }
 
     .description {
-      position: absolute;
-      bottom: 0;
-      left: 0;
+      float: left;
       overflow: hidden;
-
-      color: $bg-color;
+      background: #111;
+      width: 850px;
       -webkit-font-smoothing: antialiased;
+    }
 
-      &.animated {
-        @include transition(bottom 0.5s);
+    .info {
+      overflow: hidden;
+      padding: 0 10px;
+      height: 376px;
+      float: left;
+      width: 560px;
+
+      @include transition(margin-left 0.5s ease-out);
+    }
+
+    .content {
+      overflow: hidden;
+      position: relative;
+      float: left;
+      width: 270px;
+      margin-bottom: -6px;
+
+      @include transition(width 0.5s ease-out);
+
+      &:after {
+        content: url(/images/play.png);
+        position: absolute;
+        left: 86px;
+        top: 150px;
+        opacity: 0.6;
+        cursor: pointer;
+        pointer-events: none;
+      }
+
+      &:hover:after {
+        opacity: 0.9;
       }
     }
-    .info {
-      display: inline-block;
-    }
-    .info, .content {
-      padding: 0.5em 1em;
-      background: rgba(#000, 0.7);
-      font-size: 13px;
+
+    &.playing {
+      .info {
+        margin-left: -434px;
+      }
+      .content {
+        width: 704px;
+        &:after { display: none }
+      }
     }
   }
 }
@@ -282,7 +315,6 @@ header {
   margin-bottom: 40px;
 
   h1 {
-    // font-size: 82px;
     padding-left: 112px;
 
     &:before {
