@@ -13,8 +13,6 @@
     = render 'analytics'
     = render 'speakers'
     = render 'supporters'
-    = render 'partners'
-    = render 'organizers'
     = render 'error'
 
   %body
@@ -43,22 +41,10 @@
 
     %footer
       .container
-        %article.location
-          %h1 Location
-          .map_container
-            .map
-
         %nav.bottomnav
           %ul.horizontal
             %li
-              %a{:href => '#top'}
-                %img{:src => '/images/logo-small.png', :alt => 'wroc_love.rb'}
-            %li
               %a{:href => 'http://blog.wrocloverb.com/'} Blog
-            %li
-              %a{:href => 'https://tito.io/wrocloverb/2013'} Buy tickets
-            %li
-              %a{:href => 'http://cfp.wrocloverb.com/'} Call for Papers
             %li
               %a{:href => 'http://eepurl.com/iaSvw', :target => '_blank'} Newsletter
             %li
