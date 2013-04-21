@@ -172,10 +172,10 @@ header {
 
 .main_section {
   @include clearfix;
-  margin: 0 auto 80px;
+  margin: 0 auto;
 
   article {
-    margin: 30px 0;
+    margin: 20px 0;
   }
 }
 
@@ -311,6 +311,27 @@ header {
   }
 }
 
+.video {
+  background: #111;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  h2, h3 {
+    color: $accent;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .info {
+    float: left;
+    width: 416px - 20px;
+    padding: 10px;
+  }
+  .content {
+    float: right;
+    width: 704px;
+  }
+}
+
 .agenda {
   margin-bottom: 40px;
 
@@ -387,7 +408,9 @@ header {
   }
 }
 
-.supporters {
+.main_section .supporters {
+  margin: 80px 0;
+
   a {
     width: 236px;
     height: 93px;

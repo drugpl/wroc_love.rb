@@ -1,0 +1,9 @@
+%script{:id => 'videos-template', :type => 'text/x-handlebars-template'}
+  {{#each videos}}
+  .video
+    .info
+      %h2 {{name}}
+      %h3 {{title}}
+    .content
+      %iframe.player{:src => '{{yt_url}}?enablejsapi=1', :width => 704, :height => 396, :frameborder => 0}
+  {{/each}}

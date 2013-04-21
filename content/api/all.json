@@ -37,7 +37,7 @@
     },
     {
       "name": "Jan Stępień",
-      "title": "Embrace the static. Cherish the functional. Remain a Rubist",
+      "title": "Embrace the static. Cherish the functional. Remain a Rubyist",
       "bio": "A programming languages polyglot and your fellow geek born and raised in the arguably picturesque city of <a href='https://en.wikipedia.org/wiki/Warsaw'>Warsaw</a>. Graduated with MSc Eng in Computer Science from Warsaw University of Technology in early February 2013. When in front of the keyboard he&rsquo;s most probably juggling with bits of Ruby, C, Clojure and Haskell. When offline, he can be found outdoors; either preparing for the next marathon in forests surrounding Warsaw or wandering with a way too big backpack somewhere in the <a href='https://en.wikipedia.org/wiki/Carpathian_Mountains'>Carpathian</a> wilderness.",
       "photo_url": "/images/speaker-jan-stepien.jpg",
       "yt_url": "http://www.youtube.com/embed/P6_illGY_00"
@@ -104,40 +104,32 @@
       "bio": "Stefan wrote a book about Ruby on Rails 3.2 and a couple of books about Asterisk and FreeSWITCH. He is a founder and Managing Director AMOOMA GmbH.",
       "photo_url": "/images/speaker-stefan-wintermeyer.jpg",
       "yt_url": "http://www.youtube.com/embed/KJEdl-p747g"
-    },
+    }
+  ],
+  "videos": [
     {
       "name": "Programmer Productivity fishbowl",
       "title": "To be or not to be an effective programmer",
-      "bio": "",
-      "photo_url": "/images/clip-rocket.png",
       "yt_url": "http://www.youtube.com/embed/2pmQk27i1PM"
     },
     {
       "name": "Security Panel",
       "title": "",
-      "bio": "",
-      "photo_url": "/images/clip-rocket.png",
       "yt_url": "http://www.youtube.com/embed/cqYKd6jPXKM"
     },
     {
       "name": "Javascript Frameworks Fight",
       "title": "Hexagonal vs Angular vs Ember vs Backbone",
-      "bio": "",
-      "photo_url": "/images/clip-rocket.png",
       "yt_url": "http://www.youtube.com/embed/h8XeZFW1Ad0"
     },
     {
       "name": "Lightning Talks from Day 2",
       "title": "",
-      "bio": "",
-      "photo_url": "/images/clip-rocket.png",
       "yt_url": "http://www.youtube.com/embed/VO4tM5RcUlc"
     },
     {
       "name": "Lightning Talks from Day 3",
       "title": "",
-      "bio": "",
-      "photo_url": "/images/clip-rocket.png",
       "yt_url": "http://www.youtube.com/embed/6CZjK97dMTE"
     }
   ],

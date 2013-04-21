@@ -17,6 +17,7 @@ hideLoadingSpinner = ->
 callback = (data) ->
   hideLoadingSpinner()
   new HandlebarsView('speakers').render($('.speakers'), data)
+  new HandlebarsView('videos').render($('.videos'), data)
   new HandlebarsView('supporters').render($('.supporters'), data)
 
   setupAnimations()
@@ -33,8 +34,6 @@ errback = ->
     $element.data('player', new YT.Player this,
       events:
         onStateChange: (event) ->
-          # $element.data('state', event.data)
-
           switch event.data
             when YT.PlayerState.PLAYING   then $speaker.addClass('playing')
             when YT.PlayerState.BUFFERING then $speaker.addClass('playing')
