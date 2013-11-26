@@ -1,14 +1,10 @@
 %script{:id => 'speakers-template', :type => 'text/x-handlebars-template'}
   {{#each speakers}}
-  .speaker
-    .photo{:style => 'background-image: url({{photo_url}})'}
-      %img{:src => '{{photo_url}}'}
+  .speaker{:style => 'background-image: url({{photo_url}})'}
     .description
       .info
         %h2 {{name}}
-        %h3 {{title}}
-        %p {{bio}}
       .content
-        %iframe.player{:src => '{{yt_url}}?enablejsapi=1', :width => 704, :height => 396, :frameborder => 0}
+        {{bio}}
   {{/each}}
 

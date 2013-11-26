@@ -172,10 +172,10 @@ header {
 
 .main_section {
   @include clearfix;
-  margin: 0 auto;
+  margin: 0 auto 80px;
 
   article {
-    margin: 20px 0;
+    margin: 30px 0;
   }
 }
 
@@ -207,7 +207,11 @@ header {
 }
 
 .speakers {
+  // float: left;
+  // width: $main-column + 20px;
+
   h1 {
+    // font-size: 82px;
     margin-bottom: 20px;
     padding-left: 110px;
 
@@ -220,115 +224,57 @@ header {
   }
 
   > .speaker {
+    $inactive-height: 396px;
+    $active-height: 396px;
+    $info-height: 37px;
+
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 6px -4px;
+    width: floor(($page-width - 40px) / 4);
+    height: $inactive-height;
     overflow: hidden;
-    margin-bottom: 20px;
+    background-position: center;
+
+    @include transition(height 0.5s);
+
+    &:nth-of-type(4n+1) {
+      margin-right: 0;
+    }
+
+    img { margin-bottom: -6px; }
 
     h2, h3 {
-      color: $accent;
+      font-size: 24px;
+      line-height: 1;
     }
-
-    h2 {
-      font-size: 32px;
-      line-height: 1.2;
-      margin: 15px 0;
-    }
-
-    p {
-      color: #fff;
-    }
-
-    .photo {
-      float: left;
-      position: relative;
-      background: center no-repeat;
-      width: 270px;
-      height: 396px;
-
-      &:after {
-        content: ' ';
-        position: absolute;
-        right: -10px;
-        top: 0;
-        width: 10px;
-        height: 396px;
-        @include linear-gradient(right, rgba(#111, 0), rgba(#111, 1));
-      }
-
-      img { display: none; }
+    h2 { color: $accent; }
+    h3 {
+      color: $bg-color;
+      font-weight: normal;
     }
 
     .description {
-      float: left;
+      position: absolute;
+      bottom: 0;
+      left: 0;
       overflow: hidden;
-      background: #111;
-      width: 850px;
+
+      color: $bg-color;
       -webkit-font-smoothing: antialiased;
-    }
 
+      &.animated {
+        @include transition(bottom 0.5s);
+      }
+    }
     .info {
-      overflow: hidden;
-      padding: 0 10px;
-      height: 376px;
-      float: left;
-      width: 560px;
-
-      @include transition(margin-left 0.5s ease-out);
+      display: inline-block;
     }
-
-    .content {
-      overflow: hidden;
-      position: relative;
-      float: left;
-      width: 270px;
-      margin-bottom: -6px;
-
-      @include transition(width 0.5s ease-out);
-
-      &:after {
-        content: url(/images/play.png);
-        position: absolute;
-        left: 86px;
-        top: 150px;
-        opacity: 0.6;
-        cursor: pointer;
-        pointer-events: none;
-      }
-
-      &:hover:after {
-        opacity: 0.9;
-      }
+    .info, .content {
+      padding: 0.5em 1em;
+      background: rgba(#000, 0.7);
+      font-size: 13px;
     }
-
-    &.playing {
-      .info {
-        margin-left: -434px;
-      }
-      .content {
-        width: 704px;
-        &:after { display: none }
-      }
-    }
-  }
-}
-
-.video {
-  background: #111;
-  overflow: hidden;
-  margin-bottom: 20px;
-
-  h2, h3 {
-    color: $accent;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .info {
-    float: left;
-    width: 416px - 20px;
-    padding: 10px;
-  }
-  .content {
-    float: right;
-    width: 704px;
   }
 }
 
@@ -336,6 +282,7 @@ header {
   margin-bottom: 40px;
 
   h1 {
+    // font-size: 82px;
     padding-left: 112px;
 
     &:before {
@@ -408,9 +355,7 @@ header {
   }
 }
 
-.main_section .supporters {
-  margin: 80px 0;
-
+.supporters {
   a {
     width: 236px;
     height: 93px;

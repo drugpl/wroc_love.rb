@@ -2,135 +2,88 @@
   "speakers": [
     {
       "name": "Reginald Braithwaite",
-      "title": "The Not-So-Big Software Design",
       "bio": "Reginald Braithwaite is a software developer at Leanpub, where he and his colleagues take the friction out of writing and selling books. He has more than twenty years of hands-on experience creating software products and leading software teams. He currently applies extremely deep Ruby, JavaScript, CoffeeScript, and advanced programming expertise to crafting well-factored, maintainable code. He is a respected speaker and author on subjects ranging from managing development and not-so-big design to and extreme hackery such as dynamic meta-programming. His recent open source includes Cafe au Life, Method Combinators, andand, and jQuery Combinators.",
-      "photo_url": "/images/speaker-reginald-braithwaite.jpg",
-      "yt_url": "http://www.youtube.com/embed/arsK-CN5YDg"
+      "photo_url": "/images/speaker-reginald-braithwaite.jpg"
     },
     {
       "name": "Sławomir Sobótka",
-      "title": "Ports and Adapters architecture - A place for everything and everything in its place",
       "bio": "Hands-on systems designer, head coach at <a href='http://www.bottega.com.pl'>Bottega IT Solutions</a> specialized in Enterprise Java technologies and effective utilization of modern software engineering techniques Interested in broadly defined software engineering: architecture of highly efficient/productive web systems (particularly CqRS), modeling (particularly DDD), design patterns, agile development. Interested in Cognitive Science and psychology. Software Craftsmanship enthusiast Participates in social community as: president of <a href='http://ssepp.pl/'>Polish Software Engineering Professionals Association</a>, publisher, speaker and <a href='http://art-of-software.blogspot.com/'>blogger</a>.",
-      "photo_url": "/images/speaker-slawomir-sobotka.jpg",
-      "yt_url": "http://www.youtube.com/embed/_Js-GEqB-8I"
+      "photo_url": "/images/speaker-slawomir-sobotka.jpg"
     },
     {
       "name": "Brian Morton",
-      "title": "Services and Rails: The Shit They Don't Tell You",
       "bio": "Brian is a software engineer at Yammer in San Francisco where he builds software to change the way the world gets work done. He's obsessed with clean code, simple solutions to hard problems, and drinking whisky, but not always in that order. In his free time, he loves contributing to open source, playing Zelda, and spinning records on Serato.",
-      "photo_url": "/images/speaker-brian-morton.jpg",
-      "yt_url": "http://www.youtube.com/embed/A9rwSDMp-ls"
+      "photo_url": "/images/speaker-brian-morton.jpg"
     },
     {
       "name": "Rune Funch Søltoft",
-      "title": "DCI != #extend && DCI != use case in code",
       "bio": "Rune, born in Copenhagen in 1976 is a software architect who has worked on a number of platforms and in varying areas, including both high reliability and safety critical (yes some bugs can actually kill people) systems. For the past seven years, he worked as a consultant, mainly in the area of architectural consulting. In the past, he's done a lot of work related to different architectural schools and ideas. Since discovering DCI, he has helped out the DCI community both by trying to teach people the core concepts behind DCI, and making them understand what DCI is, and more importantly - what it is not.",
-      "photo_url": "/images/speaker-rune-funch.jpg",
-      "yt_url": "http://www.youtube.com/embed/ZUADinlqHwk"
+      "photo_url": "/images/speaker-rune-funch.jpg"
     },
     {
       "name": "Steve Klabnik",
-      "title": "OO Design and the history of philosophy",
       "bio": "Rails committer, Jumpstart Lab instructor, nomad philosopher.",
-      "photo_url": "/images/speaker-steve-klabnik.jpg",
-      "yt_url": "http://www.youtube.com/embed/6WQ_1vcgS9c"
+      "photo_url": "/images/speaker-steve-klabnik.jpg"
     },
     {
       "name": "Jan Stępień",
-      "title": "Embrace the static. Cherish the functional. Remain a Rubyist",
       "bio": "A programming languages polyglot and your fellow geek born and raised in the arguably picturesque city of <a href='https://en.wikipedia.org/wiki/Warsaw'>Warsaw</a>. Graduated with MSc Eng in Computer Science from Warsaw University of Technology in early February 2013. When in front of the keyboard he&rsquo;s most probably juggling with bits of Ruby, C, Clojure and Haskell. When offline, he can be found outdoors; either preparing for the next marathon in forests surrounding Warsaw or wandering with a way too big backpack somewhere in the <a href='https://en.wikipedia.org/wiki/Carpathian_Mountains'>Carpathian</a> wilderness.",
-      "photo_url": "/images/speaker-jan-stepien.jpg",
-      "yt_url": "http://www.youtube.com/embed/P6_illGY_00"
+      "photo_url": "/images/speaker-jan-stepien.jpg"
     },
     {
       "name": "Florian Plank",
-      "title": "How to Lie, Cheat and Steal",
       "bio": "Florian solves problems on the open web. He works with his tiny software shop Polarblau somewhere close to the polar circle for companies of all sizes around the globe. Between gigs he builds http://pleaserevise.com and http://heypayme.com/. Florian prefers Ruby over PHP, Coffeescript over Javascript, beer over bubbly, open source over proprietary software, bike over car, work over meetings, small over big, action over talk, learning over degrees and his family over everything.",
-      "photo_url": "/images/speaker-florian-plank.jpg",
-      "yt_url": "http://www.youtube.com/embed/fW-i7bbfdlQ"
+      "photo_url": "/images/speaker-florian-plank.jpg"
     },
     {
       "name": "Bryan Helmkamp",
-      "title": "Refactoring Fat Models with Patterns",
       "bio": "Bryan (@brynary) is the founder of Code Climate, an automated code review tool for Ruby apps, and the lead organizer of the Gotham Ruby Conference in NYC. For the last seven years, he's been an active in the Ruby community as an acclaimed speaker, author and open source contributor. In 2009, he received a Ruby Hero Award for his efforts.",
-      "photo_url": "/images/speaker-bryan-helmkamp.jpg",
-      "yt_url": "http://www.youtube.com/embed/IqajIYxbPOI"
+      "photo_url": "/images/speaker-bryan-helmkamp.jpg"
+    },
+    {
+      "name": "Andrzej Krzywda",
+      "bio": "Ruby and Coffee programmer. The founder of Arkency and GameBoxed. Rails teacher at University of Wroclaw. He's originally a backend developer, with Rails experience since 2004. He knows all the pains and beauty of Rails. Now, after working for the last 2 years on frontends, he knows how to build them properly.",
+      "photo_url": "/images/speaker-andrzej-krzywda.jpg"
+    },
+    {
+      "name": "Piotr Sarnacki",
+      "bio": "Rails contributor and Ember.js enthusiast. Currently works on Travis CI as a part of OSS Grant Program sponsored by EngineYard.",
+      "photo_url": "/images/speaker-piotr-sarnacki.jpg"
     },
     {
       "name": "David Dahl",
-      "title": "Building a Real-Time Analytics Engine in JRuby",
       "bio": "Senior developer at ad analytics startup Burt. Loves real time processing, big data and JRuby. Sings in no less than three metal bands, plays Starcraft II and loves a good IPA.",
-      "photo_url": "/images/speaker-david-dahl.jpg",
-      "yt_url": "http://www.youtube.com/embed/7GMXFMIx48M"
+      "photo_url": "/images/speaker-david-dahl.jpg"
     },
     {
       "name": "Adam Hawkins",
-      "title": "Dear God, what am I doing? Concurrency and parallel processing",
       "bio": "Ruby and web development guy. He came to Ruby from Rails. He's focused mainly on writing API's for client side frameworks and works daily on his Ember.js application. His favorite thing to do is hacking on code while listening to trance. His pet project is ruby code to automatically organize and manage his massive movie collection. His small claim to internet fame is the 'Advanced Caching in Rails' blog post. He has spoken at RejectJS in Berlin and Frozen Rails in Helsinki. Living in Hamburg and loving going to more local conferences over the bigger one. Likes to talk to share his ideas with people and meeting fellow programmers.",
-      "photo_url": "/images/speaker-adam-hawkins.jpg",
-      "yt_url": "http://www.youtube.com/embed/8pFJaEMMX6g"
+      "photo_url": "/images/speaker-adam-hawkins.jpg"
     },
     {
       "name": "Piotr Niełacny",
-      "title": "Things you can't do with Ruby",
       "bio": "A programmer who uses things you wouldn't use in production.",
-      "photo_url": "/images/speaker-piotr-nielacny.jpg",
-      "yt_url": "http://www.youtube.com/embed/0Q42jqP5qnE"
+      "photo_url": "/images/speaker-piotr-nielacny.jpg"
     },
     {
       "name": "Tim Felgentreff",
-      "title": "Ruby Topaz",
       "bio": "Contributor to JRuby, MagLev, and Topaz, Tim likes working on Ruby implementations in his spare time. Currently a PhD student at Hasso-Plattner Institute in Potsdam, he's into programming language modularity and composition",
-      "photo_url": "/images/speaker-tim-felgentreff.jpg",
-      "yt_url": "http://www.youtube.com/embed/WS76YAUs1hg"
+      "photo_url": "/images/speaker-tim-felgentreff.jpg"
     },
     {
       "name": "Florian Gilcher",
-      "title": "A la carte, please!",
       "bio": "Florian can call himself old-school: when Rails came out, he was already programming Ruby. Unsurprisingly, he started working with it immediately until he found his new web development bliss in Padrino, to which he frequently commits. He also manages parts of the german Ruby forum and the german Ruby website. He runs a consulting business specializing in non-standard backend solutions. Along with some others, he organizes eurucamp.",
-      "photo_url": "/images/speaker-florian-gilcher.jpg",
-      "yt_url": "http://www.youtube.com/embed/tgHMLkMCvzs"
+      "photo_url": "/images/speaker-florian-gilcher.jpg"
     },
     {
       "name": "Richard Schneeman",
-      "title": "Security, Secrets and Shenanigans",
       "bio": "Richard <a href='http://twitter.com/schneems'>@schneems</a> writes Ruby at Heroku and teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as Wicked, Sextant, and oPRO. Richard is a proud graduate of Space Camp and an advocate of home brewed beer.",
-      "photo_url": "/images/speaker-richard-schneeman.jpg",
-      "yt_url": "http://www.youtube.com/embed/mEXRqti0Ikw"
+      "photo_url": "/images/speaker-richard-schneeman.jpg"
     },
     {
       "name": "Stefan Wintermeyer",
-      "title": "Speed = Money",
       "bio": "Stefan wrote a book about Ruby on Rails 3.2 and a couple of books about Asterisk and FreeSWITCH. He is a founder and Managing Director AMOOMA GmbH.",
-      "photo_url": "/images/speaker-stefan-wintermeyer.jpg",
-      "yt_url": "http://www.youtube.com/embed/KJEdl-p747g"
-    }
-  ],
-  "videos": [
-    {
-      "name": "Programmer Productivity fishbowl",
-      "title": "To be or not to be an effective programmer",
-      "yt_url": "http://www.youtube.com/embed/2pmQk27i1PM"
-    },
-    {
-      "name": "Security Panel",
-      "title": "",
-      "yt_url": "http://www.youtube.com/embed/cqYKd6jPXKM"
-    },
-    {
-      "name": "Javascript Frameworks Fight",
-      "title": "Hexagonal vs Angular vs Ember vs Backbone",
-      "yt_url": "http://www.youtube.com/embed/h8XeZFW1Ad0"
-    },
-    {
-      "name": "Lightning Talks from Day 2",
-      "title": "",
-      "yt_url": "http://www.youtube.com/embed/VO4tM5RcUlc"
-    },
-    {
-      "name": "Lightning Talks from Day 3",
-      "title": "",
-      "yt_url": "http://www.youtube.com/embed/6CZjK97dMTE"
+      "photo_url": "/images/speaker-stefan-wintermeyer.jpg"
     }
   ],
   "supporters": [
@@ -188,7 +141,9 @@
       "name": "X8",
       "website_url": "http://x8.io",
       "logo_url": "/images/supporter-x8.png"
-    },
+    }
+  ],
+  "partners": [
     {
       "name": "Monterail",
       "website_url": "http://monterail.com/",
@@ -199,5 +154,119 @@
       "website_url": "http://www.ii.uni.wroc.pl/",
       "logo_url": "/images/partner-uniwroc.png"
     }
+  ],
+  "venues": [
+    {
+      "name": "University of Wrocław, Institute of Computer Science",
+      "address": "Fryderyka Joliot-Curie 15, Wrocław",
+      "description": "Main venue",
+      "latitude": 51.11085,
+      "longtitude": 17.05323,
+      "showPopup": true
+    },
+    {
+      "name": "Browar Mieszczański",
+      "address": "Hubska 44, Wrocław",
+      "description": "Friday venue",
+      "latitude": 51.091820,
+      "longtitude": 17.043837,
+      "showPopup": true
+    },
+    {
+      "name": "Mleczarnia",
+      "address": "Włodkowica 5, Wrocław",
+      "description": "",
+      "latitude": 51.108379,
+      "longtitude": 17.024316,
+      "showPopup": false
+    },
+    {
+      "name": "Bierhalle",
+      "address": "Rynek 24, Wrocław",
+      "description": "",
+      "latitude": 51.11022,
+      "longtitude": 17.03289,
+      "showPopup": false
+    }
+  ],
+  "agenda": {
+    "dayLabels": ["Friday in Browar Mieszczański", "Saturday in University", "Sunday in University"],
+    "from": "10:00",
+    "to":   "23:15",
+    "data": [
+      [
+        {"from": "12:00", "to": "18:00", "title": "Open space, hackathons, QA sessions and socializing"},
+        {"from": "18:15", "to": "18:45", "title": "FP vs. OOP fight", "speaker": "Norbert Wójtowicz, Tymon Tobolski, Piotr Żołnierek, Andrzej Krzywda, Przemysław Kowalczyk, Jan Filipowski"},
+        {"from": "19:00", "to": "19:30", "title": "Speed = Money", "speaker": "Stefan Wintermeyer"},
+        {"from": "19:45", "to": "20:15", "title": "Programmer Productivity fishbowl", "speaker": "Michał Taszycki, Robert Pankowecki, Alex Koppel"},
+        {"from": "20:30", "to": "23:15", "title": "Party on place"}
+      ],
+      [
+        {"from": "10:00", "to": "10:45", "title": "The Not-So-Big Software Design", "speaker": "Reginald Braithwaite"},
+        {"from": "11:00", "to": "11:30", "title": "A la carte, please!", "speaker": "Florian Gilcher"},
+        {"from": "11:45", "to": "12:15", "title": "Building a Real-Time Analytics Engine in JRuby", "speaker": "David Dahl"},
+        {"from": "12:30", "to": "13:00", "title": "How to Lie, Cheat and Steal", "speaker": "Florian Plank"},
+        {"from": "15:00", "to": "15:30", "title": "Ember.js vs. Hexagonal.js fight", "speaker": "Piotr Sarnacki, Andrzej Krzywda, Patrick Mulder, Adam Pohorecki"},
+        {"from": "15:45", "to": "16:15", "title": "Dear God, what am I doing? Concurrency and parallel processing", "speaker": "Adam Hawkins"},
+        {"from": "16:30", "to": "17:00", "title": "DCI != #extend && DCI != use case in code", "speaker": "Rune Funch Søltoft"},
+        {"from": "17:15", "to": "17:45", "title": "Topaz Ruby", "speaker": "Tim Felgentreff"},
+        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "23:15", "title": "Party in Mleczarnia"}
+      ],
+      [
+        {"from": "10:00", "to": "10:30", "title": "Embrace the static. Cherish the functional. Remain a Rubyist.", "speaker": "Jan Stępień"},
+        {"from": "10:45", "to": "11:30",
+          "title": "Ports and Adapters architecture - a place for everything and everything in its place",
+          "speaker": "Sławomir Sobótka",
+          "description": "Ports and Adapters architecture is a synthesis of the modern software engineering. In its flexible Micro Kernel we will find a place for Domain Driven Design, Command-query Responsibility Segregation, Event Sourcing and plugins. Kernel is protected by hard shell of Ports, which provides testability, scalability and SOA-Ready strategy. However, the outer aura made of Adapters opens system for: multi-device capability, Event Driven Architecture, Rest and Saga. Everything is integrated within elegant 'Hexagon' where there is 'A place for everything and everything in its place'. During the presentation, I'll encourage you to communicate and solve problems using visualizing techniques and your visual intelligence."
+        },
+        {"from": "11:45", "to": "12:15", "title": "Services and Rails: The Shit They Don't Tell You", "speaker": "Brian Morton"},
+        {"from": "12:30", "to": "13:00", "title": "Security, Secrets, and Shenanigans", "speaker": "Richard Schneeman"},
+        {"from": "15:00", "to": "15:30", "title": "Ruby Meets Security panel", "speaker": "Bryan Helmkamp, Piotr Niełacny, Richard Schneeman"},
+        {"from": "15:45", "to": "16:15", "title": "Things you can't do in Ruby", "speaker": "Piotr Niełacny"},
+        {"from": "16:30", "to": "17:00", "title": "OO Design and the history of philosophy", "speaker": "Steve Klabnik"},
+        {"from": "17:15", "to": "17:45", "title": "Refactoring Fat Models with Patterns", "speaker": "Bryan Helmkamp"},
+        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "23:15", "title": "Party in Bierhalle"}
+      ]
+    ]
+  },
+  "organizers": [
+    {
+      "name": "Andrzej Krzywda",
+      "photo_url": "/images/organizer-andrzej-krzywda.jpg",
+      "link_url": "https://twitter.com/andrzejkrzywda"
+    },
+    {
+      "name": "Jan Szumiec",
+      "photo_url": "/images/organizer-jan-szumiec.jpg",
+      "link_url": "https://twitter.com/jasiek_"
+    },
+    {
+      "name": "Mateusz Lenik",
+      "photo_url": "/images/organizer-mateusz-lenik.jpg",
+      "link_url": "https://twitter.com/_mlen"
+    },
+    {
+      "name": "Michał Łomnicki",
+      "photo_url": "http://www.gravatar.com/avatar/5ac931514fa7deadb59ed29909c233b8?s=150",
+      "link_url": "https://twitter.com/mlomnicki"
+    },
+    {
+      "name": "Paweł Pacana",
+      "photo_url": "/images/organizer-pawel-pacana.jpg",
+      "link_url": "https://twitter.com/pawelpacana"
+    },
+    {
+      "name": "Rafał Hirsz",
+      "photo_url": "/images/organizer-rafal-hirsz.jpg",
+      "link_url": "https://twitter.com/hdevo"
+    },
+    {
+      "name": "Marcin Pietraszek",
+      "photo_url": "/images/organizer-marcin-pietraszek.jpg",
+      "link_url": "http://marcin.pietraszek.pl/"
+    }
   ]
 }
+

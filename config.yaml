@@ -84,8 +84,4 @@ deploy:
     kind: rsync
     dst:  "wrocloverb@wrocloverb.com:current"
     options: ['-gpPrtvz', '--delete-after']
-  calculon:
-    kind: rsync
-    dst:  "calculon:/var/lib/wrocloverb/current/public"
-    options: ['-gpprtvz', '--delete-after']
 
