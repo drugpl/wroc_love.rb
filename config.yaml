@@ -82,6 +82,6 @@ watcher:
 deploy:
   default:
     kind: rsync
-    dst:  "wrocloverb@wrocloverb.com:current"
+    dst:  "wrocloverb@calculon.syswise.eu:current/public"
     options: ['-gpPrtvz', '--delete-after']
 
