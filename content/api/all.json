@@ -6,6 +6,16 @@
       "name": "Arkency",
       "website_url": "http://arkency.com/",
       "logo_url": "/images/supporter-arkency.png"
+    },
+    {
+      "name": "Monterail",
+      "website_url": "http://monterail.com/",
+      "logo_url": "/images/supporter-monterail.png"
+    },
+    {
+      "name": "Prograils",
+      "website_url": "http://prograils.com/",
+      "logo_url": "/images/supporter-prograils.png"
     }
   ],
   "partners": [
