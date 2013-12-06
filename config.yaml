@@ -92,4 +92,8 @@ deploy:
     kind: rsync
     dst:  "wrocloverb_2013@calculon.syswise.eu:current/public"
     options: ['-gpPrtvz', '--delete-after']
+  2014:
+    kind: rsync
+    dst:  "wrocloverb_2014@calculon.syswise.eu:current/public"
+    options: ['-gpPrtvz', '--delete-after']
 
