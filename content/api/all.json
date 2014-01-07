@@ -67,6 +67,21 @@
   },
   "organizers": [
     {
+      "name": "Robert Pankowecki",
+      "photo_url": "/images/organizer-robert-pankowecki.jpg",
+      "link_url": "http://twitter.com/pankowecki"
+    },
+    {
+      "name": "Grzegorz Wilczyński",
+      "photo_url": "/images/organizer-grzegorz-wilczynski.jpg",
+      "link_url": "http://twitter.com/wilq_"
+    },
+    {
+      "name": "Adam Piotrowski",
+      "photo_url": "/images/organizer-adam-piotrowski.jpg",
+      "link_url": ""
+    },
+    {
       "name": "Andrzej Krzywda",
       "photo_url": "/images/organizer-andrzej-krzywda.jpg",
       "link_url": "https://twitter.com/andrzejkrzywda"
