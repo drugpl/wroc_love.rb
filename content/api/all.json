@@ -19,7 +19,7 @@
     },
     {
       "name": "Anixe",
-      "website_url": "http://anixe.com",
+      "website_url": "http://anixe.pl",
       "logo_url": "/images/supporter-anixe.png"
     },
     {
@@ -33,6 +33,11 @@
       "name": "University of Wrocław",
       "website_url": "http://www.ii.uni.wroc.pl/",
       "logo_url": "/images/partner-uniwroc.png"
+    },
+    {
+      "name": "Shelly Cloud",
+      "website_url": "https://shellycloud.com/",
+      "logo_url": "/images/partner-shellycloud.png"
     }
   ],
   "venues": [
