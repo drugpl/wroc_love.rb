@@ -1,5 +1,10 @@
 {
   "speakers": [
+    {
+      "name": "Michael Feathers",
+      "bio": "Michael Feathers is an independent consultant in the area of software design, prior to that he was Member of the Technical Staff at Groupon. Prior to joining Groupon, Michael was the Chief Scientist of Obtiva, and a Senior Consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004). <br/>twitter: <a href='https://twitter.com/mfeathers' target='_blank'>@mfeathers</a><br/>blog: <a href='http://michaelfeathers.typepad.com/' target='_blank'>http://michaelfeathers.typepad.com</a>",
+      "photo_url": "/images/speaker-michael-feathers.jpg"
+    }
   ],
   "supporters": [
     {
