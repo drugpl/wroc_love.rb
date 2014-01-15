@@ -238,10 +238,6 @@ header {
 
     @include transition(height 0.5s);
 
-    &:nth-of-type(4n+1) {
-      margin-right: 0;
-    }
-
     img { margin-bottom: -6px; }
 
     h2, h3 {
