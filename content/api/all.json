@@ -14,6 +14,11 @@
       "name": "Adam Hawkins",
       "bio": "Adam has been doing Ruby since 2007. He’s the head developer behind RadiumCRM and the author of “Advanced Caching in Rails”. Now he’s convincing people to ditch frameworks through the <a href='http://hawkins.io/2014/01/rediscovering-the-joy-of-design/' target='_blank'>Joy of Design</a> series and upcoming screencast on <a href='http://rethinkapplicationarchitecture.com' target='_blank'>Rethinking Application Architecture</a>.",
       "photo_url": "/images/speaker-adam-hawkins.jpg"
+    },
+    {
+      "name": "Emanuele Delbono",
+      "bio": "Emanuele is a software engineer that is trying to become a polyglot programmer learning new languages and tools to develop better applications. He works as a lead developer and architect in <a href='http://codiceplastico.com/' target='_blank'>CodicePlastico</a> a small software house based in Italy. He is responsible for the development of web applications primarily with ASP.NET MVC, Javascript and Ruby on Rails. You can find him blogging on: <a href='http://ema.codiceplastico.com/'>http://ema.codiceplastico.com/</a>",
+      "photo_url": "/images/speaker-emanuele-delbono.jpg"
     }
   ],
   "supporters": [
