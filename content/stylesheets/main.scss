@@ -167,6 +167,10 @@ header {
     &.email {
       background-position: 100% -32px;
     }
+
+    &.tickets {
+      text-transform: uppercase;
+    }
   }
 }
 
