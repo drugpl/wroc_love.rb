@@ -12,7 +12,7 @@
     },
     {
       "name": "Adam Hawkins",
-      "bio": "",
+      "bio": "Adam has been doing Ruby since 2007. He’s the head developer behind RadiumCRM and the author of “Advanced Caching in Rails”. Now he’s convincing people to ditch frameworks through the <a href='http://hawkins.io/2014/01/rediscovering-the-joy-of-design/' target='_blank'>Joy of Design</a> series and upcoming screencast on <a href='http://rethinkapplicationarchitecture.com' target='_blank'>Rethinking Application Architecture</a>.",
       "photo_url": "/images/speaker-adam-hawkins.jpg"
     }
   ],
