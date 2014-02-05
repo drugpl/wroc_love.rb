@@ -2,7 +2,7 @@
   "speakers": [
     {
       "name": "Michael Feathers",
-      "bio": "Michael Feathers is an independent consultant in the area of software design, prior to that he was Member of the Technical Staff at Groupon. Prior to joining Groupon, Michael was the Chief Scientist of Obtiva, and a Senior Consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004). <br/>twitter: <a href='https://twitter.com/mfeathers' target='_blank'>@mfeathers</a><br/>blog: <a href='http://michaelfeathers.typepad.com/' target='_blank'>http://michaelfeathers.typepad.com</a>",
+      "bio": "Michael is an independent consultant in the area of software design, prior to that he was Member of the Technical Staff at Groupon. Prior to joining Groupon, Michael was the Chief Scientist of Obtiva, and a Senior Consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004). <br/>twitter: <a href='https://twitter.com/mfeathers' target='_blank'>@mfeathers</a><br/>blog: <a href='http://michaelfeathers.typepad.com/' target='_blank'>http://michaelfeathers.typepad.com</a>",
       "photo_url": "/images/speaker-michael-feathers.jpg"
     },
     {
@@ -19,6 +19,46 @@
       "name": "Emanuele Delbono",
       "bio": "Emanuele is a software engineer that is trying to become a polyglot programmer learning new languages and tools to develop better applications. He works as a lead developer and architect in <a href='http://codiceplastico.com/' target='_blank'>CodicePlastico</a> a small software house based in Italy. He is responsible for the development of web applications primarily with ASP.NET MVC, Javascript and Ruby on Rails. You can find him blogging on: <a href='http://ema.codiceplastico.com/'>http://ema.codiceplastico.com/</a>",
       "photo_url": "/images/speaker-emanuele-delbono.jpg"
+    },
+    {
+      "name": "Marcin Stecki",
+      "bio": "Marcin is a CTO at <a href='http://netguru.co' target='_blank'>Netguru</a>. What he really likes is the moment of satisfaction after solving a difficult problem. But quickly it passes, and he soon finds himself with another problem to solve. When things get difficult, Marcin rolls up his sleeves and finds a way out. If you need something that is not included in his lengthy list of skills, just give him a week’s time. While not bending code to his will, he spends time motorcycling or daydreaming about motorcycling. Head in the Internet, feet on the motorbike.",
+      "photo_url": "/images/speaker-marcin-stecki.jpg"
+    },
+    {
+      "name": "Piotr Misiurek",
+      "bio": "Piotr got his first computer at the age of 13. As the machine was already outdated and new games were not working as smoothly as they should, he started to code. After discovering that working code is not all that there is, as you need to know how to present and sell it to the world, Piotr became interested in boosting his soft skills. He is an active member of Toastmasters Leaders, where he develops his communication and leadership skills. He takes part in many startup-related events and deals with improvisational theatre and other forms of visual arts.",
+      "photo_url": "/images/speaker-piotr-misiurek.jpg"
+    },
+    {
+      "name": "Piotr Szotkowski",
+      "bio": "Piotr is a hacker scientist: an assistant professor at Warsaw University of Technology, a Ruby developer at <a href='http://rebased.pl' target='_blank'>Rebased</a> and a founding member of <a href='https://hackerspace.pl' target='_blank'>Warsaw Hackerspace</a>. When not coding (or <a href='http://talks.chastell.net' target='_blank'>talking about coding</a>) he coaches at and helps organise <a href='http://railsgirls.com' target='_blank'>Rails Girls</a> Warsaw, organises <a href='http://wrug.eu' target='_blank'>Warsaw Ruby Users Group</a> and <a href='http://netwtorek.pl' target='_blank'>NetWtorek</a> – monthly meetings of people from the NGO/non-profit and IT sectors.",
+      "photo_url": "/images/speaker-piotr-szotkowski.jpg"
+    },
+    {
+      "name": "Jan Stępień",
+      "bio": "Jan is a developer at stylefruits, a coach at <a target='_blank' href='http://clojureworkshop.de'>Clojure Workshop</a>, an alumnus of Warsaw University of Technology and an enthusiast of Clojure and Haskell. When offline, he can be found running marathons or wandering in snowy Alpine wilderness.",
+      "photo_url": "/images/speaker-jan-stepien.jpg"
+    },
+    {
+      "name": "Piotr Solnica",
+      "bio": "Piotr is a software developer and an entrepreneur wannabe from Kraków, Poland. Loves Ruby, writing ruby code and writing about writing ruby code. He's constantly searching ways to write better ruby code. That's what he does on <a href='http://solnic.eu' target='_blank'>his blog</a> and using <a href='https://twitter.com/_solnic_' target='_blank'>twitter</a>. You can find there lots of lovely discussions about ruby, OOP, TDD, best practices, refactoring etc. He also hates some things but can talk about them in a lovely way.",
+      "photo_url": "/images/speaker-piotr-solnica.jpg"
+    },
+    {
+      "name": "Markus Schirp",
+      "bio": "Markus is a member of the Ruby Object Mapper core team. He's the author of <a href='https://github.com/mbj/mutant' target='_blank'>mutant</a>. He likes to talk a lot with <a href='https://twitter.com/_solnic_'>@solnic</a> about metric driven development. Hates Rails with a passion.",
+      "photo_url": "/images/speaker-markus-schirp.jpg"
+    },
+    {
+      "name": "Robert Pankowecki",
+      "bio": "Robert is Ruby on Rails developer, working remotely for more than two years. At <a href='http://arkency.com' target='_blank'>Arkency</a> he’s worked on number of web projects in collaboration with small startups as well as large corporations. The creator of <a href='https://github.com/paneq/active_reload' target='_blank'>active_reload</a> library which made your Rails apps faster in development mode. Founder of <a href='http://wrocloverb.com/'>wroc_love.rb</a> conference and one of the leading speakers at <a href='http://drug.org.pl/' target='_blank'>Lower Silesian Ruby User Group</a>",
+      "photo_url": "/images/speaker-robert-pankowecki.jpg"
+    },
+    {
+      "name": "Jeppe Liisberg",
+      "bio": "Jeppe is 33 years old, has 2 kids aged 2 and 5, a beautiful girlfriend, and fantastic, interesting day job with great colleagues. What more could one want in life? Wonderful storyteller with a glimpse in the eye and a warmth and love about his passion. Knows when to dramatize and when to underplay his points, and his story is entertaining and thoughtful at the same time.",
+      "photo_url": "/images/speaker-jeppe-liisberg.jpg"
     }
   ],
   "supporters": [
