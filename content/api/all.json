@@ -59,6 +59,11 @@
       "name": "Jeppe Liisberg",
       "bio": "Jeppe is 33 years old, has 2 kids aged 2 and 5, a beautiful girlfriend, and fantastic, interesting day job with great colleagues. What more could one want in life? Wonderful storyteller with a glimpse in the eye and a warmth and love about his passion. Knows when to dramatize and when to underplay his points, and his story is entertaining and thoughtful at the same time.",
       "photo_url": "/images/speaker-jeppe-liisberg.jpg"
+    },
+    {
+      "name": "Danny Olson",
+      "bio": "Danny lives in San Francisco where he is a developer at <a href='http://engineering.sharethrough.com/'>Sharethrough</a>. He fosters dogs, cooks, and complains about the weather.",
+      "photo_url": "/images/speaker-danny-olson.jpg"
     }
   ],
   "supporters": [
