@@ -101,6 +101,11 @@
       "name": "Cubiware",
       "website_url": "http://www.cubiware.com/",
       "logo_url": "/images/supporter-cubiware.png"
+    },
+    {
+      "name": "rebased",
+      "website_url": "http://rebased.pl/",
+      "logo_url": "/images/supporter-rebased.png"
     }
   ],
   "partners": [
