@@ -106,6 +106,11 @@
       "name": "rebased",
       "website_url": "http://rebased.pl/",
       "logo_url": "/images/supporter-rebased.png"
+    },
+    {
+      "name": "Go Rails Go",
+      "website_url": "https://gorailsgo.com/",
+      "logo_url": "/images/supporter-gorailsgo.png"
     }
   ],
   "partners": [
