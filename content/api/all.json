@@ -128,10 +128,18 @@
       "latitude": 51.11085,
       "longtitude": 17.05323,
       "showPopup": true
+    },
+    {
+      "name": "New Horizons Cinema",
+      "address": "Kazimierza Wielkiego 23, Wrocław",
+      "description": "Friday open space venue",
+      "latitude": 51.1091278,
+      "longtitude": 17.0265121,
+      "showPopup": false
     }
   ],
   "agenda": {
-    "dayLabels": ["Friday", "Saturday in University", "Sunday in University"],
+    "dayLabels": ["Friday in New Horizons Cinema", "Saturday in University", "Sunday in University"],
     "from": "10:00",
     "to":   "23:15",
     "data": [
