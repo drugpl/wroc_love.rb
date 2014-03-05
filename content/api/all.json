@@ -155,7 +155,10 @@
     "data": [
       [
         {"from": "16:00", "to": "19:45", "title": "Open space, hackathons, QA sessions, networking, socializing"},
-        {"from": "20:00", "to": "22:45", "title": "4 talks", "speaker": "Speakers"},
+        {"from": "20:00", "to": "20:30", "title": "Developer Oriented Project Management", "speaker": "Robert Pankowecki"},
+        {"from": "20:45", "to": "21:15", "title": "15 MINUTES RAILS APPLICATION", "speaker": "Marcin Stecki"},
+        {"from": "21:30", "to": "22:00", "title": "PLEASE STAND UP!", "speaker": "Piotr Misiurek"},
+        {"from": "22:15", "to": "22:45", "title": "THE STORY OF BRINGING IDEAS TO LIFE", "speaker": "Jeppe Liisberg"},
         {"from": "23:00", "to": "23:55", "title": "Networking"}
       ],
       [
