@@ -133,6 +133,11 @@
       "name": "Shelly Cloud",
       "website_url": "https://shellycloud.com/",
       "logo_url": "/images/partner-shellycloud.png"
+    },
+    {
+      "name": "Pragmatic Programmer",
+      "website_url": "http://pragprog.com/",
+      "logo_url": "/images/partner_pragmatic_bookshelf.png"
     }
   ],
   "venues": [
