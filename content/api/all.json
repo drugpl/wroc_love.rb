@@ -64,6 +64,11 @@
       "name": "Danny Olson",
       "bio": "Danny lives in San Francisco where he is a developer at <a href='http://engineering.sharethrough.com/'>Sharethrough</a>. He fosters dogs, cooks, and complains about the weather.",
       "photo_url": "/images/speaker-danny-olson.jpg"
+    },
+    {
+      "name": "Alex Coles",
+      "bio": "Alex (<a href='https://twitter.com/myabc'>@myabc</a>) is a freelance web developer, unabashedly wearing the hat of \"generalist\". He is active in the Ruby community, having founded the annual <a href='http://eurucamp.org'>eurucamp</a> camp/conference in Berlin. He has also contributed extensively to many open-source projects including RefineryCMS and DataMapper.",
+      "photo_url": "/images/speaker-alex-coles.jpg"
     }
   ],
   "supporters": [
