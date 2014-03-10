@@ -151,6 +151,22 @@
       "latitude": 51.1091278,
       "longtitude": 17.0265121,
       "showPopup": false
+    },
+    {
+      "name": "Klubokawiarnia Mleczarnia",
+      "address": "Włodkowica 5, Wrocław",
+      "description": "Saturday party venue",
+      "latitude": 51.1080441,
+      "longtitude": 17.0252042,
+      "showPopup": false
+    },
+    {
+      "name": "Bierhalle",
+      "address": "Rynek-Ratusz 24-27, Wrocław",
+      "description": "Sunday party venue",
+      "latitude": 51.110012,
+      "longtitude": 17.0332833,
+      "showPopup": false
     }
   ],
   "agenda": {
@@ -174,7 +190,7 @@
         {"from": "16:00", "to": "16:30", "title": "Q&A Session - Metrics", "speaker": "Piotr Solnica & Markus Schirp"},
         {"from": "17:00", "to": "17:30", "title": "FROM ACTIVERECORD TO EVENTS", "speaker": "Emanuele Delbono"},
         {"from": "18:00", "to": "19:00", "title": "Lightning Talks"},
-        {"from": "21:00", "to": "23:15", "title": "Party"}
+        {"from": "21:00", "to": "23:15", "title": "Party in Mleczarnia"}
       ],
       [
         {"from": "10:00", "to": "10:30", "title": "Ruby Arrays on Steroids", "speaker": "Michael Feathers"},
@@ -184,7 +200,7 @@
         {"from": "16:00", "to": "16:30", "title": "RUBY: WRITE ONCE, RUN ANYWHERE", "speaker": "Michał Taszycki"},
         {"from": "17:00", "to": "17:30", "title": "Frontend Choices", "speaker": "Alex Coles"},
         {"from": "18:00", "to": "19:00", "title": "Lightning Talks"},
-        {"from": "21:00", "to": "23:15", "title": "Party"}
+        {"from": "21:00", "to": "23:15", "title": "Party in Bierhalle"}
       ]
     ]
   },
