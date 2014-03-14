@@ -121,6 +121,11 @@
       "name": "X8",
       "website_url": "http://x8.io/",
       "logo_url": "/images/supporter-x8.png"
+    },
+    {
+      "name": "mailjet",
+      "website_url": "http://www.mailjet.com/",
+      "logo_url": "/images/supporter-mailjet.png"
     }
   ],
   "partners": [
