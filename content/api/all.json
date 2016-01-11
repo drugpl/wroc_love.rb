@@ -1,10 +1,5 @@
 {
   "speakers": [
-    {
-      "name": "Coles",
-      "bio": "Alex (<a href='https://twitter.com/myabc'>@myabc</a>) is a freelance web developer, unabashedly wearing the hat of \"generalist\". He is active in the Ruby community, having founded the annual <a href='http://eurucamp.org'>eurucamp</a> camp/conference in Berlin. He has also contributed extensively to many open-source projects including RefineryCMS and DataMapper.",
-      "photo_url": "/images/speaker-alex-coles.jpg"
-    }
   ],
   "supporters": [
     {
@@ -18,11 +13,6 @@
       "name": "University of Wrocław",
       "website_url": "http://www.ii.uni.wroc.pl/",
       "logo_url": "/images/partner-uniwroc.png"
-    },
-    {
-      "name": "Pragmatic Programmer",
-      "website_url": "http://pragprog.com/",
-      "logo_url": "/images/partner_pragmatic_bookshelf.png"
     }
   ],
   "venues": [
@@ -33,30 +23,6 @@
       "latitude": 51.11085,
       "longtitude": 17.05323,
       "showPopup": true
-    },
-    {
-      "name": "New Horizons Cinema",
-      "address": "Kazimierza Wielkiego 23, Wrocław",
-      "description": "Friday open space venue",
-      "latitude": 51.1091278,
-      "longtitude": 17.0265121,
-      "showPopup": false
-    },
-    {
-      "name": "Klubokawiarnia Mleczarnia",
-      "address": "Włodkowica 5, Wrocław",
-      "description": "Saturday party venue",
-      "latitude": 51.1080441,
-      "longtitude": 17.0252042,
-      "showPopup": false
-    },
-    {
-      "name": "Bierhalle",
-      "address": "Rynek-Ratusz 24-27, Wrocław",
-      "description": "Sunday party venue",
-      "latitude": 51.110012,
-      "longtitude": 17.0332833,
-      "showPopup": false
     }
   ],
   "agenda": {
