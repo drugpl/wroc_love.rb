@@ -96,4 +96,3 @@ deploy:
     kind: rsync
     dst:  "wrocloverb_2014@calculon.syswise.eu:current/public"
     options: ['-gpPrtvz', '--delete-after']
-

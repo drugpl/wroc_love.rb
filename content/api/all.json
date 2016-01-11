@@ -1,72 +1,7 @@
 {
   "speakers": [
     {
-      "name": "Michael Feathers",
-      "bio": "Michael is an independent consultant in the area of software design, prior to that he was Member of the Technical Staff at Groupon. Prior to joining Groupon, Michael was the Chief Scientist of Obtiva, and a Senior Consultant with Object Mentor International. Over the years, Michael has spent a great deal of time helping teams after design over time in code bases. Michael is also the author of the book Working Effectively with Legacy Code (Prentice Hall, 2004). <br/>twitter: <a href='https://twitter.com/mfeathers' target='_blank'>@mfeathers</a><br/>blog: <a href='http://michaelfeathers.typepad.com/' target='_blank'>http://michaelfeathers.typepad.com</a>",
-      "photo_url": "/images/speaker-michael-feathers.jpg"
-    },
-    {
-      "name": "Michał Taszycki",
-      "bio": "Michal is a software developer at <a href='http://getbase.com' target='_blank'>Base</a> where he works on a revolutionary CRM that makes lives of professionals easier. He constantly strives to improve as a programmer and enjoys sharing his knowledge during <a href='http://www.flickr.com/photos/71470546@N08/sets/72157628278787087/with/6454903049' target='_blank'>Code Retreats</a>, workshops and through the <a href='http://programmingworkout.com' target='_blank'>Programming Workout</a> project.",
-      "photo_url": "/images/speaker-michal-taszycki.jpg"
-    },
-    {
-      "name": "Adam Hawkins",
-      "bio": "Adam has been doing Ruby since 2007. He’s the head developer behind RadiumCRM and the author of “Advanced Caching in Rails”. Now he’s convincing people to ditch frameworks through the <a href='http://hawkins.io/2014/01/rediscovering-the-joy-of-design/' target='_blank'>Joy of Design</a> series and upcoming screencast on <a href='http://rethinkapplicationarchitecture.com' target='_blank'>Rethinking Application Architecture</a>.",
-      "photo_url": "/images/speaker-adam-hawkins.jpg"
-    },
-    {
-      "name": "Emanuele Delbono",
-      "bio": "Emanuele is a software engineer that is trying to become a polyglot programmer learning new languages and tools to develop better applications. He works as a lead developer and architect in <a href='http://codiceplastico.com/' target='_blank'>CodicePlastico</a> a small software house based in Italy. He is responsible for the development of web applications primarily with ASP.NET MVC, Javascript and Ruby on Rails. You can find him blogging on: <a href='http://ema.codiceplastico.com/'>http://ema.codiceplastico.com/</a>",
-      "photo_url": "/images/speaker-emanuele-delbono.jpg"
-    },
-    {
-      "name": "Marcin Stecki",
-      "bio": "Marcin is a CTO at <a href='http://netguru.co' target='_blank'>Netguru</a>. What he really likes is the moment of satisfaction after solving a difficult problem. But quickly it passes, and he soon finds himself with another problem to solve. When things get difficult, Marcin rolls up his sleeves and finds a way out. If you need something that is not included in his lengthy list of skills, just give him a week’s time. While not bending code to his will, he spends time motorcycling or daydreaming about motorcycling. Head in the Internet, feet on the motorbike.",
-      "photo_url": "/images/speaker-marcin-stecki.jpg"
-    },
-    {
-      "name": "Piotr Misiurek",
-      "bio": "Piotr got his first computer at the age of 13. As the machine was already outdated and new games were not working as smoothly as they should, he started to code. After discovering that working code is not all that there is, as you need to know how to present and sell it to the world, Piotr became interested in boosting his soft skills. He is an active member of Toastmasters Leaders, where he develops his communication and leadership skills. He takes part in many startup-related events and deals with improvisational theatre and other forms of visual arts.",
-      "photo_url": "/images/speaker-piotr-misiurek.jpg"
-    },
-    {
-      "name": "Piotr Szotkowski",
-      "bio": "Piotr is a hacker scientist: an assistant professor at Warsaw University of Technology, a Ruby developer at <a href='http://rebased.pl' target='_blank'>Rebased</a> and a founding member of <a href='https://hackerspace.pl' target='_blank'>Warsaw Hackerspace</a>. When not coding (or <a href='http://talks.chastell.net' target='_blank'>talking about coding</a>) he coaches at and helps organise <a href='http://railsgirls.com' target='_blank'>Rails Girls</a> Warsaw, organises <a href='http://wrug.eu' target='_blank'>Warsaw Ruby Users Group</a> and <a href='http://netwtorek.pl' target='_blank'>NetWtorek</a> – monthly meetings of people from the NGO/non-profit and IT sectors.",
-      "photo_url": "/images/speaker-piotr-szotkowski.jpg"
-    },
-    {
-      "name": "Jan Stępień",
-      "bio": "Jan is a developer at stylefruits, a coach at <a target='_blank' href='http://clojureworkshop.de'>Clojure Workshop</a>, an alumnus of Warsaw University of Technology and an enthusiast of Clojure and Haskell. When offline, he can be found running marathons or wandering in snowy Alpine wilderness.",
-      "photo_url": "/images/speaker-jan-stepien.jpg"
-    },
-    {
-      "name": "Piotr Solnica",
-      "bio": "Piotr is a software developer and an entrepreneur wannabe from Kraków, Poland. Loves Ruby, writing ruby code and writing about writing ruby code. He's constantly searching ways to write better ruby code. That's what he does on <a href='http://solnic.eu' target='_blank'>his blog</a> and using <a href='https://twitter.com/_solnic_' target='_blank'>twitter</a>. You can find there lots of lovely discussions about ruby, OOP, TDD, best practices, refactoring etc. He also hates some things but can talk about them in a lovely way.",
-      "photo_url": "/images/speaker-piotr-solnica.jpg"
-    },
-    {
-      "name": "Markus Schirp",
-      "bio": "Markus is a member of the Ruby Object Mapper core team. He's the author of <a href='https://github.com/mbj/mutant' target='_blank'>mutant</a>. He likes to talk a lot with <a href='https://twitter.com/_solnic_'>@solnic</a> about metric driven development. Hates Rails with a passion.",
-      "photo_url": "/images/speaker-markus-schirp.jpg"
-    },
-    {
-      "name": "Robert Pankowecki",
-      "bio": "Robert is Ruby on Rails developer, working remotely for more than two years. At <a href='http://arkency.com' target='_blank'>Arkency</a> he’s worked on number of web projects in collaboration with small startups as well as large corporations. The creator of <a href='https://github.com/paneq/active_reload' target='_blank'>active_reload</a> library which made your Rails apps faster in development mode. Founder of <a href='http://wrocloverb.com/'>wroc_love.rb</a> conference and one of the leading speakers at <a href='http://drug.org.pl/' target='_blank'>Lower Silesian Ruby User Group</a>",
-      "photo_url": "/images/speaker-robert-pankowecki.jpg"
-    },
-    {
-      "name": "Jeppe Liisberg",
-      "bio": "Jeppe is 33 years old, has 2 kids aged 2 and 5, a beautiful girlfriend, and fantastic, interesting day job with great colleagues. What more could one want in life? Wonderful storyteller with a glimpse in the eye and a warmth and love about his passion. Knows when to dramatize and when to underplay his points, and his story is entertaining and thoughtful at the same time.",
-      "photo_url": "/images/speaker-jeppe-liisberg.jpg"
-    },
-    {
-      "name": "Danny Olson",
-      "bio": "Danny lives in San Francisco where he is a developer at <a href='http://engineering.sharethrough.com/'>Sharethrough</a>. He fosters dogs, cooks, and complains about the weather.",
-      "photo_url": "/images/speaker-danny-olson.jpg"
-    },
-    {
-      "name": "Alex Coles",
+      "name": "Coles",
       "bio": "Alex (<a href='https://twitter.com/myabc'>@myabc</a>) is a freelance web developer, unabashedly wearing the hat of \"generalist\". He is active in the Ruby community, having founded the annual <a href='http://eurucamp.org'>eurucamp</a> camp/conference in Berlin. He has also contributed extensively to many open-source projects including RefineryCMS and DataMapper.",
       "photo_url": "/images/speaker-alex-coles.jpg"
     }
@@ -76,56 +11,6 @@
       "name": "Arkency",
       "website_url": "http://arkency.com/",
       "logo_url": "/images/supporter-arkency.png"
-    },
-    {
-      "name": "Monterail",
-      "website_url": "http://monterail.com/",
-      "logo_url": "/images/supporter-monterail.png"
-    },
-    {
-      "name": "Prograils",
-      "website_url": "http://prograils.com/",
-      "logo_url": "/images/supporter-prograils.png"
-    },
-    {
-      "name": "Anixe",
-      "website_url": "http://anixe.pl",
-      "logo_url": "/images/supporter-anixe.png"
-    },
-    {
-      "name": "Selleo",
-      "website_url": "http://selleo.com",
-      "logo_url": "/images/supporter-selleo.png"
-    },
-    {
-      "name": "Netguru",
-      "website_url": "https://netguru.co/",
-      "logo_url": "/images/supporter-netguru.png"
-    },
-    {
-      "name": "Cubiware",
-      "website_url": "http://www.cubiware.com/",
-      "logo_url": "/images/supporter-cubiware.png"
-    },
-    {
-      "name": "rebased",
-      "website_url": "http://rebased.pl/",
-      "logo_url": "/images/supporter-rebased.png"
-    },
-    {
-      "name": "Go Rails Go",
-      "website_url": "http://gorailsgo.com/",
-      "logo_url": "/images/supporter-gorailsgo.png"
-    },
-    {
-      "name": "X8",
-      "website_url": "http://x8.io/",
-      "logo_url": "/images/supporter-x8.png"
-    },
-    {
-      "name": "mailjet",
-      "website_url": "http://www.mailjet.com/",
-      "logo_url": "/images/supporter-mailjet-2.png"
     }
   ],
   "partners": [
@@ -133,11 +18,6 @@
       "name": "University of Wrocław",
       "website_url": "http://www.ii.uni.wroc.pl/",
       "logo_url": "/images/partner-uniwroc.png"
-    },
-    {
-      "name": "Shelly Cloud",
-      "website_url": "https://shellycloud.com/",
-      "logo_url": "/images/partner-shellycloud.png"
     },
     {
       "name": "Pragmatic Programmer",
@@ -185,66 +65,17 @@
     "to":   "23:55",
     "data": [
       [
-        {"from": "16:00", "to": "19:45", "title": "registration, Open space, hackathons, QA sessions, networking, socializing"},
-        {"from": "20:00", "to": "20:30", "title": "Developer Oriented Project Management", "speaker": "Robert Pankowecki"},
-        {"from": "20:45", "to": "21:15", "title": "15 MINUTES RAILS APPLICATION", "speaker": "Marcin Stecki"},
-        {"from": "21:30", "to": "22:00", "title": "PLEASE STAND UP!", "speaker": "Piotr Misiurek"},
-        {"from": "22:15", "to": "22:45", "title": "THE STORY OF BRINGING IDEAS TO LIFE", "speaker": "Jeppe Liisberg"},
         {"from": "23:00", "to": "23:55", "title": "Networking"}
       ],
       [
-        {"from": "10:00", "to": "10:30", "title": "APPLICATION ARCHITECTURE: BOUNDARIES, OBJECT ROLES, & PATTERNS", "speaker": "Adam Hawkins"},
-        {"from": "11:00", "to": "11:30", "title": "CAN WE WRITE PERFECT TESTS? - MAYBE!", "speaker": "Markus Schirp"},
-        {"from": "12:00", "to": "12:30", "title": "INTEGRATION TESTS ARE BOGUS", "speaker": "Piotr Szotkowski"},
-        {"from": "14:30", "to": "15:30", "title": "Q&A Session - Metrics", "speaker": "Piotr Solnica & Markus Schirp"},
-        {"from": "16:00", "to": "16:30", "title": "MIGRATING TO CLOJURE. SO MUCH FN.", "speaker": "Jan Stępień"},
-        {"from": "17:00", "to": "17:30", "title": "FROM ACTIVERECORD TO EVENTS", "speaker": "Emanuele Delbono"},
-        {"from": "18:00", "to": "19:00", "title": "Lightning Talks"},
-        {"from": "21:00", "to": "23:15", "title": "Party in Mleczarnia"}
+        {"from": "21:00", "to": "23:15", "title": "Party"}
       ],
       [
-        {"from": "10:00", "to": "10:30", "title": "Ruby Arrays on Steroids", "speaker": "Michael Feathers"},
-        {"from": "11:00", "to": "11:30", "title": "MICRO LIBRARIES FTW", "speaker": "Piotr Solnica"},
-        {"from": "12:00", "to": "12:30", "title": "OBJECTIFY YOUR FORMS: BEYOND BASIC USER INPUT", "speaker": "Danny Olson"},
-        {"from": "14:30", "to": "15:30", "title": "Q&A Session - Legacy Rails", "speaker": "Michael Feathers, Adam Hawkins, Andrzej Krzywda"},
-        {"from": "16:00", "to": "16:30", "title": "RUBY: WRITE ONCE, RUN ANYWHERE", "speaker": "Michał Taszycki"},
-        {"from": "17:00", "to": "17:30", "title": "Frontend Choices", "speaker": "Alex Coles"},
-        {"from": "18:00", "to": "19:00", "title": "Lightning Talks"},
-        {"from": "21:00", "to": "23:15", "title": "Party in Bierhalle"}
+        {"from": "21:00", "to": "23:15", "title": "Party"}
       ]
     ]
   },
   "organizers": [
-    {
-      "name": "Robert Pankowecki",
-      "photo_url": "/images/organizer-robert-pankowecki.jpg",
-      "link_url": "https://twitter.com/pankowecki"
-    },
-    {
-      "name": "Grzegorz Wilczyński",
-      "photo_url": "/images/organizer-grzegorz-wilczynski.jpg",
-      "link_url": "https://twitter.com/wilq_"
-    },
-    {
-      "name": "Adam Piotrowski",
-      "photo_url": "/images/organizer-adam-piotrowski.jpg",
-      "link_url": "https://twitter.com/pan_sarin"
-    },
-    {
-      "name": "Andrzej Krzywda",
-      "photo_url": "/images/organizer-andrzej-krzywda.jpg",
-      "link_url": "https://twitter.com/andrzejkrzywda"
-    },
-    {
-      "name": "Mateusz Lenik",
-      "photo_url": "/images/organizer-mateusz-lenik.jpg",
-      "link_url": "https://twitter.com/_mlen"
-    },
-    {
-      "name": "Paweł Pacana",
-      "photo_url": "/images/organizer-pawel-pacana.jpg",
-      "link_url": "https://twitter.com/pawelpacana"
-    }
   ]
 }
 
