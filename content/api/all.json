@@ -9,6 +9,11 @@
       "name": "Sean Griffin",
       "bio": "Sean is a committer on Ruby on Rails, the maintainer of Active Record, cohost of The Bike Shed podcast, and the creator of Diesel, an ORM and query builder for Rust. Having spent over a decade in the industry, he now focuses entirely on open source software. In recent months he primarily focuses on Rust and improving the web development landscape.",
       "photo_url": "/images/speaker-sean-griffin.jpg"
+    },
+    {
+      "name": "Barbara Fusińska",
+      "bio": "Barbara is a software developer and mentor to inspiring developers. Working with a range of different companies, Barbara gained experience with team dynamics. This has lead to her strong belief in shaping a proper working environment. She trusts this allows high-functional teams to reach their full qualities. Alongside building passionate teams, Barbara enjoys collaborating around architectures.",
+      "photo_url": "/images/speaker-barbara-fusinska.jpg"
     }
   ],
   "supporters": [
