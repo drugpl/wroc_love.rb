@@ -1,5 +1,15 @@
 {
   "speakers": [
+    {
+      "name": "Elia Schito",
+      "bio": "Ruby hacker and one of the main Opal.rb contributors",
+      "photo_url": "/images/speaker-elia-schito.jpg"
+    },
+    {
+      "name": "Sean Griffin",
+      "bio": "Sean is a committer on Ruby on Rails, the maintainer of Active Record, cohost of The Bike Shed podcast, and the creator of Diesel, an ORM and query builder for Rust. Having spent over a decade in the industry, he now focuses entirely on open source software. In recent months he primarily focuses on Rust and improving the web development landscape.",
+      "photo_url": "/images/speaker-sean-griffin.jpg"
+    }
   ],
   "supporters": [
     {
