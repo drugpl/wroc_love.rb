@@ -36,6 +36,12 @@
       "name": "Daftcode",
       "website_url": "http://daftcode.pl/",
       "logo_url": "/images/supporter-daftcode.png"
+    },
+    {
+      "name": "Scrivito",
+      "website_url": "https://scrivito.com/",
+      "logo_url": "/images/supporter-scrivito.png"
+
     }
   ],
   "partners": [
