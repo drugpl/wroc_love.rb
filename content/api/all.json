@@ -19,6 +19,11 @@
       "name": "Sebastian Sogamoso",
       "bio": "Software developer at Ride",
       "photo_url": "/images/speaker-sebastian-sogamoso.jpg"
+    },
+    {
+      "name": "Wojciech Ziniewicz",
+      "bio": "Wojtek is a generalist and environment-oriented software developer. His team works on development of (probably) largest non-robotics, open source project implemented in ROS called Liquid Galaxy, which his company develops on behalf of Google.",
+      "photo_url": "/images/speaker-wojciech-ziniewicz.jpg"
     }
   ],
   "supporters": [
