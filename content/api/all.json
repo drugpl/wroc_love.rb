@@ -41,7 +41,11 @@
       "name": "Scrivito",
       "website_url": "https://scrivito.com/",
       "logo_url": "/images/supporter-scrivito.png"
-
+    },
+    {
+      "name": "Selleo",
+      "website_url": "https://selleo.com/",
+      "logo_url": "/images/supporter-selleo.png"
     }
   ],
   "partners": [
