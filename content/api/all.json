@@ -46,6 +46,11 @@
       "name": "Selleo",
       "website_url": "https://selleo.com/",
       "logo_url": "/images/supporter-selleo.png"
+    },
+    {
+      "name": "Tooploox",
+      "website_url": "http://www.tooploox.com/",
+      "logo_url": "/images/supporter-tooploox.png"
     }
   ],
   "partners": [
