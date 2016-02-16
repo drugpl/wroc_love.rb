@@ -71,6 +71,11 @@
       "name": "Monterail",
       "website_url": "http://monterail.com/",
       "logo_url": "/images/supporter-monterail.png"
+    },
+    {
+      "name": "iRonin",
+      "website_url": "http://ironin.pl/",
+      "logo_url": "/images/supporter-ironin.png"
     }
   ],
   "partners": [
