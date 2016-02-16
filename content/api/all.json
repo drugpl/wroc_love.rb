@@ -76,6 +76,16 @@
       "name": "iRonin",
       "website_url": "http://ironin.pl/",
       "logo_url": "/images/supporter-ironin.png"
+    },
+    {
+      "name": "Ride",
+      "website_url": "http://ride.com/",
+      "logo_url": "/images/supporter-ride.jpg"
+    },
+    {
+      "name": "JetBrains",
+      "website_url": "http://jetbrains.com/",
+      "logo_url": "/images/supporter-jetbrains.png"
     }
   ],
   "partners": [
