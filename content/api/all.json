@@ -24,6 +24,16 @@
       "name": "Wojciech Ziniewicz",
       "bio": "Wojtek is a generalist and environment-oriented software developer. His team works on development of (probably) largest non-robotics, open source project implemented in ROS called Liquid Galaxy, which his company develops on behalf of Google.",
       "photo_url": "/images/speaker-wojciech-ziniewicz.jpg"
+    },
+    {
+      "name": "Sander van der Burg",
+      "bio": "Sander van der Burg is a software engineer and researcher specialized in software deployment and configuration management. He is a contributor to the NixOS project since 2007 and the author of Disnix: a toolset for deploying service-oriented systems. In addition to deployment, he has a broad interest in anything software engineering related, such as programming languages, distributed systems and testing.",
+      "photo_url": "/images/speaker-sander-van-der-burg.jpg"
+    },
+    {
+      "name": "Kacper Walanus",
+      "bio": "Kacper graduated in philosophy. For him programming was a hobby, which turned out to be what he loves most. Works as a developer for six years now, currently for Oxford Valuation Partners. He likes teaching and has experience in passing knowledge. Functional programming, open source and SOLID principles fan.",
+      "photo_url": "/images/speaker-kacper-walanus.png"
     }
   ],
   "supporters": [
