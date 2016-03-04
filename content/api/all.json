@@ -91,6 +91,11 @@
       "name": "JetBrains",
       "website_url": "http://jetbrains.com/",
       "logo_url": "/images/supporter-jetbrains.png"
+    },
+    {
+      "name": "NetGuru",
+      "website_url": "https://netguru.co/",
+      "logo_url": "/images/supporter-netguru.png"
     }
   ],
   "partners": [
