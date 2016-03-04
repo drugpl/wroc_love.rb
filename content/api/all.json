@@ -116,7 +116,7 @@
     }
   ],
   "agenda": {
-    "dayLabels": ["Friday in New Horizons Cinema", "Saturday in University", "Sunday in University"],
+    "dayLabels": ["Friday", "Saturday", "Sunday"],
     "from": "10:00",
     "to":   "23:55",
     "data": [
