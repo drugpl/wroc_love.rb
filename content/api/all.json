@@ -121,13 +121,31 @@
     "to":   "23:55",
     "data": [
       [
-        {"from": "23:00", "to": "23:55", "title": "Networking"}
+        {"from": "11:00", "to": "16:45", "title": "React/Redux/Rails workshops"},
+        {"from": "17:00", "to": "17:30", "title": "Opal.rb", "speaker": "Elia Schito"},
+        {"from": "18:00", "to": "18:30", "title": "From Rails legacy to DDD", "speaker": "Andrzej Krzywda"},
+        {"from": "19:00", "to": "20:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "23:45", "title": "Party at Złoty Pies"}
       ],
       [
-        {"from": "21:00", "to": "23:15", "title": "Party"}
+        {"from": "11:00", "to": "11:30", "title": "The R language", "speaker": "Barbara Fusińska"},
+        {"from": "12:00", "to": "12:30", "title": "The Saga Pattern", "speaker": "Robert Pankowecki"},
+        {"from": "13:00", "to": "14:15", "title": "Lunch time"},
+        {"from": "14:30", "to": "15:30", "title": "Ruby and code editors - panel/fight"},
+        {"from": "16:00", "to": "16:30", "title": "The NixOS project and deploying systems declaratively", "speaker": "Sander van der Burg"},
+        {"from": "17:00", "to": "17:30", "title": "ROS - ecosystem for things", "speaker": "Wojciech Ziniewicz"},
+        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "23:45", "title": "Party at Złoty Pies"}
       ],
       [
-        {"from": "21:00", "to": "23:15", "title": "Party"}
+        {"from": "11:00", "to": "11:30", "title": "1 year with ROM on production", "speaker": "Oskar Szrajer"},
+        {"from": "12:00", "to": "12:30", "title": "Consumer Driven Contracts in Ruby on Rails", "speaker": "Kacper Walanus"},
+        {"from": "13:00", "to": "14:15", "title": "Lunch time"},
+        {"from": "14:30", "to": "15:30", "title": "Panel - to be defined"},
+        {"from": "16:00", "to": "16:30", "title": "Lessons of Liskov", "speaker": "Peter Bhat Harkins"},
+        {"from": "17:00", "to": "17:30", "title": "When making money becomes a headache. Dealing with payments.", "speaker": "Sebastian Sogamoso"},
+        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "23:45", "title": "Party at Bierhalle"}
       ]
     ]
   },
