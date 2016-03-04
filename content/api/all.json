@@ -29,6 +29,11 @@
       "name": "Kacper Walanus",
       "bio": "Kacper graduated in philosophy. For him programming was a hobby, which turned out to be what he loves most. Works as a developer for six years now, currently for Oxford Valuation Partners. He likes teaching and has experience in passing knowledge. Functional programming, open source and SOLID principles fan.",
       "photo_url": "/images/speaker-kacper-walanus.png"
+    },
+    {
+      "name": "Peter Bhat Harkins",
+      "bio": "Peter Bhat Harkins is a senior software developer at DevMynd in Chicago, IL. As a developer and contractor he has built and maintained dozens of websites, experimenting all the way. He tweets as @pushcx and blogs at https://valent.io.",
+      "photo_url": "/images/speaker-peter-bhat-harkins.png"
     }
   ],
   "supporters": [
