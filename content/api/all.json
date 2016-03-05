@@ -34,6 +34,16 @@
       "name": "Peter Bhat Harkins",
       "bio": "Peter Bhat Harkins is a senior software developer at DevMynd in Chicago, IL. As a developer and contractor he has built and maintained dozens of websites, experimenting all the way. He tweets as @pushcx and blogs at https://valent.io.",
       "photo_url": "/images/speaker-peter-bhat-harkins.png"
+    },
+    {
+      "name": "Robert Pankowecki",
+      "bio": "Robert is an experienced Ruby developer who had sucessfully deployed variety of Rails applications. He worked on distributed applications using EventMachine and ZeromMQ. Loves using open-source solutions on daily basis and contributed to number of them. His priority is to deliver applications meeting bussines requirements that are profoundly well tested.",
+      "photo_url": "/images/speaker-robert-pankowecki.jpg"
+    },
+    {
+      "name": "Andrzej Krzywda",
+      "bio": "Chess player. Guru of Rails Refactoring. Writer and Ruby teacher at the University of Wrocław.",
+      "photo_url": "/images/speaker-andrzej-krzywda.png"
     }
   ],
   "supporters": [
