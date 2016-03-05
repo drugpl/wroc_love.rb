@@ -43,7 +43,12 @@
     {
       "name": "Andrzej Krzywda",
       "bio": "Chess player. Guru of Rails Refactoring. Writer and Ruby teacher at the University of Wrocław.",
-      "photo_url": "/images/speaker-andrzej-krzywda.png"
+      "photo_url": "/images/speaker-andrzej-krzywda.jpg"
+    },
+    {
+      "name": "Oskar Szrajer",
+      "bio": "Oskar is a Ruby developer and martial arts expert from Gdynia, Poland. Owner of Gotar company and co-Owner of Ragnarson. Freelancer. Creator of TRUG. He is Aikido & Ju-jutsu instructor, having his own dojo in Gdynia. Currently sandan (3rd dan) in Aikikai Aikido & shodan (1st dan) in Hakko den shin Ryu Ju-Jutsu.",
+      "photo_url": "/images/speaker-oskar-szrajer.jpg"
     }
   ],
   "supporters": [
