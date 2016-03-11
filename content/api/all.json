@@ -132,14 +132,6 @@
   ],
   "venues": [
     {
-      "name": "University of Wrocław, Institute of Computer Science",
-      "address": "Fryderyka Joliot-Curie 15, Wrocław",
-      "description": "Main venue",
-      "latitude": 51.11085,
-      "longtitude": 17.05323,
-      "showPopup": true
-    },
-    {
       "name": "Bierhalle",
       "address": "Rynek 24, Wrocław",
       "description": "Sunday party",
@@ -153,6 +145,14 @@
       "description": "Friday and Saturday party",
       "latitude": 51.110449,
       "longtitude": 17.033621,
+      "showPopup": true
+    },
+    {
+      "name": "University of Wrocław, Institute of Computer Science",
+      "address": "Fryderyka Joliot-Curie 15, Wrocław",
+      "description": "Main venue",
+      "latitude": 51.11085,
+      "longtitude": 17.05323,
       "showPopup": true
     }
   ],
