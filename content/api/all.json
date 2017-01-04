@@ -6,66 +6,6 @@
       "name": "Arkency",
       "website_url": "http://arkency.com/",
       "logo_url": "/images/supporter-arkency.png"
-    },
-    {
-      "name": "Anixe",
-      "website_url": "http://anixe.pl/",
-      "logo_url": "/images/supporter-anixe.png"
-    },
-    {
-      "name": "Daftcode",
-      "website_url": "http://daftcode.pl/",
-      "logo_url": "/images/supporter-daftcode.png"
-    },
-    {
-      "name": "Scrivito",
-      "website_url": "https://scrivito.com/",
-      "logo_url": "/images/supporter-scrivito.png"
-    },
-    {
-      "name": "Selleo",
-      "website_url": "https://selleo.com/",
-      "logo_url": "/images/supporter-selleo.png"
-    },
-    {
-      "name": "Tooploox",
-      "website_url": "http://www.tooploox.com/",
-      "logo_url": "/images/supporter-tooploox.png"
-    },
-    {
-      "name": "Appstery",
-      "website_url": "http://appstery.com/",
-      "logo_url": "/images/supporter-appstery.png"
-    },
-    {
-      "name": "Ragnarson",
-      "website_url": "http://ragnarson.com/",
-      "logo_url": "/images/supporter-ragnarson.png"
-    },
-    {
-      "name": "Monterail",
-      "website_url": "http://monterail.com/",
-      "logo_url": "/images/supporter-monterail.png"
-    },
-    {
-      "name": "iRonin",
-      "website_url": "http://ironin.pl/",
-      "logo_url": "/images/supporter-ironin.png"
-    },
-    {
-      "name": "Ride",
-      "website_url": "http://ride.com/",
-      "logo_url": "/images/supporter-ride.jpg"
-    },
-    {
-      "name": "JetBrains",
-      "website_url": "http://jetbrains.com/",
-      "logo_url": "/images/supporter-jetbrains.png"
-    },
-    {
-      "name": "NetGuru",
-      "website_url": "https://netguru.co/",
-      "logo_url": "/images/supporter-netguru.png"
     }
   ],
   "partners": [
