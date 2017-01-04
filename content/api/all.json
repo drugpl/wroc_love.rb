@@ -13,30 +13,9 @@
       "name": "University of Wrocław",
       "website_url": "http://www.ii.uni.wroc.pl/",
       "logo_url": "/images/partner-uniwroc.png"
-    },
-    {
-      "name": "Pragmatic Programmer",
-      "website_url": "http://pragprog.com/",
-      "logo_url": "/images/partner_pragmatic_bookshelf.png"
     }
   ],
   "venues": [
-    {
-      "name": "Bierhalle",
-      "address": "Rynek 24, Wrocław",
-      "description": "Sunday party",
-      "latitude": 51.11011111111111,
-      "longtitude": 17.03297222222222,
-      "showPopup": true
-    },
-    {
-      "name": "Złoty pies",
-      "address": "Wita Stwosza 1-2, Wrocław",
-      "description": "Friday and Saturday party",
-      "latitude": 51.110449,
-      "longtitude": 17.033621,
-      "showPopup": true
-    },
     {
       "name": "University of Wrocław, Institute of Computer Science",
       "address": "Fryderyka Joliot-Curie 15, Wrocław",
