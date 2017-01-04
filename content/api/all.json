@@ -1,55 +1,5 @@
 {
   "speakers": [
-    {
-      "name": "Elia Schito",
-      "bio": "Ruby hacker and one of the main Opal.rb contributors",
-      "photo_url": "/images/speaker-elia-schito.jpg"
-    },
-    {
-      "name": "Barbara Fusińska",
-      "bio": "Barbara is a software developer and mentor to inspiring developers. Working with a range of different companies, Barbara gained experience with team dynamics. This has lead to her strong belief in shaping a proper working environment. She trusts this allows high-functional teams to reach their full qualities. Alongside building passionate teams, Barbara enjoys collaborating around architectures.",
-      "photo_url": "/images/speaker-barbara-fusinska.jpg"
-    },
-    {
-      "name": "Sebastian Sogamoso",
-      "bio": "Software developer at Ride",
-      "photo_url": "/images/speaker-sebastian-sogamoso.jpg"
-    },
-    {
-      "name": "Wojciech Ziniewicz",
-      "bio": "Wojtek is a generalist and environment-oriented software developer. His team works on development of (probably) largest non-robotics, open source project implemented in ROS called Liquid Galaxy, which his company develops on behalf of Google.",
-      "photo_url": "/images/speaker-wojciech-ziniewicz.jpg"
-    },
-    {
-      "name": "Sander van der Burg",
-      "bio": "Sander van der Burg is a software engineer and researcher specialized in software deployment and configuration management. He is a contributor to the NixOS project since 2007 and the author of Disnix: a toolset for deploying service-oriented systems. In addition to deployment, he has a broad interest in anything software engineering related, such as programming languages, distributed systems and testing.",
-      "photo_url": "/images/speaker-sander-van-der-burg.jpg"
-    },
-    {
-      "name": "Kacper Walanus",
-      "bio": "Kacper graduated in philosophy. For him programming was a hobby, which turned out to be what he loves most. Works as a developer for six years now, currently for Oxford Valuation Partners. He likes teaching and has experience in passing knowledge. Functional programming, open source and SOLID principles fan.",
-      "photo_url": "/images/speaker-kacper-walanus.png"
-    },
-    {
-      "name": "Peter Bhat Harkins",
-      "bio": "Peter Bhat Harkins is a senior software developer at DevMynd in Chicago, IL. As a developer and contractor he has built and maintained dozens of websites, experimenting all the way. He tweets as @pushcx and blogs at https://valent.io.",
-      "photo_url": "/images/speaker-peter-bhat-harkins.png"
-    },
-    {
-      "name": "Robert Pankowecki",
-      "bio": "Robert is an experienced Ruby developer who had sucessfully deployed variety of Rails applications. He worked on distributed applications using EventMachine and ZeromMQ. Loves using open-source solutions on daily basis and contributed to number of them. His priority is to deliver applications meeting bussines requirements that are profoundly well tested.",
-      "photo_url": "/images/speaker-robert-pankowecki.jpg"
-    },
-    {
-      "name": "Andrzej Krzywda",
-      "bio": "Chess player. Guru of Rails Refactoring. Writer and Ruby teacher at the University of Wrocław.",
-      "photo_url": "/images/speaker-andrzej-krzywda.jpg"
-    },
-    {
-      "name": "Oskar Szrajer",
-      "bio": "Oskar is a Ruby developer and martial arts expert from Gdynia, Poland. Owner of Gotar company and co-Owner of Ragnarson. Freelancer. Creator of TRUG. He is Aikido & Ju-jutsu instructor, having his own dojo in Gdynia. Currently sandan (3rd dan) in Aikikai Aikido & shodan (1st dan) in Hakko den shin Ryu Ju-Jutsu.",
-      "photo_url": "/images/speaker-oskar-szrajer.jpg"
-    }
   ],
   "supporters": [
     {
