@@ -1,5 +1,20 @@
 {
   "speakers": [
+    {
+      "name": "Hubert Łępicki",
+      "bio": "Hubert is developer and entrepreneur. These days, he is working mostly on Ruby on Rails and Elixir-based web applications with his team at <a href='https://www.amberbit.com'>AmberBit</a>.",
+      "photo_url": "/images/speaker-hubert-lepicki.jpg"
+    },
+    {
+      "name": "Norbert Wójtowicz",
+      "bio": "Norbert Wójtowicz is a recovering empty-stack developer, whose magic 8-ball predicts that Clojure and ClojureScript will be in your future toolbox. You can find his code and ramblings in various corners of the internet, under the felicitous handle <a href='https://twitter.com/pithyless'>@pithyless</a>.",
+      "photo_url": "/images/speaker-norbert-wojtowicz.jpg"
+    },
+    {
+      "name": "Sebastian Sogamoso",
+      "bio": "Software developer at Cookpad",
+      "photo_url": "/images/speaker-sebastian-sogamoso.jpg"
+    }
   ],
   "supporters": [
     {
