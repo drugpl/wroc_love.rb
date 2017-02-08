@@ -21,6 +21,11 @@
       "name": "Arkency",
       "website_url": "http://arkency.com/",
       "logo_url": "/images/supporter-arkency.png"
+    },
+    {
+      "name": "iRonin",
+      "website_url": "http://ironin.pl/",
+      "logo_url": "/images/supporter-ironin.png"
     }
   ],
   "partners": [
