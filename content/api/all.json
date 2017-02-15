@@ -39,6 +39,11 @@
       "name": "Piotr Szmielew",
       "bio": "Working with Ruby since 2009, Piotr currently mentors Ruby on Rails students in Coders Lab and works toward his PhD in computer science (unfortunately not using Ruby) at Warsaw University of Life Sciences.",
       "photo_url": "/images/speaker-piotr-szmielew.jpg"
+    },
+    {
+      "name": "Wojciech Rząsa",
+      "bio": "Informatics specialist by passion and by profession. A PhD but primarily an engineer. Interested in distributed systems and software development. With special passion for programming and for Ruby. Lives in Rzeszów, works at Rzeszow University of Technology, among the others teaches Ruby and Ruby on Rails. Involved in Rzeszow Ruby User Group.",
+      "photo_url": "/images/speaker-wojciech-rzasa.jpg"
     }
   ],
   "supporters": [
