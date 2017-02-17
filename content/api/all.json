@@ -56,6 +56,16 @@
       "name": "iRonin",
       "website_url": "http://ironin.pl/",
       "logo_url": "/images/supporter-ironin.jpg"
+    },
+    {
+      "name": "Appstery",
+      "website_url": "http://appstery.com/",
+      "logo_url": "/images/supporter-appstery.png"
+    },
+    {
+      "name": "Monterail",
+      "website_url": "http://monterail.com",
+      "logo_url": "/images/supporter-monterail.png"
     }
   ],
   "partners": [
@@ -112,4 +122,3 @@
   "organizers": [
   ]
 }
-
