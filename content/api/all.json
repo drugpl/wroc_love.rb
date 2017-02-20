@@ -44,6 +44,11 @@
       "name": "Wojciech Rząsa",
       "bio": "Informatics specialist by passion and by profession. A PhD but primarily an engineer. Interested in distributed systems and software development. With special passion for programming and for Ruby. Lives in Rzeszów, works at Rzeszow University of Technology, among the others teaches Ruby and Ruby on Rails. Involved in Rzeszow Ruby User Group.",
       "photo_url": "/images/speaker-wojciech-rzasa.jpg"
+    },
+    {
+      "name": "Maciej Mensfeld",
+      "bio": "",
+      "photo_url": "/images/maciej-mensfeld.jpg"
     }
   ],
   "supporters": [
