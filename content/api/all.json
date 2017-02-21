@@ -48,7 +48,7 @@
     {
       "name": "Maciej Mensfeld",
       "bio": "Software engineer with 10 years experience in Ruby. Particularly interested in code quality assurance and DDD. Currently, building a team performance measurement and evaluation tools for Ruby ecosystem.",
-      "photo_url": "/images/maciej-mensfeld.jpg"
+      "photo_url": "/images/speaker-maciej-mensfeld.jpg"
     }
   ],
   "supporters": [
@@ -71,6 +71,11 @@
       "name": "Monterail",
       "website_url": "http://monterail.com",
       "logo_url": "/images/supporter-monterail.png"
+    },
+    {
+      "name": "Selleo",
+      "website_url": "http://selleo.com",
+      "logo_url": "/images/supporter-selleo.png"
     }
   ],
   "partners": [
