@@ -16,11 +16,6 @@
       "photo_url": "/images/speaker-sebastian-sogamoso.jpg"
     },
     {
-      "name": "Caio S. de B. Almeida",
-      "bio": "Caio holds a master degree in Computer Science from Federal University of Bahia, in Brazil, and is a senior software engineer at Meedan, in San Francisco, USA. Working with Ruby since 2008, he contributes with free software on Ruby and JavaScript and talks about that in conferences like RubyConf Brazil, RubyConf Portugal and Free Software International Forum.",
-      "photo_url": "/images/speaker-caio-sacramento.jpg"
-    },
-    {
       "name": "Petr Chalupa",
       "bio": "Rubyist. Lead maintainer of concurrent-ruby. Working on TruffleRuby at Oracle Labs VM Research Group.",
       "photo_url": "/images/speaker-petr-chalupa.jpg"
@@ -76,6 +71,11 @@
       "name": "Selleo",
       "website_url": "http://selleo.com",
       "logo_url": "/images/supporter-selleo.png"
+    },
+    {
+      "name": "Cookpad",
+      "website_url": "http://cookpad.com",
+      "logo_url": "/images/supporter-cookpad.png"
     }
   ],
   "partners": [
