@@ -76,6 +76,11 @@
       "name": "Cookpad",
       "website_url": "http://cookpad.com",
       "logo_url": "/images/supporter-cookpad.png"
+    },
+    {
+      "name": "Spark Solutions",
+      "website_url": "http://sparksolutions.co/",
+      "logo_url": "/images/supporter-spark-solutions.png"
     }
   ],
   "partners": [
