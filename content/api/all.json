@@ -44,6 +44,11 @@
       "name": "Maciej Mensfeld",
       "bio": "Software engineer with 10 years experience in Ruby. Particularly interested in code quality assurance and DDD. Currently, building a team performance measurement and evaluation tools for Ruby ecosystem.",
       "photo_url": "/images/speaker-maciej-mensfeld.jpg"
+    },
+    {
+      "name": "Mariusz Gil",
+      "bio": "Software architect, trainer, consulant, working with teams on high value & high complexity systems. Photographer, biker and rock guitarist.",
+      "photo_url": "/images/speaker-mariusz-gil.jpg"
     }
   ],
   "supporters": [
