@@ -98,6 +98,11 @@
       "name": "University of Wrocław",
       "website_url": "http://www.ii.uni.wroc.pl/",
       "logo_url": "/images/partner-uniwroc.png"
+    },
+    {
+      "name": "Pragmatic Programmer",
+      "website_url": "http://pragprog.com/",
+      "logo_url": "/images/partner_pragmatic_bookshelf.png"
     }
   ],
   "venues": [
