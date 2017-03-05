@@ -91,6 +91,11 @@
       "name": "Runtastic",
       "website_url": "http://www.runtastic.com/",
       "logo_url": "/images/supporter-runtastic.png"
+    },
+    {
+      "name": "Softserve",
+      "website_url": "http://www.softserveinc.com",
+      "logo_url": "/images/supporter-softserve.jpg"
     }
   ],
   "partners": [
