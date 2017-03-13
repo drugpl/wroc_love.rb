@@ -123,34 +123,30 @@
   "agenda": {
     "dayLabels": ["Friday", "Saturday", "Sunday"],
     "from": "10:00",
-    "to":   "23:55",
+    "to":   "20:00",
     "data": [
       [
-        {"from": "11:00", "to": "17:00", "title": "React/Redux/Rails workshops"},
-        {"from": "17:00", "to": "17:45", "title": "From Rails legacy to DDD", "speaker": "Andrzej Krzywda"},
-        {"from": "18:00", "to": "18:45", "title": "Opal.rb", "speaker": "Elia Schito"},
-        {"from": "19:00", "to": "20:00", "title": "Lightning talks"},
-        {"from": "21:00", "to": "23:45", "title": "Party at Złoty Pies"}
+        {"from": "17:00", "to": "18:00", "title": "Karafka - Place where Ruby, Rails and Kafka meet together", "speaker": "Maciej Mensfeld"},
+        {"from": "18:00", "to": "19:00", "title": "Machine Learning for the rescue", "speaker": "Mariusz Gil"},
+        {"from": "19:00", "to": "20:00", "title": "Lightning Talks"}
       ],
       [
-        {"from": "11:00", "to": "11:45", "title": "The R language", "speaker": "Barbara Fusińska"},
-        {"from": "12:00", "to": "12:45", "title": "The Saga Pattern", "speaker": "Robert Pankowecki"},
-        {"from": "13:00", "to": "14:30", "title": "Lunch time"},
-        {"from": "14:30", "to": "15:45", "title": "Ruby and code editors - panel/fight"},
-        {"from": "16:00", "to": "16:45", "title": "The NixOS project and deploying systems declaratively", "speaker": "Sander van der Burg"},
-        {"from": "17:00", "to": "17:45", "title": "ROS - ecosystem for things", "speaker": "Wojciech Ziniewicz"},
-        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
-        {"from": "21:00", "to": "23:45", "title": "Party at Złoty Pies"}
+        {"from": "10:00", "to": "11:00", "title": "The overnight failure", "speaker": "Sebastian Sogamoso"},
+        {"from": "11:00", "to": "12:00", "title": "Fault tolerance in Ruby", "speaker": "Hubert Łępicki"},
+        {"from": "12:00", "to": "13:00", "title": "Automated Type Contracts Generation for Ruby", "speaker": "Valentin Fondaratov"},
+        {"from": "13:00", "to": "15:00", "title": "Lunch time"},
+        {"from": "15:00", "to": "16:00", "title": "PANEL"},
+        {"from": "16:00", "to": "17:00", "title": "Bindings in Ruby - behind the magic of blocks", "speaker": "Piotr Szmielew"},
+        {"from": "17:00", "to": "18:00", "title": "Lightning talks"}
       ],
       [
-        {"from": "11:00", "to": "11:45", "title": "1 year with ROM on production", "speaker": "Oskar Szrajer"},
-        {"from": "12:00", "to": "12:45", "title": "Consumer Driven Contracts in Ruby on Rails", "speaker": "Kacper Walanus"},
-        {"from": "13:00", "to": "14:30", "title": "Lunch time"},
-        {"from": "14:30", "to": "15:45", "title": "Panel - Rails deployment"},
-        {"from": "16:00", "to": "16:45", "title": "Lessons of Liskov", "speaker": "Peter Bhat Harkins"},
-        {"from": "17:00", "to": "17:45", "title": "When making money becomes a headache. Dealing with payments.", "speaker": "Sebastian Sogamoso"},
-        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
-        {"from": "21:00", "to": "23:45", "title": "Party at Bierhalle"}
+        {"from": "10:00", "to": "11:00", "title": "The Babel Fish is Data: A Case Study", "speaker": "Norbert Wójtowicz"},
+        {"from": "11:00", "to": "12:00", "title": "We all build distributed systems", "speaker": "Maciej Rząsa"},
+        {"from": "12:00", "to": "13:00", "title": "Predicting Performance Changes of Distributed Applications", "speaker": "Wojciech Rząsa"},
+        {"from": "13:00", "to": "15:00", "title": "Lunch time"},
+        {"from": "15:00", "to": "16:00", "title": "Panel"},
+        {"from": "16:00", "to": "17:00", "title": "ConcurrentRuby v1.1.0: new framework, new way of writing concurrent code!", "speaker": "Petr Chalupa"},
+        {"from": "17:00", "to": "18:00", "title": "Lightning talks"}
       ]
     ]
   },
