@@ -108,6 +108,11 @@
       "name": "Pragmatic Programmer",
       "website_url": "http://pragprog.com/",
       "logo_url": "/images/partner_pragmatic_bookshelf.png"
+    },
+    {
+      "name": "Unerdwear",
+      "website_url": "https://www.facebook.com/Unerdwear",
+      "logo_url": "/images/partner_unerdwear.jpg"
     }
   ],
   "venues": [
