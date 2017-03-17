@@ -123,17 +123,26 @@
       "latitude": 51.11085,
       "longtitude": 17.05323,
       "showPopup": true
+    },
+    {
+      "name": "Złoty Pies",
+      "address": "Wita Stwosza 1-2, 11-400 Wrocław",
+      "description": "After party",
+      "latitude": 51.1103829,
+      "longtitude": 17.0314063,
+      "showPopup": true
     }
   ],
   "agenda": {
     "dayLabels": ["Friday", "Saturday", "Sunday"],
     "from": "10:00",
-    "to":   "20:00",
+    "to":   "22:00",
     "data": [
       [
         {"from": "17:00", "to": "18:00", "title": "Karafka - Place where Ruby, Rails and Kafka meet together", "speaker": "Maciej Mensfeld"},
         {"from": "18:00", "to": "19:00", "title": "Machine Learning for the rescue", "speaker": "Mariusz Gil"},
-        {"from": "19:00", "to": "20:00", "title": "Lightning Talks"}
+        {"from": "19:00", "to": "20:00", "title": "Lightning Talks"},
+        {"from": "21:00", "to": "22:00", "title": "After party at Złoty Pies"}
       ],
       [
         {"from": "10:00", "to": "11:00", "title": "The overnight failure", "speaker": "Sebastian Sogamoso"},
@@ -142,7 +151,8 @@
         {"from": "13:00", "to": "15:00", "title": "Lunch time"},
         {"from": "15:00", "to": "16:00", "title": "PANEL"},
         {"from": "16:00", "to": "17:00", "title": "Bindings in Ruby - behind the magic of blocks", "speaker": "Piotr Szmielew"},
-        {"from": "17:00", "to": "18:00", "title": "Lightning talks"}
+        {"from": "17:00", "to": "18:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "22:00", "title": "After party at Złoty Pies"}
       ],
       [
         {"from": "10:00", "to": "11:00", "title": "The Babel Fish is Data: A Case Study", "speaker": "Norbert Wójtowicz"},
@@ -151,7 +161,8 @@
         {"from": "13:00", "to": "15:00", "title": "Lunch time"},
         {"from": "15:00", "to": "16:00", "title": "Panel - How to survive in the JavaScript world as a Ruby programmer and stay sane"},
         {"from": "16:00", "to": "17:00", "title": "ConcurrentRuby v1.1.0: new framework, new way of writing concurrent code!", "speaker": "Petr Chalupa"},
-        {"from": "17:00", "to": "18:00", "title": "Lightning talks"}
+        {"from": "17:00", "to": "18:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "22:00", "title": "After party at Złoty Pies"}
       ]
     ]
   },
