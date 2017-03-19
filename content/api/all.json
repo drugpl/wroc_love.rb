@@ -131,6 +131,14 @@
       "latitude": 51.1103829,
       "longtitude": 17.0314063,
       "showPopup": true
+    },
+    {
+      "name": "4hops",
+      "address": "Ofiar Oświęcimskich 46, 11-400 Wrocław",
+      "description": "After party",
+      "latitude": 51.107966,
+      "longtitude": 17.036281,
+      "showPopup": true
     }
   ],
   "agenda": {
@@ -162,7 +170,7 @@
         {"from": "15:00", "to": "16:00", "title": "Panel - How to survive in the JavaScript world as a Ruby programmer and stay sane"},
         {"from": "16:00", "to": "17:00", "title": "ConcurrentRuby v1.1.0: new framework, new way of writing concurrent code!", "speaker": "Petr Chalupa"},
         {"from": "17:00", "to": "18:00", "title": "Lightning talks"},
-        {"from": "21:00", "to": "22:00", "title": "After party at Złoty Pies"}
+        {"from": "19:00", "to": "21:00", "title": "After party at 4hops"}
       ]
     ]
   },
