@@ -56,46 +56,6 @@
       "name": "Arkency",
       "website_url": "http://arkency.com/",
       "logo_url": "/images/supporter-arkency.png"
-    },
-    {
-      "name": "iRonin",
-      "website_url": "http://ironin.pl/",
-      "logo_url": "/images/supporter-ironin.jpg"
-    },
-    {
-      "name": "Appstery",
-      "website_url": "http://appstery.com/",
-      "logo_url": "/images/supporter-appstery.png"
-    },
-    {
-      "name": "Monterail",
-      "website_url": "http://monterail.com",
-      "logo_url": "/images/supporter-monterail.png"
-    },
-    {
-      "name": "Selleo",
-      "website_url": "http://selleo.com",
-      "logo_url": "/images/supporter-selleo.jpg"
-    },
-    {
-      "name": "Cookpad",
-      "website_url": "http://cookpad.com",
-      "logo_url": "/images/supporter-cookpad.png"
-    },
-    {
-      "name": "Spark Solutions",
-      "website_url": "http://sparksolutions.co/",
-      "logo_url": "/images/supporter-spark-solutions.png"
-    },
-    {
-      "name": "Runtastic",
-      "website_url": "http://www.runtastic.com/",
-      "logo_url": "/images/supporter-runtastic.png"
-    },
-    {
-      "name": "Softserve",
-      "website_url": "http://www.softserveinc.com",
-      "logo_url": "/images/supporter-softserve.jpg"
     }
   ],
   "partners": [
@@ -103,16 +63,6 @@
       "name": "University of Wrocław",
       "website_url": "http://www.ii.uni.wroc.pl/",
       "logo_url": "/images/partner-uniwroc.png"
-    },
-    {
-      "name": "Pragmatic Programmer",
-      "website_url": "http://pragprog.com/",
-      "logo_url": "/images/partner_pragmatic_bookshelf.png"
-    },
-    {
-      "name": "Unerdwear",
-      "website_url": "https://www.facebook.com/Unerdwear",
-      "logo_url": "/images/partner_unerdwear.jpg"
     }
   ],
   "venues": [
@@ -122,22 +72,6 @@
       "description": "Main venue",
       "latitude": 51.11085,
       "longtitude": 17.05323,
-      "showPopup": true
-    },
-    {
-      "name": "Złoty Pies",
-      "address": "Wita Stwosza 1-2, 11-400 Wrocław",
-      "description": "After party",
-      "latitude": 51.1103829,
-      "longtitude": 17.0314063,
-      "showPopup": true
-    },
-    {
-      "name": "4hops",
-      "address": "Ofiar Oświęcimskich 46, 11-400 Wrocław",
-      "description": "After party",
-      "latitude": 51.107966,
-      "longtitude": 17.036281,
       "showPopup": true
     }
   ],
