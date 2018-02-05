@@ -1,54 +1,9 @@
 {
   "speakers": [
     {
-      "name": "Hubert Łępicki",
-      "bio": "Hubert is developer and entrepreneur. These days, he is working mostly on Ruby on Rails and Elixir-based web applications with his team at <a href='https://www.amberbit.com'>AmberBit</a>.",
-      "photo_url": "/images/speaker-hubert-lepicki.jpg"
-    },
-    {
-      "name": "Norbert Wójtowicz",
-      "bio": "Norbert Wójtowicz is a recovering empty-stack developer, whose magic 8-ball predicts that Clojure and ClojureScript will be in your future toolbox. You can find his code and ramblings in various corners of the internet, under the felicitous handle <a href='https://twitter.com/pithyless'>@pithyless</a>.",
-      "photo_url": "/images/speaker-norbert-wojtowicz.jpg"
-    },
-    {
-      "name": "Sebastian Sogamoso",
-      "bio": "Software developer at Cookpad",
-      "photo_url": "/images/speaker-sebastian-sogamoso.jpg"
-    },
-    {
-      "name": "Petr Chalupa",
-      "bio": "Rubyist. Lead maintainer of concurrent-ruby. Working on TruffleRuby at Oracle Labs VM Research Group.",
-      "photo_url": "/images/speaker-petr-chalupa.jpg"
-    },
-    {
-      "name": "Maciej Rząsa",
-      "bio": "Developer at TextMaster. Interested in writing software that matters, self-organizing teams and distributed systems. Advocate of knowledge sharing. Occasional instructor at Rzeszów University of Technology.",
-      "photo_url": "/images/speaker-maciej-rzasa.png"
-    },
-    {
-      "name": "Valentin Fondaratov",
-      "bio": "Having spent some time in ACM ICPC competitions, social network development and bioinformatics, Valentin finally fulfilled himself helping other developers write a better code. Now he is a RubyMine (Ruby/Rails IDE) team lead, but, more importantly, JetBrains employee. Knows Java a little. Learning Kotlin and unicyclcing.",
-      "photo_url": "/images/speaker-valentin-fondaratov.jpg"
-    },
-    {
-      "name": "Piotr Szmielew",
-      "bio": "Working with Ruby since 2009, Piotr currently mentors Ruby on Rails students in Coders Lab and works toward his PhD in computer science (unfortunately not using Ruby) at Warsaw University of Life Sciences.",
-      "photo_url": "/images/speaker-piotr-szmielew.jpg"
-    },
-    {
-      "name": "Wojciech Rząsa",
-      "bio": "Informatics specialist by passion and by profession. A PhD but primarily an engineer. Interested in distributed systems and software development. With special passion for programming and for Ruby. Lives in Rzeszów, works at Rzeszow University of Technology, among the others teaches Ruby and Ruby on Rails. Involved in Rzeszow Ruby User Group.",
-      "photo_url": "/images/speaker-wojciech-rzasa.jpg"
-    },
-    {
-      "name": "Maciej Mensfeld",
-      "bio": "Software engineer with 10 years experience in Ruby. Particularly interested in code quality assurance and DDD. Currently, building a team performance measurement and evaluation tools for Ruby ecosystem.",
-      "photo_url": "/images/speaker-maciej-mensfeld.jpg"
-    },
-    {
-      "name": "Mariusz Gil",
-      "bio": "Software architect, trainer, consulant, working with teams on high value & high complexity systems. Photographer, biker and rock guitarist.",
-      "photo_url": "/images/speaker-mariusz-gil.jpg"
+      "name": "Andrzej Śliwa",
+      "bio": "Software polyglot ninja. Engineering team sensei. Black belt in problem solving. Coding since when software was stored on 5'25 floppies. He likes teaching and sharing his knowledge. He is Open Software Enthusiast.",
+      "photo_url": "/images/speaker-andrzej-sliwa.jpg"
     }
   ],
   "supporters": [
