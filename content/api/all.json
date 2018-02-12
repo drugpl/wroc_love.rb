@@ -9,6 +9,11 @@
       "name": "Nick Sutterer",
       "bio": "",
       "photo_url": "/images/speaker-nick-sutterer.jpg"
+    },
+    {
+      "name": "Armin Pašalić",
+      "bio": "Software builder, mostly Ruby and a bit of Go. Passionate about \"proper\" testing, clean architecture and DDD. Currently busy constructing a distributed software system with the best colleagues ever at <a href='https://www.solarisbank.com/' target='_blank'>solarisBank AG</a>.",
+      "photo_url": "/images/speaker-armin-pasalic.jpg"
     }
   ],
   "supporters": [
