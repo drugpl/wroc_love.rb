@@ -29,6 +29,11 @@
       "name": "Vladimir Dementyev",
       "bio": "A mathematician found his happiness in programming Ruby and Erlang, contributing to open source, mentoring Rails devs and being an <a href='https://evilmartians.com/' target='_blank'>Evil Martian</a>. Author of <a href='http://anycable.io/' target='_blank'>AnyCable</a>.",
       "photo_url": "/images/speaker-vladimir-dementyev.jpg"
+    },
+    {
+      "name": "Stefan Wintermeyer",
+      "bio": "",
+      "photo_url": "/images/speaker-stefan-wintermeyer-2.jpg"
     }
   ],
   "supporters": [
