@@ -19,6 +19,11 @@
       "name": "Michał Młoźniak",
       "bio": "Michał is a software engineer, working with Ruby since 2007. He prefers learning more about existing technologies than constantly popping languages and frameworks. When not engaged in a programming gig, you can find him exploring hidden gems of 本州 island.",
       "photo_url": "/images/speaker-michal-mlozniak.jpg"
+    },
+    {
+      "name": "Nickolay Viuginov",
+      "bio": "Currently doing my master’s in machine learning at ITMO University. Maintainer of Ruby Debugger at JetBrains. In my free time, I'm investigating the RubyVM and Delve. I'm also a fan of functional programming.",
+      "photo_url": "/images/speaker-nickolay-viuginov.jpg"
     }
   ],
   "supporters": [
