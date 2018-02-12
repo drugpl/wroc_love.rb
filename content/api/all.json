@@ -14,6 +14,11 @@
       "name": "Armin Pašalić",
       "bio": "Software builder, mostly Ruby and a bit of Go. Passionate about \"proper\" testing, clean architecture and DDD. Currently busy constructing a distributed software system with the best colleagues ever at <a href='https://www.solarisbank.com/' target='_blank'>solarisBank AG</a>.",
       "photo_url": "/images/speaker-armin-pasalic.jpg"
+    },
+    {
+      "name": "Michał Młoźniak",
+      "bio": "Michał is a software engineer, working with Ruby since 2007. He prefers learning more about existing technologies than constantly popping languages and frameworks. When not engaged in a programming gig, you can find him exploring hidden gems of 本州 island.",
+      "photo_url": "/images/speaker-michal-mlozniak.jpg"
     }
   ],
   "supporters": [
