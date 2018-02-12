@@ -34,6 +34,11 @@
       "name": "Stefan Wintermeyer",
       "bio": "",
       "photo_url": "/images/speaker-stefan-wintermeyer-2.jpg"
+    },
+    {
+      "name": "Damir Zekić",
+      "bio": "Software engineer who enjoys mentoring and teaching others to program. Has seen the best and the worst of Ruby and Rails throughout the last decade, but always looking to expand own and other people's horizons.",
+      "photo_url": "/images/speaker-damir-zekic.jpg"
     }
   ],
   "supporters": [
