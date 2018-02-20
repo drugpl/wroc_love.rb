@@ -42,7 +42,7 @@
     },
     {
       "name": "Nathan Ladd",
-      "bio": "",
+      "bio": "Software developer and consultant hailing from Austin, TX. Often guilty of writing event sourced microservices in ruby using the <a href='https://eventide-project.org/' target='_blank'>Eventide</a> framework, of which he is also a co-author.",
       "photo_url": "/images/speaker-nathan-ladd.jpg"
     }
   ],
