@@ -44,6 +44,11 @@
       "name": "Nathan Ladd",
       "bio": "Software developer and consultant hailing from Austin, TX. Often guilty of writing event sourced microservices in ruby using the <a href='https://eventide-project.org/' target='_blank'>Eventide</a> framework, of which he is also a co-author.",
       "photo_url": "/images/speaker-nathan-ladd.jpg"
+    },
+    {
+      "name": "Tony Vince",
+      "bio": "Software developer hailing from Kerala, India. Ruby makes me happy and keeps me sane. Into books, movies, and football and physics when not coding.",
+      "photo_url": "/images/speaker-tony-vince.jpg"
     }
   ],
   "supporters": [
