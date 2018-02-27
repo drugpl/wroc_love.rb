@@ -107,7 +107,7 @@
         {"from": "21:00", "to": "22:00", "title": "After party"}
       ],
       [
-        {"from": "10:00", "to": "11:00", "title": "", "speaker": ""},
+        {"from": "10:00", "to": "11:00", "title": "", "speaker": "Łukasz Szydło"},
         {"from": "11:00", "to": "12:00", "title": "Beyond the current state: Time travel to the rescue!", "speaker": "Armin Pašalić"},
         {"from": "12:00", "to": "13:00", "title": "Rails on Kubernetes", "speaker": "Tony Vincent T.Y"},
         {"from": "13:00", "to": "15:00", "title": "Lunch time"},
