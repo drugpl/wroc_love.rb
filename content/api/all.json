@@ -56,6 +56,11 @@
       "name": "Arkency",
       "website_url": "http://arkency.com/",
       "logo_url": "/images/supporter-arkency.png"
+    },
+    {
+      "name": "ValueLogic",
+      "website_url": "http://valuelogic.one/",
+      "logo_url": "/images/supporter-valuelogic.png"
     }
   ],
   "partners": [
