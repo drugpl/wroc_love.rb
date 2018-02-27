@@ -91,30 +91,31 @@
     "to":   "22:00",
     "data": [
       [
-        {"from": "17:00", "to": "18:00", "title": "Karafka - Place where Ruby, Rails and Kafka meet together", "speaker": "Maciej Mensfeld"},
-        {"from": "18:00", "to": "19:00", "title": "Machine Learning for the rescue", "speaker": "Mariusz Gil"},
-        {"from": "19:00", "to": "20:00", "title": "Lightning Talks"},
-        {"from": "21:00", "to": "22:00", "title": "After party at Złoty Pies"}
+        {"from": "17:00", "to": "20:00", "title": "Special DDD Wrocław"},
+        {"from": "21:00", "to": "22:00", "title": "After party"}
       ],
       [
-        {"from": "10:00", "to": "11:00", "title": "The overnight failure", "speaker": "Sebastian Sogamoso"},
-        {"from": "11:00", "to": "12:00", "title": "Fault tolerance in Ruby", "speaker": "Hubert Łępicki"},
-        {"from": "12:00", "to": "13:00", "title": "Automated Type Contracts Generation for Ruby", "speaker": "Valentin Fondaratov"},
+        {"from": "10:00", "to": "11:00", "title": "Better WebPerformance with Rails", "speaker": "Stefan Wintermeyer"},
+        {"from": "11:00", "to": "12:00", "title": "Cables! Cables! Cables!", "speaker": "Vladimir Dementyev"},
+        {"from": "12:00", "to": "13:00", "title": "A Deep Dive into Ruby VM", "speaker": "Nickolay Viuginov"},
         {"from": "13:00", "to": "15:00", "title": "Lunch time"},
-        {"from": "15:00", "to": "16:00", "title": "PANEL"},
-        {"from": "16:00", "to": "17:00", "title": "Bindings in Ruby - behind the magic of blocks", "speaker": "Piotr Szmielew"},
-        {"from": "17:00", "to": "18:00", "title": "Lightning talks"},
-        {"from": "21:00", "to": "22:00", "title": "After party at Złoty Pies"}
+        {"from": "15:00", "to": "16:00", "title": "Panel - TBD"},
+        {"from": "16:00", "to": "17:00", "title": "", "speaker": "Nick Sutterer"},
+        {"from": "17:00", "to": "18:00", "title": "", "speaker": "Nathan Ladd"},
+        {"from": "18:00", "to": "19:00", "title": "Applying CQRS & Event Sourcing on Rails applications", "speaker": "Andrzej Śliwa"},
+        {"from": "19:00", "to": "20:00", "title": "Lightning talks"},
+        {"from": "21:00", "to": "22:00", "title": "After party"}
       ],
       [
-        {"from": "10:00", "to": "11:00", "title": "The Babel Fish is Data: A Case Study", "speaker": "Norbert Wójtowicz"},
-        {"from": "11:00", "to": "12:00", "title": "We all build distributed systems", "speaker": "Maciej Rząsa"},
-        {"from": "12:00", "to": "13:00", "title": "Predicting Performance Changes of Distributed Applications", "speaker": "Wojciech Rząsa"},
+        {"from": "10:00", "to": "11:00", "title": "", "speaker": ""},
+        {"from": "11:00", "to": "12:00", "title": "Beyond the current state: Time travel to the rescue!", "speaker": "Armin Pašalić"},
+        {"from": "12:00", "to": "13:00", "title": "Rails on Kubernetes", "speaker": "Tony Vincent T.Y"},
         {"from": "13:00", "to": "15:00", "title": "Lunch time"},
-        {"from": "15:00", "to": "16:00", "title": "Panel - How to survive in the JavaScript world as a Ruby programmer and stay sane"},
-        {"from": "16:00", "to": "17:00", "title": "ConcurrentRuby v1.1.0: new framework, new way of writing concurrent code!", "speaker": "Petr Chalupa"},
-        {"from": "17:00", "to": "18:00", "title": "Lightning talks"},
-        {"from": "19:00", "to": "21:00", "title": "After party at 4hops"}
+        {"from": "15:00", "to": "16:00", "title": "Panel - TBD"},
+        {"from": "16:00", "to": "17:00", "title": "Toolbelt of a Seasoned Bug Hunter", "speaker": "Damir Zekić"},
+        {"from": "17:00", "to": "18:00", "title": "MVCC for Ruby developers", "speaker": "Michał Młoźniak"},
+        {"from": "18:00", "to": "19:00", "title": "Lightning talks"},
+        {"from": "19:00", "to": "21:00", "title": "After party"}
       ]
     ]
   },
