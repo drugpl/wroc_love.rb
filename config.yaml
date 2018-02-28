@@ -78,25 +78,3 @@ watcher:
   # When to send notifications (using Growl or notify-send).
   notify_on_compilation_success: true
   notify_on_compilation_failure: true
-
-deploy:
-  default:
-    kind: rsync
-    dst:  "wrocloverb@calculon.syswise.eu:current/public"
-    options: ['-gpPrtvz', '--delete-after']
-  wrocloverb_2012:
-    kind: rsync
-    dst:  "wrocloverb_2012@calculon.syswise.eu:current/public"
-    options: ['-gpPrtvz', '--delete-after']
-  wrocloverb_2013:
-    kind: rsync
-    dst:  "wrocloverb_2013@calculon.syswise.eu:current/public"
-    options: ['-gpPrtvz', '--delete-after']
-  wrocloverb_2014:
-    kind: rsync
-    dst:  "wrocloverb_2014@calculon.syswise.eu:current/public"
-    options: ['-gpPrtvz', '--delete-after']
-  wrocloverb_2016:
-    kind: rsync
-    dst:  "wrocloverb_2016@calculon.syswise.eu:current/public"
-    options: ['-gpPrtvz', '--delete-after']
