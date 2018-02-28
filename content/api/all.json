@@ -71,6 +71,16 @@
       "name": "ValueLogic",
       "website_url": "http://valuelogic.one/",
       "logo_url": "/images/supporter-valuelogic.png"
+    },
+    {
+      "name": "Selleo",
+      "website_url": "http://selleo.com/",
+      "logo_url": "/images/supporter-selleo.png"
+    },
+    {
+      "name": "iRonin",
+      "website_url": "https://www.ironin.it/",
+      "logo_url": "/images/supporter-ironin.png"
     }
   ],
   "partners": [
