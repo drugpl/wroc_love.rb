@@ -49,7 +49,17 @@
       "name": "Tony Vincent T.Y",
       "bio": "Software developer hailing from Kerala, India. Ruby makes me happy and keeps me sane. Into books, movies, and football and physics when not coding.",
       "photo_url": "/images/speaker-tony-vince.jpg"
-    }
+    },
+    {
+      "name": "Łukasz Szydło",
+      "bio": "Programmer/Architect, fan of software craftsmanship and agility. Tries to have holistic approach to software, likes simple solutions to complicated problems. Trainer and consultant at Bottega IT Minds specializing in Software Architecture, Domain-Driven Design, Continuous Delivery and Java ecosystem. Father of five. Likes reading good books.",
+      "photo_url": "/images/speaker-lukasz-szydlo.jpg"
+    },
+    {
+      "name": "Marco Heimeshoff",
+      "bio": "Marco Heimeshoff has an unhealthy relationship with Domain Driven Design, and won't leave any stone unturned once you lend him an ear and sticky notes. He believes that lifelong learning, focus on language and empathy are the three pillars of quality development. Frustration about the same old methods of working together and developing solutions lead him to Domain Driven Design, agile software development, functional programming and CQRS with event sourcing. With ten years of experience in these topics he helps teams to change and learn in all things from code to culture.",
+      "photo_url": "/images/speaker-marco-heimeshoff.jpg"
+    },
   ],
   "supporters": [
     {
