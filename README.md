@@ -21,3 +21,8 @@ bundle exec nanoc compile
 Nothing to do, changes in `master` branch are published automatically on `www.wrocloverb.com`.
 
 Changes in branches get deployed separately under special preview URL.
+
+
+## Changing speakers, schedule or supporters?
+
+See https://github.com/drugpl/wroc_love.rb/blob/master/content/api/all.json.
