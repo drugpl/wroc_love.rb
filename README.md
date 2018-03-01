@@ -17,6 +17,6 @@ bundle exec nanoc compile
 
 ## Deploying
 
-```
-bundle exec nanoc deploy
-```
+Nothing to do, changes in `master` branch are published automatically on `www.wrocloverb.com`.
+
+Changes in branches get deployed separately under special preview URL.
