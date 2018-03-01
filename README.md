@@ -1,4 +1,5 @@
-Ruby Conference brought by thriving Wrocław Ruby Community
+# wroc_love.rb 2018 website
+
 
 ## Using on developer machine
 
