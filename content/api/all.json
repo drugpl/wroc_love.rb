@@ -52,7 +52,7 @@
     },
     {
       "name": "Łukasz Szydło",
-      "bio": "Programmer/Architect, fan of software craftsmanship and agility. Tries to have holistic approach to software, likes simple solutions to complicated problems. Trainer and consultant at Bottega IT Minds specializing in Software Architecture, Domain-Driven Design, Continuous Delivery and Java ecosystem. Father of five. Likes reading good books.",
+      "bio": "Programmer/architect/consultant, fan of software craftsmanship and agility. Tries to have holistic approach to software design and development. Likes simple solutions to complicated problems. Trainer at Bottega IT Solutions specializing in Software Architecture, Domain-Driven Design, Continuous Delivery and Java. Father of five. Likes reading good books.",
       "photo_url": "/images/speaker-lukasz-szydlo.jpg"
     },
     {
@@ -134,7 +134,7 @@
       ],
       [
         {"from": "9:15", "to": "10:00", "title": "registration"},
-        {"from": "10:00", "to": "10:30", "title": "[super secret]", "speaker": "Łukasz Szydło"},
+        {"from": "10:00", "to": "10:30", "title": "Understanding coupling", "speaker": "Łukasz Szydło"},
         {"from": "11:00", "to": "11:30", "title": "Beyond the current state: Time travel to the rescue!", "speaker": "Armin Pašalić"},
         {"from": "12:00", "to": "12:30", "title": "Rails on Kubernetes", "speaker": "Tony Vincent T.Y"},
         {"from": "15:00", "to": "16:00", "title": "Discussion Panel"},
