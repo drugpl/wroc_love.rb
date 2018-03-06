@@ -124,7 +124,7 @@
         {"from": "9:15", "to": "10:00", "title": "registration"},
         {"from": "10:00", "to": "10:30", "title": "Better WebPerformance with Rails", "speaker": "Stefan Wintermeyer"},
         {"from": "11:00", "to": "11:30", "title": "Cables! Cables! Cables!", "speaker": "Vladimir Dementyev"},
-        {"from": "12:00", "to": "12:30", "title": "TBD", "speaker": ""},
+        {"from": "12:00", "to": "12:30", "title": "Rails hurts, because you're using it wrong. Let's fix that.", "speaker": "Ivan Nemytchenko"},
         {"from": "15:00", "to": "16:00", "title": "Discussion Panel"},
         {"from": "16:00", "to": "16:30", "title": "SUPER AIN'T SUPER: From OOP To FP and Beyond!", "speaker": "Nick Sutterer"},
         {"from": "17:00", "to": "17:30", "title": "Event Sourcing Anti Patterns and Failures", "speaker": "Nathan Ladd"},
