@@ -21,11 +21,6 @@
       "photo_url": "/images/speaker-michal-mlozniak.jpg"
     },
     {
-      "name": "Nickolay Viuginov",
-      "bio": "Currently doing my master’s in machine learning at ITMO University. Maintainer of Ruby Debugger at JetBrains. In my free time, I'm investigating the RubyVM and Delve. I'm also a fan of functional programming.",
-      "photo_url": "/images/speaker-nickolay-viuginov.jpg"
-    },
-    {
       "name": "Vladimir Dementyev",
       "bio": "A mathematician found his happiness in programming Ruby and Erlang, contributing to open source, mentoring Rails devs and being an <a href='https://evilmartians.com/' target='_blank'>Evil Martian</a>. Author of <a href='http://anycable.io/' target='_blank'>AnyCable</a>.",
       "photo_url": "/images/speaker-vladimir-dementyev.jpg"
@@ -124,7 +119,7 @@
         {"from": "9:15", "to": "10:00", "title": "registration"},
         {"from": "10:00", "to": "10:30", "title": "Better WebPerformance with Rails", "speaker": "Stefan Wintermeyer"},
         {"from": "11:00", "to": "11:30", "title": "Cables! Cables! Cables!", "speaker": "Vladimir Dementyev"},
-        {"from": "12:00", "to": "12:30", "title": "A Deep Dive into Ruby VM", "speaker": "Nickolay Viuginov"},
+        {"from": "12:00", "to": "12:30", "title": "TBD", "speaker": ""},
         {"from": "15:00", "to": "16:00", "title": "Discussion Panel"},
         {"from": "16:00", "to": "16:30", "title": "SUPER AIN'T SUPER: From OOP To FP and Beyond!", "speaker": "Nick Sutterer"},
         {"from": "17:00", "to": "17:30", "title": "Event Sourcing Anti Patterns and Failures", "speaker": "Nathan Ladd"},
