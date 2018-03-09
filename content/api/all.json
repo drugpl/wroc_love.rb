@@ -41,11 +41,6 @@
       "photo_url": "/images/speaker-nathan-ladd.jpg"
     },
     {
-      "name": "Tony Vincent T.Y",
-      "bio": "Software developer hailing from Kerala, India. Ruby makes me happy and keeps me sane. Into books, movies, and football and physics when not coding.",
-      "photo_url": "/images/speaker-tony-vince.jpg"
-    },
-    {
       "name": "Łukasz Szydło",
       "bio": "Programmer/architect/consultant, fan of software craftsmanship and agility. Tries to have holistic approach to software design and development. Likes simple solutions to complicated problems. Trainer at Bottega IT Solutions specializing in Software Architecture, Domain-Driven Design, Continuous Delivery and Java. Father of five. Likes reading good books.",
       "photo_url": "/images/speaker-lukasz-szydlo.jpg"
@@ -141,7 +136,7 @@
         {"from": "9:15", "to": "10:00", "title": "registration"},
         {"from": "10:00", "to": "10:30", "title": "Understanding coupling", "speaker": "Łukasz Szydło"},
         {"from": "11:00", "to": "11:30", "title": "Beyond the current state: Time travel to the rescue!", "speaker": "Armin Pašalić"},
-        {"from": "12:00", "to": "12:30", "title": "Rails on Kubernetes", "speaker": "Tony Vincent T.Y"},
+        {"from": "12:00", "to": "12:30", "title": "TBD", "speaker": ""},
         {"from": "15:00", "to": "16:00", "title": "Discussion Panel"},
         {"from": "16:00", "to": "16:30", "title": "Toolbelt of a Seasoned Bug Hunter", "speaker": "Damir Zekić"},
         {"from": "17:00", "to": "17:30", "title": "MVCC for Ruby developers", "speaker": "Michał Młoźniak"},
