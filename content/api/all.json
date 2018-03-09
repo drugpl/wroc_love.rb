@@ -86,6 +86,11 @@
       "name": "Netguru",
       "website_url": "https://www.netguru.co/",
       "logo_url": "/images/supporter-netguru.png"
+    },
+    {
+      "name": "sum.cumo",
+      "website_url": "https://www.sumcumo.com",
+      "logo_url": "/images/supporter-sum-cumo.png"
     }
   ],
   "partners": [
