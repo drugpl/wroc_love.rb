@@ -86,6 +86,11 @@
       "name": "sum.cumo",
       "website_url": "https://www.sumcumo.com",
       "logo_url": "/images/supporter-sum-cumo.png"
+    },
+    {
+      "name": "Anixe",
+      "website_url": "http://www.anixe.pl",
+      "logo_url": "/images/supporter-anixe.png"
     }
   ],
   "partners": [
