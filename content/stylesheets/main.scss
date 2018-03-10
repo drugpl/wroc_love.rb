@@ -262,10 +262,8 @@ header {
 
       color: $bg-color;
       -webkit-font-smoothing: antialiased;
-
-      &.animated {
-        @include transition(bottom 0.5s);
-      }
+      @include transform(translateY(100%));
+      @include transition(transform 0.5s);
     }
     .info {
       display: inline-block;
@@ -274,6 +272,12 @@ header {
       padding: 0.5em 1em;
       background: rgba(#000, 0.7);
       font-size: 13px;
+    }
+
+    &:hover, &:focus {
+      .description {
+        @include transform(translateY(0));
+      }
     }
   }
 }
