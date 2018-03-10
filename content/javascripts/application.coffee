@@ -1,5 +1,4 @@
 #= require jquery
-#= require handlebars_view
 #= require map_view
 #= require agenda_view
 #= require data_source
@@ -23,11 +22,6 @@ hideLoadingSpinner = ->
 
 callback = (data) ->
   hideLoadingSpinner()
-  new HandlebarsView('speakers').render($('.speakers'), data)
-  new HandlebarsView('supporters').render($('.supporters'), data)
-  new HandlebarsView('partners').render($('.partners'), data)
-  new HandlebarsView('organizers').render($('.organizers'), data)
-
   setupAnimations()
 
   new MapView().render($('.map'), data)
@@ -36,7 +30,7 @@ callback = (data) ->
 
 errback = ->
   hideLoadingSpinner()
-  new HandlebarsView('error').render($('.speakers'))
+  $('.speakers').html("<h2>Something went wrong... Please try again later.</h2>")
 
 $ ->
   DataSource.fetchAll callback, errback
