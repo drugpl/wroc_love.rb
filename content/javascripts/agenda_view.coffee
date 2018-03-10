@@ -4,11 +4,11 @@
 class @AgendaView
   render: (selector, json) ->
     agenda = new Agenda selector,
-      days: json.agenda.dayLabels
-      from: json.agenda.from
-      to: json.agenda.to
+      days: json.dayLabels
+      from: json.from
+      to: json.to
       step: 15
 
-    $.each json.agenda.data, (dayIndex, day) ->
+    $.each json.data, (dayIndex, day) ->
       for thing in day
         agenda.add(dayIndex, thing)

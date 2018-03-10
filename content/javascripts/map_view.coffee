@@ -1,7 +1,7 @@
 #= require leaflet
 
 class window.MapView
-  render: (selector, data) =>
+  render: (selector, venues) =>
     icon = new L.Icon
         iconUrl: '/images/marker-icon.png'
         iconRetinaUrl: '/images/marker-icon@2x.png'
@@ -18,7 +18,7 @@ class window.MapView
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    for venue in data.venues
+    for venue in venues
       marker = L.marker([venue.latitude, venue.longtitude], {icon: icon})
       marker.addTo(map)
       marker.bindPopup("<h2>#{venue.name}</h2><p><small>#{venue.address}</small></p><p>#{venue.description}</p>")
