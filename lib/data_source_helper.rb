@@ -6,18 +6,26 @@ module DataSourceHelper
   end
 
   def partners
-    data["partners"]
+    data['partners']
   end
 
   def supporters
-    data["supporters"]
+    data['supporters']
   end
 
   def organizers
-    data["organizers"]
+    data['organizers']
   end
 
   def speakers
-    data["speakers"]
+    data['speakers']
+  end
+
+  def venues
+    data['venues']
+  end
+
+  def agenda
+    data['agenda']
   end
 end

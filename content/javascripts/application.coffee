@@ -20,17 +20,9 @@ setupAnimations = ->
 hideLoadingSpinner = ->
   $('.loading').hide()
 
-callback = (data) ->
+$ ->
   hideLoadingSpinner()
   setupAnimations()
 
-  new MapView().render($('.map'), data)
-
-  new AgendaView().render('#agenda_area', data)
-
-errback = ->
-  hideLoadingSpinner()
-  $('.speakers').html("<h2>Something went wrong... Please try again later.</h2>")
-
-$ ->
-  DataSource.fetchAll callback, errback
+  new MapView().render($('.map'), window.venues)
+  new AgendaView().render('#agenda_area', window.agenda)
