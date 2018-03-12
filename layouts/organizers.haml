@@ -1,8 +1,6 @@
-%script{:id => 'organizers-template', :type => 'text/x-handlebars-template'}
-  {{#each organizers}}
+- organizers.each do |organizer|
   .organizer
-    %a{:href => '{{link_url}}'}
-      %img{:src => '{{photo_url}}'}
+    %a{href: organizer['link_url']}
+      %img{src: organizer['photo_url']}
     .info
-      %h2 {{name}}
-  {{/each}}
+      %h2= organizer['name']

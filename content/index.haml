@@ -3,21 +3,20 @@
 
 %article.speakers
   %h1 Speakers
-  .loading &nbsp;
+  = render 'speakers'
 
 %article.agenda
   %h1 Agenda
   #agenda_area
-  .loading &nbsp;
 
 %article.supporters
   %h1 Supporters
-  .loading &nbsp;
+  = render 'supporters'
 
 .bottom_column
   %article.partners
     %h1 Partners
-    .loading &nbsp;
+    = render 'partners'
 
 %article.twitter
   = render 'twitter'
