@@ -30,8 +30,9 @@ a:hover {
 }
 
 .container {
-  width: $page-width;
+  max-width: $page-width;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 ul.horizontal li {

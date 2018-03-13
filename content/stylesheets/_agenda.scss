@@ -25,7 +25,7 @@ article.agenda {
 
   .times {
     margin: 0;
-    padding: 0;
+    padding: 0 24px 0 0;
     flex: 0;
   }
 
@@ -43,9 +43,15 @@ article.agenda {
     }
   }
 
-  .days {
+  .days-container {
     width: 100%;
     margin: -36px 0 0 0;
+    overflow: auto;
+  }
+
+  .days {
+    width: 100%;
+    margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
@@ -72,6 +78,10 @@ article.agenda {
           border-bottom: 1px dotted #fff;
         }
       }
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 300%;
     }
   }
 

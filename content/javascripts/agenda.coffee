@@ -97,6 +97,7 @@ class @Agenda
         @el.append(row_list)
 
         # Create weekdays
+        day_list_container = $('<div class="days-container" />')
         day_list = $('<ul class="days" />')
         @day_elements = for day in @days
             $('<ul/>').appendTo(
@@ -105,7 +106,8 @@ class @Agenda
                 ).appendTo(day_list)
             )
 
-        @el.append(day_list)
+        day_list_container.append(day_list)
+        @el.append(day_list_container)
 
         # Calculate the height of a single row
         row_height = row_list.children().first().outerHeight()
