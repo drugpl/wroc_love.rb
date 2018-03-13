@@ -109,6 +109,38 @@ class @Agenda
         day_list_container.append(day_list)
         @el.append(day_list_container)
 
+        # Create arrows
+        arrows = $('<div class="arrows" />')
+        arrow_left = $('<div class="arrow-left" />')
+        arrow_right = $('<div class="arrow-right" />')
+
+        arrows.append(arrow_left)
+        arrows.append(arrow_right)
+        @el.append(arrows)
+
+        $(day_list_container).scroll =>
+            current = Math.round(day_list_container.scrollLeft() / @days_width)
+
+            if current == 0 then arrow_left.hide() else arrow_left.show()
+            if current == (@days.length - 1) then arrow_right.hide() else arrow_right.show()
+
+        $(window).resize =>
+            @days_width = day_list_container.width()
+            @max_scroll = (@days.length - 1) * @days_width
+            $(day_list_container).scroll()
+
+        $(window).resize()
+
+        arrow_left.click =>
+            current = Math.round(day_list_container.scrollLeft() / @days_width)
+            if current > 0
+                day_list_container.animate scrollLeft: (current - 1) * @days_width
+
+        arrow_right.click =>
+            current = Math.round(day_list_container.scrollLeft() / @days_width)
+            if current < (@days.length - 1)
+                day_list_container.animate scrollLeft: (current + 1) * @days_width
+
         # Calculate the height of a single row
         row_height = row_list.children().first().outerHeight()
         @px_ms_ratio = row_height / step_ms
