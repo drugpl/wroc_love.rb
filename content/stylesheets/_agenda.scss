@@ -1,70 +1,86 @@
-.agenda {
-  position: relative;
-  // min-width: 960px;
+article.agenda {
+  padding-top: 40px;
 
-  .times {
-    margin: 0;
-    padding: 0;
-  }
-  .days {
-    margin: 0;
-    padding: 0;
+  h1 {
+    padding-left: 112px;
+    margin-bottom: 24px;
 
-    ul {
-      margin: 0;
-      padding: 0;
+    &:before {
+      content: url(/images/clip-coffee.png);
+      position: absolute;
+      top: 10px;
+      left: 0;
     }
   }
+}
+
+#agenda_area {
+  margin-top: 64px;
+  margin-bottom: 40px;
+  display: flex;
+  background: -o-repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
+  background: -moz-repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
+  background: -webkit-repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
+  background: repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
 
   .times {
-    padding-top: 3em;
+    margin: 0;
+    padding: 0;
+    flex: 0;
+  }
 
+  .times {
     li {
       display: block;
-      font-size: 0.85em;
-      line-height: 2em;
+      font-size: 14px;
+      line-height: 24px;
+      height: 24px;
       color: #bbb;
-      border-top: 1px solid #ddd;
 
       &:nth-child(4n+1) {
         color: #888;
       }
-
-      &:last-child {
-        border-bottom: 1px solid #ddd;
-      }
     }
   }
 
   .days {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 90%;
+    width: 100%;
+    margin: -36px 0 0 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+
     > li {
-      display: inline-block;
-      list-style: none;
-      // width: 20%; // 100% / 5
+      flex: 1;
       text-align: center;
-      padding: 0 5px;
+
+      > ul {
+        list-style: none;
+        position: relative;
+
+        > li {
+          box-sizing: border-box;
+          position: absolute;
+          left: 5px;
+          width: calc(100% - 10px);
+          text-align: left;
+          font-size: 12px;
+          background: $accent;
+          color: $bg-color;
+          padding: 0.25em 0.5em;
+          -webkit-font-smoothing: antialiased;
+          border-bottom: 1px dotted #fff;
+        }
+      }
     }
   }
 
   .day {
-    font-size: 1.5em;
-    line-height: 2em;
-  }
-
-  .days ul {
-    position: relative;
-
-    li {
-      position: absolute;
-      list-style: none;
-      background: #dddddd;
-      width: 100%;
-      text-align: left;
-      border-bottom: 1px dotted #fff;
-    }
+    font-size: 24px;
+    line-height: 36px;
+    height: 36px;
+    color: $accent;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 }

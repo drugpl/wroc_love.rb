@@ -1,24 +1,12 @@
 @import 'bourbon/bourbon';
+@import 'variables';
 @import 'agenda';
 @import 'leaflet';
 
-$bg-color:       #FFF;
-$text-color:     #000;
-$accent:         #E94343;
-$dark-button:    #3F4C4A;
-$light-button:   #FFF;
-$heading-on-red: #323D3A;
-$link-hover:     #F8A25F;
-
-$shadow-level:   20%;
-
-$page-width:     1120px;
-$main-column:     635px;
-$column-spacing:   60px;
-$second-column: $page-width - $main-column - $column-spacing;
 
 ////////////////////////////////////////////////////////////////////////////////
 // UNIVERSAL STYLES
+
 
 body, h1, h2, h3, nav ul, ul.actions {
   margin: 0;
@@ -276,54 +264,6 @@ header {
     }
   }
 }
-
-.agenda {
-  margin-bottom: 40px;
-
-  h1 {
-    // font-size: 82px;
-    padding-left: 112px;
-
-    &:before {
-      content: url(/images/clip-coffee.png);
-      position: absolute;
-      top: 10px;
-      left: 0;
-    }
-  }
-
-  .day {
-    color: $accent;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  .days li {
-    @include box-sizing(border-box);
-  }
-  .days > li {
-    width: 33.33333333%;
-  }
-  .times {
-    padding-top: 32px;
-  }
-  .times li {
-    font-size: 14px;
-  }
-  .days ul li {
-    font-size: 12px;
-    background: $accent;
-    color: $bg-color;
-    padding: 0.25em 0.5em;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .title {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-}
-
 
 .supporters, .partners, .organizers, .coc {
   h1 {
