@@ -2,15 +2,9 @@ article.agenda {
   padding-top: 40px;
 
   h1 {
-    padding-left: 112px;
     margin-bottom: 24px;
 
-    &:before {
-      content: url(/images/clip-coffee.png);
-      position: absolute;
-      top: 10px;
-      left: 0;
-    }
+    @include header-icon('/images/clip-coffee.png', 104px, 112px);
   }
 }
 
@@ -120,7 +114,7 @@ article.agenda {
   }
 }
 
-@media screen and (max-width: 767px) {
+@include mobile {
   #agenda_area {
     .arrows {
       display: block;

@@ -203,12 +203,7 @@ header {
     margin-bottom: 20px;
     padding-left: 110px;
 
-    &:before {
-      content: url(/images/clip-guitar.png);
-      position: absolute;
-      top: -10px;
-      left: 0;
-    }
+    @include header-icon('/images/clip-guitar.png', 128px, 132px);
   }
 
   > .speaker {
@@ -272,12 +267,7 @@ header {
     font-size: 41px;
     padding-left: 90px;
 
-    &:before {
-      content: url(/images/clip-barrels.png);
-      position: absolute;
-      top: -5px;
-      left: 0;
-    }
+    @include header-icon('/images/clip-barrels.png', 76px, 78px);
   }
 }
 
@@ -358,12 +348,7 @@ header {
     margin-bottom: 20px;
     padding-left: 85px;
 
-    &:before {
-      content: url(/images/clip-twitter.png);
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
+    @include header-icon('/images/clip-twitter.png', 79px, 70px);
   }
 }
 
@@ -477,4 +462,55 @@ footer {
   vertical-align: top;
   color: darken($accent, 30);
   vertical-align:bottom;
+}
+
+@media screen and (max-width: 1000px) {
+  header .container {
+    background-size: #{$header-image-width * 0.7}px #{$header-image-height * 0.7}px;
+  }
+}
+
+@include mobile {
+  header .container {
+    padding-top: 100px;
+    padding-bottom: #{$header-image-aspect-ratio * 100%};
+    background-position: center bottom;
+    background-size: contain;
+    text-align: center;
+  }
+
+  section.main_section h1 {
+    font-size: 36px;
+  }
+
+  .speakers > .speaker {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50%;
+    background-size: cover;
+  }
+
+  .supporters {
+    h1 {
+      text-align: left;
+    }
+    text-align: center;
+  }
+
+  .bottom_column, .main_section .twitter {
+    float: none;
+    width: 100%;
+  }
+
+  nav.bottomnav ul.horizontal {
+    li {
+      display: block;
+      height: 24px;
+      line-height: 24px;
+    }
+
+    li:first-child {
+      margin-bottom: 40px;
+    }
+  }
 }
