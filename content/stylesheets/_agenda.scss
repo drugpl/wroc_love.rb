@@ -12,10 +12,7 @@ article.agenda {
   margin-top: 64px;
   margin-bottom: 40px;
   display: flex;
-  background: -o-repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
-  background: -moz-repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
-  background: -webkit-repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
-  background: repeating-linear-gradient(#ddd 0, #fff 1px, #fff 24px);
+  background: url('/images/agenda-bg.png');
   position: relative;
 
   .arrows {
