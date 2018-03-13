@@ -113,6 +113,22 @@
       "latitude": 51.11085,
       "longtitude": 17.05323,
       "showPopup": true
+    },
+    {
+      "name": "Klubokawiarnia Mleczarnia",
+      "address": "Włodkowica 5, Wrocław",
+      "description": "Saturday + Sunday party venue",
+      "latitude": 51.1080441,
+      "longtitude": 17.0252042,
+      "showPopup": false
+    },
+    {
+      "name": "Kino Nowe Horyznonty, strefa bistro",
+      "address": "Kazimierza Wielkiego 19a-21, Wrocław",
+      "description": "Friday welcome party",
+      "latitude": 51.109462,
+      "longtitude": 17.026133,
+      "showPopup": false,
     }
   ],
   "agenda": {
@@ -122,8 +138,8 @@
     "data": [
       [
         {"from": "16:15", "to": "17:00", "title": "registration"},
-        {"from": "17:00", "to": "20:00", "title": "Special DDD Wrocław: The pillars of Domain Driven Design", "speaker": "Marco Heimeshoff"},
-        {"from": "21:00", "to": "23:00", "title": "Warm-up party"}
+        {"from": "17:00", "to": "18:30", "title": "Special DDD Wrocław: The pillars of Domain Driven Design", "speaker": "Marco Heimeshoff"},
+        {"from": "19:00", "to": "23:00", "title": "Warm-up party at Kino Nowe Horyznonty"}
       ],
       [
         {"from": "9:15", "to": "10:00", "title": "registration"},
@@ -135,18 +151,18 @@
         {"from": "17:00", "to": "17:30", "title": "Event Sourcing Anti Patterns and Failures", "speaker": "Nathan Ladd"},
         {"from": "18:00", "to": "18:30", "title": "Applying CQRS & Event Sourcing on Rails applications", "speaker": "Andrzej Śliwa"},
         {"from": "19:00", "to": "20:00", "title": "Lightning talks - 12 x 5 minutes"},
-        {"from": "21:00", "to": "23:00", "title": "Main party"}
+        {"from": "21:00", "to": "23:00", "title": "Main party at Klubokawiarnia Mleczarnia"}
       ],
       [
         {"from": "9:15", "to": "10:00", "title": "registration"},
         {"from": "10:00", "to": "10:30", "title": "Understanding coupling", "speaker": "Łukasz Szydło"},
         {"from": "11:00", "to": "11:30", "title": "Beyond the current state: Time travel to the rescue!", "speaker": "Armin Pašalić"},
-        {"from": "12:00", "to": "12:30", "title": "TBD", "speaker": ""},
+        {"from": "12:00", "to": "12:30", "title": "[speaking opportunity]", "speaker": ""},
         {"from": "15:00", "to": "16:00", "title": "Discussion Panel"},
         {"from": "16:00", "to": "16:30", "title": "Toolbelt of a Seasoned Bug Hunter", "speaker": "Damir Zekić"},
         {"from": "17:00", "to": "17:30", "title": "MVCC for Ruby developers", "speaker": "Michał Młoźniak"},
         {"from": "18:00", "to": "19:00", "title": "Lightning talks - 12 x 5 minutes"},
-        {"from": "20:00", "to": "23:00", "title": "Closing party"}
+        {"from": "20:00", "to": "23:00", "title": "Closing party at Klubokawiarnia Mleczarnia"}
       ]
     ]
   },
