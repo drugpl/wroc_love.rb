@@ -428,19 +428,25 @@ footer {
   vertical-align: bottom;
 }
 
-@media screen and (max-width: 1000px) {
-  header .container {
-    background-size: #{$header-image-width * 0.7}px #{$header-image-height * 0.7}px;
-  }
-}
-
 @include mobile {
   header .container {
-    padding-top: 100px;
-    padding-bottom: #{$header-image-aspect-ratio * 100%};
     background-position: center bottom;
     background-size: contain;
+  }
+
+  h2.info {
+    padding-top: 60px;
     text-align: center;
+  }
+
+  nav.topnav {
+    right: 0;
+    left: 0;
+    text-align: center;
+
+    a {
+      margin: 0 10px !important;
+    }
   }
 
   section.main_section h1 {
