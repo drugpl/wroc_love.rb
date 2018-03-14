@@ -240,7 +240,6 @@ header {
       overflow: hidden;
 
       color: $bg-color;
-      -webkit-font-smoothing: antialiased;
       @include transform(translateY(100%));
       @include transition(transform 0.5s);
     }
@@ -335,7 +334,6 @@ header {
 
     position: absolute;
     bottom: 0;
-    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -361,11 +359,8 @@ footer {
   h1 {
     font-size: 41px;
     text-transform: uppercase;
-
     display: inline;
     margin-right: 20px;
-
-    -webkit-font-smoothing: antialiased;
   }
 
   .map_container {
@@ -384,7 +379,6 @@ footer {
 
       h2 {
         font-size: 16px;
-        -webkit-font-smoothing: antialiased;
       }
 
       p {
@@ -394,7 +388,6 @@ footer {
 
         small {
           font-size: 0.9em;
-          -webkit-font-smoothing: antialiased;
         }
       }
     }
@@ -419,7 +412,6 @@ footer {
     line-height: 18px;
     vertical-align: top;
     text-transform: lowercase;
-    -webkit-font-smoothing: antialiased;
 
     &:hover {
       text-shadow: 0 0 5px $bg-color;
