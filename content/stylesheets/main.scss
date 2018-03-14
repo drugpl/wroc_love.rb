@@ -6,9 +6,32 @@
 ////////////////////////////////////////////////////////////////////////////////
 // UNIVERSAL STYLES
 
-@include font-face("ModernistLight", "../fonts/sk-modernist-light-webfont");
-@include font-face("ModernistBold",  "../fonts/sk-modernist-bold-webfont");
+@font-face {
+  font-family: "sk-modernistbold";
+  src: url("../fonts/sk-modernist-bold-web.woff2") format("woff2"),
+    url("../fonts/sk-modernist-bold-web.woff") format("woff"),
+    url("../fonts/sk-modernist-bold-web.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "sk-modernistlight";
+  src: url("../fonts/sk-modernist-light-web.woff2") format("woff2"),
+    url("../fonts/sk-modernist-light-web.woff") format("woff"),
+    url("../fonts/sk-modernist-light-web.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sk-modernistregular";
+  src: url("../fonts/sk-modernist-regular-web.woff2") format("woff2"),
+    url("../fonts/sk-modernist-regular-web.woff") format("woff"),
+    url("../fonts/sk-modernist-regular-web.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body,
 h1,
 h2,
@@ -21,13 +44,14 @@ ul.actions {
 
 h1,
 h2 {
-  font-family: "ModernistBold";
+  font-family: "sk-modernistbold";
 }
 
 body {
   background: $bg-color;
   color: $text-color;
-  font-family: "ModernistLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "sk-modernistlight", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
