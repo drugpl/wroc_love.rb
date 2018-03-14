@@ -1,16 +1,16 @@
-$bg-color:       #FFF;
-$text-color:     #000;
-$accent:         #E94343;
-$dark-button:    #3F4C4A;
-$light-button:   #FFF;
-$heading-on-red: #323D3A;
-$link-hover:     #F8A25F;
+$bg-color: #fff;
+$text-color: #000;
+$accent: #e94343;
+$dark-button: #3f4c4a;
+$light-button: #fff;
+$heading-on-red: #323d3a;
+$link-hover: #f8a25f;
 
-$shadow-level:   20%;
+$shadow-level: 20%;
 
-$page-width:     1120px;
-$main-column:     635px;
-$column-spacing:   60px;
+$page-width: 1120px;
+$main-column: 635px;
+$column-spacing: 60px;
 $second-column: $page-width - $main-column - $column-spacing;
 
 $header-image-width: 867;
@@ -19,7 +19,7 @@ $header-image-aspect-ratio: $header-image-height / $header-image-width;
 
 @mixin mobile {
   @media screen and (max-width: 767px) {
-    @content
+    @content;
   }
 }
 

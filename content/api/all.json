@@ -2,57 +2,68 @@
   "speakers": [
     {
       "name": "Andrzej Śliwa",
-      "bio": "Software polyglot ninja. Engineering team sensei. Black belt in problem solving. Coding since when software was stored on 5'25 floppies. He likes teaching and sharing his knowledge. He is Open Software Enthusiast.",
+      "bio":
+        "Software polyglot ninja. Engineering team sensei. Black belt in problem solving. Coding since when software was stored on 5'25 floppies. He likes teaching and sharing his knowledge. He is Open Software Enthusiast.",
       "photo_url": "/images/speaker-andrzej-sliwa.jpg"
     },
     {
       "name": "Nick Sutterer",
-      "bio": "Whenever Open-Source meets deep and profound debates about architecting software, and there's free beers involved, Nick Sutterer must be just around the corner. Say Hi to him, he loves people.",
+      "bio":
+        "Whenever Open-Source meets deep and profound debates about architecting software, and there's free beers involved, Nick Sutterer must be just around the corner. Say Hi to him, he loves people.",
       "photo_url": "/images/speaker-nick-sutterer.jpg"
     },
     {
       "name": "Armin Pašalić",
-      "bio": "Software builder, mostly Ruby and a bit of Go. Passionate about \"proper\" testing, clean architecture and DDD. Currently busy constructing a distributed software system with the best colleagues ever at <a href='https://www.solarisbank.com/' target='_blank'>solarisBank AG</a>.",
+      "bio":
+        "Software builder, mostly Ruby and a bit of Go. Passionate about \"proper\" testing, clean architecture and DDD. Currently busy constructing a distributed software system with the best colleagues ever at <a href='https://www.solarisbank.com/' target='_blank'>solarisBank AG</a>.",
       "photo_url": "/images/speaker-armin-pasalic.jpg"
     },
     {
       "name": "Michał Młoźniak",
-      "bio": "Michał is a software engineer, working with Ruby since 2007. He prefers learning more about existing technologies than constantly popping languages and frameworks. When not engaged in a programming gig, you can find him exploring hidden gems of 本州 island.",
+      "bio":
+        "Michał is a software engineer, working with Ruby since 2007. He prefers learning more about existing technologies than constantly popping languages and frameworks. When not engaged in a programming gig, you can find him exploring hidden gems of 本州 island.",
       "photo_url": "/images/speaker-michal-mlozniak.jpg"
     },
     {
       "name": "Vladimir Dementyev",
-      "bio": "A mathematician found his happiness in programming Ruby and Erlang, contributing to open source, mentoring Rails devs and being an <a href='https://evilmartians.com/' target='_blank'>Evil Martian</a>. Author of <a href='http://anycable.io/' target='_blank'>AnyCable</a>.",
+      "bio":
+        "A mathematician found his happiness in programming Ruby and Erlang, contributing to open source, mentoring Rails devs and being an <a href='https://evilmartians.com/' target='_blank'>Evil Martian</a>. Author of <a href='http://anycable.io/' target='_blank'>AnyCable</a>.",
       "photo_url": "/images/speaker-vladimir-dementyev.jpg"
     },
     {
       "name": "Stefan Wintermeyer",
-      "bio": "Author of \"Learn Rails 5.2\" by apress. Trainer and Consultant for Rails, Phoenix and WebPerformance.",
+      "bio":
+        "Author of \"Learn Rails 5.2\" by apress. Trainer and Consultant for Rails, Phoenix and WebPerformance.",
       "photo_url": "/images/speaker-stefan-wintermeyer-2.jpg"
     },
     {
       "name": "Damir Zekić",
-      "bio": "Software engineer who enjoys mentoring and teaching others to program. Has seen the best and the worst of Ruby and Rails throughout the last decade, but always looking to expand own and other people's horizons.",
+      "bio":
+        "Software engineer who enjoys mentoring and teaching others to program. Has seen the best and the worst of Ruby and Rails throughout the last decade, but always looking to expand own and other people's horizons.",
       "photo_url": "/images/speaker-damir-zekic.jpg"
     },
     {
       "name": "Nathan Ladd",
-      "bio": "Software developer and consultant hailing from Austin, TX. Often guilty of writing event sourced microservices in ruby using the <a href='https://eventide-project.org/' target='_blank'>Eventide</a> framework, of which he is also a co-author.",
+      "bio":
+        "Software developer and consultant hailing from Austin, TX. Often guilty of writing event sourced microservices in ruby using the <a href='https://eventide-project.org/' target='_blank'>Eventide</a> framework, of which he is also a co-author.",
       "photo_url": "/images/speaker-nathan-ladd.jpg"
     },
     {
       "name": "Łukasz Szydło",
-      "bio": "Programmer/architect/consultant, fan of software craftsmanship and agility. Tries to have holistic approach to software design and development. Likes simple solutions to complicated problems. Trainer at Bottega IT Solutions specializing in Software Architecture, Domain-Driven Design, Continuous Delivery and Java. Father of five. Likes reading good books.",
+      "bio":
+        "Programmer/architect/consultant, fan of software craftsmanship and agility. Tries to have holistic approach to software design and development. Likes simple solutions to complicated problems. Trainer at Bottega IT Solutions specializing in Software Architecture, Domain-Driven Design, Continuous Delivery and Java. Father of five. Likes reading good books.",
       "photo_url": "/images/speaker-lukasz-szydlo.jpg"
     },
     {
       "name": "Marco Heimeshoff",
-      "bio": "Has an unhealthy relationship with Domain Driven Design, and won't leave any stone unturned once you lend him an ear and sticky notes. He believes that lifelong learning, focus on language and empathy are the three pillars of quality development. Frustration about the same old methods of working together and developing solutions lead him to Domain Driven Design, agile software development, functional programming and CQRS with event sourcing. With ten years of experience in these topics he helps teams to change and learn in all things from code to culture.",
+      "bio":
+        "Has an unhealthy relationship with Domain Driven Design, and won't leave any stone unturned once you lend him an ear and sticky notes. He believes that lifelong learning, focus on language and empathy are the three pillars of quality development. Frustration about the same old methods of working together and developing solutions lead him to Domain Driven Design, agile software development, functional programming and CQRS with event sourcing. With ten years of experience in these topics he helps teams to change and learn in all things from code to culture.",
       "photo_url": "/images/speaker-marco-heimeshoff.jpg"
     },
     {
       "name": "Ivan Nemytchenko",
-      "bio": "Ruby developer and IT events enthusiast.<br>The guy behind <a href='http://railshurts.com/' target='_blank'>RailsHurts.com</a>.<br>Former GitLab Developer Advocate",
+      "bio":
+        "Ruby developer and IT events enthusiast.<br>The guy behind <a href='http://railshurts.com/' target='_blank'>RailsHurts.com</a>.<br>Former GitLab Developer Advocate",
       "photo_url": "/images/speaker-ivan-nemytchenko.jpg"
     }
   ],
@@ -134,38 +145,117 @@
   "agenda": {
     "dayLabels": ["Friday", "Saturday", "Sunday"],
     "from": "9:15",
-    "to":   "23:00",
+    "to": "23:00",
     "data": [
       [
-        {"from": "16:15", "to": "17:00", "title": "registration"},
-        {"from": "17:00", "to": "18:30", "title": "Special DDD Wrocław: The pillars of Domain Driven Design", "speaker": "Marco Heimeshoff"},
-        {"from": "19:00", "to": "23:00", "title": "Warm-up party at Kino Nowe Horyzonty"}
+        { "from": "16:15", "to": "17:00", "title": "registration" },
+        {
+          "from": "17:00",
+          "to": "18:30",
+          "title": "Special DDD Wrocław: The pillars of Domain Driven Design",
+          "speaker": "Marco Heimeshoff"
+        },
+        {
+          "from": "19:00",
+          "to": "23:00",
+          "title": "Warm-up party at Kino Nowe Horyzonty"
+        }
       ],
       [
-        {"from": "9:15", "to": "10:00", "title": "registration"},
-        {"from": "10:00", "to": "10:30", "title": "Better WebPerformance with Rails", "speaker": "Stefan Wintermeyer"},
-        {"from": "11:00", "to": "11:30", "title": "Cables! Cables! Cables!", "speaker": "Vladimir Dementyev"},
-        {"from": "12:00", "to": "12:30", "title": "Counterintuitive Rails", "speaker": "Ivan Nemytchenko"},
-        {"from": "15:00", "to": "16:00", "title": "Discussion Panel"},
-        {"from": "16:00", "to": "16:30", "title": "SUPER AIN'T SUPER: From OOP To FP and Beyond!", "speaker": "Nick Sutterer"},
-        {"from": "17:00", "to": "17:30", "title": "Event Sourcing Anti Patterns and Failures", "speaker": "Nathan Ladd"},
-        {"from": "18:00", "to": "18:30", "title": "Applying CQRS & Event Sourcing on Rails applications", "speaker": "Andrzej Śliwa"},
-        {"from": "19:00", "to": "20:00", "title": "Lightning talks - 12 x 5 minutes"},
-        {"from": "21:00", "to": "23:00", "title": "Main party at Klubokawiarnia Mleczarnia"}
+        { "from": "9:15", "to": "10:00", "title": "registration" },
+        {
+          "from": "10:00",
+          "to": "10:30",
+          "title": "Better WebPerformance with Rails",
+          "speaker": "Stefan Wintermeyer"
+        },
+        {
+          "from": "11:00",
+          "to": "11:30",
+          "title": "Cables! Cables! Cables!",
+          "speaker": "Vladimir Dementyev"
+        },
+        {
+          "from": "12:00",
+          "to": "12:30",
+          "title": "Counterintuitive Rails",
+          "speaker": "Ivan Nemytchenko"
+        },
+        { "from": "15:00", "to": "16:00", "title": "Discussion Panel" },
+        {
+          "from": "16:00",
+          "to": "16:30",
+          "title": "SUPER AIN'T SUPER: From OOP To FP and Beyond!",
+          "speaker": "Nick Sutterer"
+        },
+        {
+          "from": "17:00",
+          "to": "17:30",
+          "title": "Event Sourcing Anti Patterns and Failures",
+          "speaker": "Nathan Ladd"
+        },
+        {
+          "from": "18:00",
+          "to": "18:30",
+          "title": "Applying CQRS & Event Sourcing on Rails applications",
+          "speaker": "Andrzej Śliwa"
+        },
+        {
+          "from": "19:00",
+          "to": "20:00",
+          "title": "Lightning talks - 12 x 5 minutes"
+        },
+        {
+          "from": "21:00",
+          "to": "23:00",
+          "title": "Main party at Klubokawiarnia Mleczarnia"
+        }
       ],
       [
-        {"from": "9:15", "to": "10:00", "title": "registration"},
-        {"from": "10:00", "to": "10:30", "title": "Understanding coupling", "speaker": "Łukasz Szydło"},
-        {"from": "11:00", "to": "11:30", "title": "Beyond the current state: Time travel to the rescue!", "speaker": "Armin Pašalić"},
-        {"from": "12:00", "to": "12:30", "title": "[speaking opportunity]", "speaker": ""},
-        {"from": "15:00", "to": "16:00", "title": "Discussion Panel"},
-        {"from": "16:00", "to": "16:30", "title": "Toolbelt of a Seasoned Bug Hunter", "speaker": "Damir Zekić"},
-        {"from": "17:00", "to": "17:30", "title": "MVCC for Ruby developers", "speaker": "Michał Młoźniak"},
-        {"from": "18:00", "to": "19:00", "title": "Lightning talks - 12 x 5 minutes"},
-        {"from": "20:00", "to": "23:00", "title": "Closing party at Klubokawiarnia Mleczarnia"}
+        { "from": "9:15", "to": "10:00", "title": "registration" },
+        {
+          "from": "10:00",
+          "to": "10:30",
+          "title": "Understanding coupling",
+          "speaker": "Łukasz Szydło"
+        },
+        {
+          "from": "11:00",
+          "to": "11:30",
+          "title": "Beyond the current state: Time travel to the rescue!",
+          "speaker": "Armin Pašalić"
+        },
+        {
+          "from": "12:00",
+          "to": "12:30",
+          "title": "[speaking opportunity]",
+          "speaker": ""
+        },
+        { "from": "15:00", "to": "16:00", "title": "Discussion Panel" },
+        {
+          "from": "16:00",
+          "to": "16:30",
+          "title": "Toolbelt of a Seasoned Bug Hunter",
+          "speaker": "Damir Zekić"
+        },
+        {
+          "from": "17:00",
+          "to": "17:30",
+          "title": "MVCC for Ruby developers",
+          "speaker": "Michał Młoźniak"
+        },
+        {
+          "from": "18:00",
+          "to": "19:00",
+          "title": "Lightning talks - 12 x 5 minutes"
+        },
+        {
+          "from": "20:00",
+          "to": "23:00",
+          "title": "Closing party at Klubokawiarnia Mleczarnia"
+        }
       ]
     ]
   },
-  "organizers": [
-  ]
+  "organizers": []
 }

@@ -4,7 +4,7 @@ article.agenda {
   h1 {
     margin-bottom: 24px;
 
-    @include header-icon('/images/clip-coffee.png', 104px, 112px);
+    @include header-icon("/images/clip-coffee.png", 104px, 112px);
   }
 }
 
@@ -12,7 +12,7 @@ article.agenda {
   margin-top: 64px;
   margin-bottom: 40px;
   display: flex;
-  background: url('/images/agenda-bg.png');
+  background: url("/images/agenda-bg.png");
   position: relative;
 
   .arrows {
@@ -23,7 +23,8 @@ article.agenda {
     display: none;
   }
 
-  .arrow-left, .arrow-right {
+  .arrow-left,
+  .arrow-right {
     width: 0;
     height: 0;
     border-style: solid;
@@ -57,7 +58,7 @@ article.agenda {
       height: 24px;
       color: #bbb;
 
-      &:nth-child(4n+1) {
+      &:nth-child(4n + 1) {
         color: #888;
       }
     }

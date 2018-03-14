@@ -1,14 +1,17 @@
-@import 'bourbon/bourbon';
-@import 'variables';
-@import 'agenda';
-@import 'leaflet';
-
+@import "bourbon/bourbon";
+@import "variables";
+@import "agenda";
+@import "leaflet";
 
 ////////////////////////////////////////////////////////////////////////////////
 // UNIVERSAL STYLES
 
-
-body, h1, h2, h3, nav ul, ul.actions {
+body,
+h1,
+h2,
+h3,
+nav ul,
+ul.actions {
   margin: 0;
   padding: 0;
 }
@@ -16,7 +19,7 @@ body, h1, h2, h3, nav ul, ul.actions {
 body {
   background: $bg-color;
   color: $text-color;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -173,7 +176,9 @@ header {
 }
 
 .about {
-  a { font-weight: bold; }
+  a {
+    font-weight: bold;
+  }
 
   h1 {
     font-size: 70px;
@@ -203,7 +208,7 @@ header {
     margin-bottom: 20px;
     padding-left: 110px;
 
-    @include header-icon('/images/clip-guitar.png', 128px, 132px);
+    @include header-icon("/images/clip-guitar.png", 128px, 132px);
   }
 
   > .speaker {
@@ -221,13 +226,18 @@ header {
 
     @include transition(height 0.5s);
 
-    img { margin-bottom: -6px; }
+    img {
+      margin-bottom: -6px;
+    }
 
-    h2, h3 {
+    h2,
+    h3 {
       font-size: 23px;
       line-height: 1;
     }
-    h2 { color: $accent; }
+    h2 {
+      color: $accent;
+    }
     h3 {
       color: $bg-color;
       font-weight: normal;
@@ -247,13 +257,15 @@ header {
     .info {
       display: inline-block;
     }
-    .info, .content {
+    .info,
+    .content {
       padding: 0.5em 1em;
       background: rgba(#000, 0.7);
       font-size: 13px;
     }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       .description {
         @include transform(translateY(0));
       }
@@ -261,17 +273,21 @@ header {
   }
 }
 
-.supporters, .partners, .organizers, .coc {
+.supporters,
+.partners,
+.organizers,
+.coc {
   h1 {
     margin: 30px 0;
     font-size: 41px;
     padding-left: 90px;
 
-    @include header-icon('/images/clip-barrels.png', 76px, 78px);
+    @include header-icon("/images/clip-barrels.png", 76px, 78px);
   }
 }
 
-.supporters, .partners {
+.supporters,
+.partners {
   a {
     display: inline-block;
     margin: 0 20px 20px;
@@ -348,7 +364,7 @@ header {
     margin-bottom: 20px;
     padding-left: 85px;
 
-    @include header-icon('/images/clip-twitter.png', 79px, 70px);
+    @include header-icon("/images/clip-twitter.png", 79px, 70px);
   }
 }
 
@@ -461,7 +477,7 @@ footer {
   font-size: 90%;
   vertical-align: top;
   color: darken($accent, 30);
-  vertical-align:bottom;
+  vertical-align: bottom;
 }
 
 @media screen and (max-width: 1000px) {
@@ -497,7 +513,8 @@ footer {
     text-align: center;
   }
 
-  .bottom_column, .main_section .twitter {
+  .bottom_column,
+  .main_section .twitter {
     float: none;
     width: 100%;
   }
