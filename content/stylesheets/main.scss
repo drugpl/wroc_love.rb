@@ -3,9 +3,6 @@
 @import "agenda";
 @import "leaflet";
 
-////////////////////////////////////////////////////////////////////////////////
-// UNIVERSAL STYLES
-
 @font-face {
   font-family: "sk-modernistbold";
   src: url("../fonts/sk-modernist-bold-web.woff2") format("woff2"),
@@ -120,9 +117,6 @@ section h1 {
   position: relative;
 }
 
-////////////////////////////////////////////////////////////////////////////////
-// STRUCTURE-SPECIFIC STYLES
-
 header {
   background: $accent;
 
@@ -230,11 +224,7 @@ header {
 }
 
 .speakers {
-  // float: left;
-  // width: $main-column + 20px;
-
   h1 {
-    // font-size: 82px;
     margin-bottom: 20px;
   }
 
@@ -383,7 +373,6 @@ header {
   width: 40%;
 
   h1 {
-    // margin: 30px 0 45px;
     font-size: 41px;
     margin-bottom: 20px;
   }
@@ -407,15 +396,6 @@ footer {
 
     -webkit-font-smoothing: antialiased;
   }
-
-  // h2 {
-  //   color: $heading-on-red;
-  //   font-family: Futura, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  //   font-size: 15px;
-  //   font-weight: 500;
-
-  //   display: inline;
-  // }
 
   .map_container {
     margin: 10px 0;
