@@ -1,0 +1,40 @@
+$bg-color:       #FFF;
+$text-color:     #000;
+$accent:         #E94343;
+$dark-button:    #3F4C4A;
+$light-button:   #FFF;
+$heading-on-red: #323D3A;
+$link-hover:     #F8A25F;
+
+$shadow-level:   20%;
+
+$page-width:     1120px;
+$main-column:     635px;
+$column-spacing:   60px;
+$second-column: $page-width - $main-column - $column-spacing;
+
+$header-image-width: 867;
+$header-image-height: 291;
+$header-image-aspect-ratio: $header-image-height / $header-image-width;
+
+@mixin mobile {
+  @media screen and (max-width: 767px) {
+    @content
+  }
+}
+
+@mixin header-icon($url, $width, $height) {
+  background: url(#{$url}) 0 50% no-repeat;
+  min-height: $height;
+  padding-left: #{$width + 10px};
+  display: flex;
+  align-items: center;
+
+  $mobile-ratio: 0.7;
+
+  @include mobile {
+    background-size: #{$width * $mobile-ratio} #{$height * $mobile-ratio};
+    padding-left: #{$width * $mobile-ratio + 20px};
+    min-height: #{$height * $mobile-ratio};
+  }
+}
