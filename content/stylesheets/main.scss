@@ -118,10 +118,11 @@ section h1 {
 }
 
 header {
-  background: $accent;
-
   .container {
-    padding: 20px 0 80px;
+    background: url("/images/topimage_wroclove_new.png") no-repeat center;
+    background-size: contain;
+
+    height: 380px;
     position: relative;
   }
 
@@ -131,16 +132,10 @@ header {
 
   .info {
     color: $heading-on-red;
-    font-weight: 500;
-    font-size: 42px;
+    font-family: "sk-modernistregular";
+    font-size: 36px;
     line-height: 1.2;
     margin: 0.25em 0 1em;
-
-    strong {
-      font-weight: inherit;
-      color: $bg-color;
-      -webkit-font-smoothing: antialiased;
-    }
   }
 
   .actions {
@@ -151,35 +146,17 @@ header {
 .topnav {
   position: absolute;
   right: 0;
-  top: 15px;
 
   a {
     display: inline-block;
-    margin-left: 40px;
-
-    color: $bg-color;
+    margin-left: 10px;
     font-size: 14px;
     font-family: "sk-modernistregular";
     line-height: 1;
-    text-transform: lowercase;
-
-    text-shadow: 0 1px 0 rgba(#000, 0.3);
-    -webkit-font-smoothing: antialiased;
-
-    &:hover {
-      text-shadow: 0 0 5px $bg-color;
-    }
-
-    &.twitter {
-      background-position: 100% -16px;
-    }
-
-    &.email {
-      background-position: 100% -32px;
-    }
+    text-transform: uppercase;
 
     &.tickets {
-      text-transform: uppercase;
+      margin-right: 30px;
     }
   }
 }
