@@ -164,7 +164,6 @@ header {
     margin-right: 40px;
     padding-right: 16px + 10px; // sprite width + real padding
 
-    background: url(/images/icon-sprite.png) no-repeat 100% 0;
     color: $bg-color;
     font-size: 14px;
     font-weight: 500; // medium?
@@ -237,9 +236,6 @@ header {
   h1 {
     // font-size: 82px;
     margin-bottom: 20px;
-    padding-left: 110px;
-
-    @include header-icon("/images/clip-guitar.png", 128px, 132px);
   }
 
   > .speaker {
@@ -311,9 +307,6 @@ header {
   h1 {
     margin: 30px 0;
     font-size: 41px;
-    padding-left: 90px;
-
-    @include header-icon("/images/clip-barrels.png", 76px, 78px);
   }
 }
 
@@ -393,9 +386,6 @@ header {
     // margin: 30px 0 45px;
     font-size: 41px;
     margin-bottom: 20px;
-    padding-left: 85px;
-
-    @include header-icon("/images/clip-twitter.png", 79px, 70px);
   }
 }
 
@@ -432,22 +422,6 @@ footer {
     background: #f2f2f2;
     border-radius: 3px;
     overflow: hidden;
-
-    &:before {
-      z-index: 100;
-      content: url(/images/clip-rocket.png);
-      position: absolute;
-      top: 38px;
-      left: -40px;
-    }
-
-    &:after {
-      content: url(/images/clip-map.png);
-      z-index: 100;
-      position: absolute;
-      bottom: -4px;
-      right: 20px;
-    }
   }
 
   .map {
