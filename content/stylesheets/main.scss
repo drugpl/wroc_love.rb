@@ -219,10 +219,6 @@ header {
 
     @include transition(height 0.5s);
 
-    img {
-      margin-bottom: -6px;
-    }
-
     h2,
     h3 {
       font-size: 23px;
@@ -240,6 +236,7 @@ header {
       position: absolute;
       bottom: 0;
       left: 0;
+      right: 0;
       overflow: hidden;
 
       color: $bg-color;
@@ -247,9 +244,7 @@ header {
       @include transform(translateY(100%));
       @include transition(transform 0.5s);
     }
-    .info {
-      display: inline-block;
-    }
+
     .info,
     .content {
       padding: 0.5em 1em;
