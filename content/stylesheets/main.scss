@@ -122,7 +122,7 @@ header {
     background: url("/images/topimage_wroclove_new.png") no-repeat center;
     background-size: contain;
 
-    height: 380px;
+    height: 390px;
     position: relative;
   }
 
@@ -135,7 +135,7 @@ header {
     font-family: "sk-modernistregular";
     font-size: 36px;
     line-height: 1.2;
-    margin: 0.25em 0 1em;
+    padding: 0.25em 0 1em;
   }
 
   .actions {
@@ -146,6 +146,7 @@ header {
 .topnav {
   position: absolute;
   right: 0;
+  top: 10px;
 
   a {
     display: inline-block;
@@ -430,13 +431,20 @@ footer {
 
 @include mobile {
   header .container {
-    background-position: center bottom;
+    min-height: 380px;
+    height: 100vh;
+    background-position: 50% 25%;
     background-size: contain;
   }
 
   h2.info {
-    padding-top: 60px;
+    height: 100vh;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 33.4106729%;
+    letter-spacing: -1px;
   }
 
   nav.topnav {
@@ -451,6 +459,7 @@ footer {
 
   section.main_section h1 {
     font-size: 36px;
+    letter-spacing: -1px;
   }
 
   .speakers > .speaker {
