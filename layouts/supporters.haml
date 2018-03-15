@@ -1,3 +1,4 @@
-- supporters.each do |supporter|
-  %a{href: supporter['website_url']}
-    %img{src: supporter['logo_url'], alt: supporter['name']}
+.supporters__content
+  - supporters.each do |supporter|
+    %a{href: supporter['website_url']}
+      %img{src: supporter['logo_url'], alt: supporter['name']}

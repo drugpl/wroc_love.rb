@@ -288,18 +288,25 @@ header {
 
 .supporters {
   a {
-    width: 236px;
-    height: 93px;
+    min-width: 280px;
     line-height: 93px;
-    margin: 0 20px 50px;
+    margin: 0 0 50px;
   }
+
+  .supporters__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 }
 
 .partners {
   a {
     height: 54px;
     line-height: 54px;
-    margin: 0 10px 20px;
+    margin: 0 30px 20px;
 
     &:first-of-type {
       margin-left: 0;
@@ -469,7 +476,10 @@ footer {
     h1 {
       text-align: left;
     }
-    text-align: center;
+
+    a {
+      width: 100%;
+    }
   }
 
   .bottom_column,
