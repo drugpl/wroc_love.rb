@@ -51,6 +51,7 @@ article.agenda {
     li {
       display: block;
       font-size: 14px;
+      font-family: "sk-modernistregular";
       line-height: 24px;
       height: 24px;
       color: #bbb;
@@ -88,7 +89,8 @@ article.agenda {
           left: 5px;
           width: calc(100% - 10px);
           text-align: left;
-          font-size: 12px;
+          font-size: 14px;
+          font-family: "sk-modernistregular";
           background: $accent;
           color: $bg-color;
           padding: 0.25em 0.5em;
@@ -100,10 +102,10 @@ article.agenda {
 
   .day {
     font-size: 24px;
+    font-family: "sk-modernistbold";
     line-height: 36px;
     height: 36px;
     color: $accent;
-    font-weight: bold;
     text-transform: uppercase;
   }
 }
