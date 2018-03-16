@@ -178,7 +178,7 @@
         {
           "from": "12:00",
           "to": "12:30",
-          "title": "Counterintuitive Rails",
+          "title": "Counterintuitive Rails - part 1",
           "speaker": "Ivan Nemytchenko"
         },
         { "from": "15:00", "to": "16:00", "title": "Discussion Panel" },
@@ -228,8 +228,8 @@
         {
           "from": "12:00",
           "to": "12:30",
-          "title": "[speaking opportunity]",
-          "speaker": ""
+          "title": "Counterintuitive Rails - part 2",
+          "speaker": "Ivan Nemytchenko"
         },
         { "from": "15:00", "to": "16:00", "title": "Discussion Panel" },
         {
