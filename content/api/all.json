@@ -181,7 +181,11 @@
           "title": "Counterintuitive Rails - part 1",
           "speaker": "Ivan Nemytchenko"
         },
-        { "from": "15:00", "to": "16:00", "title": "Discussion Panel" },
+        { 
+          "from": "15:00", 
+          "to": "16:00", 
+          "title": "Discussion Panel - Enterprise Rails" 
+        },
         {
           "from": "16:00",
           "to": "16:30",
