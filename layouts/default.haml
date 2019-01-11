@@ -2,14 +2,14 @@
 %html(lang="en")
   %head
     %meta(charset="utf-8")
-    %meta{:property => "og:title", :content => 'wroc_love.rb - March 16-18th 2018'}
-    %meta{:property => "og:type", :content => 'website'}
-    %meta{:property => "og:image", :content => 'https://wrocloverb.com/images/wrocloverb_og.jpg'}
-    %meta{:property => "og:url", :content => 'https://wrocloverb.com/'}
-    %meta{:property => "og:description", :content => 'wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.'}
+    %meta{property: "og:title", content: 'wroc_love.rb - March 22-24th 2019'}
+    %meta{property: "og:type", content: 'website'}
+    %meta{property: "og:image", content: 'https://wrocloverb.com/images/wrocloverb_og.jpg'}
+    %meta{property: "og:url", content: 'https://wrocloverb.com/'}
+    %meta{property: "og:description", content: 'wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.'}
     %meta{name: 'viewport', content: 'width=device-width, initial-scale=1'}
-    %title wroc_love.rb 2018 - Wrocław, Poland - The Ruby conference where ideas are being confronted
-    %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/main.css", :media => "screen"}
+    %title wroc_love.rb 2019 - Wrocław, Poland - The Ruby conference where ideas are being confronted
+    %link{rel: "stylesheet", type: "text/css", href: "/stylesheets/main.css", media: "screen"}
     = render 'analytics'
     = render 'data'
 
@@ -19,15 +19,15 @@
         %nav.topnav
           %ul.horizontal
             %li
-              %a.tickets{:href => 'https://eventil.com/events/wroc_love-rb-2018'} Get tickets
+              %a.tickets{href: '#'} Get tickets
             %li
-              %a.newsletter{:href => 'https://eepurl.com/cBTyK9', :target => '_blank'} Newsletter
+              %a.newsletter{href: 'https://eepurl.com/cBTyK9', target: '_blank'} Newsletter
             %li
-              %a.twitter{:href => 'https://twitter.com/wrocloverb'} Follow us
+              %a.twitter{href: 'https://twitter.com/wrocloverb'} Follow us
             %li
-              %a.email{:href => 'mailto:all@wrocloverb.com'} Email us
+              %a.email{href: 'mailto:all@wrocloverb.com'} Email us
         %h2.info
-          March 16-18th 2018
+          March 22-24th 2019
           %br
           Wrocław, Poland
 
@@ -46,14 +46,14 @@
         %nav.bottomnav
           %ul.horizontal
             %li
-              %a{:href => 'https://eepurl.com/cBTyK9', :target => '_blank'} Newsletter
+              %a{href: 'https://eepurl.com/cBTyK9', :target => '_blank'} Newsletter
             %li
-              %a{:href => 'https://twitter.com/wrocloverb'} Follow us
+              %a{href: 'https://twitter.com/wrocloverb'} Follow us
             %li
-              %a{:href => 'mailto:all@wrocloverb.com'} E-mail us
+              %a{href: 'mailto:all@wrocloverb.com'} E-mail us
             %li
-              %a{:href => '/regulamin'} Terms of service
+              %a{href: '/regulamin'} Terms of service
       .container
         %p
           %a{href: 'https://www.behance.net/sashapais', class: 'copyright'}
-            %img{:src => 'images/sp_logotype_short_white.svg', height: "30"}
+            %img{src: 'images/sp_logotype_short_white.svg', height: 30}

@@ -124,22 +124,6 @@
       "latitude": 51.11085,
       "longtitude": 17.05323,
       "showPopup": true
-    },
-    {
-      "name": "Klubokawiarnia Mleczarnia",
-      "address": "Włodkowica 5, Wrocław",
-      "description": "Saturday + Sunday party venue",
-      "latitude": 51.1080441,
-      "longtitude": 17.0252042,
-      "showPopup": false
-    },
-    {
-      "name": "Kino Nowe Horyzonty, strefa bistro",
-      "address": "Kazimierza Wielkiego 19a-21, Wrocław",
-      "description": "Friday welcome party venue",
-      "latitude": 51.109462,
-      "longtitude": 17.026133,
-      "showPopup": false
     }
   ],
   "agenda": {
@@ -181,10 +165,10 @@
           "title": "Counterintuitive Rails - part 1",
           "speaker": "Ivan Nemytchenko"
         },
-        { 
-          "from": "15:00", 
-          "to": "16:00", 
-          "title": "Discussion Panel - Enterprise Rails" 
+        {
+          "from": "15:00",
+          "to": "16:00",
+          "title": "Discussion Panel - Enterprise Rails"
         },
         {
           "from": "16:00",

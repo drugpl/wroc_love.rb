@@ -3,15 +3,18 @@
 
 %article.agenda
   %h1 Agenda
-  #agenda_area
+  .loading &nbsp;
+  -##agenda_area
 
 %article.speakers
   %h1 Speakers
-  = render 'speakers'
+  .loading &nbsp;
+  -#= render 'speakers'
 
 %article.supporters
   %h1 Supporters
-  = render 'supporters'
+  .loading &nbsp;
+  -#= render 'supporters'
 
 .bottom_column
   %article.partners
