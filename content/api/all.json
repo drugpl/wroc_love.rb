@@ -111,20 +111,32 @@
     "data": [
       [
         {
-          "from": "16:15",
-          "to": "17:00",
+          "from": "13:00",
+          "to": "13:30",
           "title": "registration"
         },
         {
+          "from": "13:30",
+          "to": "16:45",
+          "title": "Mutation Testing workshop",
+          "speaker": "Markus, snusnu"
+        },
+        {
           "from": "17:00",
+          "to": "17:30",
+          "title": "Business logic in Ruby without frameworks, libraries and persistence",
+          "speaker": "Andrzej Krzywda"
+        },
+        {
+          "from": "18:00",
           "to": "18:30",
-          "title": "Special DDD Wrocław: The pillars of Domain Driven Design at Main venue",
-          "speaker": "Marco Heimeshoff"
+          "title": "Building UIs for Microservices",
+          "speaker": "Ethan Garofolo"
         },
         {
           "from": "19:00",
           "to": "23:00",
-          "title": "Warm-up party at Kino Nowe Horyzonty"
+          "title": "Warm-up party at TBA"
         }
       ],
       [
@@ -136,43 +148,43 @@
         {
           "from": "10:00",
           "to": "10:30",
-          "title": "Better WebPerformance with Rails",
-          "speaker": "Stefan Wintermeyer"
+          "title": "Code as data",
+          "speaker": "Denis Defreyne"
         },
         {
           "from": "11:00",
           "to": "11:30",
-          "title": "Cables! Cables! Cables!",
-          "speaker": "Vladimir Dementyev"
+          "title": "Development with Axioms",
+          "speaker": "Martin Gamsjaeger"
         },
         {
           "from": "12:00",
           "to": "12:30",
-          "title": "Counterintuitive Rails - part 1",
-          "speaker": "Ivan Nemytchenko"
+          "title": "Mutant on Steroids",
+          "speaker": "Markus Schirp"
         },
         {
           "from": "15:00",
           "to": "16:00",
-          "title": "Discussion Panel - Enterprise Rails"
+          "title": "Discussion Panel - TBA"
         },
         {
           "from": "16:00",
           "to": "16:30",
-          "title": "SUPER AIN'T SUPER: From OOP To FP and Beyond!",
-          "speaker": "Nick Sutterer"
+          "title": "Spice up your life with EQL",
+          "speaker": "Norbert Wójtowicz"
         },
         {
           "from": "17:00",
           "to": "17:30",
-          "title": "Event Sourcing Anti Patterns and Failures",
-          "speaker": "Nathan Ladd"
+          "title": "Monads are monoids in the category of endofunctors’ explained",
+          "speaker": "Ike Kurghinyan"
         },
         {
           "from": "18:00",
           "to": "18:30",
-          "title": "Applying CQRS & Event Sourcing on Rails applications",
-          "speaker": "Andrzej Śliwa"
+          "title": "Optimistic UI & Live updates with Logux",
+          "speaker": "Dmitry Salahutdinov"
         },
         {
           "from": "19:00",
@@ -182,7 +194,7 @@
         {
           "from": "21:00",
           "to": "23:00",
-          "title": "Main party at Klubokawiarnia Mleczarnia"
+          "title": "Main party at TBA"
         }
       ],
       [
@@ -194,47 +206,54 @@
         {
           "from": "10:00",
           "to": "10:30",
-          "title": "Understanding coupling",
-          "speaker": "Łukasz Szydło"
+          "title": "Towards the post-framework future",
+          "speaker": "Victor Shepelev"
         },
         {
           "from": "11:00",
           "to": "11:30",
-          "title": "Beyond the current state: Time travel to the rescue!",
-          "speaker": "Armin Pašalić"
+          "title": "Transcoding videos in Ruby: A story",
+          "speaker": "Michał Matyas"
         },
         {
           "from": "12:00",
           "to": "12:30",
-          "title": "Counterintuitive Rails - part 2",
-          "speaker": "Ivan Nemytchenko"
+          "title": "The TruffleRuby Compilation Pipeline",
+          "speaker": "Chris Seaton"
         },
         {
           "from": "15:00",
           "to": "16:00",
-          "title": "Discussion Panel - Modern JS"
+          "title": "Discussion Panel - TBA"
         },
         {
           "from": "16:00",
           "to": "16:30",
-          "title": "Toolbelt of a Seasoned Bug Hunter",
-          "speaker": "Damir Zekić"
+          "title": "Events. Events. Events!",
+          "speaker": "Anton Davydov"
         },
         {
           "from": "17:00",
           "to": "17:30",
-          "title": "MVCC for Ruby developers",
-          "speaker": "Michał Młoźniak"
+          "title": "How to hijack, proxy and smuggle sockets with Rack/Ruby",
+          "speaker": "Dávid Halász"
         },
         {
           "from": "18:00",
-          "to": "19:00",
-          "title": "Lightning talks - 12 x 5 minutes"
+          "to": "18:30",
+          "title": "Optimistic UI & Live updates with Logux",
+          "speaker": "Dmitry Salahutdinov"
         },
         {
-          "from": "20:00",
-          "to": "23:00",
-          "title": "Closing party at Klubokawiarnia Mleczarnia"
+          "from": "19:00",
+          "to": "19:30",
+          "title": "Handling file uploads for a modern developer",
+          "speaker": "Janko Marohnić"
+        },
+        {
+          "from": "21:00",
+          "to": "24:00",
+          "title": "Closing party at TBA"
         }
       ]
     ]
