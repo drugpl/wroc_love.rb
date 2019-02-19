@@ -223,8 +223,9 @@
         },
         {
           "from": "15:00",
-          "to": "16:00",
-          "title": "Discussion Panel - TBA"
+          "to": "15:30",
+          "title": "Handling file uploads for a modern developer",
+          "speaker": "Janko Marohnić"
         },
         {
           "from": "16:00",
@@ -247,8 +248,7 @@
         {
           "from": "19:00",
           "to": "19:30",
-          "title": "Handling file uploads for a modern developer",
-          "speaker": "Janko Marohnić"
+          "title": "Lightning talks - 12 x 5 minutes (or not)"
         },
         {
           "from": "21:00",
