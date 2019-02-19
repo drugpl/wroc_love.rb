@@ -11,7 +11,7 @@ gem 'sprockets', '>= 2.12.5'
 
 gem 'fssm'
 gem 'adsf'
-gem 'rack'
+gem 'rack', '~> 1.6'
 gem 'rack-rewrite', require: 'rack/rewrite'
 gem 'mime-types'
 gem 'systemu'
