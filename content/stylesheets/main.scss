@@ -218,6 +218,8 @@ header {
     height: $inactive-height;
     overflow: hidden;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     @include transition(height 0.5s);
 
