@@ -76,6 +76,16 @@
       "name": "Arkency",
       "website_url": "https://arkency.com/",
       "logo_url": "/images/supporter-arkency.png"
+    },
+    {
+      "name": "Infopark AG",
+      "website_url": "https://infopark.com/en/",
+      "logo_url": "/images/supporter-infopark.png"
+    },
+    {
+      "name": "Selleo",
+      "website_url": "https://selleo.com/",
+      "logo_url": "/images/supporter-selleo.jpg"
     }
   ],
   "partners": [
