@@ -241,17 +241,11 @@
         },
         {
           "from": "18:00",
-          "to": "18:30",
-          "title": "Optimistic UI & Live updates with Logux",
-          "speaker": "Dmitry Salahutdinov"
-        },
-        {
-          "from": "19:00",
-          "to": "19:30",
+          "to": "19:00",
           "title": "Lightning talks - 12 x 5 minutes (or not)"
         },
         {
-          "from": "21:00",
+          "from": "20:00",
           "to": "23:00",
           "title": "Closing party at TBA"
         }
