@@ -285,12 +285,14 @@ header {
 
   img {
     vertical-align: middle;
+    max-width: 100%;
   }
 }
 
 .supporters {
   a {
     min-width: 280px;
+    max-width: 560px;
     line-height: 93px;
     margin: 0 0 50px;
   }
