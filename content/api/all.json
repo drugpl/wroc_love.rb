@@ -26,11 +26,6 @@
       "photo_url": "/images/speaker-norbert-wojtowicz.jpeg"
     },
     {
-      "name": "Denis Defreyne",
-      "bio": "",
-      "photo_url": "/images/speaker-denis-defreyne.jpeg"
-    },
-    {
       "name": "Janko Marohnić",
       "bio": "Passionate Ruby-off-Rails developer, creator of Shrine and test.vim.",
       "photo_url": "/images/speaker-janko-marohnic.jpeg"
