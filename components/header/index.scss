@@ -14,12 +14,19 @@
   font-size: 3.3vw;
   padding-bottom: 0.5vw;
   text-transform: uppercase;
-  flex: 2;
+  flex: 1;
   border-right: 1px solid black;
 }
 
 .logo img {
   width: 100%;
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
 }
 
 .cfp {
@@ -112,5 +119,15 @@
     .tickets_url:after {
       top: 3.3vw;
     }
+  }
+}
+
+@include tablet {
+  .container {
+    flex-direction: column;
+  }
+  .date {
+    border-bottom: 1px solid black;
+    border-right: 0;
   }
 }

@@ -1,38 +1,22 @@
 import React, { useState, useEffect } from 'react'
 import styles from './index.scss'
 import image from './manhattan.png'
-import { agenda } from '../../conference.js'
 
-const talksWithDates = agenda.reduce((list, day) => {
-  const { date, talks } = day
-  talks.forEach(talk => {
-    const { start, end, title, speaker } = talk
-    const startTime = new Date(`${date}T${start}:00`)
-    const endTime = new Date(`${date}T${end}:00`)
-
-    list.push({
-      start, end, title, speaker, startTime, endTime
-    })
-  })
-  return list
-}, [])
-
-
-const Postcard = () => {
+const Postcard = ({ talksList }) => {
   const [ now, setNow ] = useState(new Date())
 
   useEffect(() => {
     const interval = setInterval(() => {
       setNow(() => new Date())
-    }, 1000)
+    }, 10000)
 
     return () => clearInterval(interval)
   }, [])
 
-  const currentTalkIndex = talksWithDates.findIndex(talk => talk.startTime < now && talk.endTime > now)
-  const currentTalk = currentTalkIndex !== -1 ? talksWithDates[currentTalkIndex] : null
+  const currentTalkIndex = talksList.findIndex(talk => talk.startTime < now && talk.endTime > now)
+  const currentTalk = currentTalkIndex !== -1 ? talksList[currentTalkIndex] : null
 
-  const nextTalk = talksWithDates.find((talk, index) => (
+  const nextTalk = talksList.find((talk, index) => (
     talk.startTime > now && index > currentTalkIndex
   ))
 

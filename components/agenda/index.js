@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import nl2br from 'react-nl2br';
 import styles from "./index.scss";
-import { agenda } from '../../conference.js';
 import SectionHeader from "../section_header"
 
-const Agenda = () => (
+const Agenda = ({ agenda }) => (
   <div className={styles.container}>
     <SectionHeader backgroundColor="#000" textColor="#fff">
       Agenda

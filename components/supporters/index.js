@@ -1,9 +1,8 @@
 import React from 'react';
 import SectionHeader from "../section_header"
-import { supporters } from "../../conference.js";
 import styles from './index.scss'
 
-const Supporters = () => (
+const Supporters = ({ supporters }) => (
   <div className={styles.container}>
     <div className={styles.content}>
       <SectionHeader outerBorder={false}>Supporters</SectionHeader>

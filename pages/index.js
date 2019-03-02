@@ -15,76 +15,139 @@ import Twitter from '../components/twitter'
 import Footer from '../components/footer'
 import styles from './index.scss'
 
-const Home = () => (
-  <ResponsiveProvider>
-    <div className={styles.body}>
-      <Head/>
-      <div className={`${styles.container} ${styles.container_stretched}`}>
-        <div className={styles.column1}>
-          <Logo/>
-        </div>
-        <div className={styles.column2}>
-          <Header/>
-        </div>
-      </div>
+class Home extends React.Component {
+  state = {
+    config: null
+  }
 
-      <Responsive tablet>
-        <Postcard/>
-      </Responsive>
+  static async getInitialProps() {
+    const initialConfig = require('../static/conference.json')
+    return { initialConfig }
+  }
 
-      <div className={styles.container}>
-        <div className={styles.column1}>
-          <Responsive mobile>
-            <Postcard/>
-          </Responsive>
-          <ConfrontIdeas/>
-          <Agenda/>
+  componentDidMount() {
+    if(!process.browser) {
+      return
+    }
+
+    this.setState({ config: this.props.initialConfig })
+
+    this.interval = setInterval(async () => {
+      const response = await fetch('/static/conference.json')
+      const config = await response.json()
+      this.setState({ config })
+    }, 10000)
+  }
+
+
+  componentWillUnmount() {
+    clearInterval(this.interval)
+  }
+
+  config() {
+    return this.state.config || this.props.initialConfig
+  }
+
+  getTalksList(agenda) {
+    if(!agenda) {
+      return []
+    }
+
+    return agenda.reduce((list, day) => {
+      const { date, talks } = day
+      talks.forEach(talk => {
+        const { start, end, title, speaker } = talk
+        const startTime = new Date(`${date} ${start}:00`)
+        const endTime = new Date(`${date} ${end}:00`)
+
+        list.push({
+          start, end, title, speaker, startTime, endTime
+        })
+      })
+      return list
+    }, [])
+  }
+
+  render() {
+    const {
+      date, cfpUrl, ticketsUrl, speakers, agenda, supporters, partners, venue
+    } = this.config()
+
+    const talksList = this.getTalksList(agenda)
+
+    return (
+      <ResponsiveProvider>
+        <div className={styles.body}>
+          <Head/>
+          <div className={`${styles.container} ${styles.container_stretched}`}>
+            <div className={styles.column1}>
+              <Logo/>
+            </div>
+            <div className={styles.column2}>
+              <Header date={date} cfpUrl={cfpUrl} ticketsUrl={ticketsUrl}/>
+            </div>
+          </div>
+
           <Responsive tablet>
-            <Supporters/>
-            <Partners/>
-            <Twitter/>
+            <Postcard talksList={talksList} />
           </Responsive>
-        </div>
 
-        <div className={styles.column2}>
-          <Responsive desktop desktophd>
-            <Postcard/>
-          </Responsive>
-          <div className={styles.content}>
-            <Responsive mobile desktop desktophd>
-              <div className={styles.content_column}>
-                <Speakers/>
-              </div>
-              <div className={styles.content_column}>
-                <Location/>
-                <Partners/>
+          <div className={styles.container}>
+            <div className={styles.column1}>
+              <Responsive mobile>
+                <Postcard talksList={talksList} />
+              </Responsive>
+              <ConfrontIdeas/>
+              <Agenda agenda={agenda}/>
+              <Responsive tablet>
+                <Supporters supporters={supporters}/>
+                <Partners partners={partners}/>
                 <Twitter/>
-                <TalksArchive/>
+              </Responsive>
+            </div>
+
+            <div className={styles.column2}>
+              <Responsive desktop desktophd>
+                <Postcard talksList={talksList} />
+              </Responsive>
+              <div className={styles.content}>
+                <Responsive mobile desktop desktophd>
+                  <div className={styles.content_column}>
+                    <Speakers speakers={speakers}/>
+                  </div>
+                  <div className={styles.content_column}>
+                    <Location venue={venue}/>
+                    <Partners partners={partners}/>
+                    <Supporters supporters={supporters}/>
+                    <Twitter/>
+                    <TalksArchive/>
+                  </div>
+                </Responsive>
+                <Responsive tablet>
+                  <div className={styles.content_column}>
+                    <Speakers speakers={speakers}/>
+                    <Location venue={venue}/>
+                    <TalksArchive/>
+                  </div>
+                </Responsive>
               </div>
-            </Responsive>
-            <Responsive tablet>
-              <div className={styles.content_column}>
-                <Speakers/>
-                <Location/>
-                <TalksArchive/>
+            </div>
+          </div>
+          <div className={styles.container}>
+            <div className={styles.column1}>
+              <Footer/>
+            </div>
+            <div className={styles.column2}>
+              <div className={styles.placeholder}>
+                <div className={styles.placeholder_line}/>
+                <div className={styles.placeholder_line}/>
               </div>
-            </Responsive>
+            </div>
           </div>
         </div>
-      </div>
-      <div className={styles.container}>
-        <div className={styles.column1}>
-          <Footer/>
-        </div>
-        <div className={styles.column2}>
-          <div className={styles.placeholder}>
-            <div className={styles.placeholder_line}/>
-            <div className={styles.placeholder_line}/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </ResponsiveProvider>
-)
+      </ResponsiveProvider>
+    )
+  }
+}
 
 export default Home

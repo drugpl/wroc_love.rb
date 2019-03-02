@@ -7,13 +7,13 @@ const Map = dynamic(() => import('./venue_map'), {
   ssr: false
 });
 
-const Location = () => (
+const Location = ({ venue }) => (
   <div className={styles.container}>
     <SectionHeader outerBorder={false}>
       Location
     </SectionHeader>
     <div className={styles.map}>
-      <Map />
+      <Map venue={venue}/>
     </div>
   </div>
 )

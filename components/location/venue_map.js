@@ -1,9 +1,8 @@
 import React from 'react';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 import './venue_map.scss'
-import { venue } from '../../conference.js'
 
-const VenueMap = () => (
+const VenueMap = ({ venue }) => (
   <Map center={[venue.lat, venue.lng]} zoom={13}>
     <TileLayer
       attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

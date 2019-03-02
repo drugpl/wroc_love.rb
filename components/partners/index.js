@@ -1,9 +1,8 @@
 import React from "react";
 import SectionHeader from "../section_header";
-import { partners } from "../../conference.js";
 import styles from "./index.scss";
 
-const Partners = () => (
+const Partners = ({ partners }) => (
   <div className={styles.container}>
     <div className={styles.content}>
       <SectionHeader outerBorder={false}>Partners</SectionHeader>
