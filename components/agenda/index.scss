@@ -1,0 +1,75 @@
+@import '../../scss/mixins';
+
+.day {
+  border-bottom: 1px solid black;
+  padding: 10px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.day_header {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.day_calendar_container {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.day_calendar {
+  border: 1px solid black;
+}
+
+.talk {
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  font-size: 1.5vw;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.talk_time {
+  white-space: pre;
+  width: 18vw;
+  text-align: right;
+  padding-right: 1vw;
+}
+
+.talk_description {
+  width: 100%;
+}
+
+.talk_speaker {
+  font-family: 'sk-modernistregular';
+  text-decoration: underline;
+}
+
+@include mobile {
+  .day_header {
+    font-size: 6vw;
+  }
+
+  .talk {
+    font-size: 4vw;
+  }
+
+  .talk_time {
+    width: 50vw;
+    padding-right: 5vw;
+  }
+}
+
+@include tablet {
+  .container {
+    border-bottom: 1px solid black;
+  }
+}

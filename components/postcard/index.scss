@@ -1,0 +1,49 @@
+@import '../../scss/mixins';
+
+.container {
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 35vw;
+}
+
+.postcard {
+  position: absolute;
+  left: 2.5vw;
+  right: -1px;
+  top: 0.5vw;
+  bottom: 1.5vw;
+  border: 1px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.info {
+  position: absolute;
+  bottom: 1vw;
+  left: 1vw;
+  width: auto;
+  border: 1px solid #cc0000;
+  color: #cc0000;
+  font-size: 2vw;
+  padding: 0.5vw;
+  background: #fff;
+}
+
+@include mobile {
+  .container {
+    height: 50vw;
+  }
+  .postcard {
+    left: 0;
+    top: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+  .info {
+    font-size: 5vw;
+    right: 1vw;
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../scss/mixins';
+
+.header {
+  height: 15vw;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 10px;
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 3vw;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+@include mobile {
+  .header {
+    height: 30vw;
+  }
+
+  .header_content {
+    font-size: 8vw;
+  }
+}
