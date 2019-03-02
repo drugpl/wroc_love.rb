@@ -61,7 +61,7 @@ class Home extends React.Component {
         const endTime = new Date(`${date} ${end}:00`)
 
         list.push({
-          start, end, title, speaker, startTime, endTime
+          date, start, end, title, speaker, startTime, endTime
         })
       })
       return list
@@ -98,7 +98,7 @@ class Home extends React.Component {
                 <Postcard talksList={talksList} />
               </Responsive>
               <ConfrontIdeas/>
-              <Agenda agenda={agenda}/>
+              <Agenda agenda={agenda} talksList={talksList}/>
               <Responsive tablet>
                 <Supporters supporters={supporters}/>
                 <Partners partners={partners}/>

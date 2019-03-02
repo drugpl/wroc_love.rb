@@ -1,19 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import styles from './index.scss'
 import image from './manhattan.png'
 
 const Postcard = ({ talksList }) => {
-  const [ now, setNow ] = useState(new Date())
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setNow(() => new Date())
-    }, 10000)
-
-    return () => clearInterval(interval)
-  }, [])
-
-  const currentTalkIndex = talksList.findIndex(talk => talk.startTime < now && talk.endTime > now)
+  const now = new Date()
+  const currentTalkIndex = talksList.findIndex(talk => talk.startTime <= now && talk.endTime >= now)
   const currentTalk = currentTalkIndex !== -1 ? talksList[currentTalkIndex] : null
 
   const nextTalk = talksList.find((talk, index) => (
