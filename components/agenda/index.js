@@ -24,7 +24,7 @@ const Agenda = ({ agenda, talksList }) => {
     talk.start === currentTalk.start &&
     talk.end === currentTalk.end)
   )
-  
+
   return (
     <div className={styles.container}>
       <SectionHeader backgroundColor="#000" textColor="#fff">
