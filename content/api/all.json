@@ -178,14 +178,15 @@
           "title": "Mutant on Steroids",
           "speaker": "Markus Schirp"
         },
-        { "from": "12:30",
+        {
+          "from": "12:30",
           "to": "15:00",
           "title": "Lunch break"
         },
         {
           "from": "15:00",
           "to": "16:00",
-          "title": "Discussion Panel - TBA"
+          "title": "Discussion Panel - Autoloading"
         },
         {
           "from": "16:00",
@@ -240,34 +241,30 @@
           "title": "The TruffleRuby Compilation Pipeline",
           "speaker": "Chris Seaton"
         },
-        { "from": "12:30",
+        {
+          "from": "12:30",
           "to": "15:00",
           "title": "Lunch break"
         },
         {
           "from": "15:00",
-          "to": "16:00",
-          "title": "Discussion Panel - TBA"
-        },
-        {
-          "from": "16:00",
-          "to": "16:30",
+          "to": "15:30",
           "title": "Events. Events. Events!",
           "speaker": "Anton Davydov"
         },
         {
-          "from": "17:00",
-          "to": "17:30",
+          "from": "16:00",
+          "to": "16:30",
           "title": "How to hijack, proxy and smuggle sockets with Rack/Ruby",
           "speaker": "Dávid Halász"
         },
         {
-          "from": "18:00",
-          "to": "19:00",
+          "from": "17:00",
+          "to": "18:00",
           "title": "Lightning talks - 12 x 5 minutes (or not)"
         },
         {
-          "from": "20:00",
+          "from": "19:00",
           "to": "23:00",
           "title": "Closing party at TBA"
         }
