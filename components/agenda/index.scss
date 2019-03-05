@@ -40,16 +40,16 @@
 .talk_active {
   position: relative;
 
-  &:after {
-    position: absolute;
-    left: 1vw;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1vw;
-    height: 1vw;
-    border-radius: 100%;
+  .talk_time:before {
     content: ' ';
     background: red;
+    display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    vertical-align: middle;
+    margin-right: 0.5vw;
+    margin-top: -0.5vw;
+    border-radius: 50%;
   }
 }
 
@@ -82,10 +82,26 @@
     width: 50vw;
     padding-right: 5vw;
   }
+
+  .talk_active {
+    .talk_time:before {
+      width: 2vw;
+      height: 2vw;
+      margin-top: -1vw;
+      margin-right: 1vw;
+    }
+  }
 }
 
 @include tablet {
   .container {
     border-bottom: 1px solid black;
+  }
+
+  .talk_active {
+    .talk_time:before {
+      margin-top: -0.25vw;
+      margin-right: 0.5vw;
+    }
   }
 }
