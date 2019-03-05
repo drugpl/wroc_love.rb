@@ -103,7 +103,7 @@ a:hover, a:focus {
   }
 }
 
-.placeholder {
+.footer {
   height: 5vw;
   align-self: flex-end;
   margin-top: auto;
@@ -112,14 +112,20 @@ a:hover, a:focus {
   display: flex;
 }
 
-.placeholder_line {
+.footer_empty {
   flex: 1;
   width: 50%;
   height: 100%;
+  border-right: 1px solid black;
+}
 
-  &:first-child {
-    border-right: 1px solid black;
-  }
+.footer_sm {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
 }
 
 @include mobile {
@@ -144,8 +150,12 @@ a:hover, a:focus {
     }
   }
 
-  .placeholder {
+  .footer_empty {
     display: none;
+  }
+
+  .footer {
+    height: 8vw;
   }
 
   .text_page {
@@ -160,5 +170,10 @@ a:hover, a:focus {
       width: 50%;
       flex: 1;
     }
+  }
+
+  .text_page {
+    padding: 0 15px;
+    font-size: 2vw;
   }
 }

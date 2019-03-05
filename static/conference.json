@@ -2,6 +2,9 @@
   "date": "March 22-24, 2019",
   "cfpUrl": false,
   "ticketsUrl": "https://wrocloverb.konfeo.com",
+  "facebookUrl": "https://facebook.com/wroclove.rb/",
+  "twitterUrl": "https://twitter.com/wrocloverb",
+  "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
   "speakers": [
     {
       "name": "Chris Seaton",

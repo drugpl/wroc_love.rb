@@ -14,40 +14,10 @@ import TalksArchive from '../components/talks_archive'
 import Twitter from '../components/twitter'
 import Footer from '../components/footer'
 import styles from './index.scss'
+import extendWithConferenceData from '../utils/extend_with_conference_data'
+import SocialMedia from "../components/footer/social_media"
 
 class Home extends React.Component {
-  state = {
-    config: null
-  }
-
-  static async getInitialProps() {
-    const initialConfig = require('../static/conference.json')
-    return { initialConfig }
-  }
-
-  componentDidMount() {
-    if(!process.browser) {
-      return
-    }
-
-    this.setState({ config: this.props.initialConfig })
-
-    this.interval = setInterval(async () => {
-      const response = await fetch('/static/conference.json')
-      const config = await response.json()
-      this.setState({ config })
-    }, 10000)
-  }
-
-
-  componentWillUnmount() {
-    clearInterval(this.interval)
-  }
-
-  config() {
-    return this.state.config || this.props.initialConfig
-  }
-
   getTalksList(agenda) {
     if(!agenda) {
       return []
@@ -70,7 +40,7 @@ class Home extends React.Component {
 
   render() {
     const {
-      date, cfpUrl, ticketsUrl, speakers, agenda, supporters, partners, venue
+      date, cfpUrl, ticketsUrl, facebookUrl, twitterUrl, youtubeUrl, speakers, agenda, supporters, partners, venue
     } = this.config()
 
     const talksList = this.getTalksList(agenda)
@@ -138,9 +108,11 @@ class Home extends React.Component {
               <Footer/>
             </div>
             <div className={styles.column2}>
-              <div className={styles.placeholder}>
-                <div className={styles.placeholder_line}/>
-                <div className={styles.placeholder_line}/>
+              <div className={styles.footer}>
+                <div className={styles.footer_empty}/>
+                <div className={styles.footer_sm}>
+                  <SocialMedia facebookUrl={facebookUrl} twitterUrl={twitterUrl} youtubeUrl={youtubeUrl}/>
+                </div>
               </div>
             </div>
           </div>
@@ -150,4 +122,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home
+export default extendWithConferenceData(Home)

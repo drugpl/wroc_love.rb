@@ -1,0 +1,39 @@
+@import '../../scss/mixins';
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+
+  a {
+    display: block;
+    margin: 0 1.5vw;
+  }
+  img {
+    height: 2vw;
+  }
+}
+
+
+@include mobile {
+  .container {
+    a {
+      margin: 0 5vw;
+    }
+    img {
+      height: 5vw;
+    }
+  }
+}
+
+@include tablet {
+  .container {
+    a {
+      margin: 0 1vw;
+    }
+    img {
+      height: 3vw;
+    }
+  }
+}
