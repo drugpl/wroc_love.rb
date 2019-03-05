@@ -1,3 +1,3 @@
 # wroc_love.rb
 
-To edit the conference settings check `conference.js`.
+To edit the conference settings check `static/conference.js`.
