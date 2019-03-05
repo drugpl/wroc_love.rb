@@ -1,20 +1,28 @@
-import React from 'react';
-import SectionHeader from "../section_header"
-import styles from './index.scss'
+import React from "react";
+import SectionHeader from "../section_header";
+import styles from "./index.scss";
+import header from "./header.png";
 
 const Supporters = ({ supporters }) => (
   <div className={styles.container}>
     <div className={styles.content}>
-      <SectionHeader outerBorder={false}>Supporters</SectionHeader>
+      <SectionHeader
+        outerBorder={false}
+        backgroundImage={header}
+        textColor="#FFF"
+      >
+        Supporters
+      </SectionHeader>
       <div className={styles.supporters}>
         {supporters.map(({ name, image, link }, index) => (
-          <a
-            className={styles.supporter}
-            title={name}
-            href={link}
-            key={index}
-          >
-            <span style={{ backgroundImage: image ? `url(/static/supporters/${image})` : undefined }}>
+          <a className={styles.supporter} title={name} href={link} key={index}>
+            <span
+              style={{
+                backgroundImage: image
+                  ? `url(/static/supporters/${image})`
+                  : undefined
+              }}
+            >
               {name}
             </span>
           </a>
@@ -22,6 +30,6 @@ const Supporters = ({ supporters }) => (
       </div>
     </div>
   </div>
-)
+);
 
-export default Supporters
+export default Supporters;

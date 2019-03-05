@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import nl2br from "react-nl2br";
 import styles from "./index.scss";
 import SectionHeader from "../section_header";
+import header from './header.png'
 
 const getCurrentTalk = (now, talksList) => {
   const talk = talksList.find(
@@ -27,7 +28,7 @@ const Agenda = ({ agenda, talksList }) => {
 
   return (
     <div className={styles.container}>
-      <SectionHeader backgroundColor="#000" textColor="#fff">
+      <SectionHeader backgroundImage={header} textColor="#fff">
         Agenda
       </SectionHeader>
       {agenda.map(({ label, date, talks }) => (

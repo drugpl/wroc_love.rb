@@ -16,6 +16,9 @@
   font-size: 3vw;
   text-transform: uppercase;
   border: 1px solid black;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 @include mobile {
