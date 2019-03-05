@@ -9,10 +9,10 @@
 
 .postcard {
   position: absolute;
-  left: 2.5vw;
-  right: -1px;
-  top: 0.5vw;
-  bottom: 1.5vw;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
   border: 1px solid black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,8 +21,8 @@
 
 .info {
   position: absolute;
-  bottom: 1vw;
-  left: 1vw;
+  bottom: 20px;
+  left: 20px;
   width: auto;
   border: 1px solid #cc0000;
   color: #cc0000;
