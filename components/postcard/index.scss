@@ -31,6 +31,10 @@
   background: #fff;
 }
 
+.speaker {
+  margin-right: 10px;
+}
+
 @include mobile {
   .container {
     height: 50vw;

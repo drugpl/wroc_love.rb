@@ -11,6 +11,8 @@ const Postcard = ({ talksList }) => {
     talk.startTime > now && index > currentTalkIndex
   ))
 
+  const label = talk => `${talk.start} - ${talk.end} ${talk.speaker ? `${talk.speaker} – ` : ''} ${talk.title}`
+
   return (
     <div className={styles.container}>
       <div className={styles.postcard} style={{ backgroundImage: `url(${image})` }}>
@@ -18,12 +20,12 @@ const Postcard = ({ talksList }) => {
           <div className={styles.info}>
             {currentTalk &&
             <div className={styles.now}>
-              NOW: {currentTalk.start} - {currentTalk.end} {currentTalk.speaker} &laquo; {currentTalk.title} &raquo;
+              NOW: {label(currentTalk)}
             </div>
             }
             {nextTalk &&
             <div className={styles.later}>
-              NEXT: {nextTalk.start} - {nextTalk.end} {nextTalk.speaker} &laquo; {nextTalk.title} &raquo;
+              NEXT: {label(nextTalk)}
             </div>
             }
           </div>
