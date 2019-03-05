@@ -16,7 +16,7 @@ const Home = () => (
         <Header />
       </div>
     </div>
-    <article className={styles.tos}>
+    <article className={styles.text_page}>
       <h2>Regulamin</h2>
 
       <p><strong>Regulamin uczestnictwa w Konferencji WrocLove.rb</strong></p>

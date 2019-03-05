@@ -11,16 +11,24 @@
 
 .container a {
   display: inline-block;
-  padding: 10px;
-  font-size: 1.5vw;
+  padding: 0.5vw;
+  font-size: 1.15vw;
 }
 
 @include mobile {
   .container {
-    height: 6.5vh;
+    height: 10vw;
   }
 
   .container a {
-    font-size: 2.5vh;
+    padding: 2vw;
+    font-size: 3.5vw;
+  }
+}
+
+@include tablet {
+  .container a {
+    padding: 0.75vw;
+    font-size: 2vw;
   }
 }

@@ -88,8 +88,19 @@ a:hover, a:focus {
   }
 }
 
-.tos {
+.text_page {
   padding: 0 15px;
+  font-size: 1.25vw;
+
+  h1 {
+    font-size: 1.5em;
+    font-family: 'sk-modernistregular';
+  }
+
+  h2 {
+    font-size: 1.25em;
+    font-family: 'sk-modernistregular';
+  }
 }
 
 .placeholder {
@@ -135,6 +146,11 @@ a:hover, a:focus {
 
   .placeholder {
     display: none;
+  }
+
+  .text_page {
+    padding: 0 15px;
+    font-size: 4vw;
   }
 }
 

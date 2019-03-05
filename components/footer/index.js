@@ -7,6 +7,9 @@ const Footer = () => (
     <Link href="/regulamin">
       <a href="/regulamin">terms of service</a>
     </Link>
+    <Link href="/coc">
+      <a href="/coc">code of conduct</a>
+    </Link>
     <a href="mailto:all@wrocloverb.com">contact us</a>
   </div>
 )
