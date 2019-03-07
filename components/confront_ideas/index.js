@@ -26,7 +26,7 @@ const ConfrontIdeas = () => {
           </p>
           <p>
             <span className={styles.name}>
-               wroclove<span className={styles.dot}>.</span>rb{" "}
+              wroclove<span className={styles.dot}>.</span>rb{" "}
             </span>
             serves best to people who are already fluent with Ruby. The ideas
             presented at our conference are very advanced. They are meant to
@@ -34,7 +34,7 @@ const ConfrontIdeas = () => {
             users. It’s not uncommon for us to present you ideas that come from
             the Java and .NET worlds, we believe that their ideas can have a
             great influence on our community. There are good  reasons, why our
-            conference is called “the best Java conference in the Ruby world”.  
+            conference is called “the best Java conference in the Ruby world”.
           </p>
           <p>
             Our goal is to ensure a good  environment to learn and discuss. We
