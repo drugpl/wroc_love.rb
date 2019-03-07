@@ -41,12 +41,12 @@ const Speaker = ({ image, name, description, links }) => {
 Speaker.propTypes = {
   image: PropTypes.string,
   name: PropTypes.string.isRequired,
-  description: PropTypes.oneOfType(
+  description: PropTypes.oneOfType([
     PropTypes.shape({
       __html: PropTypes.string
     }),
     PropTypes.string
-  ),
+  ]),
   links: PropTypes.object
 };
 
