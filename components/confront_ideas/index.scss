@@ -39,6 +39,8 @@
   border: 0;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   text-transform: lowercase;
   font-size: 1.3vw;
 
@@ -48,6 +50,12 @@
   }
   >div {
     margin-top: 0.25vw;
+  }
+}
+
+.text .button {
+  >div {
+    transform: rotateX(180deg);
   }
 }
 
