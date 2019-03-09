@@ -1,0 +1,179 @@
+@import '../scss/mixins';
+
+@font-face {
+  font-family: 'sk-modernistbold';
+  src: url('/static/fonts/sk-modernist-bold-web.woff2') format('woff2'),
+  url('/static/fonts/sk-modernist-bold-web.woff') format('woff'),
+  url('/static/fonts/sk-modernist-bold-web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sk-modernistlight';
+  src: url('/static/fonts/sk-modernist-light-web.woff2') format('woff2'),
+  url('/static/fonts/sk-modernist-light-web.woff') format('woff'),
+  url('/static/fonts/sk-modernist-light-web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sk-modernistregular';
+  src: url('/static/fonts/sk-modernist-regular-web.woff2') format('woff2'),
+  url('/static/fonts/sk-modernist-regular-web.woff') format('woff'),
+  url('/static/fonts/sk-modernist-regular-web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'sk-modernistlight';
+  margin: 0;
+  padding: 10px;
+  line-height: 1.25;
+}
+
+a, a:visited {
+  color: #cc0000;
+}
+
+a:hover, a:focus {
+  color: #440000;
+}
+
+.body {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100%;
+
+  .column1 {
+    flex: 1;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 33.33333%;
+  }
+  .column2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    width: 66.66667%;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  margin-bottom: -1px;
+
+  .content_column {
+    flex: 1;
+    width: 50%;
+
+    &:first-child {
+      border-right: 1px solid black;
+
+    }
+  }
+}
+
+.text_page {
+  padding: 0 15px;
+  font-size: 1.25vw;
+
+  h1 {
+    font-size: 1.5em;
+    font-family: 'sk-modernistregular';
+  }
+
+  h2 {
+    font-size: 1.25em;
+    font-family: 'sk-modernistregular';
+  }
+}
+
+.footer {
+  height: 5vw;
+  align-self: flex-end;
+  margin-top: auto;
+  border-top: 1px solid black;
+  width: 100%;
+  display: flex;
+}
+
+.footer_empty {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.footer_sm {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+@include mobile {
+  .container {
+    display: block;
+
+    .column1, .column2 {
+      width: 100%;
+      border-right: none;
+    }
+  }
+
+  .content {
+    display: block;
+
+    .content_column {
+      width: 100%;
+
+      &:first-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .footer_empty {
+    display: none;
+  }
+
+  .footer {
+    height: 8vw;
+  }
+
+  .text_page {
+    padding: 0 15px;
+    font-size: 4vw;
+  }
+}
+
+@include tablet {
+  .container {
+    .column1, .column2 {
+      width: 50%;
+      flex: 1;
+    }
+  }
+
+  .text_page {
+    padding: 0 15px;
+    font-size: 2vw;
+  }
+}

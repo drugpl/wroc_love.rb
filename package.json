@@ -1,0 +1,29 @@
+{
+  "name": "wroc_love.rb",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "leaflet": "^1.4.0",
+    "next": "^8.0.1",
+    "next-images": "^1.0.4",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-leaflet": "^2.2.1",
+    "react-nl2br": "^0.4.0",
+    "react-responsive": "^6.1.1",
+    "react-twitter-embed": "^2.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "prop-types": "^15.7.2"
+  },
+  "heroku-run-build-script": true
+}

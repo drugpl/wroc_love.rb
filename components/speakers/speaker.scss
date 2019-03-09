@@ -1,0 +1,93 @@
+@import '../../scss/mixins';
+
+.speaker {
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  overflow: hidden;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.speaker_open {
+  background: #fff;
+  border: 1px solid #cc0000;
+  outline: none;
+  margin: -1px -1px 0 -1px;
+
+  .speaker_details {
+    max-height: 100%;
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.speaker_photo_container {
+  flex: 1;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.speaker_photo {
+  height: 0;
+  padding-top: 100%;
+  position: relative;
+  border: 1px solid black;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.speaker_details {
+  position: relative;
+  padding: 10px;
+  flex: 1;
+  max-height: calc(15vw);
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+}
+
+.speaker_name {
+  font-family: 'sk-modernistregular';
+  margin-bottom: 10px;
+}
+
+.speaker_links {
+  margin-top: 10px;
+  font-size: 1.5vw;
+
+  a {
+    color: #000;
+
+    &:active, &:visited {
+      color: #000;
+    }
+  }
+}
+
+@include mobile {
+  .speaker {
+    font-size: 4.5vw;
+  }
+  .speaker_details {
+    max-height: 45vw;
+  }
+}
+
+@include tablet {
+  .speaker_details {
+    flex: 2;
+  }
+}

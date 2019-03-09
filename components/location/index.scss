@@ -1,0 +1,26 @@
+@import '../../scss/mixins';
+
+.container {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.map {
+  border-top: 1px solid black;
+  height: 22vw;
+  background: #ccc;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+
+  :global(.leaflet-container) {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@include mobile {
+  .map {
+    height: 60vh;
+  }
+}
