@@ -111,7 +111,8 @@
         {
           "start": "19:00",
           "end": "23:00",
-          "title": "Warm-up party at TBA"
+          "speaker": "Warm-up party at Korba Kuchnia",
+          "title": "ul. Świętego Mikołaja 18-20"
         }
       ]
     },
@@ -178,12 +179,13 @@
         {
           "start": "21:00",
           "end": "23:00",
-          "title": "Main party at TBA"
+          "speaker": "Main party at Mleczarnia",
+          "title": "ul. Włodkowica 5"
         }
       ]
     },
     {
-      "label": "DAY3: Saturday\nMarch 23",
+      "label": "DAY3: Sunday\nMarch 24",
       "date": "2019-03-24",
       "talks": [
         {
@@ -232,9 +234,10 @@
           "title": "Lightning talks - 12 x 5 minutes (or not)"
         },
         {
-          "start": "19:00",
+          "start": "20:00",
           "end": "23:00",
-          "title": "Closing party at TBA"
+          "speaker": "Closing party at Panczobus",
+          "title": "ul. Świętego Antoniego 35/1A"
         }
       ]
     }
