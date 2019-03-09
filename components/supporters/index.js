@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeader from "../section_header";
 import styles from "./index.scss";
 import header from "./header.png";
+import { withConfiguration } from "../contexts/configuration";
 
 const Supporters = ({ supporters }) => (
   <div className={styles.container}>
@@ -32,4 +33,6 @@ const Supporters = ({ supporters }) => (
   </div>
 );
 
-export default Supporters;
+export default withConfiguration(({ supporters }) => ({ supporters }))(
+  Supporters
+);

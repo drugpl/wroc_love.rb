@@ -1,6 +1,7 @@
 import React from "react";
 import SectionHeader from "../section_header";
 import styles from "./index.scss";
+import { withConfiguration } from "../contexts/configuration";
 
 const Partners = ({ partners }) => (
   <div className={styles.container}>
@@ -25,4 +26,4 @@ const Partners = ({ partners }) => (
   </div>
 );
 
-export default Partners;
+export default withConfiguration(({ partners }) => ({ partners }))(Partners);

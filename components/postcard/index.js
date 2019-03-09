@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './index.scss'
 import image from './manhattan.png'
+import {withConfiguration} from "../contexts/configuration"
+import talksList from '../../utils/talks_list'
 
 const Postcard = ({ talksList }) => {
   const now = new Date()
@@ -35,4 +37,6 @@ const Postcard = ({ talksList }) => {
   )
 }
 
-export default Postcard
+export default withConfiguration(config => ({
+  talksList: talksList(config.agenda)
+}))(Postcard)

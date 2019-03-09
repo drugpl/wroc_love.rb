@@ -4,6 +4,7 @@ import styles from './social_media.scss'
 import fb from './fb.png'
 import tt from './tt.png'
 import yt from './yt.png'
+import {withConfiguration} from "../contexts/configuration"
 
 const SocialMedia = ({ facebookUrl, twitterUrl, youtubeUrl }) => (
   <div className={styles.container}>
@@ -25,4 +26,8 @@ SocialMedia.propTypes = {
   youtubeUrl: PropTypes.string,
 }
 
-export default SocialMedia
+export default withConfiguration(config => ({
+  facebookUrl: config.facebookUrl,
+  twitterUrl: config.twitterUrl,
+  youtubeUrl: config.youtubeUrl
+}))(SocialMedia)

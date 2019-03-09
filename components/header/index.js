@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './index.scss'
+import {withConfiguration} from "../contexts/configuration"
 
 const Header = ({ date, cfpUrl, ticketsUrl }) => (
   <div className={styles.container}>
@@ -29,4 +30,8 @@ const Header = ({ date, cfpUrl, ticketsUrl }) => (
   </div>
 )
 
-export default Header
+export default withConfiguration(config => ({
+  date: config.date,
+  cfpUrl: config.cfpUrl,
+  ticketsUrl: config.ticketsUrl
+}))(Header)

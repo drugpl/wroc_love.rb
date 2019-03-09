@@ -1,5 +1,5 @@
 import React from 'react'
-import Responsive, { ResponsiveProvider } from '../components/responsive'
+import Responsive, { ResponsiveProvider } from '../components/contexts/responsive'
 import Head from '../components/head'
 import Header from '../components/header'
 import Logo from '../components/logo'
@@ -16,107 +16,84 @@ import Footer from '../components/footer'
 import styles from './index.scss'
 import extendWithConferenceData from '../utils/extend_with_conference_data'
 import SocialMedia from "../components/footer/social_media"
+import { ConfigurationProvider } from '../components/contexts/configuration'
 
 class Home extends React.Component {
-  getTalksList(agenda) {
-    if(!agenda) {
-      return []
-    }
-
-    return agenda.reduce((list, day) => {
-      const { date, talks } = day
-      talks.forEach(talk => {
-        const { start, end, title, speaker } = talk
-        const startTime = new Date(`${date} ${start}:00`)
-        const endTime = new Date(`${date} ${end}:00`)
-
-        list.push({
-          date, start, end, title, speaker, startTime, endTime
-        })
-      })
-      return list
-    }, [])
-  }
-
   render() {
-    const {
-      date, cfpUrl, ticketsUrl, facebookUrl, twitterUrl, youtubeUrl, speakers, agenda, supporters, partners, venue
-    } = this.config()
-
-    const talksList = this.getTalksList(agenda)
-
     return (
       <ResponsiveProvider>
-        <div className={styles.body}>
-          <Head/>
-          <div className={`${styles.container} ${styles.container_stretched}`}>
-            <div className={styles.column1}>
-              <Logo/>
-            </div>
-            <div className={styles.column2}>
-              <Header date={date} cfpUrl={cfpUrl} ticketsUrl={ticketsUrl}/>
-            </div>
-          </div>
-
-          <Responsive tablet>
-            <Postcard talksList={talksList} />
-          </Responsive>
-
-          <div className={styles.container}>
-            <div className={styles.column1}>
-              <Responsive mobile>
-                <Postcard talksList={talksList} />
-              </Responsive>
-              <ConfrontIdeas/>
-              <Agenda agenda={agenda} talksList={talksList}/>
-              <Responsive tablet>
-                <Supporters supporters={supporters}/>
-                <Partners partners={partners}/>
-                <Twitter/>
-              </Responsive>
-            </div>
-
-            <div className={styles.column2}>
-              <Responsive desktop desktophd>
-                <Postcard talksList={talksList} />
-              </Responsive>
-              <div className={styles.content}>
-                <Responsive mobile desktop desktophd>
-                  <div className={styles.content_column}>
-                    <Speakers speakers={speakers}/>
-                  </div>
-                  <div className={styles.content_column}>
-                    <Location venue={venue}/>
-                    <Partners partners={partners}/>
-                    <Supporters supporters={supporters}/>
-                    <Twitter/>
-                    <TalksArchive/>
-                  </div>
-                </Responsive>
-                <Responsive tablet>
-                  <div className={styles.content_column}>
-                    <Speakers speakers={speakers}/>
-                    <Location venue={venue}/>
-                    <TalksArchive/>
-                  </div>
-                </Responsive>
+        <ConfigurationProvider config={this.config()}>
+          <div className={styles.body}>
+            <Head/>
+            <div className={`${styles.container} ${styles.container_stretched}`}>
+              <div className={styles.column1}>
+                <Logo/>
+              </div>
+              <div className={styles.column2}>
+                <Header />
               </div>
             </div>
-          </div>
-          <div className={styles.container}>
-            <div className={styles.column1}>
-              <Footer/>
+
+            <Responsive tablet>
+              <Postcard />
+            </Responsive>
+
+            <div className={styles.container}>
+              <div className={styles.column1}>
+                <Responsive mobile>
+                  <Postcard />
+                </Responsive>
+                <ConfrontIdeas/>
+                <Agenda />
+                <Responsive tablet>
+                  <Supporters />
+                  <Partners />
+                  <Twitter/>
+                </Responsive>
+              </div>
+
+              <div className={styles.column2}>
+                <Responsive desktop desktophd>
+                  <Postcard />
+                </Responsive>
+                <div className={styles.content}>
+                  <Responsive mobile desktop desktophd>
+                    <div className={styles.content_column}>
+                      <Speakers />
+                    </div>
+                    <div className={styles.content_column}>
+                      <Location />
+                      <Partners />
+                      <Supporters />
+                      <Twitter/>
+                      <TalksArchive/>
+                    </div>
+                  </Responsive>
+                  <Responsive tablet>
+                    <div className={styles.content_column}>
+                      <Speakers />
+                      <Location />
+                      <TalksArchive/>
+                    </div>
+                  </Responsive>
+                </div>
+              </div>
             </div>
-            <div className={styles.column2}>
-              <div className={styles.footer}>
-                <div className={styles.footer_empty}/>
-                <div className={styles.footer_sm}>
-                  <SocialMedia facebookUrl={facebookUrl} twitterUrl={twitterUrl} youtubeUrl={youtubeUrl}/>
+            <div className={styles.container}>
+              <div className={styles.column1}>
+                <Footer/>
+              </div>
+              <div className={styles.column2}>
+                <div className={styles.footer}>
+                  <div className={styles.footer_empty}/>
+                  <div className={styles.footer_sm}>
+                    <SocialMedia />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </ConfigurationProvider>
       </ResponsiveProvider>
     )
   }

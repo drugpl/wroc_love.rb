@@ -2,29 +2,33 @@ import React, { useState } from "react";
 import nl2br from "react-nl2br";
 import styles from "./index.scss";
 import SectionHeader from "../section_header";
-import header from './header.png'
+import header from "./header.png";
+import { withConfiguration } from "../contexts/configuration";
+import talksList from "../../utils/talks_list";
 
 const getCurrentTalk = (now, talksList) => {
   const talk = talksList.find(
     talk => talk.startTime <= now && talk.endTime >= now
   );
 
-  if(talk) {
-    return talk
+  if (talk) {
+    return talk;
   } else {
-    return talksList.sort((a, b) => Math.abs(a.startTime - now) - Math.abs(b.startTime - now))[0]
+    return talksList.sort(
+      (a, b) => Math.abs(a.startTime - now) - Math.abs(b.startTime - now)
+    )[0];
   }
-}
+};
 
 const Agenda = ({ agenda, talksList }) => {
   const now = new Date();
   const currentTalk = getCurrentTalk(now, talksList);
 
-  const isCurrentTalk = (date, talk) => (
-    currentTalk && (date === currentTalk.date &&
-    talk.start === currentTalk.start &&
-    talk.end === currentTalk.end)
-  )
+  const isCurrentTalk = (date, talk) =>
+    currentTalk &&
+    (date === currentTalk.date &&
+      talk.start === currentTalk.start &&
+      talk.end === currentTalk.end);
 
   return (
     <div className={styles.container}>
@@ -38,7 +42,9 @@ const Agenda = ({ agenda, talksList }) => {
             <div className={styles.day_calendar}>
               {talks.map((talk, index) => (
                 <div
-                  className={`${styles.talk} ${isCurrentTalk(date, talk) ? styles.talk_active : ''}`}
+                  className={`${styles.talk} ${
+                    isCurrentTalk(date, talk) ? styles.talk_active : ""
+                  }`}
                   key={index}
                 >
                   <div className={styles.talk_time}>
@@ -60,4 +66,7 @@ const Agenda = ({ agenda, talksList }) => {
   );
 };
 
-export default Agenda;
+export default withConfiguration(config => ({
+  agenda: config.agenda,
+  talksList: talksList(config.agenda)
+}))(Agenda);
