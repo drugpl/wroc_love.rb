@@ -1,15 +1,6 @@
 @import '../scss/mixins';
 
 @font-face {
-  font-family: 'sk-modernistbold';
-  src: url('/static/fonts/sk-modernist-bold-web.woff2') format('woff2'),
-  url('/static/fonts/sk-modernist-bold-web.woff') format('woff'),
-  url('/static/fonts/sk-modernist-bold-web.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'sk-modernistlight';
   src: url('/static/fonts/sk-modernist-light-web.woff2') format('woff2'),
   url('/static/fonts/sk-modernist-light-web.woff') format('woff'),
@@ -32,7 +23,7 @@
 }
 
 body {
-  font-family: 'sk-modernistlight';
+  font-family: 'sk-modernistlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 10px;
   line-height: 1.25;
@@ -94,12 +85,12 @@ a:hover, a:focus {
 
   h1 {
     font-size: 1.5em;
-    font-family: 'sk-modernistregular';
+    font-family: 'sk-modernistregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   h2 {
     font-size: 1.25em;
-    font-family: 'sk-modernistregular';
+    font-family: 'sk-modernistregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 }
 
