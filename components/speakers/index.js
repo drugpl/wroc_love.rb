@@ -8,7 +8,7 @@ const Speakers = ({ speakers }) => (
   <div className={styles.container}>
     <SectionHeader>Speakers</SectionHeader>
     {speakers.map((speaker, index) => (
-      <Speaker {...speaker} index={index} />
+      <Speaker {...speaker} key={index} />
     ))}
   </div>
 );
