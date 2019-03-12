@@ -30,8 +30,8 @@ const Head = props => (
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
-    <script type='text/javascript'>
-      {`var _gaq = _gaq || [];
+    <script type='text/javascript' dangerouslySetInnerHTML={{ __html: `
+      var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-24474861-1']);
       _gaq.push(['_trackPageview']);
 
@@ -40,7 +40,7 @@ const Head = props => (
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-      `}
+      `}}>
     </script>
   </NextHead>
 )
