@@ -18,7 +18,6 @@
   width: 100%;
   height: 10vw;
   position: relative;
-  padding: 15px;
   border-bottom: 1px solid black;
 
   span {
@@ -44,5 +43,18 @@
 @include mobile {
   .supporter {
     height: 15vh;
+  }
+}
+
+@include desktophd {
+  .supporter {
+    height: 8vw;
+
+    span {
+      left: 30px;
+      top: 10px;
+      width: calc(100% - 60px);
+      height: calc(100% - 20px);
+    }
   }
 }
