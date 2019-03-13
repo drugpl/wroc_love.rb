@@ -1,16 +1,12 @@
 {
   "title": "wroc_love.rb 2019",
   "description": "wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
-
   "date": "March 22-24, 2019",
-
   "cfpUrl": false,
   "ticketsUrl": "https://wrocloverb.konfeo.com",
-
   "facebookUrl": "https://facebook.com/wroclove.rb/",
   "twitterUrl": "https://twitter.com/wrocloverb",
   "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
-
   "speakers": [
     {
       "name": "Chris Seaton",
@@ -68,11 +64,6 @@
       "name": "Dmitry Salahutdinov",
       "description": "",
       "image": "/static/speakers/dmitry-salahutdinov.jpeg"
-    },
-    {
-      "name": "Ike Kurghinyan",
-      "description": "Ike is a software engineering researcher with passion for computer science and its applications in modern day-to-day programming. His wast background includes such topics as conversational, type and aircraft designs.",
-      "image": "/static/speakers/ike-kurghinyan.jpg"
     },
     {
       "name": "Michał Matyas",
@@ -162,22 +153,16 @@
         {
           "start": "17:00",
           "end": "17:30",
-          "title": "Monads are monoids in the category of endofunctors’ explained",
-          "speaker": "Ike Kurghinyan"
-        },
-        {
-          "start": "18:00",
-          "end": "18:30",
           "title": "Optimistic UI & Live updates with Logux",
           "speaker": "Dmitry Salahutdinov"
         },
         {
-          "start": "19:00",
-          "end": "20:00",
+          "start": "18:00",
+          "end": "19:00",
           "title": "Lightning talks - 12 x 5 minutes"
         },
         {
-          "start": "21:00",
+          "start": "20:00",
           "end": "23:00",
           "speaker": "Main party at Mleczarnia",
           "title": "ul. Włodkowica 5"
