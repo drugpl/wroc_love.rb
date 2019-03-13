@@ -8,7 +8,7 @@ const TalksArchive = () => (
       Talks Archive
     </SectionHeader>
     <div className={styles.embed}>
-      <iframe src="http://www.youtube.com/embed/?listType=user_uploads&list=wrocloverb" allowFullScreen/>
+      <iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=wrocloverb" allowFullScreen/>
     </div>
   </div>
 )
