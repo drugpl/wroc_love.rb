@@ -10,20 +10,25 @@ const extendWithConferenceData = componentKlass => {
       return
     }
 
-    this.setState({ config: this.props.initialConfig })
-
-    this.interval = setInterval(async () => {
+    this.fetchData = async () => {
       const response = await fetch('/static/conference.json')
       this.setState({ config: await response.json() })
-    }, 10000)
+    }
+
+    this.setState({ config: this.props.initialConfig })
+
+    this.interval = setInterval(this.fetchData, 10000)
 
     if(typeof componentDidMount === 'function') {
       componentDidMount.call(this)
     }
+
+    window.addEventListener('focus', this.fetchData)
   }
 
   componentKlass.prototype.componentWillUnmount = function() {
     clearInterval(this.interval)
+    window.removeEventListener('focus', this.fetchData)
     if(typeof componentWillUnmount === 'function') {
       componentWillUnmount.call(this)
     }
