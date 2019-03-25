@@ -2,7 +2,7 @@
   "title": "wroc_love.rb 2019",
   "description": "wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
   "date": "March 22-24, 2019",
-  "cfpUrl": false,
+  "cfpUrl": "https://cfp-wrocloverb.herokuapp.com/",
   "ticketsUrl": false,
   "facebookUrl": "https://facebook.com/wroclove.rb/",
   "twitterUrl": "https://twitter.com/wrocloverb",
