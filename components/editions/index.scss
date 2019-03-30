@@ -1,0 +1,73 @@
+@import '../../scss/mixins';
+
+.container {
+  margin: 0 10px 10px 10px;
+  border: 1px solid black;
+  padding: 1vw;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  font-family: 'sk-modernistregular';
+}
+
+.editions {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  li {
+    width: 33%;
+    font-size: 1.5vw;
+    margin: 0.5vw 0;
+    display: inline-block;
+
+    &:nth-child(3n+2) {
+      text-align: center;
+    }
+
+    &:nth-child(3n+3) {
+      text-align: right;
+    }
+  }
+}
+
+@include tablet {
+  .container {
+    margin-top: 10px;
+  }
+
+  .header {
+    font-size: 2vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .editions {
+    li {
+      font-size: 2vw;
+    }
+  }
+}
+
+@include mobile {
+  .container {
+    padding: 1vh;
+    margin-top: 10px;
+  }
+
+  .header {
+    font-size: 2vh;
+    margin-bottom: 0.5vh;
+  }
+
+  .editions {
+    li {
+      font-size: 2vh;
+    }
+  }
+}

@@ -74,7 +74,6 @@ a:hover, a:focus {
 
     &:first-child {
       border-right: 1px solid black;
-
     }
   }
 }
@@ -166,5 +165,13 @@ a:hover, a:focus {
   .text_page {
     padding: 0 15px;
     font-size: 2vw;
+  }
+
+  .content {
+    .content_column {
+      &:first-child {
+        border-right: 0;
+      }
+    }
   }
 }
