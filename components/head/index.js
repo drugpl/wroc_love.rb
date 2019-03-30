@@ -2,7 +2,7 @@ import React from 'react'
 import NextHead from 'next/head'
 import { string } from 'prop-types'
 import { withConfiguration } from '../contexts/configuration'
-import ogImage from './og_image.jpg'
+import ogImage from './og_image.png'
 
 const Head = props => (
   <NextHead>
