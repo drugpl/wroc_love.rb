@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./index.scss";
-import { withConfiguration } from "../contexts/configuration";
+import React from "react"
+import styles from "./index.scss"
+import { withConfiguration } from "../contexts/configuration"
 
 const Editions = ({ editions }) => (
   <div className={styles.container}>
@@ -14,8 +14,8 @@ const Editions = ({ editions }) => (
       ))}
     </ul>
   </div>
-);
+)
 
 export default withConfiguration(config => ({
   editions: config.editions
-}))(Editions);
+}))(Editions)

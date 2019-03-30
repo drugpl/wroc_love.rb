@@ -1,5 +1,5 @@
-import React from 'react';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import React from "react"
+import { TwitterTimelineEmbed } from "react-twitter-embed"
 import styles from "./timeline.scss"
 
 const Timeline = () => (

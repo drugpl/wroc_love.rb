@@ -1,22 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import MediaQuery from 'react-responsive';
+import React, { useState, useEffect } from "react"
+import PropTypes from "prop-types"
+import MediaQuery from "react-responsive"
 
 const queries = {
-  mobile: '(max-width: 767px)',
-  tablet: '(min-width: 768px) and (max-width: 991px)',
-  desktop: '(min-width: 992px) and (max-width: 1199px)',
-  desktophd: '(min-width: 1200px)'
+  mobile: "(max-width: 767px)",
+  tablet: "(min-width: 768px) and (max-width: 991px)",
+  desktop: "(min-width: 992px) and (max-width: 1199px)",
+  desktophd: "(min-width: 1200px)"
 }
 
-const createMediaQuery = props => (
-  Object.keys(props).reduce((arr, propName) => {
-    if(queries[propName]) {
-      arr.push(queries[propName])
-    }
-    return arr
-  }, []).join(', ')
-)
+const createMediaQuery = props =>
+  Object.keys(props)
+    .reduce((arr, propName) => {
+      if (queries[propName]) {
+        arr.push(queries[propName])
+      }
+      return arr
+    }, [])
+    .join(", ")
 
 export const ResponsiveContext = React.createContext(false)
 
@@ -33,17 +34,14 @@ export const ResponsiveProvider = ({ children }) => {
   )
 }
 
-
 const Responsive = ({ children, ...props }) => (
   <ResponsiveContext.Consumer>
     {value => {
-      if(!process.browser) {
+      if (!process.browser) {
         return props.desktophd && children
       }
       return value ? (
-        <MediaQuery query={createMediaQuery(props)}>
-          {children}
-        </MediaQuery>
+        <MediaQuery query={createMediaQuery(props)}>{children}</MediaQuery>
       ) : (
         props.desktophd && children
       )

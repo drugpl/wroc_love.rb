@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import styles from "./index.scss";
-import arrow from "./arrow.svg";
+import React, { useState } from "react"
+import styles from "./index.scss"
+import arrow from "./arrow.svg"
 
 const ConfrontIdeas = () => {
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(false)
 
   return (
     <div className={styles.container} onClick={() => setVisible(!visible)}>
@@ -54,7 +54,7 @@ const ConfrontIdeas = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default ConfrontIdeas;
+export default ConfrontIdeas

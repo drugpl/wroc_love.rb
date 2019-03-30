@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import nl2br from "react-nl2br";
-import styles from "./index.scss";
-import SectionHeader from "../section_header";
-import header from "./header.png";
-import { withConfiguration } from "../contexts/configuration";
-import talksList from "../../utils/talks_list";
+import React, { useState } from "react"
+import nl2br from "react-nl2br"
+import styles from "./index.scss"
+import SectionHeader from "../section_header"
+import header from "./header.png"
+import { withConfiguration } from "../contexts/configuration"
+import talksList from "../../utils/talks_list"
 
 class Agenda extends React.Component {
   state = { renderDot: false }
@@ -15,32 +15,34 @@ class Agenda extends React.Component {
   currentTalk(now, talksList) {
     const talk = talksList.find(
       talk => talk.startTime <= now && talk.endTime >= now
-    );
+    )
 
     if (talk) {
-      return talk;
+      return talk
     } else {
       return talksList.sort(
         (a, b) => Math.abs(a.startTime - now) - Math.abs(b.startTime - now)
-      )[0];
+      )[0]
     }
   }
 
   isCurrentTalk(currentTalk, talk, date) {
     if (!this.state.renderDot) {
-      return false;
+      return false
     }
 
-    return currentTalk &&
+    return (
+      currentTalk &&
       (date === currentTalk.date &&
         talk.start === currentTalk.start &&
-        talk.end === currentTalk.end);
+        talk.end === currentTalk.end)
+    )
   }
 
   render() {
     const { agenda, talksList } = this.props
-    const now = new Date();
-    const currentTalk = this.currentTalk(now, talksList);
+    const now = new Date()
+    const currentTalk = this.currentTalk(now, talksList)
 
     return (
       <div className={styles.container}>
@@ -55,8 +57,10 @@ class Agenda extends React.Component {
                 {talks.map((talk, index) => (
                   <div
                     className={`${styles.talk} ${
-                      this.isCurrentTalk(currentTalk, talk, date) ? styles.talk_active : ""
-                      }`}
+                      this.isCurrentTalk(currentTalk, talk, date)
+                        ? styles.talk_active
+                        : ""
+                    }`}
                     key={index}
                   >
                     <div className={styles.talk_time}>
@@ -64,9 +68,13 @@ class Agenda extends React.Component {
                     </div>
                     <div className={styles.talk_description}>
                       {talk.speaker && (
-                        <div className={styles.talk_speaker}>{talk.speaker}</div>
+                        <div className={styles.talk_speaker}>
+                          {talk.speaker}
+                        </div>
                       )}
-                      <div className={styles.talk_name}>{nl2br(talk.title)}</div>
+                      <div className={styles.talk_name}>
+                        {nl2br(talk.title)}
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -75,11 +83,11 @@ class Agenda extends React.Component {
           </div>
         ))}
       </div>
-    );
+    )
   }
 }
 
 export default withConfiguration(config => ({
   agenda: config.agenda,
   talksList: talksList(config.agenda)
-}))(Agenda);
+}))(Agenda)

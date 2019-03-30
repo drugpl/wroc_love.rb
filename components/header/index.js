@@ -1,16 +1,16 @@
-import React from 'react';
-import styles from './index.scss'
-import {withConfiguration} from "../contexts/configuration"
+import React from "react"
+import styles from "./index.scss"
+import { withConfiguration } from "../contexts/configuration"
 
 const Header = ({ date, cfpUrl, ticketsUrl }) => (
   <div className={styles.container}>
-    <div className={styles.date}>
-      {date}
-    </div>
+    <div className={styles.date}>{date}</div>
     <div className={styles.links}>
       {cfpUrl ? (
         <div className={styles.cfp}>
-          <a href={cfpUrl} className={styles.cfp_url}>Call for papers</a>
+          <a href={cfpUrl} className={styles.cfp_url}>
+            Call for papers
+          </a>
         </div>
       ) : (
         <div className={`${styles.cfp} ${styles.cfp_disabled}`}>
@@ -19,7 +19,9 @@ const Header = ({ date, cfpUrl, ticketsUrl }) => (
       )}
       {ticketsUrl ? (
         <div className={styles.tickets}>
-          <a href={ticketsUrl} className={styles.tickets_url}>GET TICKETS</a>
+          <a href={ticketsUrl} className={styles.tickets_url}>
+            GET TICKETS
+          </a>
         </div>
       ) : (
         <div className={`${styles.tickets} ${styles.tickets_disabled}`}>

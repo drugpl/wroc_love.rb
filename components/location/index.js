@@ -1,12 +1,12 @@
-import React from "react";
-import SectionHeader from "../section_header";
-import styles from "./index.scss";
-import dynamic from "next/dynamic";
-import { withConfiguration } from "../contexts/configuration";
+import React from "react"
+import SectionHeader from "../section_header"
+import styles from "./index.scss"
+import dynamic from "next/dynamic"
+import { withConfiguration } from "../contexts/configuration"
 
 const Map = dynamic(() => import("./venue_map"), {
   ssr: false
-});
+})
 
 const Location = ({ venue }) => (
   <div className={styles.container}>
@@ -15,6 +15,6 @@ const Location = ({ venue }) => (
       <Map venue={venue} />
     </div>
   </div>
-);
+)
 
-export default withConfiguration(({ venue }) => ({ venue }))(Location);
+export default withConfiguration(({ venue }) => ({ venue }))(Location)
