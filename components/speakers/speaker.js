@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import PropTypes from 'prop-types';
-import nl2br from "react-nl2br";
-import styles from "./speaker.scss";
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import nl2br from "react-nl2br"
+import styles from "./speaker.scss"
 
 const Speaker = ({ image, name, description, links }) => {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(false)
 
   return (
     <div
@@ -35,8 +35,8 @@ const Speaker = ({ image, name, description, links }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 Speaker.propTypes = {
   image: PropTypes.string,
@@ -48,6 +48,6 @@ Speaker.propTypes = {
     PropTypes.string
   ]),
   links: PropTypes.object
-};
+}
 
-export default Speaker;
+export default Speaker

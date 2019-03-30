@@ -1,13 +1,13 @@
-import React from 'react'
-import NextHead from 'next/head'
-import { string } from 'prop-types'
-import { withConfiguration } from '../contexts/configuration'
-import ogImage from './og_image.png'
+import React from "react"
+import NextHead from "next/head"
+import { string } from "prop-types"
+import { withConfiguration } from "../contexts/configuration"
+import ogImage from "./og_image.png"
 
 const Head = props => (
   <NextHead>
     <meta charSet="UTF-8" />
-    <title>{props.title || ''}</title>
+    <title>{props.title || ""}</title>
     <meta
       name="description"
       content={props.description || defaultDescription}
@@ -18,10 +18,7 @@ const Head = props => (
     <link rel="icon" href="/static/favicon.png" />
     <meta property="og:url" content={props.url} />
     <meta property="og:title" content={props.title} />
-    <meta
-      property="og:description"
-      content={props.description}
-    />
+    <meta property="og:description" content={props.description} />
     <meta name="twitter:site" content={props.url} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={ogImage} />
@@ -30,7 +27,10 @@ const Head = props => (
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
-    <script type='text/javascript' dangerouslySetInnerHTML={{ __html: `
+    <script
+      type="text/javascript"
+      dangerouslySetInnerHTML={{
+        __html: `
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-24474861-1']);
       _gaq.push(['_trackPageview']);
@@ -40,8 +40,9 @@ const Head = props => (
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-      `}}>
-    </script>
+      `
+      }}
+    />
   </NextHead>
 )
 

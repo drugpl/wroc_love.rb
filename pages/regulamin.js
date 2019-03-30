@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import Head from "../components/head";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import styles from "./index.scss";
-import Logo from "../components/logo";
-import extendWithConferenceData from "../utils/extend_with_conference_data";
-import SocialMedia from "../components/footer/social_media";
-import { ResponsiveProvider } from "../components/contexts/responsive";
-import { ConfigurationProvider } from "../components/contexts/configuration";
+import React, { Component } from "react"
+import Head from "../components/head"
+import Header from "../components/header"
+import Footer from "../components/footer"
+import styles from "./index.scss"
+import Logo from "../components/logo"
+import extendWithConferenceData from "../utils/extend_with_conference_data"
+import SocialMedia from "../components/footer/social_media"
+import { ResponsiveProvider } from "../components/contexts/responsive"
+import { ConfigurationProvider } from "../components/contexts/configuration"
 
 class Regulamin extends Component {
   render() {
@@ -226,8 +226,8 @@ class Regulamin extends Component {
           </div>
         </ConfigurationProvider>
       </ResponsiveProvider>
-    );
+    )
   }
 }
 
-export default extendWithConferenceData(Regulamin);
+export default extendWithConferenceData(Regulamin)

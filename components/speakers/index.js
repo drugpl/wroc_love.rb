@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./index.scss";
-import SectionHeader from "../section_header";
-import Speaker from "./speaker";
-import { withConfiguration } from "../contexts/configuration";
+import React from "react"
+import styles from "./index.scss"
+import SectionHeader from "../section_header"
+import Speaker from "./speaker"
+import { withConfiguration } from "../contexts/configuration"
 
 const Speakers = ({ speakers }) => (
   <div className={styles.container}>
@@ -11,6 +11,6 @@ const Speakers = ({ speakers }) => (
       <Speaker {...speaker} key={index} />
     ))}
   </div>
-);
+)
 
-export default withConfiguration(({ speakers }) => ({ speakers }))(Speakers);
+export default withConfiguration(({ speakers }) => ({ speakers }))(Speakers)

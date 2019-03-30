@@ -1,25 +1,25 @@
-import React from "react";
+import React from "react"
 import Responsive, {
   ResponsiveProvider
-} from "../components/contexts/responsive";
-import Head from "../components/head";
-import Header from "../components/header";
-import Logo from "../components/logo";
-import ConfrontIdeas from "../components/confront_ideas";
-import Postcard from "../components/postcard";
-import Agenda from "../components/agenda";
-import Speakers from "../components/speakers";
-import Location from "../components/location";
-import Partners from "../components/partners";
-import Supporters from "../components/supporters";
-import TalksArchive from "../components/talks_archive";
-import Twitter from "../components/twitter";
-import Editions from "../components/editions";
-import Footer from "../components/footer";
-import styles from "./index.scss";
-import extendWithConferenceData from "../utils/extend_with_conference_data";
-import SocialMedia from "../components/footer/social_media";
-import { ConfigurationProvider } from "../components/contexts/configuration";
+} from "../components/contexts/responsive"
+import Head from "../components/head"
+import Header from "../components/header"
+import Logo from "../components/logo"
+import ConfrontIdeas from "../components/confront_ideas"
+import Postcard from "../components/postcard"
+import Agenda from "../components/agenda"
+import Speakers from "../components/speakers"
+import Location from "../components/location"
+import Partners from "../components/partners"
+import Supporters from "../components/supporters"
+import TalksArchive from "../components/talks_archive"
+import Twitter from "../components/twitter"
+import Editions from "../components/editions"
+import Footer from "../components/footer"
+import styles from "./index.scss"
+import extendWithConferenceData from "../utils/extend_with_conference_data"
+import SocialMedia from "../components/footer/social_media"
+import { ConfigurationProvider } from "../components/contexts/configuration"
 
 class Home extends React.Component {
   render() {
@@ -107,8 +107,8 @@ class Home extends React.Component {
           </div>
         </ConfigurationProvider>
       </ResponsiveProvider>
-    );
+    )
   }
 }
 
-export default extendWithConferenceData(Home);
+export default extendWithConferenceData(Home)
