@@ -8,7 +8,13 @@
   "twitterUrl": "https://twitter.com/wrocloverb",
   "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
   "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
-  "speakers": [],
+  "speakers": [
+    {
+      "name": "Anthony Nguyen",
+      "description": "Anthony is a senior software developer at Shopify working on the Shipping team, helping merchants get their physical products to their customers. In his spare time he maintains SyntaxDB, a quick syntax lookup for those times you blank on how to write a case statement for the 100th time.",
+      "image": "/static/speakers/anthony-nguyen.jpeg"
+    }
+  ],
   "agenda": [
     {
       "label": "DAY1: Friday\nMarch 20",
