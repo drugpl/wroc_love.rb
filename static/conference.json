@@ -32,6 +32,11 @@
       "name": "Tomasz Wróbel",
       "description": "Ruby programmer. VP of Small Talk at Arkency. Occasionally has something interesting to say - at least this is what he likes to believe. Sometimes substitutes substance with humour.",
       "image": "/static/speakers/tomasz-wrobel.jpg"
+    },
+    {
+      "name": "Aleksandra Kunysz",
+      "description": "Ola Kunysz is a software engineer who spreads knowledge about tests and quality among programmers. She gained her experience in various projects in Europe and the United States. She likes to talk to people and learn difficult answers to simple questions.",
+      "image": "/static/speakers/aleksandra-kunysz.jpg"
     }
   ],
   "agenda": [
