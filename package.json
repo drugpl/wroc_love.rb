@@ -34,9 +34,14 @@
   },
   "lint-staged": {
     "linters": {
-      "*.js": ["prettier --write", "git add"]
+      "*.js": [
+        "prettier --write",
+        "git add"
+      ]
     },
-    "ignore": ["**/dist/*.min.js"]
+    "ignore": [
+      "**/dist/*.min.js"
+    ]
   },
   "heroku-run-build-script": true
 }
