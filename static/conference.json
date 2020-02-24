@@ -20,6 +20,18 @@
         "html": "full-stack developer fully in love with backend written in Ruby aka <a href=\"https://womanonrails.com\">Woman on Rails</a>. <a href=\"https://fractalsoft.org/community/rails-girls\">Rails Girls</a> mentor and organizer. Offline dancer.<br/><br/>When you hear TDD probably you think \"Oh! I know that already. It's simple. Nothing new. Boring...\" When did you use TDD last time in your project? \"Well, my project is special. I cannot use TDD there\". I think you can! You can not? Try harder! In this presentation we will take the TDD we know already for a long time and bring it back to the future of our code. Let's not focus on the theory too much and let's practice TDD together with examples. We will go step by step, so if you aren't afraid of a lot of code then join me in this TDD time-travel."
       },
       "image": "/static/speakers/agnieszka-malaszkiewicz.jpg"
+    },
+    {
+      "name": "Krzysztof Owsiany",
+      "description": {
+        "html": "I am a developer from early age. I was faster learned coding than fluent reading. Now I have almost 25 year of experience in programming and still feel like junior developer.<br/><br/>Couple years ago I started to share my knowledge on blog, podcast, public speaking and vlogs. Nowadays I am .net developer and I'm trying to master DDD, TDD, BDD, EventStorming, EventModeling, Event Sourcing, Event Store.<br/><br/>Occasionally I'm trainer or public speaker and I'm trying to teach other people modeling of applications. (I really like wallpapering the wall with orange cards xD).<br/><br/>My Blog: <a href=\"https://mrdev.pl\">https://mrdev.pl</a>"
+      },
+      "image": "/static/speakers/krzysztof-owsiany.jpg"
+    },
+    {
+      "name": "Tomasz Wróbel",
+      "description": "Ruby programmer. VP of Small Talk at Arkency. Occasionally has something interesting to say - at least this is what he likes to believe. Sometimes substitutes substance with humour.",
+      "image": "/static/speakers/tomasz-wrobel.jpg"
     }
   ],
   "agenda": [
