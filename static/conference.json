@@ -1,4 +1,9 @@
 {
+  "cancellation": {
+    "content": "We are very sorry to inform that due to the fact of unclear situation in the following weeks because of the SARS-CoV-2 virus, we've decided to cancel the conference. All tickets will be refunded.<br/><br/>To receive a refund for your ticket, please fill the refund form.",
+    "cta": "Go to the refund form",
+    "url": "https://forms.gle/8fmrXQbKSSwCTsCU9"
+  },
   "title": "wroc_love.rb 2020",
   "description": "wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
   "date": "March 20-22, 2020",
