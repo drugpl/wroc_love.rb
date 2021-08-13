@@ -11,7 +11,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "leaflet": "^1.4.0",
-    "next": "^9.3.2",
+    "next": "^11.1.0",
     "next-images": "^1.0.4",
     "node-sass": "^4.11.0",
     "react": "^16.8.2",
