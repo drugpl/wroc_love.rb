@@ -1,12 +1,7 @@
 {
-  "cancellation": {
-    "content": "We are very sorry to inform that due to the fact of unclear situation in the following weeks because of the SARS-CoV-2 virus, we've decided to cancel the conference. All tickets will be refunded.<br/><br/>To receive a refund for your ticket, please fill the refund form.",
-    "cta": "Go to the refund form",
-    "url": "https://forms.gle/8fmrXQbKSSwCTsCU9"
-  },
-  "title": "wroc_love.rb 2020",
+  "title": "wroc_love.rb 2022",
   "description": "wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
-  "date": "March 20-22, 2020",
+  "date": "September 16-18, 2022",
   "cfpUrl": false,
   "ticketsUrl": false,
   "facebookUrl": "https://facebook.com/wroclove.rb/",
@@ -14,39 +9,10 @@
   "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
   "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
   "speakers": [
-    {
-      "name": "Anthony Nguyen",
-      "description": "Anthony is a senior software developer at Shopify working on the Shipping team, helping merchants get their physical products to their customers. In his spare time he maintains SyntaxDB, a quick syntax lookup for those times you blank on how to write a case statement for the 100th time.",
-      "image": "/static/speakers/anthony-nguyen.jpeg"
-    },
-    {
-      "name": "Agnieszka Małaszkiewicz",
-      "description": {
-        "html": "full-stack developer fully in love with backend written in Ruby aka <a href=\"https://womanonrails.com\">Woman on Rails</a>. <a href=\"https://fractalsoft.org/community/rails-girls\">Rails Girls</a> mentor and organizer. Offline dancer.<br/><br/>When you hear TDD probably you think \"Oh! I know that already. It's simple. Nothing new. Boring...\" When did you use TDD last time in your project? \"Well, my project is special. I cannot use TDD there\". I think you can! You can not? Try harder! In this presentation we will take the TDD we know already for a long time and bring it back to the future of our code. Let's not focus on the theory too much and let's practice TDD together with examples. We will go step by step, so if you aren't afraid of a lot of code then join me in this TDD time-travel."
-      },
-      "image": "/static/speakers/agnieszka-malaszkiewicz.jpg"
-    },
-    {
-      "name": "Krzysztof Owsiany",
-      "description": {
-        "html": "I am a developer from early age. I was faster learned coding than fluent reading. Now I have almost 25 year of experience in programming and still feel like junior developer.<br/><br/>Couple years ago I started to share my knowledge on blog, podcast, public speaking and vlogs. Nowadays I am .net developer and I'm trying to master DDD, TDD, BDD, EventStorming, EventModeling, Event Sourcing, Event Store.<br/><br/>Occasionally I'm trainer or public speaker and I'm trying to teach other people modeling of applications. (I really like wallpapering the wall with orange cards xD).<br/><br/>My Blog: <a href=\"https://mrdev.pl\">https://mrdev.pl</a>"
-      },
-      "image": "/static/speakers/krzysztof-owsiany.jpg"
-    },
-    {
-      "name": "Tomasz Wróbel",
-      "description": "Ruby programmer. VP of Small Talk at Arkency. Occasionally has something interesting to say - at least this is what he likes to believe. Sometimes substitutes substance with humour.",
-      "image": "/static/speakers/tomasz-wrobel.jpg"
-    },
-    {
-      "name": "Aleksandra Kunysz",
-      "description": "Ola Kunysz is a software engineer who spreads knowledge about tests and quality among programmers. She gained her experience in various projects in Europe and the United States. She likes to talk to people and learn difficult answers to simple questions.",
-      "image": "/static/speakers/aleksandra-kunysz.jpg"
-    }
   ],
   "agenda": [
     {
-      "label": "DAY1: Friday\nMarch 20",
+      "label": "DAY1: Friday\nSeptember 16",
       "date": "2020-03-20",
       "talks": [
         {
@@ -57,7 +23,7 @@
       ]
     },
     {
-      "label": "DAY2: Saturday\nMarch 21",
+      "label": "DAY2: Saturday\nSeptember 17",
       "date": "2020-03-21",
       "talks": [
         {
@@ -68,7 +34,7 @@
       ]
     },
     {
-      "label": "DAY3: Sunday\nMarch 22",
+      "label": "DAY3: Sunday\nSeptember 18",
       "date": "2020-03-22",
       "talks": [
         {
@@ -84,21 +50,6 @@
       "name": "Arkency",
       "link": "https://arkency.com/",
       "image": "arkency.png"
-    },
-    {
-      "name": "Selleo",
-      "link": "https://selleo.com/",
-      "image": "selleo.png"
-    },
-    {
-      "name": "iRonin",
-      "link": "https://www.ironin.it/",
-      "image": "ironin.png"
-    },
-    {
-      "name": "Useo",
-      "link": "https://www.useo.pl/",
-      "image": "useo.png"
     }
   ],
   "partners": [
