@@ -20,7 +20,6 @@ import styles from "./index.scss"
 import extendWithConferenceData from "../utils/extend_with_conference_data"
 import SocialMedia from "../components/footer/social_media"
 import { ConfigurationProvider } from "../components/contexts/configuration"
-import Cancellation from "../components/cancellation"
 
 class Home extends React.Component {
   render() {
@@ -28,8 +27,6 @@ class Home extends React.Component {
       <ResponsiveProvider>
         <ConfigurationProvider config={this.config()}>
           <div className={styles.body}>
-            <Cancellation />
-
             <Head />
             <div
               className={`${styles.container} ${styles.container_stretched}`}
