@@ -63,7 +63,7 @@ class Regulamin extends Component {
                   <ol>
                     <li>
                       <p>
-                        Konferencja odbędzie się w dniach 22-24 marca 2019 roku
+                        Konferencja odbędzie się w dniach 16-18 września 2022 roku
                         we Wrocławiu.
                       </p>
                     </li>
