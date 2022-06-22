@@ -50,6 +50,11 @@
       "name": "Arkency",
       "link": "https://arkency.com/",
       "image": "arkency.png"
+    },
+    {
+      "name": "netguru",
+      "link": "https://netguru.com/",
+      "image": "netguru.png"
     }
   ],
   "partners": [
