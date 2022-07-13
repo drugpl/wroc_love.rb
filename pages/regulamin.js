@@ -112,7 +112,7 @@ class Regulamin extends Component {
                     </li>
                     <li>
                       <p>
-                        Standardowy koszt uczestnictwa w konferencji wynosi 60
+                        Standardowy koszt uczestnictwa w konferencji wynosi 80
                         EUR.
                       </p>
                     </li>
