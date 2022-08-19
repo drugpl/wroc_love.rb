@@ -75,6 +75,11 @@
       "name": "upside",
       "link": "https://upsidelab.io/",
       "image": "upside.png"
+    },
+    {
+      "name": "kruko",
+      "link": "https://www.kruko.io/",
+      "image": "kruko.png"
     }
   ],
   "partners": [
