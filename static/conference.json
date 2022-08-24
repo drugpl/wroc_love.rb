@@ -90,6 +90,11 @@
       "name": "prowly",
       "link": "https://prowly.com/",
       "image": "prowly.png"
+    },
+    {
+      "name": "maxio",
+      "link": "https://www.maxio.com/",
+      "image": "maxio.png"
     }
   ],
   "partners": [
