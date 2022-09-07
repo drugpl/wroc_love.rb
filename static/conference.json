@@ -12,35 +12,103 @@
   ],
   "agenda": [
     {
-      "label": "DAY1: Friday\nSeptember 16",
-      "date": "2020-03-20",
+      "label": "DAY 1: Friday\nSeptember 16",
+      "date": "2022-09-16",
       "talks": [
         {
+          "start": "16:00",
+          "end": "17:00",
+          "title": "Registration"
+        },
+        {
           "start": "00:00",
-          "end": "23:59",
-          "title": "TBA"
+          "end": "00:00",
+          "speaker": "Adrian Marin",
+          "title": "How To Package A Rails Engine: Generation To Automation."
+        }, 
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Nick Sutterer",
+          "title": "TBD"
         }
       ]
     },
     {
-      "label": "DAY2: Saturday\nSeptember 17",
-      "date": "2020-03-21",
+      "label": "DAY 2: Saturday\nSeptember 17",
+      "date": "2022-09-17",
       "talks": [
         {
           "start": "00:00",
-          "end": "23:59",
-          "title": "TBA"
+          "end": "00:00",
+          "speaker": "Paweł Strzałkowski",
+          "title": "Introduction To Event Sourcing. How To Use It With Ruby?"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Andrzej Krzywda",
+          "title": "Typical DDDomains In Rails Apps"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Rafał Rothenberger",
+          "title": "Securing Authentication With Rails And Devise"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Mariusz Gil",
+          "title": "TBD"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Paweł Dąbrowski",
+          "title": "Under The Hood And On The Surface Of Sidekiq"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Michał Zajączkowski-de Mezer",
+          "title": "How To Ensure Systems Do What We Want And Take Care Of Themselves?"
         }
       ]
     },
     {
-      "label": "DAY3: Sunday\nSeptember 18",
-      "date": "2020-03-22",
+      "label": "DAY 3: Sunday\nSeptember 18",
+      "date": "2022-09-18",
       "talks": [
         {
           "start": "00:00",
-          "end": "23:59",
-          "title": "TBA"
+          "end": "00:00",
+          "speaker": "Yaroslav Shamarov",
+          "title": "TBD: Hotwire"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Anita Jaszewska",
+          "title": "Dealing With A Project's Complexity In A Changing Environment"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Sergey Sergyenko",
+          "title": "Data Management With Ruby"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Greg Young",
+          "title": "TBD"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Norbert Wójtowicz",
+          "title": "Grokking FP For The Practicing Rubyist"
         }
       ]
     }
