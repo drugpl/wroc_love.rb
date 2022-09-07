@@ -9,6 +9,42 @@
   "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
   "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
   "speakers": [
+    {
+      "image": "/static/supporters/anita-jaszewska.png",
+      "name": "Anita Jaszewska",
+      "description": "Anita is a self-learner who entered the IT world through Rails Girls workshops back in 2013. Her business background and a strong interest in people made her naturally drawn to product-related teams and solving user problems using code. She worked in various international companies of different sizes and collected experience as a developer. In the meantime, she started a master's degree in psychology. Initially a hobby, with time, psychology turned into a valuable experience that helped her transition to a managerial path. In her free time, Anita enjoys nature and modern art.",
+      "links": {"name": "twitter", "link": "https://twitter.com/anita_jaszewska"}
+    },
+    {
+      "image": "/static/supporters/sergey-sergyenko.jpg",
+      "name": "Sergey Sergyenko",
+      "description": "Sergey is the CEO of Cybergizer (cybergizer.eu) - Venture Builder and Technology Accelerator located in Vilnius, Lithuania. Apart from that, he's a founder of BRUG - Belarus Ruby User Group, Rubizza - Ruby Survival School and Ruby News - Ruby Weekly News Digest.",
+      "links": {"name": "twitter", "link": "https://twitter.com/sergyenko"}
+    },
+    {
+      "image": "/static/supporters/pawel-strzalkowski.jpg",
+      "name": "Paweł Strzałkowski",
+      "description": "Software engineer coding since the past century. Working as a Ruby and Ruby on Rails full stack developer, a team leader and a consultant. Strives for clean and readable code. DDD and event sourcing enthusiast, trying to make other Ruby developers share his passion. Active member of the Polish Ruby community. Speaker at multiple Warsaw and Poznań Ruby meetups. Extremely family person, father of two. In his spare time appreciates a good sci-fi book and a long poker night.",
+      "links": {"name": "twitter", "link": "https://twitter.com/realPawelS"}
+    },
+    {
+      "image": "/static/supporters/nick-sutterer.jpg",
+      "name": "Nick Sutterer",
+      "description": "Whenever Open-Source meets deep and profound debates about architecting software, and there are free beers involved, Nick Sutterer must be just around the corner. Say Hi to him, he loves people.",
+      "links": {"name": "twitter", "link": "https://twitter.com/apotonick"}
+    },
+    {
+      "image": "/static/supporters/pawel-dabrowski.jpeg",
+      "name": "Paweł Dąbrowski",
+      "description": "IT Samurai, open-source fan, CTO at iRonin. He writes a lot for computers and human beings. Working with Ruby since 2010.",
+      "links": {"name": "twitter", "link": "https://twitter.com/pdabrowski6"}
+    },
+    {
+      "image": "/static/supporters/adrian-marin.jpeg",
+      "name": "Adrian Marin",
+      "description": "“Adrian is the Author of Avo, a modern Ruby on Rails admin panel framework. Being a product-minded engineer he worked in digital agencies, big corporations, as a freelancer and in a Silicon Valley startup building consumer and developer tools”.",
+      "links": {"name": "twitter", "link": "https://twitter.com/adrianthedev"}
+    }
   ],
   "agenda": [
     {
