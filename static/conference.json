@@ -19,7 +19,7 @@
       "image": "/static/speakers/sergey-sergyenko.jpg",
       "name": "Sergey Sergyenko",
       "description": "Sergey is the CEO of Cybergizer (cybergizer.eu) - Venture Builder and Technology Accelerator located in Vilnius, Lithuania. Apart from that, he's a founder of BRUG - Belarus Ruby User Group, Rubizza - Ruby Survival School and Ruby News - Ruby Weekly News Digest.",
-      "links": {"twitter": "https://twitter.com/sergyenko"}
+      "links": {"twitter": "https://twitter.com/sergyenko", "website": "https://cybergizer.com"}
     },
     {
       "image": "/static/speakers/pawel-strzalkowski.jpg",
@@ -37,25 +37,37 @@
       "image": "/static/speakers/pawel-dabrowski.jpeg",
       "name": "Paweł Dąbrowski",
       "description": "IT Samurai, open-source fan, CTO at iRonin. He writes a lot for computers and human beings. Working with Ruby since 2010.",
-      "links": {"twitter": "https://twitter.com/pdabrowski6"}
+      "links": {"twitter": "https://twitter.com/pdabrowski6", "website": "https://paweldabrowski.com/"}
     },
     {
       "image": "/static/speakers/adrian-marin.jpeg",
       "name": "Adrian Marin",
       "description": "Adrian is the Author of Avo, a modern Ruby on Rails admin panel framework. Being a product-minded engineer he worked in digital agencies, big corporations, as a freelancer and in a Silicon Valley startup building consumer and developer tools.",
-      "links": {"twitter": "https://twitter.com/adrianthedev"}
+      "links": {"twitter": "https://twitter.com/adrianthedev", "website": "https://adrianthedev.com"}
     },
     {
       "image": "/static/speakers/karol-szuster.jpeg",
       "name": "Karol Szuster",
       "description": "Full-Stack Engineer at Upside, able to deftly combine attention to the finest details with a high-level overview of any project he’s involved in. Currently one of the people engaged in shaping the future of @spree. Apart from Ruby, he carries many other tools in his toolbox (jack of all trades, master of… some).",
-      "links": {"twitter": "https://twitter.com/karolszuster"}
+      "links": {"twitter": "https://twitter.com/karolszuster", "website": "https://upsidelab.io/"}
     },
     {
       "image": "/static/speakers/yaroslav-shmarov.jpg",
       "name": "Yaroslav Shmarov",
       "description": "By night - 😍 SupeRails YT channel creator. By day - 🤑 building rails monolyths with Hotwire.",
       "links": {"twitter": "https://twitter.com/yarotheslav", "github": "https://github.com/yshmarov", "youtube": "https://www.youtube.com/c/SupeRails/"}
+    },
+    {
+      "image": "/static/speakers/rafal-rothenberger.jpg",
+      "name": "Rafał Rothenberger",
+      "description": "Security enthusiast, backend developer at Monterail, still beliving that Elixir may reach Python level of popularity, working in Ruby in meantime. You will probably hear me promoting looking at OWASP for anything security related in your project. O, yeah, take a look at OWASP if you have any security related topics in your project!",
+      "links": {}
+    },
+    {
+      "image": "/static/speakers/norbert-wojtowicz.jpeg",
+      "name": "Norbert Wójtowicz",
+      "description": "Norbert Wójtowicz is a recovering empty-stack developer, walking around with his trusty Clojure(Script) hammer. You can find his code and ramblings in various corners of the internet, under the felicitous handle @pithyless.",
+      "links": {"twitter": "https://twitter.com/pithyless"}
     }
   ],
   "agenda": [
@@ -71,9 +83,9 @@
         {
           "start": "00:00",
           "end": "00:00",
-          "speaker": "Adrian Marin",
-          "title": "How To Package A Rails Engine: Generation To Automation"
-        }, 
+          "speaker": "Paweł Strzałkowski",
+          "title": "Introduction To Event Sourcing. How To Use It With Ruby?"
+        },
         {
           "start": "00:00",
           "end": "00:00",
@@ -89,9 +101,9 @@
         {
           "start": "00:00",
           "end": "00:00",
-          "speaker": "Paweł Strzałkowski",
-          "title": "Introduction To Event Sourcing. How To Use It With Ruby?"
-        },
+          "speaker": "Adrian Marin",
+          "title": "How To Package A Rails Engine: Generation To Automation"
+        }, 
         {
           "start": "00:00",
           "end": "00:00",
@@ -102,7 +114,7 @@
           "start": "00:00",
           "end": "00:00",
           "speaker": "Rafał Rothenberger",
-          "title": "Securing Authentication With Rails And Devise"
+          "title": "Devise - pitfalls and way to tighten security"
         },
         {
           "start": "00:00",
@@ -117,8 +129,8 @@
           "title": "Under The Hood And On The Surface Of Sidekiq"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "18:00",
+          "end": "18:40",
           "speaker": "Michał Zajączkowski-de Mezer",
           "title": "How To Ensure Systems Do What We Want And Take Care Of Themselves?"
         }
@@ -135,16 +147,16 @@
           "title": "TBD: Hotwire"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
-          "speaker": "Anita Jaszewska",
-          "title": "Dealing With A Project's Complexity In A Changing Environment"
-        },
-        {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "11:00",
+          "end": "11:40",
           "speaker": "Sergey Sergyenko",
           "title": "Data Management With Ruby"
+        },
+        {
+          "start": "12:00",
+          "end": "12:40",
+          "speaker": "Anita Jaszewska",
+          "title": "Dealing With A Project's Complexity In A Changing Environment"
         },
         {
           "start": "00:00",
@@ -157,6 +169,12 @@
           "end": "00:00",
           "speaker": "Norbert Wójtowicz",
           "title": "Grokking FP For The Practicing Rubyist"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
+          "speaker": "Karol Szuster",
+          "title": "Nightmare neighbours - caveats of Rails-based mutlitenancy"
         }
       ]
     }
