@@ -99,6 +99,11 @@
       "date": "2022-09-17",
       "talks": [
         {
+          "start": "09:15",
+          "end": "10:00",
+          "title": "Registration"
+        },
+        {
           "start": "00:00",
           "end": "00:00",
           "speaker": "Adrian Marin",
@@ -140,6 +145,11 @@
       "label": "DAY 3: Sunday\nSeptember 18",
       "date": "2022-09-18",
       "talks": [
+        {
+          "start": "09:15",
+          "end": "10:00",
+          "title": "Registration"
+        },
         {
           "start": "00:00",
           "end": "00:00",
