@@ -122,6 +122,11 @@
           "title": "Devise - pitfalls and way to tighten security"
         },
         {
+          "start": "12:40",
+          "end": "15:00",
+          "speaker": "Lunch break"
+        },
+        {
           "start": "00:00",
           "end": "00:00",
           "speaker": "Mariusz Gil",
@@ -134,10 +139,22 @@
           "title": "Under The Hood And On The Surface Of Sidekiq"
         },
         {
-          "start": "18:00",
-          "end": "18:40",
+          "start": "17:00",
+          "end": "17:40",
           "speaker": "Michał Zajączkowski-de Mezer",
           "title": "How To Ensure Systems Do What We Want And Take Care Of Themselves?"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "speaker": "Lighting talks",
+          "title": "12x5 minutes"
+        },
+        {
+          "start": "20:00",
+          "end": "23:59",
+          "speaker": "Party at Mleczarnia",
+          "title": "ul. Włodkowica 5"
         }
       ]
     },
@@ -169,6 +186,11 @@
           "title": "Dealing With A Project's Complexity In A Changing Environment"
         },
         {
+          "start": "12:40",
+          "end": "15:00",
+          "speaker": "Lunch break"
+        },
+        {
           "start": "00:00",
           "end": "00:00",
           "speaker": "TBD",
@@ -185,6 +207,12 @@
           "end": "00:00",
           "speaker": "Karol Szuster",
           "title": "Nightmare neighbours - caveats of Rails-based mutlitenancy"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "speaker": "Lighting talks",
+          "title": "12x5 minutes"
         }
       ]
     }
