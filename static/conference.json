@@ -68,6 +68,12 @@
       "name": "Norbert Wójtowicz",
       "description": "Norbert Wójtowicz is a recovering empty-stack developer, walking around with his trusty Clojure(Script) hammer. You can find his code and ramblings in various corners of the internet, under the felicitous handle @pithyless.",
       "links": {"twitter": "https://twitter.com/pithyless"}
+    },
+    {
+      "image": "/static/speakers/mariusz-gil.jpg",
+      "name": "Mariusz Gil",
+      "description": "Mariusz - domain explorer, consultant, software architect and ex-CTO with almost 25 years of experience in IT. He hosts a podcast about software design called Better Software Design.",
+      "links": {"twitter": "https://twitter.com/mariuszgil"}
     }
   ],
   "agenda": [
@@ -130,7 +136,7 @@
           "start": "00:00",
           "end": "00:00",
           "speaker": "Mariusz Gil",
-          "title": "TBD"
+          "title": "The good, the bad and the remote - collaborative domain modeling with EventStorming"
         },
         {
           "start": "00:00",
@@ -168,10 +174,10 @@
           "title": "Registration"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
-          "speaker": "Yaroslav Shamarov",
-          "title": "TBD: Hotwire"
+          "start": "10:00",
+          "end": "10:40",
+          "speaker": "Karol Szuster",
+          "title": "Nightmare neighbours - caveats of Rails-based mutlitenancy"
         },
         {
           "start": "11:00",
@@ -193,6 +199,12 @@
         {
           "start": "00:00",
           "end": "00:00",
+          "speaker": "Yaroslav Shamarov",
+          "title": "TBD: Hotwire"
+        },
+        {
+          "start": "00:00",
+          "end": "00:00",
           "speaker": "TBD",
           "title": "TBD"
         },
@@ -201,12 +213,6 @@
           "end": "00:00",
           "speaker": "Norbert Wójtowicz",
           "title": "Grokking FP For The Practicing Rubyist"
-        },
-        {
-          "start": "00:00",
-          "end": "00:00",
-          "speaker": "Karol Szuster",
-          "title": "Nightmare neighbours - caveats of Rails-based mutlitenancy"
         },
         {
           "start": "18:00",
