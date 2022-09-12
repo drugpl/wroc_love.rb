@@ -74,6 +74,12 @@
       "name": "Mariusz Gil",
       "description": "Mariusz - domain explorer, consultant, software architect and ex-CTO with almost 25 years of experience in IT. He hosts a podcast about software design called Better Software Design.",
       "links": {"twitter": "https://twitter.com/mariuszgil"}
+    },
+    {
+      "image": "/static/speakers/michal-zajaczkowski.jpg",
+      "name": "Michał Zajączkowski-de Mezer",
+      "description": "Software architect and backend engineer at Netguru, believer of constant self-development, enthusiast of the functional paradigm and synergy inside happy teams. Passionate about music, dance and nature.",
+      "links": {}
     }
   ],
   "agenda": [
@@ -114,7 +120,7 @@
           "end": "00:00",
           "speaker": "Adrian Marin",
           "title": "How To Package A Rails Engine: Generation To Automation"
-        }, 
+        },
         {
           "start": "00:00",
           "end": "00:00",
