@@ -116,22 +116,22 @@
           "title": "Registration"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "10:00",
+          "end": "10:40",
+          "speaker": "Yaroslav Shmarov",
+          "title": "18 months of using hotwire and viewcomponent in production"
+        },
+        {
+          "start": "11:00",
+          "end": "11:40",
           "speaker": "Adrian Marin",
           "title": "How To Package A Rails Engine: Generation To Automation"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "12:00",
+          "end": "12:40",
           "speaker": "Andrzej Krzywda",
           "title": "Typical DDDomains In Rails Apps"
-        },
-        {
-          "start": "00:00",
-          "end": "00:00",
-          "speaker": "Rafał Rothenberger",
-          "title": "Devise - pitfalls and way to tighten security"
         },
         {
           "start": "12:40",
@@ -139,14 +139,14 @@
           "speaker": "Lunch break"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "15:00",
+          "end": "15:40",
           "speaker": "Mariusz Gil",
           "title": "The good, the bad and the remote - collaborative domain modeling with EventStorming"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "16:00",
+          "end": "16:40",
           "speaker": "Paweł Dąbrowski",
           "title": "Under The Hood And On The Surface Of Sidekiq"
         },
@@ -203,20 +203,20 @@
           "speaker": "Lunch break"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
-          "speaker": "Yaroslav Shamarov",
-          "title": "18 months of using hotwire and viewcomponent in production"
+          "start": "15:00",
+          "end": "15:40",
+          "speaker": "Rafał Rothenberger",
+          "title": "Devise - pitfalls and way to tighten security"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "16:00",
+          "end": "16:40",
           "speaker": "TBD",
           "title": "TBD"
         },
         {
-          "start": "00:00",
-          "end": "00:00",
+          "start": "17:00",
+          "end": "17:40",
           "speaker": "Norbert Wójtowicz",
           "title": "Grokking FP For The Practicing Rubyist"
         },
