@@ -295,6 +295,11 @@
       "name": "selleo",
       "link": "https://selleo.com/",
       "image": "selleo.png"
+    },
+    {
+      "name": "pilot",
+      "link": "https://pilot.co/",
+      "image": "pilot.png"
     }
   ],
   "partners": [
