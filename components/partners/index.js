@@ -8,8 +8,8 @@ const Partners = ({ partners }) => (
     <div className={styles.content}>
       <SectionHeader outerBorder={false}>Partners</SectionHeader>
       <div className={styles.partners}>
-        {partners.map(({ name, image, url }, index) => (
-          <a className={styles.partner} title={name} href={url} key={index}>
+        {partners.map(({ name, image, link }, index) => (
+          <a className={styles.partner} title={name} href={link} key={index}>
             <span
               style={{
                 backgroundImage: image
