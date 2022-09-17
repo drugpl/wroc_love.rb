@@ -80,6 +80,12 @@
       "name": "Michał Zajączkowski-de Mezer",
       "description": "Software architect and backend engineer at Netguru, believer of constant self-development, enthusiast of the functional paradigm and synergy inside happy teams. Passionate about music, dance and nature.",
       "links": {}
+    },
+    {
+      "image": "/static/speakers/krzysztof-hasinski.jpg",
+      "name": "Krzysztof Hasiński",
+      "description": "",
+      "links": {}
     }
   ],
   "agenda": [
@@ -217,8 +223,8 @@
         {
           "start": "16:00",
           "end": "16:40",
-          "speaker": "TBD",
-          "title": "TBD"
+          "speaker": "Krzysztof Hasiński",
+          "title": "Ever shorter feedback loop"
         },
         {
           "start": "17:00",
