@@ -42,8 +42,8 @@ class Regulamin extends Component {
                   <ol>
                     <li>
                       <p>
-                        Organizatorem Konferencji jest Fundacja „GIK"; os. Pod
-                        Lipami 16/14, 61-638 Poznań. NIP 972-124-15-14, REGON
+                        Organizatorem Konferencji jest Fundacja „GIK"; ul.
+                        Kłosowa 27, 61-625 Poznań. NIP 972-124-15-14, REGON
                         302277133
                       </p>
                     </li>
@@ -63,8 +63,8 @@ class Regulamin extends Component {
                   <ol>
                     <li>
                       <p>
-                        Konferencja odbędzie się w dniach 16-18 września 2022 roku
-                        we Wrocławiu.
+                        Konferencja odbędzie się w dniach 16-18 września 2022
+                        roku we Wrocławiu.
                       </p>
                     </li>
                     <li>
