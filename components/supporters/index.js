@@ -9,7 +9,7 @@ const Supporters = ({ supporters }) => (
     <div className={styles.content}>
       <SectionHeader
         outerBorder={false}
-        backgroundImage={header}
+        backgroundImage={header.src}
         textColor="#FFF"
       >
         Supporters

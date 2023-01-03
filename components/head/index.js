@@ -1,10 +1,10 @@
 import React from "react"
 import NextHead from "next/head"
-import { string } from "prop-types"
+import { string, shape } from "prop-types"
 import { withConfiguration } from "../contexts/configuration"
 import ogImage from "./og_image.png"
 
-const Head = props => (
+const Head = (props) => (
   <NextHead>
     <meta charSet="UTF-8" />
     <title>{props.title || ""}</title>
@@ -21,9 +21,9 @@ const Head = props => (
     <meta property="og:description" content={props.description} />
     <meta name="twitter:site" content={props.url} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImage.src} />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImage.src} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -40,7 +40,7 @@ const Head = props => (
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-      `
+      `,
       }}
     />
   </NextHead>
@@ -50,11 +50,13 @@ Head.propTypes = {
   title: string,
   description: string,
   url: string,
-  ogImage: string
+  ogImage: shape({
+    src: string,
+  }),
 }
 
-export default withConfiguration(config => ({
+export default withConfiguration((config) => ({
   title: config.title,
   description: config.description,
-  url: config.url
+  url: config.url,
 }))(Head)
