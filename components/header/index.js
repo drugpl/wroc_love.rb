@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import { withConfiguration } from "../contexts/configuration"
 
 const Header = ({ date, cfpUrl, ticketsUrl }) => (
@@ -32,8 +32,8 @@ const Header = ({ date, cfpUrl, ticketsUrl }) => (
   </div>
 )
 
-export default withConfiguration(config => ({
+export default withConfiguration((config) => ({
   date: config.date,
   cfpUrl: config.cfpUrl,
-  ticketsUrl: config.ticketsUrl
+  ticketsUrl: config.ticketsUrl,
 }))(Header)

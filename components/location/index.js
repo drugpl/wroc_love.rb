@@ -1,11 +1,11 @@
 import React from "react"
 import SectionHeader from "../section_header"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import dynamic from "next/dynamic"
 import { withConfiguration } from "../contexts/configuration"
 
 const Map = dynamic(() => import("./venue_map"), {
-  ssr: false
+  ssr: false,
 })
 
 const Location = ({ venue }) => (

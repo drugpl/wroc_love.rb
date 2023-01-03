@@ -1,6 +1,6 @@
 import React from "react"
 import SectionHeader from "../section_header"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import header from "./header.png"
 import { withConfiguration } from "../contexts/configuration"
 
@@ -21,7 +21,7 @@ const Supporters = ({ supporters }) => (
               style={{
                 backgroundImage: image
                   ? `url(/static/supporters/${image})`
-                  : undefined
+                  : undefined,
               }}
             >
               {name}

@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import { withConfiguration } from "../contexts/configuration"
 
 const Editions = ({ editions }) => (
@@ -7,7 +7,7 @@ const Editions = ({ editions }) => (
     <div className={styles.header}>Previously on wroc_love.rb</div>
 
     <ul className={styles.editions}>
-      {editions.map(edition => (
+      {editions.map((edition) => (
         <li key={edition}>
           <a href={`https://${edition}.wrocloverb.com`}>{edition}</a>
         </li>
@@ -16,6 +16,6 @@ const Editions = ({ editions }) => (
   </div>
 )
 
-export default withConfiguration(config => ({
-  editions: config.editions
+export default withConfiguration((config) => ({
+  editions: config.editions,
 }))(Editions)

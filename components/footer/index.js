@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "next/link"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 
 const Footer = () => (
   <div className={styles.container}>

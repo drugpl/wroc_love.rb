@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import SectionHeader from "../section_header"
 import Speaker from "./speaker"
 import { withConfiguration } from "../contexts/configuration"

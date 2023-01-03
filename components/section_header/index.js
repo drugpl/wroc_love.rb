@@ -1,12 +1,12 @@
 import React from "react"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 
 const SectionHeader = ({
   children,
   backgroundImage,
   backgroundColor,
   textColor,
-  outerBorder = true
+  outerBorder = true,
 }) => (
   <div
     className={styles.header}
@@ -14,7 +14,7 @@ const SectionHeader = ({
       outerBorder
         ? {
             border: "1px solid black",
-            margin: "10px 10px 0 10px"
+            margin: "10px 10px 0 10px",
           }
         : undefined
     }
@@ -26,7 +26,7 @@ const SectionHeader = ({
         backgroundImage: backgroundImage
           ? `url(${backgroundImage})`
           : undefined,
-        color: textColor
+        color: textColor,
       }}
     >
       {children}

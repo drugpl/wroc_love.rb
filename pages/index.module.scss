@@ -1,42 +1,5 @@
 @import '../scss/mixins';
 
-@font-face {
-  font-family: 'sk-modernistlight';
-  src: url('/static/fonts/sk-modernist-light-web.woff2') format('woff2'),
-  url('/static/fonts/sk-modernist-light-web.woff') format('woff'),
-  url('/static/fonts/sk-modernist-light-web.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'sk-modernistregular';
-  src: url('/static/fonts/sk-modernist-regular-web.woff2') format('woff2'),
-  url('/static/fonts/sk-modernist-regular-web.woff') format('woff'),
-  url('/static/fonts/sk-modernist-regular-web.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'sk-modernistlight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 10px;
-  line-height: 1.25;
-}
-
-a, a:visited {
-  color: #cc0000;
-}
-
-a:hover, a:focus {
-  color: #440000;
-}
-
 .body {
   border: 1px solid black;
 }

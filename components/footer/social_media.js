@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import styles from "./social_media.scss"
+import styles from "./social_media.module.scss"
 import fb from "./fb.png"
 import tt from "./tt.png"
 import yt from "./yt.png"
@@ -29,11 +29,11 @@ const SocialMedia = ({ facebookUrl, twitterUrl, youtubeUrl }) => (
 SocialMedia.propTypes = {
   facebookUrl: PropTypes.string,
   twitterUrl: PropTypes.string,
-  youtubeUrl: PropTypes.string
+  youtubeUrl: PropTypes.string,
 }
 
-export default withConfiguration(config => ({
+export default withConfiguration((config) => ({
   facebookUrl: config.facebookUrl,
   twitterUrl: config.twitterUrl,
-  youtubeUrl: config.youtubeUrl
+  youtubeUrl: config.youtubeUrl,
 }))(SocialMedia)

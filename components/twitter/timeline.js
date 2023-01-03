@@ -1,6 +1,6 @@
 import React from "react"
 import { TwitterTimelineEmbed } from "react-twitter-embed"
-import styles from "./timeline.scss"
+import styles from "./timeline.module.scss"
 
 const Timeline = () => (
   <div className={styles.timeline}>
@@ -8,7 +8,7 @@ const Timeline = () => (
       sourceType="profile"
       screenName="wrocloverb"
       options={{
-        height: 300
+        height: 300,
       }}
     />
   </div>

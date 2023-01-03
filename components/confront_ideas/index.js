@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import arrow from "./arrow.svg"
 
 const ConfrontIdeas = () => {
