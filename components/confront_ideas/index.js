@@ -13,7 +13,7 @@ const ConfrontIdeas = () => {
           <button type="button" className={styles.button}>
             <span>Learn more</span>
             <div>
-              <img src={arrow} />
+              <img src={arrow.src} />
             </div>
           </button>
         </div>
@@ -48,7 +48,7 @@ const ConfrontIdeas = () => {
           </p>
           <button type="button" className={styles.button}>
             <div>
-              <img src={arrow} />
+              <img src={arrow.src} />
             </div>
           </button>
         </div>

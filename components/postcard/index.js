@@ -34,7 +34,7 @@ class Postcard extends React.Component {
       <div className={styles.container}>
         <div
           className={styles.postcard}
-          style={{ backgroundImage: `url(${image})` }}
+          style={{ backgroundImage: `url(${image.src})` }}
         >
           {!!(currentTalk || nextTalk) && renderText && (
             <div className={styles.info}>

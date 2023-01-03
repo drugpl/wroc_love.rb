@@ -17,6 +17,9 @@
   font-style: normal;
 }
 
+// Safari workaround, @see https://nextjs.org/docs/api-reference/next/image#known-browser-bugs
+@supports (font: -apple-system-body) and (-webkit-appearance: none) { img[loading="lazy"] { clip-path: inset(0.6px) } }
+
 * {
   box-sizing: border-box;
 }

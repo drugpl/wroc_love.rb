@@ -46,7 +46,7 @@ class Agenda extends React.Component {
 
     return (
       <div className={styles.container}>
-        <SectionHeader backgroundImage={header} textColor="#fff">
+        <SectionHeader backgroundImage={header.src} textColor="#fff">
           Agenda
         </SectionHeader>
         {agenda.map(({ label, date, talks }) => (

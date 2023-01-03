@@ -10,17 +10,17 @@ const SocialMedia = ({ facebookUrl, twitterUrl, youtubeUrl }) => (
   <div className={styles.container}>
     {facebookUrl && (
       <a href={facebookUrl}>
-        <img src={fb} />
+        <img src={fb.src} />
       </a>
     )}
     {twitterUrl && (
       <a href={twitterUrl}>
-        <img src={tt} />
+        <img src={tt.src} />
       </a>
     )}
     {youtubeUrl && (
       <a href={youtubeUrl}>
-        <img src={yt} />
+        <img src={yt.src} />
       </a>
     )}
   </div>
