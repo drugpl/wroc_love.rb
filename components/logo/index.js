@@ -4,10 +4,8 @@ import logo from "./logo.png"
 import styles from "./index.module.scss"
 
 const Logo = () => (
-  <Link href="/">
-    <a className={styles.logo}>
-      <img src={logo} />
-    </a>
+  <Link href="/" className={styles.logo}>
+    <img src={logo} />
   </Link>
 )
 
