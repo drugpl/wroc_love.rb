@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import image from "./manhattan.png"
 import { withConfiguration } from "../contexts/configuration"
 import talksList from "../../utils/talks_list"
@@ -16,7 +16,7 @@ class Postcard extends React.Component {
     const { talksList } = this.props
     const now = new Date()
     const currentTalkIndex = talksList.findIndex(
-      talk => talk.startTime <= now && talk.endTime >= now
+      (talk) => talk.startTime <= now && talk.endTime >= now
     )
     const currentTalk =
       currentTalkIndex !== -1 ? talksList[currentTalkIndex] : null
@@ -25,7 +25,7 @@ class Postcard extends React.Component {
       (talk, index) => talk.startTime > now && index > currentTalkIndex
     )
 
-    const label = talk =>
+    const label = (talk) =>
       `${talk.start} - ${talk.end} ${
         talk.speaker ? `${talk.speaker} – ` : ""
       } ${talk.title}`
@@ -34,7 +34,7 @@ class Postcard extends React.Component {
       <div className={styles.container}>
         <div
           className={styles.postcard}
-          style={{ backgroundImage: `url(${image})` }}
+          style={{ backgroundImage: `url(${image.src})` }}
         >
           {!!(currentTalk || nextTalk) && renderText && (
             <div className={styles.info}>
@@ -52,6 +52,6 @@ class Postcard extends React.Component {
   }
 }
 
-export default withConfiguration(config => ({
-  talksList: talksList(config.agenda)
+export default withConfiguration((config) => ({
+  talksList: talksList(config.agenda),
 }))(Postcard)

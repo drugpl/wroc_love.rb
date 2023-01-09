@@ -1,20 +1,8 @@
-const withSass = require('@zeit/next-sass')
-const withImages = require('next-images')
-
-const nextConfig = {
-  cssModules: true,
+module.exports = {
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
-    config.node = {
-      fs: 'empty'
-    }
+    config.resolve.fallback = { fs: false };
 
     return config
   }
 }
-
-module.exports = withSass(
-  withImages(
-    nextConfig
-  )
-)

@@ -1,6 +1,6 @@
 import React from "react"
 import SectionHeader from "../section_header"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import { withConfiguration } from "../contexts/configuration"
 
 const Partners = ({ partners }) => (
@@ -14,7 +14,7 @@ const Partners = ({ partners }) => (
               style={{
                 backgroundImage: image
                   ? `url(/static/partners/${image})`
-                  : undefined
+                  : undefined,
               }}
             >
               {name}

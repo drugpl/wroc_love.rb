@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import nl2br from "react-nl2br"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import SectionHeader from "../section_header"
 import header from "./header.png"
 import { withConfiguration } from "../contexts/configuration"
@@ -14,7 +14,7 @@ class Agenda extends React.Component {
 
   currentTalk(now, talksList) {
     const talk = talksList.find(
-      talk => talk.startTime <= now && talk.endTime >= now
+      (talk) => talk.startTime <= now && talk.endTime >= now
     )
 
     if (talk) {
@@ -33,9 +33,9 @@ class Agenda extends React.Component {
 
     return (
       currentTalk &&
-      (date === currentTalk.date &&
-        talk.start === currentTalk.start &&
-        talk.end === currentTalk.end)
+      date === currentTalk.date &&
+      talk.start === currentTalk.start &&
+      talk.end === currentTalk.end
     )
   }
 
@@ -46,7 +46,7 @@ class Agenda extends React.Component {
 
     return (
       <div className={styles.container}>
-        <SectionHeader backgroundImage={header} textColor="#fff">
+        <SectionHeader backgroundImage={header.src} textColor="#fff">
           Agenda
         </SectionHeader>
         {agenda.map(({ label, date, talks }) => (
@@ -87,7 +87,7 @@ class Agenda extends React.Component {
   }
 }
 
-export default withConfiguration(config => ({
+export default withConfiguration((config) => ({
   agenda: config.agenda,
-  talksList: talksList(config.agenda)
+  talksList: talksList(config.agenda),
 }))(Agenda)

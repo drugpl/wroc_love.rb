@@ -1,6 +1,6 @@
 import React from "react"
 import Responsive, {
-  ResponsiveProvider
+  ResponsiveProvider,
 } from "../components/contexts/responsive"
 import Head from "../components/head"
 import Header from "../components/header"
@@ -16,7 +16,7 @@ import TalksArchive from "../components/talks_archive"
 import Twitter from "../components/twitter"
 import Editions from "../components/editions"
 import Footer from "../components/footer"
-import styles from "./index.scss"
+import styles from "./index.module.scss"
 import extendWithConferenceData from "../utils/extend_with_conference_data"
 import SocialMedia from "../components/footer/social_media"
 import { ConfigurationProvider } from "../components/contexts/configuration"

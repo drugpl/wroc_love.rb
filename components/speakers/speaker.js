@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import nl2br from "react-nl2br"
-import styles from "./speaker.scss"
+import styles from "./speaker.module.scss"
 
 const Speaker = ({ image, name, description, links }) => {
   const [isOpen, setOpen] = useState(false)
@@ -43,11 +43,11 @@ Speaker.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.oneOfType([
     PropTypes.shape({
-      __html: PropTypes.string
+      __html: PropTypes.string,
     }),
-    PropTypes.string
+    PropTypes.string,
   ]),
-  links: PropTypes.object
+  links: PropTypes.object,
 }
 
 export default Speaker
