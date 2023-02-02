@@ -1,313 +1,32 @@
 {
-  "title": "wroc_love.rb 2022",
+  "title": "wroc_love.rb 2023",
   "description": "wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
-  "date": "September 16-18, 2022",
-  "cfpUrl": "https://forms.gle/1x2igGpKRa5kda4GA",
-  "ticketsUrl": "https://wrocloverb2022.konfeo.com",
+  "date": "September 15-17, 2023",
+  "cfpUrl": false,
+  "ticketsUrl": false,
   "facebookUrl": "https://facebook.com/wroclove.rb/",
   "twitterUrl": "https://twitter.com/wrocloverb",
   "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
-  "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
-  "speakers": [
-    {
-      "image": "/static/speakers/anita-jaszewska.png",
-      "name": "Anita Jaszewska",
-      "description": "Anita is a self-learner who entered the IT world through Rails Girls workshops back in 2013. Her business background and a strong interest in people made her naturally drawn to product-related teams and solving user problems using code. She worked in various international companies of different sizes and collected experience as a developer. In the meantime, she started a master's degree in psychology. Initially a hobby, with time, psychology turned into a valuable experience that helped her transition to a managerial path. In her free time, Anita enjoys nature and modern art.",
-      "links": {"twitter": "https://twitter.com/anita_jaszewska"}
-    },
-    {
-      "image": "/static/speakers/sergey-sergyenko.jpg",
-      "name": "Sergey Sergyenko",
-      "description": "Sergey is the CEO of Cybergizer (cybergizer.eu) - Venture Builder and Technology Accelerator located in Vilnius, Lithuania. Apart from that, he's a founder of BRUG - Belarus Ruby User Group, Rubizza - Ruby Survival School and Ruby News - Ruby Weekly News Digest.",
-      "links": {"twitter": "https://twitter.com/sergyenko", "website": "https://cybergizer.com"}
-    },
-    {
-      "image": "/static/speakers/pawel-strzalkowski.jpg",
-      "name": "Paweł Strzałkowski",
-      "description": "Software engineer coding since the past century. Working as a Ruby and Ruby on Rails full stack developer, a team leader and a consultant. Strives for clean and readable code. DDD and event sourcing enthusiast, trying to make other Ruby developers share his passion. Active member of the Polish Ruby community. Speaker at multiple Warsaw and Poznań Ruby meetups. Extremely family person, father of two. In his spare time appreciates a good sci-fi book and a long poker night.",
-      "links": {"twitter": "https://twitter.com/realPawelS"}
-    },
-    {
-      "image": "/static/speakers/nick-sutterer.jpg",
-      "name": "Nick Sutterer",
-      "description": "Whenever Open-Source meets deep and profound debates about architecting software, and there are free beers involved, Nick Sutterer must be just around the corner. Say Hi to him, he loves people.",
-      "links": {"twitter": "https://twitter.com/apotonick"}
-    },
-    {
-      "image": "/static/speakers/pawel-dabrowski.jpeg",
-      "name": "Paweł Dąbrowski",
-      "description": "IT Samurai, open-source fan, CTO at iRonin. He writes a lot for computers and human beings. Working with Ruby since 2010.",
-      "links": {"twitter": "https://twitter.com/pdabrowski6", "website": "https://paweldabrowski.com/"}
-    },
-    {
-      "image": "/static/speakers/adrian-marin.jpeg",
-      "name": "Adrian Marin",
-      "description": "Adrian is the Author of Avo, a modern Ruby on Rails admin panel framework. Being a product-minded engineer he worked in digital agencies, big corporations, as a freelancer and in a Silicon Valley startup building consumer and developer tools.",
-      "links": {"twitter": "https://twitter.com/adrianthedev", "website": "https://adrianthedev.com"}
-    },
-    {
-      "image": "/static/speakers/karol-szuster.jpeg",
-      "name": "Karol Szuster",
-      "description": "Full-Stack Engineer at Upside, able to deftly combine attention to the finest details with a high-level overview of any project he’s involved in. Currently one of the people engaged in shaping the future of @spree. Apart from Ruby, he carries many other tools in his toolbox (jack of all trades, master of… some).",
-      "links": {"twitter": "https://twitter.com/karolszuster", "website": "https://upsidelab.io/"}
-    },
-    {
-      "image": "/static/speakers/yaroslav-shmarov.jpg",
-      "name": "Yaroslav Shmarov",
-      "description": "By night - 😍 SupeRails YT channel creator. By day - 🤑 building rails monolyths with Hotwire.",
-      "links": {"twitter": "https://twitter.com/yarotheslav", "github": "https://github.com/yshmarov", "youtube": "https://www.youtube.com/c/SupeRails/"}
-    },
-    {
-      "image": "/static/speakers/rafal-rothenberger.jpg",
-      "name": "Rafał Rothenberger",
-      "description": "Security enthusiast, backend developer at Monterail, still beliving that Elixir may reach Python level of popularity, working in Ruby in meantime. You will probably hear me promoting looking at OWASP for anything security related in your project. O, yeah, take a look at OWASP if you have any security related topics in your project!",
-      "links": {}
-    },
-    {
-      "image": "/static/speakers/norbert-wojtowicz.jpeg",
-      "name": "Norbert Wójtowicz",
-      "description": "Norbert Wójtowicz is a recovering empty-stack developer, walking around with his trusty Clojure(Script) hammer. You can find his code and ramblings in various corners of the internet, under the felicitous handle @pithyless.",
-      "links": {"twitter": "https://twitter.com/pithyless"}
-    },
-    {
-      "image": "/static/speakers/mariusz-gil.jpg",
-      "name": "Mariusz Gil",
-      "description": "Mariusz - domain explorer, consultant, software architect and ex-CTO with almost 25 years of experience in IT. He hosts a podcast about software design called Better Software Design.",
-      "links": {"twitter": "https://twitter.com/mariuszgil"}
-    },
-    {
-      "image": "/static/speakers/michal-zajaczkowski.jpg",
-      "name": "Michał Zajączkowski-de Mezer",
-      "description": "Software architect and backend engineer at Netguru, believer of constant self-development, enthusiast of the functional paradigm and synergy inside happy teams. Passionate about music, dance and nature.",
-      "links": {}
-    },
-    {
-      "image": "/static/speakers/krzysztof-hasinski.jpg",
-      "name": "Krzysztof Hasiński",
-      "description": "",
-      "links": {}
-    }
-  ],
+  "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022],
+  "speakers": [],
   "agenda": [
     {
-      "label": "DAY 1: Friday\nSeptember 16",
-      "date": "2022-09-16",
-      "talks": [
-        {
-          "start": "16:00",
-          "end": "17:00",
-          "title": "Registration"
-        },
-        {
-          "start": "17:00",
-          "end": "17:40",
-          "speaker": "Paweł Strzałkowski",
-          "title": "Introduction To Event Sourcing: How To Use It With Ruby"
-        },
-        {
-          "start": "18:00",
-          "end": "18:40",
-          "speaker": "Nick Sutterer",
-          "title": "10 Things You Never Wanted To Know About Reform 3"
-        },
-        {
-          "start": "20:00",
-          "end": "23:59",
-          "speaker": "Party at Ceregiele",
-          "title": "ul. Ofiar Oświęcimskich 17"
-        }
-      ]
+      "label": "DAY 1: Friday\nSeptember 15",
+      "date": "2023-09-15",
+      "talks": []
     },
     {
-      "label": "DAY 2: Saturday\nSeptember 17",
-      "date": "2022-09-17",
-      "talks": [
-        {
-          "start": "09:15",
-          "end": "10:00",
-          "title": "Registration"
-        },
-        {
-          "start": "10:00",
-          "end": "10:40",
-          "speaker": "Yaroslav Shmarov",
-          "title": "18 months of using hotwire and viewcomponent in production"
-        },
-        {
-          "start": "11:00",
-          "end": "11:40",
-          "speaker": "Adrian Marin",
-          "title": "How To Package A Rails Engine: Generation To Automation"
-        },
-        {
-          "start": "12:00",
-          "end": "12:40",
-          "speaker": "Andrzej Krzywda",
-          "title": "Typical DDDomains In Rails Apps"
-        },
-        {
-          "start": "12:40",
-          "end": "15:00",
-          "speaker": "Lunch break"
-        },
-        {
-          "start": "15:00",
-          "end": "15:40",
-          "speaker": "Mariusz Gil",
-          "title": "The good, the bad and the remote - collaborative domain modeling with EventStorming"
-        },
-        {
-          "start": "16:00",
-          "end": "16:40",
-          "speaker": "Paweł Dąbrowski",
-          "title": "Under The Hood And On The Surface Of Sidekiq"
-        },
-        {
-          "start": "17:00",
-          "end": "17:40",
-          "speaker": "Michał Zajączkowski-de Mezer",
-          "title": "How To Ensure Systems Do What We Want And Take Care Of Themselves?"
-        },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "speaker": "Lighting talks",
-          "title": "12x5 minutes"
-        },
-        {
-          "start": "20:00",
-          "end": "23:59",
-          "speaker": "Party at Mleczarnia",
-          "title": "ul. Włodkowica 5"
-        }
-      ]
+      "label": "DAY 2: Saturday\nSeptember 16",
+      "date": "2022-09-16",
+      "talks": []
     },
     {
       "label": "DAY 3: Sunday\nSeptember 18",
       "date": "2022-09-18",
-      "talks": [
-        {
-          "start": "09:15",
-          "end": "10:00",
-          "title": "Registration"
-        },
-        {
-          "start": "10:00",
-          "end": "10:40",
-          "speaker": "Karol Szuster",
-          "title": "Nightmare neighbours - caveats of Rails-based mutlitenancy"
-        },
-        {
-          "start": "11:00",
-          "end": "11:40",
-          "speaker": "Sergey Sergyenko",
-          "title": "Data Management With Ruby"
-        },
-        {
-          "start": "12:00",
-          "end": "12:40",
-          "speaker": "Anita Jaszewska",
-          "title": "Dealing With A Project's Complexity In A Changing Environment"
-        },
-        {
-          "start": "12:40",
-          "end": "15:00",
-          "speaker": "Lunch break"
-        },
-        {
-          "start": "15:00",
-          "end": "15:40",
-          "speaker": "Rafał Rothenberger",
-          "title": "Devise - pitfalls and way to tighten security"
-        },
-        {
-          "start": "16:00",
-          "end": "16:40",
-          "speaker": "Krzysztof Hasiński",
-          "title": "Ever shorter feedback loop"
-        },
-        {
-          "start": "17:00",
-          "end": "17:40",
-          "speaker": "Norbert Wójtowicz",
-          "title": "Grokking FP For The Practicing Rubyist"
-        },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "speaker": "Lighting talks",
-          "title": "12x5 minutes"
-        }
-      ]
+      "talks": []
     }
   ],
-  "supporters": [
-    {
-      "name": "Arkency",
-      "link": "https://arkency.com/",
-      "image": "arkency.svg"
-    },
-    {
-      "name": "netguru",
-      "link": "https://netguru.com/",
-      "image": "netguru.png"
-    },
-    {
-      "name": "monterail",
-      "link": "https://monterail.com/",
-      "image": "monterail.png"
-    },
-    {
-      "name": "visuality",
-      "link": "https://www.visuality.pl/",
-      "image": "visuality.png"
-    },
-    {
-      "name": "koleo",
-      "link": "https://koleo.pl/",
-      "image": "koleo.png"
-    },
-    {
-      "name": "upside",
-      "link": "https://upsidelab.io/",
-      "image": "upside.png"
-    },
-    {
-      "name": "kruko",
-      "link": "https://www.kruko.io/",
-      "image": "kruko.png"
-    },
-    {
-      "name": "cybergizer",
-      "link": "https://cybergizer.com/",
-      "image": "cybergizer.png"
-    },
-    {
-      "name": "prowly",
-      "link": "https://prowly.com/",
-      "image": "prowly.png"
-    },
-    {
-      "name": "maxio",
-      "link": "https://www.maxio.com/",
-      "image": "maxio.png"
-    },
-    {
-      "name": "ironin",
-      "link": "https://www.ironin.it/",
-      "image": "ironin.png"
-    },
-    {
-      "name": "selleo",
-      "link": "https://selleo.com/",
-      "image": "selleo.png"
-    },
-    {
-      "name": "pilot",
-      "link": "https://pilot.co/",
-      "image": "pilot.png"
-    }
-  ],
+  "supporters": [],
   "partners": [
     {
       "name": "Uniwersytet Wrocławski",
