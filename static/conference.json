@@ -26,7 +26,13 @@
       "talks": []
     }
   ],
-  "supporters": [],
+  "supporters": [
+    {
+      "name": "Arkency",
+      "link": "https://arkency.com/",
+      "image": "arkency.svg"
+    }
+  ],
   "partners": [
     {
       "name": "Uniwersytet Wrocławski",
