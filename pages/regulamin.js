@@ -112,14 +112,14 @@ class Regulamin extends Component {
                     </li>
                     <li>
                       <p>
-                        Standardowy koszt uczestnictwa w konferencji wynosi 80
+                        Standardowy koszt uczestnictwa w konferencji wynosi 90
                         EUR.
                       </p>
                     </li>
                     <li>
                       <p>
                         Dodatkowo uczestnik ma możliwość nabycia biletu
-                        "Supporter". Bilet taki kosztuje 600 EUR. Nabycie biletu
+                        "Supporter". Bilet taki kosztuje 800 EUR. Nabycie biletu
                         typu supporter dodatkowo gwarantuje możliwość zakupu
                         dodatkowych 3 biletów standardowych w uzgodnionym z
                         organizatorem trybie.
