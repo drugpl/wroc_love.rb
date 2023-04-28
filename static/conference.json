@@ -43,6 +43,11 @@
       "name": "Pragmatic Programmer",
       "image": "pragmatic_bookshelf.png",
       "link": "http://pragprog.com/"
+    },
+    {
+      "name": "rubyday",
+      "image": "rubyday.png",
+      "link": "https://2023.rubyday.it/"
     }
   ],
   "venue": {
