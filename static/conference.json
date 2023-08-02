@@ -8,7 +8,20 @@
   "twitterUrl": "https://twitter.com/wrocloverb",
   "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
   "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022],
-  "speakers": [],
+  "speakers": [
+    {
+      "image": "/static/speakers/agnieszka-malaszkiewicz.jpg",
+      "name": "Agnieszka Małaszkiewicz",
+      "description": "Full-stack developer in love with backend written in Ruby aka Woman on Rails. Rails Girls mentor and organizer. Offline dancer and book reader.",
+      "links": {}
+    },
+    {
+      "image": "/static/speakers/cristian-planas.jpg",
+      "name": "Cristian Planas",
+      "description": "I am a software engineer currently based in New York City. I have been working primarily with Rails since the release of Rails 3, more than 10 years ago. Performance optimization has been an obsession for me since I founded my first start-up as a solo engineer in 2012. Currently, I am a group tech lead and senior staff engineer at Zendesk, where I focus on performance optimization",
+      "links": {"twitter": "https://twitter.com/crplanas"}
+    }
+  ],
   "agenda": [
     {
       "label": "DAY 1: Friday\nSeptember 15",
