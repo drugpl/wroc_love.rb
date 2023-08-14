@@ -33,6 +33,12 @@
       "links": {"twitter": "https://twitter.com/sbellware"}
     },
     {
+      "image": "/static/speakers/nathan-ladd.jpg",
+      "name": "Nathan Ladd",
+      "description": "Software developer and consultant hailing from Austin, TX. Often guilty of writing evented microservices in ruby using the Eventide framework, of which he is also a co-author. Also wrote Test Bench, a BDD inspired test framework for ruby. When his focus isn’t improving software systems, his hobbies include RV living, calisthenics, and guitar.",
+      "links": {"twitter": "https://twitter.com/realntl"}
+    },
+    {
       "image": "/static/speakers/lukasz-reszke.jpg",
       "name": "Łukasz Reszke",
       "description": "Uses domain-driven design, event sourcing, and a pragmatic approach to problem solving.",
