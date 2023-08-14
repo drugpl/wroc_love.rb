@@ -20,6 +20,29 @@
       "name": "Cristian Planas",
       "description": "I am a software engineer currently based in New York City. I have been working primarily with Rails since the release of Rails 3, more than 10 years ago. Performance optimization has been an obsession for me since I founded my first start-up as a solo engineer in 2012. Currently, I am a group tech lead and senior staff engineer at Zendesk, where I focus on performance optimization",
       "links": {"twitter": "https://twitter.com/crplanas"}
+    },
+    {
+      "image": "/static/speakers/ayush-newatia.jpg",
+      "name": "Ayush Newatia",
+      "description": "Ayush is a freelance Ruby and Rails developer. He's on the core team of the Bridgetown open source project and the author of The Rails and Hotwire Codex. He also runs a privacy focused mailing list app called Scattergun.\nIn a previous life, he worked as an iOS and Android developer and was involved with the development of hugely popular apps for companies such as Nike and Dyson."
+    },
+    {
+      "image": "/static/speakers/scott-bellware.jpg",
+      "name": "Scott Bellware",
+      "description": "Scott Bellware works with software teams on evented and message-based systems, as well as architecture remediation. He’s been on a ten-year mission to incorporate all the good things he’s learned in the distributed systems world with all the good things he’s learned in the mainstream web app world. He's a software professional with 25 years of industry experience, and has been hands-on in virtually every role in a software organization from developer, to QA, to product manager, to CTO. Scott is a co-founder of the open source Eventide Project and Message DB.",
+      "links": {"twitter": "https://twitter.com/sbellware"}
+    },
+    {
+      "image": "/static/speakers/lukasz-reszke.jpg",
+      "name": "Łukasz Reszke",
+      "description": "Uses domain-driven design, event sourcing, and a pragmatic approach to problem solving.",
+      "links": {"twitter": "https://twitter.com/lreszke"}
+    },
+    {
+      "image": "/static/speakers/miron-marczuk.jpg",
+      "name": "Miron Marczuk",
+      "description": "I'm a Senior Ruby Developer with more than 5 years of experience. During my career, I worked on various international projects written in Ruby, including in-house CMS, e-commerce management software, and ML-powered search engine. I spend my free time training triathlon.",
+      "links": {"twitter": "https://twitter.com/m_marczuk"}
     }
   ],
   "agenda": [
