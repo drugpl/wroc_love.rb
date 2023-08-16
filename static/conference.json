@@ -55,6 +55,12 @@
       "name": "Tomasz Donarski",
       "description": "Ruby developer working at Monterail. OSS supporter. Interested in engineering the #### out of problems. Most likely reading about DDD or software architecture at the moment.",
       "links": {"twitter": "https://twitter.com/tomdonarski"}
+    },
+    {
+      "image": "/static/speakers/krzysztof-hasinski.jpg",
+      "name": "Chris Hasiński",
+      "description": "A developer with over 15 years of experience. Mainly interested in application performance and code readability, but happy to discuss all things software.",
+      "links": {"twitter": "https://twitter.com/khasinski" }
     }
   ],
   "agenda": [
