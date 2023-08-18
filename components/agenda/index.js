@@ -4,7 +4,11 @@ import styles from "./index.module.scss"
 import SectionHeader from "../section_header"
 import header from "./header.png"
 import { withConfiguration } from "../contexts/configuration"
-import { talksList } from "../../utils/talks_list"
+import {
+  talksList,
+  getFirstDayStart,
+  getLastDayEnd,
+} from "../../utils/talks_list"
 
 class Agenda extends React.Component {
   state = { renderDot: false }
@@ -13,6 +17,12 @@ class Agenda extends React.Component {
   }
 
   currentTalk(now, talksList) {
+    const { startDate, endDate } = this.props
+
+    if (now < startDate || now > endDate) {
+      return
+    }
+
     const talk = talksList.find(
       (talk) => talk.startTime <= now && talk.endTime >= now
     )
@@ -90,4 +100,6 @@ class Agenda extends React.Component {
 export default withConfiguration((config) => ({
   agenda: config.agenda,
   talksList: talksList(config.agenda),
+  startDate: getFirstDayStart(config.agenda),
+  endDate: getLastDayEnd(config.agenda),
 }))(Agenda)
