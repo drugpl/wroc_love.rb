@@ -2,7 +2,11 @@ import React from "react"
 import styles from "./index.module.scss"
 import image from "./manhattan.png"
 import { withConfiguration } from "../contexts/configuration"
-import talksList from "../../utils/talks_list"
+import {
+  talksList,
+  getFirstDayStart,
+  getLastDayEnd,
+} from "../../utils/talks_list"
 
 class Postcard extends React.Component {
   state = { renderText: false }
@@ -13,7 +17,7 @@ class Postcard extends React.Component {
 
   render() {
     const { renderText } = this.state
-    const { talksList } = this.props
+    const { talksList, startDate, endDate } = this.props
     const now = new Date()
     const currentTalkIndex = talksList.findIndex(
       (talk) => talk.startTime <= now && talk.endTime >= now
@@ -24,6 +28,12 @@ class Postcard extends React.Component {
     const nextTalk = talksList.find(
       (talk, index) => talk.startTime > now && index > currentTalkIndex
     )
+
+    const showTalkInfo =
+      !!(currentTalk || nextTalk) &&
+      renderText &&
+      now > startDate &&
+      now < endDate
 
     const label = (talk) =>
       `${talk.start} - ${talk.end} ${
@@ -36,7 +46,7 @@ class Postcard extends React.Component {
           className={styles.postcard}
           style={{ backgroundImage: `url(${image.src})` }}
         >
-          {!!(currentTalk || nextTalk) && renderText && (
+          {showTalkInfo && (
             <div className={styles.info}>
               {currentTalk && (
                 <div className={styles.now}>NOW: {label(currentTalk)}</div>
@@ -54,4 +64,6 @@ class Postcard extends React.Component {
 
 export default withConfiguration((config) => ({
   talksList: talksList(config.agenda),
+  startDate: getFirstDayStart(config.agenda),
+  endDate: getLastDayEnd(config.agenda),
 }))(Postcard)

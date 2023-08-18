@@ -4,7 +4,7 @@ import styles from "./index.module.scss"
 import SectionHeader from "../section_header"
 import header from "./header.png"
 import { withConfiguration } from "../contexts/configuration"
-import talksList from "../../utils/talks_list"
+import { talksList } from "../../utils/talks_list"
 
 class Agenda extends React.Component {
   state = { renderDot: false }
