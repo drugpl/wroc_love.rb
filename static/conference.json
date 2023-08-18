@@ -67,17 +67,162 @@
     {
       "label": "DAY 1: Friday\nSeptember 15",
       "date": "2023-09-15",
-      "talks": []
+      "talks": [
+        {
+          "start": "13:00",
+          "end": "14:00",
+          "title": "Registration"
+        },
+        {
+          "start": "14:00",
+          "end": "17:00",
+          "speaker": "Workshop",
+          "title": "Mutation testing"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "Łukasz Reszke",
+          "title": "Working with RailsEventStore in Cashflow Management System"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "20:00",
+          "end": "23:59",
+          "speaker": "Party",
+          "title": "TBA"
+        }
+      ]
     },
     {
       "label": "DAY 2: Saturday\nSeptember 16",
       "date": "2022-09-16",
-      "talks": []
+      "talks": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "title": "Registration"
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "speaker": "Scott Bellware",
+          "title": "Doctrine of Useful Objects: Separate Fact from Fiction in Object-Oriented Development"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "speaker": "Nathan Ladd",
+          "title": "Test Bench - An Intrepid Expedition Into Extreme Simplicity"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "speaker": "Cristian Planas",
+          "title": "A Rails performance guidebook: from 0 to 1B requests/day"
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "speaker": "Lunch break"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "speaker": "Panel",
+          "title": "TBA"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "speaker": "Miron Marczuk",
+          "title": "Multi-region data governance in Rails application"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "Markus Schirp",
+          "title": "Your domain is not a CRUD"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "speaker": "Lightning talks"
+        },
+        {
+          "start": "20:00",
+          "end": "23:59",
+          "speaker": "Party",
+          "title": "TBA"
+        }
+      ]
     },
     {
       "label": "DAY 3: Sunday\nSeptember 18",
       "date": "2022-09-18",
-      "talks": []
+      "talks": [
+        {
+          "start": "09:00",
+          "end": "10:00",
+          "title": "Registration"
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "speaker": "Agnieszka Małaszkiewicz",
+          "title": "Ruby Rendezvous: Method Call, Proc, and Beyond"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "speaker": "Ayush Newatia",
+          "title": "Native apps are dead, long live native apps: Using Turbo Native to make hybrid apps that don’t suck"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "speaker": "Chris Hasiński",
+          "title": "Fantastic Databases and Where to Find Them"
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "speaker": "Lunch break"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "speaker": "Panel",
+          "title": "TBA"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "speaker": "Rafal Cymerys",
+          "title": "From open source to IPO - lessons learned from building a scalable open source framework on top of Rails"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "Tomasz Donarski",
+          "title": "Reforging (or rather rebrewing) the support for open-source"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "speaker": "Lightning talks"
+        },
+        {
+          "start": "20:00",
+          "end": "23:59",
+          "speaker": "Party",
+          "title": "TBA"
+        }
+      ]
     }
   ],
   "supporters": [
