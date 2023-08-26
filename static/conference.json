@@ -234,6 +234,11 @@
       "name": "Prowly",
       "link": "https://prowly.com",
       "image": "prowly.png"
+    },
+    {
+      "name": "koleo",
+      "link": "https://koleo.pl/",
+      "image": "koleo.png"
     }
   ],
   "partners": [
