@@ -61,6 +61,11 @@
       "name": "Chris Hasiński",
       "description": "A developer with over 15 years of experience. Mainly interested in application performance and code readability, but happy to discuss all things software.",
       "links": {"twitter": "https://twitter.com/khasinski" }
+    },
+    {
+      "image": "/static/speakers/amelia-walter-dzikowska.jpg",
+      "name": "Amelia Walter-Dzikowska",
+      "description": "QA specialist working in software testing since 2017, with experience in three human languages, three programming languages and ten various projects. Currently an integration test automation engineer in one of the largest IT projects in the European banking industry. Apart from test automation and developing technical skills, she is interested in psychology, languages, soft skills and she loves working in international environments. In her spare time, she shares knowledge on the internet, goes to meetups, drinks good coffee and chills out in her cat’s company."
     }
   ],
   "agenda": [
@@ -88,7 +93,8 @@
         {
           "start": "18:00",
           "end": "19:00",
-          "speaker": "TBA"
+          "speaker": "Amelia Walter-Dzikowska",
+          "title": "International cooperation in IT teams. Is our office a global village?"
         },
         {
           "start": "20:00",
