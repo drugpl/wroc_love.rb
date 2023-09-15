@@ -19,7 +19,7 @@ class Postcard extends React.Component {
   render() {
     const { renderText } = this.state
     const { talksList, startDate, endDate } = this.props
-    const now = currentDateInPoland()
+    const now = new Date()
 
     const currentTalkIndex = talksList.findIndex(
       (talk) => talk.startTime <= now && talk.endTime >= now

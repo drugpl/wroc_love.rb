@@ -8,7 +8,6 @@ import {
   talksList,
   getFirstDayStart,
   getLastDayEnd,
-  currentDateInPoland,
 } from "../../utils/talks_list"
 
 class Agenda extends React.Component {
@@ -52,7 +51,7 @@ class Agenda extends React.Component {
 
   render() {
     const { agenda, talksList } = this.props
-    const now = currentDateInPoland()
+    const now = new Date()
     const currentTalk = this.currentTalk(now, talksList)
 
     return (
