@@ -1,6 +1,9 @@
 const zeroPad = (value) =>
   String(value).length === 4 ? `0${value}` : String(value)
 const createDate = (date, time) => new Date(`${date}T${zeroPad(time)}:00`)
+export const currentDateInPoland = () =>
+  new Date(new Date().toLocaleString([], { timeZone: "Europe/Warsaw" }))
+
 export function talksList(agenda) {
   if (!agenda) {
     return []
