@@ -139,8 +139,7 @@
         {
           "start": "15:00",
           "end": "16:00",
-          "speaker": "Panel",
-          "title": "TBA"
+          "speaker": "Panel: Event-driven Rails"
         },
         {
           "start": "16:00",
