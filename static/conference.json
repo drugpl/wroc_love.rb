@@ -66,6 +66,11 @@
       "image": "/static/speakers/amelia-walter-dzikowska.jpg",
       "name": "Amelia Walter-Dzikowska",
       "description": "QA specialist working in software testing since 2017, with experience in three human languages, three programming languages and ten various projects. Currently an integration test automation engineer in one of the largest IT projects in the European banking industry. Apart from test automation and developing technical skills, she is interested in psychology, languages, soft skills and she loves working in international environments. In her spare time, she shares knowledge on the internet, goes to meetups, drinks good coffee and chills out in her cat’s company."
+    },
+    {
+      "image": "/static/speakers/jakub-rodzik.jpg",
+      "name": "Jakub Rodzik",
+      "description": ""
     }
   ],
   "agenda": [
@@ -150,7 +155,8 @@
         {
           "start": "17:00",
           "end": "18:00",
-          "speaker": "TBA"
+          "speaker": "Jakub Rodzik",
+          "title": "Testing Randomness"
         },
         {
           "start": "18:00",
