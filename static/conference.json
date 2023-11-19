@@ -1,267 +1,32 @@
 {
-  "title": "wroc_love.rb 2023",
+  "title": "wroc_love.rb 2024",
   "description": "wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
-  "date": "September 15-17, 2023",
-  "cfpUrl": "https://forms.gle/NMR7SCqyD9zWeNQRA",
-  "ticketsUrl": "https://wrocloverb2023.konfeo.com/en/groups",
+  "date": "TBA, 2024",
+  "cfpUrl": null,
+  "ticketsUrl": null,
   "facebookUrl": "https://facebook.com/wroclove.rb/",
   "twitterUrl": "https://twitter.com/wrocloverb",
   "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
-  "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022],
-  "speakers": [
-    {
-      "image": "/static/speakers/agnieszka-malaszkiewicz.jpg",
-      "name": "Agnieszka Małaszkiewicz",
-      "description": "Full-stack developer in love with backend written in Ruby aka Woman on Rails. Rails Girls mentor and organizer. Offline dancer and book reader.",
-      "links": {}
-    },
-    {
-      "image": "/static/speakers/cristian-planas.jpg",
-      "name": "Cristian Planas",
-      "description": "I am a software engineer currently based in New York City. I have been working primarily with Rails since the release of Rails 3, more than 10 years ago. Performance optimization has been an obsession for me since I founded my first start-up as a solo engineer in 2012. Currently, I am a group tech lead and senior staff engineer at Zendesk, where I focus on performance optimization",
-      "links": {"twitter": "https://twitter.com/crplanas"}
-    },
-    {
-      "image": "/static/speakers/ayush-newatia.jpg",
-      "name": "Ayush Newatia",
-      "description": "Ayush is a freelance Ruby and Rails developer. He's on the core team of the Bridgetown open source project and the author of The Rails and Hotwire Codex. He also runs a privacy focused mailing list app called Scattergun.\nIn a previous life, he worked as an iOS and Android developer and was involved with the development of hugely popular apps for companies such as Nike and Dyson."
-    },
-    {
-      "image": "/static/speakers/scott-bellware.jpg",
-      "name": "Scott Bellware",
-      "description": "Scott Bellware works with software teams on evented and message-based systems, as well as architecture remediation. He’s been on a ten-year mission to incorporate all the good things he’s learned in the distributed systems world with all the good things he’s learned in the mainstream web app world. He's a software professional with 25 years of industry experience, and has been hands-on in virtually every role in a software organization from developer, to QA, to product manager, to CTO. Scott is a co-founder of the open source Eventide Project and Message DB.",
-      "links": {"twitter": "https://twitter.com/sbellware"}
-    },
-    {
-      "image": "/static/speakers/nathan-ladd.jpg",
-      "name": "Nathan Ladd",
-      "description": "Software developer and consultant hailing from Austin, TX. Often guilty of writing evented microservices in ruby using the Eventide framework, of which he is also a co-author. Also wrote Test Bench, a BDD inspired test framework for ruby. When his focus isn’t improving software systems, his hobbies include RV living, calisthenics, and guitar.",
-      "links": {"twitter": "https://twitter.com/realntl"}
-    },
-    {
-      "image": "/static/speakers/lukasz-reszke.jpg",
-      "name": "Łukasz Reszke",
-      "description": "Uses domain-driven design, event sourcing, and a pragmatic approach to problem solving.",
-      "links": {"twitter": "https://twitter.com/lreszke"}
-    },
-    {
-      "image": "/static/speakers/miron-marczuk.jpg",
-      "name": "Miron Marczuk",
-      "description": "I’m a seasoned Senior Ruby Developer with a strong background in crafting international Ruby applications, including in-house CMS, e-commerce management software, and ML-powered search engine. I spend my free time training triathlon.",
-      "links": {"twitter": "https://twitter.com/m_marczuk"}
-    },
-    {
-      "image": "/static/speakers/tomasz-donarski.jpg",
-      "name": "Tomasz Donarski",
-      "description": "Ruby developer working at Upside. OSS supporter. Interested in engineering the #### out of problems. Most likely reading about DDD or software architecture at the moment.",
-      "links": {"twitter": "https://twitter.com/tomdonarski"}
-    },
-    {
-      "image": "/static/speakers/krzysztof-hasinski.jpg",
-      "name": "Chris Hasiński",
-      "description": "A developer with over 15 years of experience. Mainly interested in application performance and code readability, but happy to discuss all things software.",
-      "links": {"twitter": "https://twitter.com/khasinski" }
-    },
-    {
-      "image": "/static/speakers/amelia-walter-dzikowska.jpg",
-      "name": "Amelia Walter-Dzikowska",
-      "description": "QA specialist working in software testing since 2017, with experience in three human languages, three programming languages and ten various projects. Currently an integration test automation engineer in one of the largest IT projects in the European banking industry. Apart from test automation and developing technical skills, she is interested in psychology, languages, soft skills and she loves working in international environments. In her spare time, she shares knowledge on the internet, goes to meetups, drinks good coffee and chills out in her cat’s company."
-    },
-    {
-      "image": "/static/speakers/jakub-rodzik.jpg",
-      "name": "Jakub Rodzik",
-      "description": "I like to ride my bicycle 🚲."
-    }
-  ],
+  "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023],
+  "speakers": [],
   "agenda": [
     {
-      "label": "DAY 1: Friday\nSeptember 15",
-      "date": "2023-09-15",
-      "talks": [
-        {
-          "start": "13:00",
-          "end": "14:00",
-          "title": "Registration"
-        },
-        {
-          "start": "14:00",
-          "end": "17:00",
-          "speaker": "Workshop",
-          "title": "Rails with DDD in practice"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00",
-          "speaker": "Łukasz Reszke",
-          "title": "Working with RailsEventStore in Cashflow Management System"
-        },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "speaker": "Amelia Walter-Dzikowska",
-          "title": "International cooperation in IT teams. Is our office a global village?"
-        },
-        {
-          "start": "20:00",
-          "end": "23:59",
-          "speaker": "Party at Ceregiele",
-          "title": "ul. Ofiar Oświęcimskich 17"
-        }
-      ]
+      "label": "DAY 1: Friday\nTBA",
+      "date": "2024-12-31",
+      "talks": []
     },
     {
-      "label": "DAY 2: Saturday\nSeptember 16",
-      "date": "2023-09-16",
-      "talks": [
-        {
-          "start": "9:00",
-          "end": "10:00",
-          "title": "Registration"
-        },
-        {
-          "start": "10:00",
-          "end": "11:00",
-          "speaker": "Agnieszka Małaszkiewicz",
-          "title": "Ruby Rendezvous: Method Call, Proc, and Beyond"
-        },
-        {
-          "start": "11:00",
-          "end": "12:00",
-          "speaker": "Nathan Ladd",
-          "title": "An Introduction to Test Bench"
-        },
-        {
-          "start": "12:00",
-          "end": "13:00",
-          "speaker": "Cristian Planas",
-          "title": "A Rails performance guidebook: from 0 to 1B requests/day"
-        },
-        {
-          "start": "13:00",
-          "end": "15:00",
-          "speaker": "Lunch break"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00",
-          "speaker": "Panel: Event-driven Rails"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00",
-          "speaker": "Miron Marczuk",
-          "title": "Multi-region data governance in Rails application"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00",
-          "speaker": "Jakub Rodzik",
-          "title": "Testing Randomness"
-        },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "speaker": "Lightning talks"
-        },
-        {
-          "start": "20:00",
-          "end": "23:59",
-          "speaker": "Main party at Mleczarnia",
-          "title": "ul. Włodkowica 5"
-        }
-      ]
+      "label": "DAY 2: Saturday\nTBA",
+      "date": "2024-12-31",
+      "talks": []
     },
     {
-      "label": "DAY 3: Sunday\nSeptember 17",
-      "date": "2023-09-17",
-      "talks": [
-        {
-          "start": "9:00",
-          "end": "10:00",
-          "title": "Registration"
-        },
-        {
-          "start": "10:00",
-          "end": "11:00",
-          "speaker": "Scott Bellware",
-          "title": "Doctrine of Useful Objects: Separate Fact from Fiction in Object-Oriented Development"
-        },
-        {
-          "start": "11:00",
-          "end": "12:00",
-          "speaker": "Ayush Newatia",
-          "title": "Native apps are dead, long live native apps: Using Turbo Native to make hybrid apps that don’t suck"
-        },
-        {
-          "start": "12:00",
-          "end": "13:00",
-          "speaker": "Chris Hasiński",
-          "title": "Fantastic Databases and Where to Find Them"
-        },
-        {
-          "start": "13:00",
-          "end": "15:00",
-          "speaker": "Lunch break"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00",
-          "speaker": "Open Mic",
-          "title": "Ruby Jobs Trends"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00",
-          "speaker": "Rafal Cymerys",
-          "title": "From open source to IPO - lessons learned from building a scalable open source framework on top of Rails"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00",
-          "speaker": "Tomasz Donarski",
-          "title": "Reforging (or rather rebrewing) the support for open-source"
-        },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "speaker": "Lightning talks"
-        },
-        {
-          "start": "20:00",
-          "end": "23:59",
-          "speaker": "Party",
-          "title": "TBA"
-        }
-      ]
+      "label": "DAY 3: Sunday\nTBA",
+      "date": "2024-12-31",
+      "talks": []
     }
   ],
-  "supporters": [
-    {
-      "name": "Arkency",
-      "link": "https://arkency.com/",
-      "image": "arkency.svg"
-    },
-    {
-      "name": "Prowly",
-      "link": "https://prowly.com",
-      "image": "prowly.png"
-    },
-    {
-      "name": "koleo",
-      "link": "https://koleo.pl/",
-      "image": "koleo.png"
-    },
-    {
-      "name": "Helpling",
-      "link": "https://www.helpling.com/",
-      "image": "helpling.jpg"
-    },
-    {
-      "name": "Ascenda",
-      "link": "https://www.ascendaloyalty.com/",
-      "image": "ascenda.png"
-    }
-  ],
+  "supporters": [],
   "partners": [
     {
       "name": "Uniwersytet Wrocławski",
@@ -272,16 +37,6 @@
       "name": "Pragmatic Programmer",
       "image": "pragmatic_bookshelf.png",
       "link": "http://pragprog.com/"
-    },
-    {
-      "name": "rubyday",
-      "image": "rubyday.png",
-      "link": "https://2023.rubyday.it/"
-    },
-    {
-      "name": "koleo",
-      "image": "koleo.png",
-      "link": "https://koleo.pl/"
     }
   ],
   "venue": {
