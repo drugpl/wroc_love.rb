@@ -1,7 +1,7 @@
 {
   "title": "wroc_love.rb 2024",
   "description": "wroc_love.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
-  "date": "TBA, 2024",
+  "date": "April 12-14, 2024",
   "cfpUrl": null,
   "ticketsUrl": null,
   "facebookUrl": "https://facebook.com/wroclove.rb/",
@@ -12,17 +12,17 @@
   "agenda": [
     {
       "label": "DAY 1: Friday\nTBA",
-      "date": "2024-12-31",
+      "date": "2024-04-12",
       "talks": []
     },
     {
       "label": "DAY 2: Saturday\nTBA",
-      "date": "2024-12-31",
+      "date": "2024-04-13",
       "talks": []
     },
     {
       "label": "DAY 3: Sunday\nTBA",
-      "date": "2024-12-31",
+      "date": "2024-04-14",
       "talks": []
     }
   ],
