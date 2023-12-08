@@ -4,9 +4,10 @@ import styles from "./social_media.module.scss"
 import fb from "./fb.png"
 import tt from "./tt.png"
 import yt from "./yt.png"
+import discord from "./discord.png"
 import { withConfiguration } from "../contexts/configuration"
 
-const SocialMedia = ({ facebookUrl, twitterUrl, youtubeUrl }) => (
+const SocialMedia = ({ facebookUrl, twitterUrl, discordUrl, youtubeUrl }) => (
   <div className={styles.container}>
     {facebookUrl && (
       <a href={facebookUrl}>
@@ -16,6 +17,11 @@ const SocialMedia = ({ facebookUrl, twitterUrl, youtubeUrl }) => (
     {twitterUrl && (
       <a href={twitterUrl}>
         <img src={tt.src} />
+      </a>
+    )}
+    {discordUrl && (
+      <a href={discordUrl}>
+        <img src={discord.src} />
       </a>
     )}
     {youtubeUrl && (
@@ -29,11 +35,13 @@ const SocialMedia = ({ facebookUrl, twitterUrl, youtubeUrl }) => (
 SocialMedia.propTypes = {
   facebookUrl: PropTypes.string,
   twitterUrl: PropTypes.string,
+  discordUrl: PropTypes.string,
   youtubeUrl: PropTypes.string,
 }
 
 export default withConfiguration((config) => ({
   facebookUrl: config.facebookUrl,
   twitterUrl: config.twitterUrl,
+  discordUrl: config.discordUrl,
   youtubeUrl: config.youtubeUrl,
 }))(SocialMedia)
