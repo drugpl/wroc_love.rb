@@ -8,7 +8,7 @@ const TalksLink = ({ youtubeUrl }) => (
   <div className={styles.container}>
     <a
       className={styles.link}
-      href={youtubeUrl}
+      href={`${youtubeUrl}/videos`}
       target="_blank"
       rel="noopener noreferrer"
     >

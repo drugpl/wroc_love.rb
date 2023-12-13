@@ -4,7 +4,7 @@ import { withConfiguration } from "../contexts/configuration"
 
 const Editions = ({ editions }) => (
   <div className={styles.container}>
-    <div className={styles.header}>Previously on wroc_love.rb</div>
+    <div className={styles.header}>Previously on wroclove.rb</div>
 
     <ul className={styles.editions}>
       {editions.map((edition) => (

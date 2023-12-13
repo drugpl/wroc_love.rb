@@ -1,3 +1,5 @@
+@import '../../scss/mixins';
+
 .container {
   border-bottom: 1px solid black;
   position: relative;
@@ -19,4 +21,44 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 2vw;
+  height: 2vw;
+  fill: #c00;
+}
+
+.x {
+  display: block;
+  width: 1.4vw;
+  height: 1.4vw;
+  margin: 0.3vw 0 0 0.4vw;
+  fill: #cc0000;
+}
+
+.link:hover .x {
+  fill: #440000;
+}
+
+@include tablet {
+  .x {
+    margin-top: 0.2vw;
+  }
+}
+
+@include mobile {
+  .arrow {
+    width: 2.2vh;
+    height: 2.2vh;
+  }
+
+  .x {
+    width: 3.15vh;
+    height: 3.15vh;
+    margin: 0.6vh 0 0 1.3vh;
+  }
 }
