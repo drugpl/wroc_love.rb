@@ -77,3 +77,9 @@
     font-size: 4vw;
   }
 }
+
+@include tablet {
+  .box {
+    min-height: 38vw;
+  }
+}

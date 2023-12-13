@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./index.module.scss"
+import styles from "./soon.module.scss"
 import SectionHeader from "../section_header"
 import header from "./header.png"
 

@@ -61,7 +61,9 @@ class Home extends React.Component {
                     </Responsive>
                   </>
                 ) : (
-                  <AgendaSoon />
+                  <Responsive desktop desktophd mobile>
+                    <AgendaSoon />
+                  </Responsive>
                 )}
                 {!!displayAgenda && (
                   <Responsive tablet>
@@ -111,6 +113,7 @@ class Home extends React.Component {
                         </>
                       ) : (
                         <>
+                          <AgendaSoon />
                           <TalksLink />
                           <XTwitter />
                         </>

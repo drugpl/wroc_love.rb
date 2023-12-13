@@ -1,0 +1,13 @@
+@import '../../scss/mixins';
+
+@include mobile {
+  .container {
+    border-bottom: 1px solid black;
+  }
+}
+
+@include tablet {
+  .container {
+    border-bottom: 1px solid black;
+  }
+}

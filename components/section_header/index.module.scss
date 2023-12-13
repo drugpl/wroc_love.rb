@@ -25,7 +25,7 @@
   font-size: 2vw;
   text-transform: uppercase;
   border: 1px solid black;
-  background-size: cover;
+  background-size: calc(100% + 1px); // "contain" is buggy on Chrome (adds 1px whitespace)
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
