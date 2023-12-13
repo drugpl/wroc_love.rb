@@ -8,11 +8,14 @@ import Logo from "../components/logo"
 import ConfrontIdeas from "../components/confront_ideas"
 import Postcard from "../components/postcard"
 import Agenda from "../components/agenda"
+import AgendaSoon from "../components/agenda/soon"
 import Speakers from "../components/speakers"
 import Location from "../components/location"
 import Partners from "../components/partners"
 import Supporters from "../components/supporters"
 import TalksArchive from "../components/talks_archive"
+import TalksLink from "../components/talks_link"
+import XTwitter from "../components/x_twitter"
 import Twitter from "../components/twitter"
 import Editions from "../components/editions"
 import Footer from "../components/footer"
@@ -23,6 +26,7 @@ import { ConfigurationProvider } from "../components/contexts/configuration"
 
 class Home extends React.Component {
   render() {
+    const { displayAgenda } = this.config()
     return (
       <ResponsiveProvider>
         <ConfigurationProvider config={this.config()}>
@@ -49,15 +53,25 @@ class Home extends React.Component {
                   <Postcard />
                 </Responsive>
                 <ConfrontIdeas />
-                <Agenda />
-                <Responsive desktop desktophd>
-                  <Editions />
-                </Responsive>
-                <Responsive tablet>
-                  <Supporters />
-                  <Partners />
-                  <Twitter />
-                </Responsive>
+                {displayAgenda ? (
+                  <>
+                    <Agenda />
+                    <Responsive desktop desktophd>
+                      <Editions />
+                    </Responsive>
+                  </>
+                ) : (
+                  <Responsive desktop desktophd mobile>
+                    <AgendaSoon />
+                  </Responsive>
+                )}
+                {!!displayAgenda && (
+                  <Responsive tablet>
+                    <Supporters />
+                    <Partners />
+                    <Twitter />
+                  </Responsive>
+                )}
               </div>
 
               <div className={styles.column2}>
@@ -67,25 +81,43 @@ class Home extends React.Component {
                 <div className={styles.content}>
                   <Responsive mobile desktop desktophd>
                     <div className={styles.content_column}>
-                      <Speakers />
+                      {displayAgenda ? <Speakers /> : <TalksLink />}
                     </div>
                     <div className={styles.content_column}>
-                      <Location />
-                      <Partners />
-                      <Supporters />
-                      <Twitter />
-                      <TalksArchive />
-                      <Responsive mobile>
-                        <Editions />
-                      </Responsive>
+                      {displayAgenda ? (
+                        <>
+                          <Location />
+                          <Partners />
+                          <Supporters />
+                          <Twitter />
+                          <TalksArchive />
+                        </>
+                      ) : (
+                        <XTwitter />
+                      )}
+                      {!!displayAgenda && (
+                        <Responsive mobile>
+                          <Editions />
+                        </Responsive>
+                      )}
                     </div>
                   </Responsive>
                   <Responsive tablet>
                     <div className={styles.content_column}>
-                      <Speakers />
-                      <Location />
-                      <TalksArchive />
-                      <Editions />
+                      {displayAgenda ? (
+                        <>
+                          <Speakers />
+                          <Location />
+                          <TalksArchive />
+                          <Editions />
+                        </>
+                      ) : (
+                        <>
+                          <AgendaSoon />
+                          <TalksLink />
+                          <XTwitter />
+                        </>
+                      )}
                     </div>
                   </Responsive>
                 </div>

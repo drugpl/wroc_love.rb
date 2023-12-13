@@ -8,17 +8,30 @@
   padding: 10px;
 }
 
+.header_small {
+  margin-bottom: -1px;
+}
+
+.header_extra_space {
+  height: calc(15vw + 20px);
+}
+
 .header_content {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   flex: 1;
-  font-size: 3vw;
+  font-size: 2vw;
   text-transform: uppercase;
   border: 1px solid black;
-  background-size: cover;
+  background-size: calc(100% + 1px); // "contain" is buggy on Chrome (adds 1px whitespace)
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+.header_content_small {
+  font-size: 2vw;
 }
 
 @include mobile {
@@ -27,6 +40,6 @@
   }
 
   .header_content {
-    font-size: 8vw;
+    font-size: 6vw;
   }
 }
