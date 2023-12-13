@@ -50,9 +50,21 @@ class Agenda extends React.Component {
   }
 
   render() {
-    const { agenda, talksList } = this.props
+    const { agenda, displayAgenda, talksList } = this.props
     const now = new Date()
     const currentTalk = this.currentTalk(now, talksList)
+
+    if (!displayAgenda) {
+      return (
+        <div className={styles.container}>
+          <SectionHeader backgroundImage={header.src} textColor="#fff" small>
+            Agenda &amp; Speakers
+            <br />
+            coming soon
+          </SectionHeader>
+        </div>
+      )
+    }
 
     return (
       <div className={styles.container}>
@@ -99,6 +111,7 @@ class Agenda extends React.Component {
 
 export default withConfiguration((config) => ({
   agenda: config.agenda,
+  displayAgenda: config.displayAgenda,
   talksList: talksList(config.agenda),
   startDate: getFirstDayStart(config.agenda),
   endDate: getLastDayEnd(config.agenda),

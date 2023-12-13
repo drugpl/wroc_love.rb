@@ -8,10 +8,19 @@
   padding: 10px;
 }
 
+.header_small {
+  margin-bottom: -1px;
+}
+
+.header_extra_space {
+  height: calc(15vw + 20px);
+}
+
 .header_content {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   flex: 1;
   font-size: 3vw;
   text-transform: uppercase;
@@ -21,6 +30,10 @@
   background-repeat: no-repeat;
 }
 
+.header_content_small {
+  font-size: 2vw;
+}
+
 @include mobile {
   .header {
     height: 30vw;
@@ -28,5 +41,9 @@
 
   .header_content {
     font-size: 8vw;
+  }
+
+  .header_content_small {
+    font-size: 5vw;
   }
 }

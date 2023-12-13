@@ -6,21 +6,27 @@ const SectionHeader = ({
   backgroundImage,
   backgroundColor,
   textColor,
+  small = false,
   outerBorder = true,
+  extraSpace = false,
 }) => (
   <div
-    className={styles.header}
+    className={`${styles.header} ${small ? styles.header_small : ""} ${
+      extraSpace ? styles.header_extra_space : ""
+    }`}
     style={
       outerBorder
         ? {
             border: "1px solid black",
-            margin: "10px 10px 0 10px",
+            margin: small ? "10px" : "10px 10px 0 10px",
           }
         : undefined
     }
   >
     <div
-      className={styles.header_content}
+      className={`${styles.header_content} ${
+        small ? styles.header_content_small : ""
+      }`}
       style={{
         backgroundColor,
         backgroundImage: backgroundImage

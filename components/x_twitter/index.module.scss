@@ -1,0 +1,22 @@
+.container {
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.link {
+  text-decoration: none;
+  color: #000
+}
+
+.follow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: #fff;
+  font-size: 1vw;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
