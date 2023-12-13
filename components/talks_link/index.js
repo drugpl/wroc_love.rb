@@ -1,12 +1,14 @@
 import React from "react"
 import styles from "./index.module.scss"
 import SectionHeader from "../section_header"
+import PropTypes from "prop-types"
+import { withConfiguration } from "../contexts/configuration"
 
-const TalksLink = () => (
+const TalksLink = ({ youtubeUrl }) => (
   <div className={styles.container}>
     <a
       className={styles.link}
-      href="https://www.youtube.com/embed/?listType=user_uploads&list=wrocloverb"
+      href={youtubeUrl}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -17,4 +19,10 @@ const TalksLink = () => (
   </div>
 )
 
-export default TalksLink
+TalksLink.propTypes = {
+  twitterUrl: PropTypes.string,
+}
+
+export default withConfiguration((config) => ({
+  youtubeUrl: config.youtubeUrl,
+}))(TalksLink)

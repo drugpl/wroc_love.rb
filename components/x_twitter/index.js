@@ -2,13 +2,14 @@ import React from "react"
 import styles from "./index.module.scss"
 import SectionHeader from "../section_header"
 import arrowRight from "./arrow-right.svg"
+import PropTypes from "prop-types"
+import { withConfiguration } from "../contexts/configuration"
 
-console.log(arrowRight)
-const XTwitter = () => (
+const XTwitter = ({ twitterUrl }) => (
   <div className={styles.container}>
     <a
       className={styles.link}
-      href="https://www.youtube.com/embed/?listType=user_uploads&list=wrocloverb"
+      href={twitterUrl}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -22,4 +23,10 @@ const XTwitter = () => (
   </div>
 )
 
-export default XTwitter
+XTwitter.propTypes = {
+  twitterUrl: PropTypes.string,
+}
+
+export default withConfiguration((config) => ({
+  twitterUrl: config.twitterUrl,
+}))(XTwitter)
