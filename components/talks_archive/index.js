@@ -22,7 +22,7 @@ const Arrow = () => (
 
 const TalksArchive = ({ youtubeAccount }) => (
   <div className={styles.container}>
-    <SectionHeader outerBorder={false}>Talks Archive</SectionHeader>
+    <SectionHeader outerBorder={true}>Talks Archive</SectionHeader>
     <div className={styles.embed}>
       <iframe
         src={`https://www.youtube.com/embed/?listType=user_uploads&list=${youtubeAccount}`}
