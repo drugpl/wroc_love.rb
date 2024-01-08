@@ -7,7 +7,7 @@
   "facebookUrl": "https://facebook.com/wroclove.rb/",
   "twitterUrl": "https://twitter.com/wrocloverb",
   "discordUrl": "https://discord.com/invite/UYMestkPNc",
-  "youtubeUrl": "https://www.youtube.com/user/wrocloverb",
+  "youtubeAccount": "wrocloverb",
   "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023],
   "speakers": [],
   "displayAgenda": false,
@@ -39,6 +39,11 @@
       "name": "Pragmatic Programmer",
       "image": "pragmatic_bookshelf.png",
       "link": "http://pragprog.com/"
+    },
+    {
+      "name": "Ruby Warsaw Community Conference",
+      "image": "rwcc.png",
+      "link": "https://rubycommunityconference.com/"
     }
   ],
   "venue": {

@@ -7,7 +7,12 @@ import yt from "./yt.png"
 import discord from "./discord.png"
 import { withConfiguration } from "../contexts/configuration"
 
-const SocialMedia = ({ facebookUrl, twitterUrl, discordUrl, youtubeUrl }) => (
+const SocialMedia = ({
+  facebookUrl,
+  twitterUrl,
+  discordUrl,
+  youtubeAccount,
+}) => (
   <div className={styles.container}>
     {facebookUrl && (
       <a href={facebookUrl}>
@@ -24,8 +29,8 @@ const SocialMedia = ({ facebookUrl, twitterUrl, discordUrl, youtubeUrl }) => (
         <img src={discord.src} />
       </a>
     )}
-    {youtubeUrl && (
-      <a href={youtubeUrl}>
+    {youtubeAccount && (
+      <a href={`https://www.youtube.com/user/${youtubeAccount}`}>
         <img src={yt.src} />
       </a>
     )}
@@ -36,12 +41,12 @@ SocialMedia.propTypes = {
   facebookUrl: PropTypes.string,
   twitterUrl: PropTypes.string,
   discordUrl: PropTypes.string,
-  youtubeUrl: PropTypes.string,
+  youtubeAccount: PropTypes.string,
 }
 
 export default withConfiguration((config) => ({
   facebookUrl: config.facebookUrl,
   twitterUrl: config.twitterUrl,
   discordUrl: config.discordUrl,
-  youtubeUrl: config.youtubeUrl,
+  youtubeAccount: config.youtubeAccount,
 }))(SocialMedia)

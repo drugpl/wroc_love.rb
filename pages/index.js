@@ -59,18 +59,17 @@ class Home extends React.Component {
                     <Responsive desktop desktophd>
                       <Editions />
                     </Responsive>
+                    <Responsive tablet>
+                      <Supporters />
+                      <Partners />
+                      <Twitter />
+                    </Responsive>
                   </>
                 ) : (
-                  <Responsive desktop desktophd mobile>
+                  <>
                     <AgendaSoon />
-                  </Responsive>
-                )}
-                {!!displayAgenda && (
-                  <Responsive tablet>
-                    <Supporters />
-                    <Partners />
-                    <Twitter />
-                  </Responsive>
+                    <Editions />
+                  </>
                 )}
               </div>
 
@@ -81,7 +80,7 @@ class Home extends React.Component {
                 <div className={styles.content}>
                   <Responsive mobile desktop desktophd>
                     <div className={styles.content_column}>
-                      {displayAgenda ? <Speakers /> : <TalksLink />}
+                      {displayAgenda ? <Speakers /> : <TalksArchive />}
                     </div>
                     <div className={styles.content_column}>
                       {displayAgenda ? (
@@ -91,14 +90,12 @@ class Home extends React.Component {
                           <Supporters />
                           <Twitter />
                           <TalksArchive />
+                          <Responsive mobile>
+                            <Editions />
+                          </Responsive>
                         </>
                       ) : (
-                        <XTwitter />
-                      )}
-                      {!!displayAgenda && (
-                        <Responsive mobile>
-                          <Editions />
-                        </Responsive>
+                        <Partners />
                       )}
                     </div>
                   </Responsive>
@@ -113,9 +110,8 @@ class Home extends React.Component {
                         </>
                       ) : (
                         <>
-                          <AgendaSoon />
-                          <TalksLink />
-                          <XTwitter />
+                          <TalksArchive />
+                          <Partners />
                         </>
                       )}
                     </div>

@@ -4,11 +4,11 @@ import SectionHeader from "../section_header"
 import PropTypes from "prop-types"
 import { withConfiguration } from "../contexts/configuration"
 
-const TalksLink = ({ youtubeUrl }) => (
+const TalksLink = ({ youtubeAccount }) => (
   <div className={styles.container}>
     <a
       className={styles.link}
-      href={`${youtubeUrl}/videos`}
+      href={`https://www.youtube.com/user/${youtubeAccount}/videos`}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -24,5 +24,5 @@ TalksLink.propTypes = {
 }
 
 export default withConfiguration((config) => ({
-  youtubeUrl: config.youtubeUrl,
+  youtubeAccount: config.youtubeAccount,
 }))(TalksLink)
