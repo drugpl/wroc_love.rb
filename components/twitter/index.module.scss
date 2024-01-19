@@ -2,10 +2,18 @@
 
 .container {
   border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+@include mobile {
+  .container {
+    border-top: none;
+  }
 }
 
 @include tablet {
   .container {
     border-bottom: none;
+    border-top: none;
   }
 }

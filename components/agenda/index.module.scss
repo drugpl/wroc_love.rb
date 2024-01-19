@@ -69,6 +69,10 @@
 }
 
 @include mobile {
+  .container {
+    border-bottom: 1px solid black;
+  }
+
   .day_header {
     font-size: 6vw;
   }

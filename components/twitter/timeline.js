@@ -10,6 +10,7 @@ const Timeline = () => (
       options={{
         height: 300,
       }}
+      noBorders
     />
   </div>
 )

@@ -9,7 +9,7 @@ const Timeline = dynamic(() => import("./timeline"), {
 
 const Location = () => (
   <div className={styles.container}>
-    <SectionHeader outerBorder={false}>Twitter</SectionHeader>
+    <SectionHeader>Twitter</SectionHeader>
     <Timeline />
   </div>
 )

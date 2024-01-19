@@ -26,7 +26,7 @@ import { ConfigurationProvider } from "../components/contexts/configuration"
 
 class Home extends React.Component {
   render() {
-    const { displayAgenda } = this.config()
+    const { comingSoonVersion } = this.config()
     return (
       <ResponsiveProvider>
         <ConfigurationProvider config={this.config()}>
@@ -53,22 +53,24 @@ class Home extends React.Component {
                   <Postcard />
                 </Responsive>
                 <ConfrontIdeas />
-                {displayAgenda ? (
-                  <>
-                    <Agenda />
-                    <Responsive desktop desktophd>
-                      <Editions />
-                    </Responsive>
-                    <Responsive tablet>
-                      <Supporters />
-                      <Partners />
-                      <Twitter />
-                    </Responsive>
-                  </>
-                ) : (
+                {comingSoonVersion ? (
                   <>
                     <AgendaSoon />
                     <Editions />
+                  </>
+                ) : (
+                  <>
+                    <Agenda />
+                    <Responsive desktop desktophd>
+                      <Twitter />
+                      <TalksArchive />
+                      <Editions />
+                    </Responsive>
+                    <Responsive tablet>
+                      <Location />
+                      <TalksArchive />
+                      <Editions />
+                    </Responsive>
                   </>
                 )}
               </div>
@@ -80,38 +82,37 @@ class Home extends React.Component {
                 <div className={styles.content}>
                   <Responsive mobile desktop desktophd>
                     <div className={styles.content_column}>
-                      {displayAgenda ? <Speakers /> : <TalksArchive />}
+                      {comingSoonVersion ? <TalksArchive /> : <Speakers />}
                     </div>
                     <div className={styles.content_column}>
-                      {displayAgenda ? (
+                      {comingSoonVersion ? (
+                        <Partners />
+                      ) : (
                         <>
                           <Location />
                           <Partners />
                           <Supporters />
-                          <Twitter />
-                          <TalksArchive />
                           <Responsive mobile>
+                            <Twitter />
                             <Editions />
                           </Responsive>
                         </>
-                      ) : (
-                        <Partners />
                       )}
                     </div>
                   </Responsive>
                   <Responsive tablet>
                     <div className={styles.content_column}>
-                      {displayAgenda ? (
-                        <>
-                          <Speakers />
-                          <Location />
-                          <TalksArchive />
-                          <Editions />
-                        </>
-                      ) : (
+                      {comingSoonVersion ? (
                         <>
                           <TalksArchive />
                           <Partners />
+                        </>
+                      ) : (
+                        <>
+                          <Speakers />
+                          <Supporters />
+                          <Partners />
+                          <Twitter />
                         </>
                       )}
                     </div>

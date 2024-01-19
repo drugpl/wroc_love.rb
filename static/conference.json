@@ -9,26 +9,58 @@
   "discordUrl": "https://discord.com/invite/UYMestkPNc",
   "youtubeAccount": "wrocloverb",
   "editions": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023],
-  "speakers": [],
+  "speakers": [
+    {
+      "image": "/static/speakers/stephen-margheim.png",
+      "name": "Stephen Margheim",
+      "description": "Hey, I’m Stephen. I’m an American expat living in Berlin with my wife and two dogs. I am a contributor to Rails and the sqlite3-ruby gem as well as the maintainer of a handful of gems aimed at making Ruby and Rails the absolute best platforms in the world to run SQLite projects.",
+      "links": {"twitter": "https://twitter.com/fractaledmind"}
+    }
+  ],
+  "comingSoonVersion": false,
   "displayAgenda": false,
   "agenda": [
     {
       "label": "DAY 1: Friday\nTBA",
       "date": "2024-04-12",
-      "talks": []
+      "talks": [
+        {
+          "start": "13:00",
+          "end": "20:00",
+          "speaker": "TBA"
+        }
+      ]
     },
     {
       "label": "DAY 2: Saturday\nTBA",
       "date": "2024-04-13",
-      "talks": []
+      "talks": [
+        {
+          "start": "9:00",
+          "end": "19:00",
+          "speaker": "TBA"
+        }
+      ]
     },
     {
       "label": "DAY 3: Sunday\nTBA",
       "date": "2024-04-14",
-      "talks": []
+      "talks": [
+        {
+          "start": "9:00",
+          "end": "19:00",
+          "speaker": "TBA"
+        }
+      ]
     }
   ],
-  "supporters": [],
+  "supporters": [
+    {
+      "name": "Arkency",
+      "link": "https://arkency.com/",
+      "image": "arkency.svg"
+    }
+  ],
   "partners": [
     {
       "name": "Uniwersytet Wrocławski",
