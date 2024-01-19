@@ -15,6 +15,11 @@
       "name": "Stephen Margheim",
       "description": "Hey, I’m Stephen. I’m an American expat living in Berlin with my wife and two dogs. I am a contributor to Rails and the sqlite3-ruby gem as well as the maintainer of a handful of gems aimed at making Ruby and Rails the absolute best platforms in the world to run SQLite projects.",
       "links": {"twitter": "https://twitter.com/fractaledmind"}
+    },
+    {
+      "image": "/static/speakers/maciej-rzasa.jpg",
+      "name": "Maciej Rząsa",
+      "description": "Software engineer with 10+ years of experience. He started applications from scratch, dealt with legacy, and extracted services from a monolith and led teams.  Strong proponent of diving deep into black boxes, he focuses on distributed systems and database internals.  Has a strange hobby of writing regular expressions by hand and discussing their performance. Knowledge-sharing advocate: after work, he's a university instructor, public speaker and meetup organiser. Bookworm, hiker and history buff (ask him about Napoleon!)."
     }
   ],
   "comingSoonVersion": false,
