@@ -20,6 +20,11 @@
       "image": "/static/speakers/maciej-rzasa.jpg",
       "name": "Maciej Rząsa",
       "description": "Software engineer with 10+ years of experience. He started applications from scratch, dealt with legacy, and extracted services from a monolith and led teams.  Strong proponent of diving deep into black boxes, he focuses on distributed systems and database internals.  Has a strange hobby of writing regular expressions by hand and discussing their performance. Knowledge-sharing advocate: after work, he's a university instructor, public speaker and meetup organiser. Bookworm, hiker and history buff (ask him about Napoleon!)."
+    },
+    {
+      "image": "/static/speakers/andrei-kaleshka.jpg",
+      "name": "Andrei Kaleshka",
+      "description": "With over 15 years of experience using Ruby on Rails, I am a seasoned software engineer and a published author. I have written the book \"Rake Task Management Essentials\", which covers the latest techniques in building, testing, and debugging rake tasks to solve real-world automation challenges. I have also worked with well-established companies like TopTal and Hubstaff, as well as successful startups like ActivePlatfrorm, WorshipOnline, Fisikal, and Costa del Home. \n\nIn 2014, I founded WideFix, a software development agency that specializes in Ruby on Rails and React. My expertise lies in thorough analysis and delivering robust technical solutions to businesses. I lead a team of talented developers who share my passion for creating high-quality applications that meet the needs and expectations of our clients. My mission is to help entrepreneurs and organizations bring their vision to life with our top-notch development services.\n\nIn 2021, I built an allowance tracker for my kid that I still use myself and published for everyone that's published at get.budgetingkid.com."
     }
   ],
   "comingSoonVersion": false,
