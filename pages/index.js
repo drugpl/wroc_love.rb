@@ -14,9 +14,6 @@ import Location from "../components/location"
 import Partners from "../components/partners"
 import Supporters from "../components/supporters"
 import TalksArchive from "../components/talks_archive"
-import TalksLink from "../components/talks_link"
-import XTwitter from "../components/x_twitter"
-import Twitter from "../components/twitter"
 import Editions from "../components/editions"
 import Footer from "../components/footer"
 import styles from "./index.module.scss"
@@ -26,7 +23,8 @@ import { ConfigurationProvider } from "../components/contexts/configuration"
 
 class Home extends React.Component {
   render() {
-    const { comingSoonVersion } = this.config()
+    const { comingSoonVersion, talks } = this.config()
+
     return (
       <ResponsiveProvider>
         <ConfigurationProvider config={this.config()}>
@@ -62,7 +60,6 @@ class Home extends React.Component {
                   <>
                     <Agenda />
                     <Responsive desktop desktophd>
-                      <Twitter />
                       <TalksArchive />
                       <Editions />
                     </Responsive>
@@ -93,7 +90,6 @@ class Home extends React.Component {
                           <Partners />
                           <Supporters />
                           <Responsive mobile>
-                            <Twitter />
                             <Editions />
                           </Responsive>
                         </>
@@ -112,7 +108,6 @@ class Home extends React.Component {
                           <Speakers />
                           <Supporters />
                           <Partners />
-                          <Twitter />
                         </>
                       )}
                     </div>
