@@ -64,6 +64,20 @@
       ]
     }
   ],
+  "talks": [
+    {
+      "title": "How (and why) to run SQLite in production",
+      "speaker": "Stephen Margheim"
+    },
+    {
+      "title": "Debug Like a Scientist!",
+      "speaker": "Maciej Rząsa"
+    },
+    {
+      "title": "Prevent account sharing",
+      "speaker": "Andrei Kaleshka"
+    }
+  ],
   "supporters": [
     {
       "name": "Arkency",

@@ -9,6 +9,7 @@ import {
   getFirstDayStart,
   getLastDayEnd,
 } from "../../utils/talks_list"
+import TalksList from "../talks_list"
 
 class Agenda extends React.Component {
   state = { renderDot: false }
@@ -50,11 +51,15 @@ class Agenda extends React.Component {
   }
 
   render() {
-    const { agenda, displayAgenda, talksList } = this.props
+    const { agenda, displayAgenda, talksList, talks } = this.props
     const now = new Date()
     const currentTalk = this.currentTalk(now, talksList)
 
     if (!displayAgenda) {
+      if (!!talks?.length) {
+        return <TalksList />
+      }
+
       return (
         <div className={styles.container}>
           <SectionHeader backgroundImage={header.src} textColor="#fff" small>
@@ -113,6 +118,7 @@ export default withConfiguration((config) => ({
   agenda: config.agenda,
   displayAgenda: config.displayAgenda,
   talksList: talksList(config.agenda),
+  talks: config.talks,
   startDate: getFirstDayStart(config.agenda),
   endDate: getLastDayEnd(config.agenda),
 }))(Agenda)

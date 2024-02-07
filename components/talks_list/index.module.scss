@@ -1,0 +1,70 @@
+@import '../../scss/mixins';
+
+.talk {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.talk_title {
+  font-size: 1.5vw;
+  font-family: "sk-modernistregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.talk_speaker {
+  font-size: 1.2vw;
+}
+
+.talk_description {
+  position: relative;
+  flex: 1;
+  max-height: calc(6vw);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.25vw;
+
+  &:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  }
+}
+
+.talk_open .talk_description {
+  max-height: 100%;
+
+  &:after {
+    display: none;
+  }
+}
+
+
+@include mobile {
+  .container {
+    border-bottom: 1px solid black;
+  }
+
+  .talk_title {
+    font-size: 4.5vw;
+  }
+
+  .talk_speaker {
+    font-size: 3.5vw;
+  }
+
+  .talk_description {
+    font-size: 4vw;
+    max-height: 22vw;
+  }
+}
+
+@include tablet {
+  .container {
+    border-bottom: 1px solid black;
+  }
+}
