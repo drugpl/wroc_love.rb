@@ -10,7 +10,7 @@ import {
   getLastDayEnd,
 } from "../../utils/talks_list"
 
-const Talk = ({ title, description, speaker }) => {
+const Talk = ({ title, speaker }) => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -20,7 +20,6 @@ const Talk = ({ title, description, speaker }) => {
     >
       <div className={styles.talk_speaker}>{speaker}</div>
       <div className={styles.talk_title}>{title}</div>
-      <div className={styles.talk_description}>{nl2br(description)}</div>
     </div>
   )
 }
