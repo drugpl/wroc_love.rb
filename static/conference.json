@@ -25,6 +25,21 @@
       "image": "/static/speakers/andrei-kaleshka.jpg",
       "name": "Andrei Kaleshka",
       "description": "With over 15 years of experience using Ruby on Rails, I am a seasoned software engineer and a published author. I have written the book \"Rake Task Management Essentials\", which covers the latest techniques in building, testing, and debugging rake tasks to solve real-world automation challenges. I have also worked with well-established companies like TopTal and Hubstaff, as well as successful startups like ActivePlatfrorm, WorshipOnline, Fisikal, and Costa del Home. \n\nIn 2014, I founded WideFix, a software development agency that specializes in Ruby on Rails and React. My expertise lies in thorough analysis and delivering robust technical solutions to businesses. I lead a team of talented developers who share my passion for creating high-quality applications that meet the needs and expectations of our clients. My mission is to help entrepreneurs and organizations bring their vision to life with our top-notch development services.\n\nIn 2021, I built an allowance tracker for my kid that I still use myself and published for everyone that's published at get.budgetingkid.com."
+    },
+    {
+      "image": "/static/speakers/radoslav-stankov.jpg",
+      "name": "Radoslav Stankov",
+      "description": "Full stack developer with 20+ years of experience. He is currently the CTO and Co-Founder at Angry Building. Previously was Head of Engineering at Product Hunt."
+    },
+    {
+      "image": "/static/speakers/caio-almeida.jpg",
+      "name": "Caio Almeida",
+      "description": "Senior software engineer with more than 15 years of experience, primarily working with Ruby On Rails and JavaScript / React.js lately. I'm a Certified Ruby Programmer, I hold bachelor's and master's degrees in computer science from the Federal University of Bahia, Brazil, and I'm currently a special student in the PhD program at the same university. I'm currently CTO at Meedan, a software NGO from San Francisco, USA. In 2018, I was one of the five software developers selected to join Data4Change, a data visualization workshop on human rights in the Middle East that took place in Beirut, Lebanon. I'm currently ranked as the Top 1 Ruby developer in Brazil and Top 10 in the world, according to CodersRank. I also collaborate as a developer on open source projects such as Ruby On Rails, NPM, Drupal, Noosfero, Moodle, Inkscape, and others, and I have presented at conferences including RubyConf Portugal, Rubyfuza (South Africa), SIBGRAPI (Peru), PROPOR (Portugal), Tech & Check (Duke University in the United States), CredCon (United States), Mexico on Rails (Mexico), Media Party (Argentina), Mediathon (Peru), RubyConf Brazil, WebMedia, W3C Web Conference, International Free Software Forum, International Free Software Workshop, JSDay, Campus Party, among others."
+    },
+    {
+      "image": "/static/speakers/david-halasz.jpg",
+      "name": "Dávid Halász",
+      "description": "Principal Software Engineer at Red Hat by day, with 10+ years experience in Ruby. Researcher at Masaryk University by night, working on his PhD thesis about Trust, Safety and Autonomous Ecosystems. Currently living in Brno, Czech Republic."
     }
   ],
   "comingSoonVersion": false,
@@ -76,6 +91,18 @@
     {
       "title": "Prevent account sharing",
       "speaker": "Andrei Kaleshka"
+    },
+    {
+      "title": "Component Driven UI with ViewComponent gem",
+      "speaker": "Radoslav Stankov"
+    },
+    {
+      "title": "Optimizing Performance in Ruby on Rails Applications with GraphQL Layer: Practical Strategies and Examples",
+      "speaker": "Caio Almeida"
+    },
+    {
+      "title": "One machine please, make it Turing",
+      "speaker": "David Halász"
     }
   ],
   "supporters": [
