@@ -112,6 +112,11 @@
       "name": "Arkency",
       "link": "https://arkency.com/",
       "image": "arkency.svg"
+    },
+    {
+      "name": "AppSignal",
+      "link": "https://www.appsignal.com/",
+      "image": "appsignal.svg"
     }
   ],
   "partners": [
