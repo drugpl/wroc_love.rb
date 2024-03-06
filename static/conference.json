@@ -45,38 +45,143 @@
     }
   ],
   "comingSoonVersion": false,
-  "displayAgenda": false,
+  "displayAgenda": true,
   "agenda": [
     {
-      "label": "DAY 1: Friday\nTBA",
+      "label": "DAY 1: Friday\nMarch 12",
       "date": "2024-04-12",
       "talks": [
         {
-          "start": "13:00",
-          "end": "20:00",
+          "start": "14:00",
+          "end": "17:00",
+          "speaker": "Workshops TBA"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
           "speaker": "TBA"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "speaker": "Party"
         }
       ]
     },
     {
-      "label": "DAY 2: Saturday\nTBA",
+      "label": "DAY 2: Saturday\nMarch 13",
       "date": "2024-04-13",
       "talks": [
         {
           "start": "9:00",
+          "end": "10:00",
+          "speaker": "Registration"
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "speaker": "Lunch break"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "speaker": "Discussion Panel"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "18:00",
           "end": "19:00",
           "speaker": "TBA"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "speaker": "Party"
         }
       ]
     },
     {
-      "label": "DAY 3: Sunday\nTBA",
+      "label": "DAY 3: Sunday\nMarch 14",
       "date": "2024-04-14",
       "talks": [
         {
           "start": "9:00",
+          "end": "10:00",
+          "speaker": "Registration"
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "speaker": "Lunch break"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "speaker": "Discussion Panel"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "TBA"
+        },
+        {
+          "start": "18:00",
           "end": "19:00",
           "speaker": "TBA"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "speaker": "Party"
         }
       ]
     }
