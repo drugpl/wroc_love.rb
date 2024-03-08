@@ -16,7 +16,9 @@
       "image": "/static/speakers/stephen-margheim.png",
       "name": "Stephen Margheim",
       "description": "Hey, I’m Stephen. I’m an American expat living in Berlin with my wife and two dogs. I am a contributor to Rails and the sqlite3-ruby gem as well as the maintainer of a handful of gems aimed at making Ruby and Rails the absolute best platforms in the world to run SQLite projects.",
-      "links": { "twitter": "https://twitter.com/fractaledmind" }
+      "links": {
+        "twitter": "https://twitter.com/fractaledmind"
+      }
     },
     {
       "image": "/static/speakers/maciej-rzasa.jpg",
@@ -65,38 +67,155 @@
     }
   ],
   "comingSoonVersion": false,
-  "displayAgenda": false,
+  "displayAgenda": true,
   "agenda": [
     {
-      "label": "DAY 1: Friday\nTBA",
+      "label": "DAY 1: Friday\nApril 12",
       "date": "2024-04-12",
       "talks": [
         {
-          "start": "13:00",
-          "end": "20:00",
-          "speaker": "TBA"
+          "start": "14:00",
+          "end": "17:00",
+          "title": "Workshops TBA"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "Andrei Kaleshka",
+          "title": "Prevent account sharing"
+        },
+        {
+          "start": "18:00",
+          "end": "19:00",
+          "speaker": "David Halász",
+          "title": "One machine please, make it Turing"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "title": "Party"
         }
       ]
     },
     {
-      "label": "DAY 2: Saturday\nTBA",
+      "label": "DAY 2: Saturday\nApril 13",
       "date": "2024-04-13",
       "talks": [
         {
           "start": "9:00",
+          "end": "10:00",
+          "title": "Registration"
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "speaker": "Stephen Margheim",
+          "title": "How (and why) to run SQLite in production"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "speaker": "Optimizing performance in Rails applications with GraphQL layer",
+          "title": "Caio Almeida"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "speaker": "Maciej Rząsa",
+          "title": "Debug like a scientist!"
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "title": "Lunch break"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "title": "Discussion Panel"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "title": "Component Driven UI with ViewComponent",
+          "speaker": "Radoslav Stankov"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "Bartosz Blimke",
+          "title": "Webmock unmocked"
+        },
+        {
+          "start": "18:00",
           "end": "19:00",
-          "speaker": "TBA"
+          "speaker": "Lightning Talks"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "speaker": "Party"
         }
       ]
     },
     {
-      "label": "DAY 3: Sunday\nTBA",
+      "label": "DAY 3: Sunday\nApril 14",
       "date": "2024-04-14",
       "talks": [
         {
           "start": "9:00",
+          "end": "10:00",
+          "speaker": "Registration"
+        },
+        {
+          "start": "10:00",
+          "end": "11:00",
+          "speaker": "Andrei Bondarev",
+          "title": "Building LLM-powered applications in Ruby"
+        },
+        {
+          "start": "11:00",
+          "end": "12:00",
+          "speaker": "Paweł Pokrywka",
+          "title": "How I brought LCP down to under 350 ms for Google-referred users"
+        },
+        {
+          "start": "12:00",
+          "end": "13:00",
+          "speaker": "Ivan Nemytchenko",
+          "title": "The  Curse of Service Object"
+        },
+        {
+          "start": "13:00",
+          "end": "15:00",
+          "speaker": "Lunch break"
+        },
+        {
+          "start": "15:00",
+          "end": "16:00",
+          "speaker": "Discussion Panel"
+        },
+        {
+          "start": "16:00",
+          "end": "17:00",
+          "speaker": "Erwin Kroon",
+          "title": "Introducing Sorbet into your Ruby codebase"
+        },
+        {
+          "start": "17:00",
+          "end": "18:00",
+          "speaker": "Norbert Wójtowicz",
+          "title": "TimeDate stories"
+        },
+        {
+          "start": "18:00",
           "end": "19:00",
-          "speaker": "TBA"
+          "speaker": "Lightning Talks"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "speaker": "Party"
         }
       ]
     }
