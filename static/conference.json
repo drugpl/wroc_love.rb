@@ -50,7 +50,7 @@
   "displayAgenda": true,
   "agenda": [
     {
-      "label": "DAY 1: Friday\nMarch 12",
+      "label": "DAY 1: Friday\nApril 12",
       "date": "2024-04-12",
       "talks": [
         {
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "label": "DAY 2: Saturday\nMarch 13",
+      "label": "DAY 2: Saturday\nApril 13",
       "date": "2024-04-13",
       "talks": [
         {
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "label": "DAY 3: Sunday\nMarch 14",
+      "label": "DAY 3: Sunday\nApril 14",
       "date": "2024-04-14",
       "talks": [
         {
