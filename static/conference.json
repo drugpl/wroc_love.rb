@@ -1,304 +1,247 @@
 {
-  "title": "wroclove.rb 2024",
-  "description": "wroclove.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
-  "date": "April 12-14, 2024",
-  "cfpUrl": null,
-  "ticketsUrl": "https://wrocloverb2024.konfeo.com/",
-  "facebookUrl": "https://facebook.com/wroclove.rb/",
-  "twitterUrl": "https://twitter.com/wrocloverb",
-  "discordUrl": "https://discord.com/invite/UYMestkPNc",
-  "youtubeAccount": "wrocloverb",
-  "editions": [
-    2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023
-  ],
-  "speakers": [
+  title: "wroclove.rb 2024",
+  description:
+    "wroclove.rb is a Ruby conference organized by the community that aims to confront ideas in a friendly atmosphere.",
+  date: "April 12-14, 2024",
+  cfpUrl: null,
+  ticketsUrl: "https://wrocloverb2024.konfeo.com/",
+  facebookUrl: "https://facebook.com/wroclove.rb/",
+  twitterUrl: "https://twitter.com/wrocloverb",
+  discordUrl: "https://discord.com/invite/UYMestkPNc",
+  youtubeAccount: "wrocloverb",
+  editions: [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023],
+  speakers: [
     {
-      "image": "/static/speakers/stephen-margheim.png",
-      "name": "Stephen Margheim",
-      "description": "Hey, I’m Stephen. I’m an American expat living in Berlin with my wife and two dogs. I am a contributor to Rails and the sqlite3-ruby gem as well as the maintainer of a handful of gems aimed at making Ruby and Rails the absolute best platforms in the world to run SQLite projects.",
-      "links": {
-        "twitter": "https://twitter.com/fractaledmind"
+      image: "/static/speakers/stephen-margheim.png",
+      name: "Stephen Margheim",
+      description:
+        "Hey, I’m Stephen. I’m an American expat living in Berlin with my wife and two dogs. I am a contributor to Rails and the sqlite3-ruby gem as well as the maintainer of a handful of gems aimed at making Ruby and Rails the absolute best platforms in the world to run SQLite projects.",
+      links: {
+        twitter: "https://twitter.com/fractaledmind"
       }
     },
     {
-      "image": "/static/speakers/maciej-rzasa.jpg",
-      "name": "Maciej Rząsa",
-      "description": "Software engineer with 10+ years of experience. He started applications from scratch, dealt with legacy, and extracted services from a monolith and led teams.  Strong proponent of diving deep into black boxes, he focuses on distributed systems and database internals.  Has a strange hobby of writing regular expressions by hand and discussing their performance. Knowledge-sharing advocate: after work, he's a university instructor, public speaker and meetup organiser. Bookworm, hiker and history buff (ask him about Napoleon!)."
+      image: "/static/speakers/maciej-rzasa.jpg",
+      name: "Maciej Rząsa",
+      description:
+        "Software engineer with 10+ years of experience. He started applications from scratch, dealt with legacy, and extracted services from a monolith and led teams.  Strong proponent of diving deep into black boxes, he focuses on distributed systems and database internals.  Has a strange hobby of writing regular expressions by hand and discussing their performance. Knowledge-sharing advocate: after work, he's a university instructor, public speaker and meetup organiser. Bookworm, hiker and history buff (ask him about Napoleon!)."
     },
     {
-      "image": "/static/speakers/andrei-kaleshka.jpg",
-      "name": "Andrei Kaleshka",
-      "description": "With over 15 years of experience using Ruby on Rails, I am a seasoned software engineer and a published author. I have written the book \"Rake Task Management Essentials\", which covers the latest techniques in building, testing, and debugging rake tasks to solve real-world automation challenges. I have also worked with well-established companies like TopTal and Hubstaff, as well as successful startups like ActivePlatfrorm, WorshipOnline, Fisikal, and Costa del Home. \n\nIn 2014, I founded WideFix, a software development agency that specializes in Ruby on Rails and React. My expertise lies in thorough analysis and delivering robust technical solutions to businesses. I lead a team of talented developers who share my passion for creating high-quality applications that meet the needs and expectations of our clients. My mission is to help entrepreneurs and organizations bring their vision to life with our top-notch development services.\n\nIn 2021, I built an allowance tracker for my kid that I still use myself and published for everyone that's published at get.budgetingkid.com."
+      image: "/static/speakers/andrei-kaleshka.jpg",
+      name: "Andrei Kaleshka",
+      description:
+        "With over 15 years of experience using Ruby on Rails, I am a seasoned software engineer and a published author. I have written the book \"Rake Task Management Essentials\", which covers the latest techniques in building, testing, and debugging rake tasks to solve real-world automation challenges. I have also worked with well-established companies like TopTal and Hubstaff, as well as successful startups like ActivePlatfrorm, WorshipOnline, Fisikal, and Costa del Home. \n\nIn 2014, I founded WideFix, a software development agency that specializes in Ruby on Rails and React. My expertise lies in thorough analysis and delivering robust technical solutions to businesses. I lead a team of talented developers who share my passion for creating high-quality applications that meet the needs and expectations of our clients. My mission is to help entrepreneurs and organizations bring their vision to life with our top-notch development services.\n\nIn 2021, I built an allowance tracker for my kid that I still use myself and published for everyone that's published at get.budgetingkid.com."
     },
     {
-      "image": "/static/speakers/radoslav-stankov.jpg",
-      "name": "Radoslav Stankov",
-      "description": "Full stack developer with 20+ years of experience. He is currently the CTO and Co-Founder at Angry Building. Previously was Head of Engineering at Product Hunt."
+      image: "/static/speakers/radoslav-stankov.jpg",
+      name: "Radoslav Stankov",
+      description:
+        "Full stack developer with 20+ years of experience. He is currently the CTO and Co-Founder at Angry Building. Previously was Head of Engineering at Product Hunt."
     },
     {
-      "image": "/static/speakers/caio-almeida.jpg",
-      "name": "Caio Almeida",
-      "description": "Caio is a senior software engineer from Salvador, Brazil, with over 15 years of expertise in working with Ruby on Rails (since 2008) and JavaScript (since 2005). He has been working for more than 10 years in the United States after working for companies also from Brazil, Canada, and the UK. He currently works at Meedan, an organization based in San Francisco, California, that specializes in developing open-source tools for fact-checking. Caio holds bachelor's and master's degrees in Computer Science, certification as a Ruby Programmer, and has shared his insights at various conferences such as RubyConf Portugal, Rubyfuza (in South Africa), Mexico on Rails (in Mexico), RailsConf Brazil, and others. In his spare time, one can find him biking or at a rock concert."
+      image: "/static/speakers/caio-almeida.jpg",
+      name: "Caio Almeida",
+      description:
+        "Caio is a senior software engineer from Salvador, Brazil, with over 15 years of expertise in working with Ruby on Rails (since 2008) and JavaScript (since 2005). He has been working for more than 10 years in the United States after working for companies also from Brazil, Canada, and the UK. He currently works at Meedan, an organization based in San Francisco, California, that specializes in developing open-source tools for fact-checking. Caio holds bachelor's and master's degrees in Computer Science, certification as a Ruby Programmer, and has shared his insights at various conferences such as RubyConf Portugal, Rubyfuza (in South Africa), Mexico on Rails (in Mexico), RailsConf Brazil, and others. In his spare time, one can find him biking or at a rock concert."
     },
     {
-      "image": "/static/speakers/david-halasz.jpg",
-      "name": "Dávid Halász",
-      "description": "Principal Software Engineer at Red Hat by day, with 10+ years experience in Ruby. Researcher at Masaryk University by night, working on his PhD thesis about Trust, Safety and Autonomous Ecosystems. Currently living in Brno, Czech Republic."
+      image: "/static/speakers/david-halasz.jpg",
+      name: "Dávid Halász",
+      description:
+        "Principal Software Engineer at Red Hat by day, with 10+ years experience in Ruby. Researcher at Masaryk University by night, working on his PhD thesis about Trust, Safety and Autonomous Ecosystems. Currently living in Brno, Czech Republic."
     },
     {
-      "image": "/static/speakers/pawel-pokrywka.jpg",
-      "name": "Paweł Pokrywka",
-      "description": "In a world celebrating experts, I'm far from being one. I just like computers and solving problems. I try to do what needs to be done while exercising my creativity and experiencing the ups and downs of the process. I prefer to use Unix, Ruby, and Open Source solutions. My curiosity led me to learn about security, privacy, cryptography, operating systems, networking, blockchains, and web-related fields. Privately, I enjoy contemplating classical paintings and sculptures. In my daily life, I try to apply principles of non-violent communication. I like to think about why people do what they do. I'm not sure what amazes me more: hard-core technology challenges or complexities of human nature."
+      image: "/static/speakers/pawel-pokrywka.jpg",
+      name: "Paweł Pokrywka",
+      description:
+        "In a world celebrating experts, I'm far from being one. I just like computers and solving problems. I try to do what needs to be done while exercising my creativity and experiencing the ups and downs of the process. I prefer to use Unix, Ruby, and Open Source solutions. My curiosity led me to learn about security, privacy, cryptography, operating systems, networking, blockchains, and web-related fields. Privately, I enjoy contemplating classical paintings and sculptures. In my daily life, I try to apply principles of non-violent communication. I like to think about why people do what they do. I'm not sure what amazes me more: hard-core technology challenges or complexities of human nature."
     },
     {
-      "image": "/static/speakers/andrei-bondarev.jpg",
-      "name": "Andrei Bondarev",
-      "description": "Andrei has been a software engineering professional for almost 13 years. Among many others he’s been fortunate to make his impact at Spree Commerce (Acquired by First Data), WeddingWire (merged with The Knot), FiscalNote (IPO), National Public Radio, and USA Today. He currently runs a software dev firm, and serves as an Architect/Engineering Manager/Fractional CTO on the client projects. In his free time he enjoys playing tennis and going on long runs while listening to podcasts."
+      image: "/static/speakers/andrei-bondarev.jpg",
+      name: "Andrei Bondarev",
+      description:
+        "Andrei has been a software engineering professional for almost 13 years. Among many others he’s been fortunate to make his impact at Spree Commerce (Acquired by First Data), WeddingWire (merged with The Knot), FiscalNote (IPO), National Public Radio, and USA Today. He currently runs a software dev firm, and serves as an Architect/Engineering Manager/Fractional CTO on the client projects. In his free time he enjoys playing tennis and going on long runs while listening to podcasts."
     },
     {
-      "image": "/static/speakers/erwin-kroon.jpg",
-      "name": "Erwin Kroon",
-      "description": "Erwin is a Full Stack developer currently working as a Software Engineer at GitHub on the Issues Platform team. He spends most of his time in Ruby/Rails code. In his free time he walks dogs."
+      image: "/static/speakers/erwin-kroon.jpg",
+      name: "Erwin Kroon",
+      description:
+        "Erwin is a Full Stack developer currently working as a Software Engineer at GitHub on the Issues Platform team. He spends most of his time in Ruby/Rails code. In his free time he walks dogs."
     },
     {
-      "image": "/static/speakers/ivan-nemytchenko.jpg",
-      "name": "Ivan Nemytchenko",
-      "description": "Ivan is a serial CTO of early-stage startups. He is building and leading small teams of full-stack developers to help startups achieve their goals without compromising speed of development and quality. Ex-GitLab. Author of a book about complexity management \"Painless Rails\" and Modern Make handbook."
+      image: "/static/speakers/ivan-nemytchenko.jpg",
+      name: "Ivan Nemytchenko",
+      description:
+        "Ivan is a serial CTO of early-stage startups. He is building and leading small teams of full-stack developers to help startups achieve their goals without compromising speed of development and quality. Ex-GitLab. Author of a book about complexity management \"Painless Rails\" and Modern Make handbook."
     },
     {
-      "image": "/static/speakers/bartosz-blimke.jpg",
-      "name": "Bartosz Blimke",
-      "description": "Your's truly Webmock author"
+      image: "/static/speakers/bartosz-blimke.jpg",
+      name: "Bartosz Blimke",
+      description: "Your's truly Webmock author"
     }
   ],
-  "comingSoonVersion": false,
-  "displayAgenda": true,
-  "agenda": [
+  comingSoonVersion: false,
+  displayAgenda: true,
+  agenda: [
     {
-      "label": "DAY 1: Friday\nApril 12",
-      "date": "2024-04-12",
-      "talks": [
+      label: "DAY 1: Friday\nApril 12",
+      date: "2024-04-12",
+      talks: [
+        { start: "14:00", end: "17:00", title: "Workshops TBA" },
         {
-          "start": "14:00",
-          "end": "17:00",
-          "title": "Workshops TBA"
+          start: "17:00",
+          end: "18:00",
+          speaker: "Andrei Kaleshka",
+          title: "Prevent account sharing"
         },
         {
-          "start": "17:00",
-          "end": "18:00",
-          "speaker": "Andrei Kaleshka",
-          "title": "Prevent account sharing"
+          start: "18:00",
+          end: "19:00",
+          speaker: "David Halász",
+          title: "One machine please, make it Turing"
         },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "speaker": "David Halász",
-          "title": "One machine please, make it Turing"
-        },
-        {
-          "start": "20:00",
-          "end": "00:00",
-          "title": "Party"
-        }
+        { start: "20:00", end: "00:00", title: "Party" }
       ]
     },
     {
-      "label": "DAY 2: Saturday\nApril 13",
-      "date": "2024-04-13",
-      "talks": [
+      label: "DAY 2: Saturday\nApril 13",
+      date: "2024-04-13",
+      talks: [
+        { start: "9:00", end: "10:00", title: "Registration" },
         {
-          "start": "9:00",
-          "end": "10:00",
-          "title": "Registration"
+          start: "10:00",
+          end: "11:00",
+          speaker: "Stephen Margheim",
+          title: "How (and why) to run SQLite in production"
         },
         {
-          "start": "10:00",
-          "end": "11:00",
-          "speaker": "Stephen Margheim",
-          "title": "How (and why) to run SQLite in production"
+          start: "11:00",
+          end: "12:00",
+          speaker:
+            "Optimizing performance in Rails applications with GraphQL layer",
+          title: "Caio Almeida"
         },
         {
-          "start": "11:00",
-          "end": "12:00",
-          "speaker": "Optimizing performance in Rails applications with GraphQL layer",
-          "title": "Caio Almeida"
+          start: "12:00",
+          end: "13:00",
+          speaker: "Maciej Rząsa",
+          title: "Debug like a scientist!"
+        },
+        { start: "13:00", end: "15:00", title: "Lunch break" },
+        { start: "15:00", end: "16:00", title: "Discussion Panel" },
+        {
+          start: "16:00",
+          end: "17:00",
+          title: "Component Driven UI with ViewComponent",
+          speaker: "Radoslav Stankov"
         },
         {
-          "start": "12:00",
-          "end": "13:00",
-          "speaker": "Maciej Rząsa",
-          "title": "Debug like a scientist!"
+          start: "17:00",
+          end: "18:00",
+          speaker: "Bartosz Blimke",
+          title: "Webmock unmocked"
         },
-        {
-          "start": "13:00",
-          "end": "15:00",
-          "title": "Lunch break"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00",
-          "title": "Discussion Panel"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00",
-          "title": "Component Driven UI with ViewComponent",
-          "speaker": "Radoslav Stankov"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00",
-          "speaker": "Bartosz Blimke",
-          "title": "Webmock unmocked"
-        },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "title": "Lightning Talks"
-        },
-        {
-          "start": "20:00",
-          "end": "00:00",
-          "title": "Party"
-        }
+        { start: "18:00", end: "19:00", title: "Lightning Talks" },
+        { start: "20:00", end: "00:00", title: "Party" }
       ]
     },
     {
-      "label": "DAY 3: Sunday\nApril 14",
-      "date": "2024-04-14",
-      "talks": [
+      label: "DAY 3: Sunday\nApril 14",
+      date: "2024-04-14",
+      talks: [
+        { start: "9:00", end: "10:00", title: "Registration" },
         {
-          "start": "9:00",
-          "end": "10:00",
-          "title": "Registration"
+          start: "10:00",
+          end: "11:00",
+          speaker: "Andrei Bondarev",
+          title: "Building LLM-powered applications in Ruby"
         },
         {
-          "start": "10:00",
-          "end": "11:00",
-          "speaker": "Andrei Bondarev",
-          "title": "Building LLM-powered applications in Ruby"
+          start: "11:00",
+          end: "12:00",
+          speaker: "Paweł Pokrywka",
+          title:
+            "How I brought LCP down to under 350 ms for Google-referred users"
         },
         {
-          "start": "11:00",
-          "end": "12:00",
-          "speaker": "Paweł Pokrywka",
-          "title": "How I brought LCP down to under 350 ms for Google-referred users"
+          start: "12:00",
+          end: "13:00",
+          speaker: "Ivan Nemytchenko",
+          title: "The  Curse of Service Object"
         },
+        { start: "13:00", end: "15:00", title: "Lunch break" },
+        { start: "15:00", end: "16:00", title: "Discussion Panel" },
         {
-          "start": "12:00",
-          "end": "13:00",
-          "speaker": "Ivan Nemytchenko",
-          "title": "The  Curse of Service Object"
+          start: "16:00",
+          end: "17:00",
+          speaker: "Erwin Kroon",
+          title: "Introducing Sorbet into your Ruby codebase"
         },
-        {
-          "start": "13:00",
-          "end": "15:00",
-          "title": "Lunch break"
-        },
-        {
-          "start": "15:00",
-          "end": "16:00",
-          "title": "Discussion Panel"
-        },
-        {
-          "start": "16:00",
-          "end": "17:00",
-          "speaker": "Erwin Kroon",
-          "title": "Introducing Sorbet into your Ruby codebase"
-        },
-        {
-          "start": "17:00",
-          "end": "18:00",
-          "speaker": "(secret slot)"
-        },
-        {
-          "start": "18:00",
-          "end": "19:00",
-          "title": "Lightning Talks"
-        },
-        {
-          "start": "20:00",
-          "end": "00:00",
-          "title": "Party"
-        }
+        { start: "17:00", end: "18:00", speaker: "(secret slot)" },
+        { start: "18:00", end: "19:00", title: "Lightning Talks" },
+        { start: "20:00", end: "00:00", title: "Party" }
       ]
     }
   ],
-  "talks": [
+  talks: [
     {
-      "title": "How (and why) to run SQLite in production",
-      "speaker": "Stephen Margheim"
+      title: "How (and why) to run SQLite in production",
+      speaker: "Stephen Margheim"
+    },
+    { title: "Debug like a scientist!", speaker: "Maciej Rząsa" },
+    { title: "Prevent account sharing", speaker: "Andrei Kaleshka" },
+    {
+      title: "Component Driven UI with ViewComponent",
+      speaker: "Radoslav Stankov"
     },
     {
-      "title": "Debug like a scientist!",
-      "speaker": "Maciej Rząsa"
+      title: "Optimizing performance in Rails applications with GraphQL layer",
+      speaker: "Caio Almeida"
+    },
+    { title: "One machine please, make it Turing", speaker: "David Halász" },
+    {
+      title: "How I brought LCP down to under 350 ms for Google-referred users",
+      speaker: "Paweł Pokrywka"
     },
     {
-      "title": "Prevent account sharing",
-      "speaker": "Andrei Kaleshka"
+      title: "Building LLM-powered applications in Ruby",
+      speaker: "Andrei Bondarev"
     },
     {
-      "title": "Component Driven UI with ViewComponent",
-      "speaker": "Radoslav Stankov"
+      title: "Introducing Sorbet into your Ruby codebase",
+      speaker: "Erwin Kroon"
     },
+    { title: "The Curse of Service Object", speaker: "Ivan Nemytchenko" }
+  ],
+  supporters: [
+    { name: "Arkency", link: "https://arkency.com/", image: "arkency.svg" },
     {
-      "title": "Optimizing performance in Rails applications with GraphQL layer",
-      "speaker": "Caio Almeida"
-    },
-    {
-      "title": "One machine please, make it Turing",
-      "speaker": "David Halász"
-    },
-    {
-      "title": "How I brought LCP down to under 350 ms for Google-referred users",
-      "speaker": "Paweł Pokrywka"
-    },
-    {
-      "title": "Building LLM-powered applications in Ruby",
-      "speaker": "Andrei Bondarev"
-    },
-    {
-      "title": "Introducing Sorbet into your Ruby codebase",
-      "speaker": "Erwin Kroon"
-    },
-    {
-      "title": "The Curse of Service Object",
-      "speaker": "Ivan Nemytchenko"
+      name: "AppSignal",
+      link: "https://www.appsignal.com/",
+      image: "appsignal.svg"
     }
   ],
-  "supporters": [
+  partners: [
     {
-      "name": "Arkency",
-      "link": "https://arkency.com/",
-      "image": "arkency.svg"
+      name: "Uniwersytet Wrocławski",
+      image: "uniwroc.jpg",
+      link: "http://www.ii.uni.wroc.pl/"
     },
     {
-      "name": "AppSignal",
-      "link": "https://www.appsignal.com/",
-      "image": "appsignal.svg"
+      name: "Pragmatic Programmer",
+      image: "pragmatic_bookshelf.png",
+      link: "http://pragprog.com/"
+    },
+    {
+      name: "Ruby Warsaw Community Conference",
+      image: "rwcc.png",
+      link: "https://rubycommunityconference.com/"
     }
   ],
-  "partners": [
-    {
-      "name": "Uniwersytet Wrocławski",
-      "image": "uniwroc.jpg",
-      "link": "http://www.ii.uni.wroc.pl/"
-    },
-    {
-      "name": "Pragmatic Programmer",
-      "image": "pragmatic_bookshelf.png",
-      "link": "http://pragprog.com/"
-    },
-    {
-      "name": "Ruby Warsaw Community Conference",
-      "image": "rwcc.png",
-      "link": "https://rubycommunityconference.com/"
-    }
-  ],
-  "venue": {
-    "lat": 51.11085,
-    "lng": 17.05323,
-    "name": "University of Wrocław, Institute of Computer Science",
-    "address": "Fryderyka Joliot-Curie 15, Wrocław"
+  venue: {
+    lat: 51.11085,
+    lng: 17.05323,
+    name: "University of Wrocław, Institute of Computer Science",
+    address: "Fryderyka Joliot-Curie 15, Wrocław"
   }
 }
