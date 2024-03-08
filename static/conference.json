@@ -64,6 +64,11 @@
       "image": "/static/speakers/ivan-nemytchenko.jpg",
       "name": "Ivan Nemytchenko",
       "description": "Ivan is a serial CTO of early-stage startups. He is building and leading small teams of full-stack developers to help startups achieve their goals without compromising speed of development and quality. Ex-GitLab. Author of a book about complexity management \"Painless Rails\" and Modern Make handbook."
+    },
+    {
+      "image": "/static/speakers/bartosz-blimke.jpg",
+      "name": "Bartosz Blimke",
+      "description": "Your's truly Webmock author"
     }
   ],
   "comingSoonVersion": false,
