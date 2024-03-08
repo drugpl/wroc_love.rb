@@ -149,12 +149,12 @@
         {
           "start": "18:00",
           "end": "19:00",
-          "speaker": "Lightning Talks"
+          "title": "Lightning Talks"
         },
         {
           "start": "20:00",
           "end": "00:00",
-          "speaker": "Party"
+          "title": "Party"
         }
       ]
     },
@@ -165,7 +165,7 @@
         {
           "start": "9:00",
           "end": "10:00",
-          "speaker": "Registration"
+          "title": "Registration"
         },
         {
           "start": "10:00",
@@ -188,12 +188,12 @@
         {
           "start": "13:00",
           "end": "15:00",
-          "speaker": "Lunch break"
+          "title": "Lunch break"
         },
         {
           "start": "15:00",
           "end": "16:00",
-          "speaker": "Discussion Panel"
+          "title": "Discussion Panel"
         },
         {
           "start": "16:00",
@@ -204,18 +204,17 @@
         {
           "start": "17:00",
           "end": "18:00",
-          "speaker": "(secret)",
-          "title": "(secret)"
+          "speaker": "(secret slot)",
         },
         {
           "start": "18:00",
           "end": "19:00",
-          "speaker": "Lightning Talks"
+          "title": "Lightning Talks"
         },
         {
           "start": "20:00",
           "end": "00:00",
-          "speaker": "Party"
+          "title": "Party"
         }
       ]
     }
