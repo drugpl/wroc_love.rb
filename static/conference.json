@@ -42,6 +42,26 @@
       "image": "/static/speakers/david-halasz.jpg",
       "name": "Dávid Halász",
       "description": "Principal Software Engineer at Red Hat by day, with 10+ years experience in Ruby. Researcher at Masaryk University by night, working on his PhD thesis about Trust, Safety and Autonomous Ecosystems. Currently living in Brno, Czech Republic."
+    },
+    {
+      "image": "/static/speakers/pawel-pokrywka.jpg",
+      "name": "Paweł Pokrywka",
+      "description": "In a world celebrating experts, I'm far from being one. I just like computers and solving problems. I try to do what needs to be done while exercising my creativity and experiencing the ups and downs of the process. I prefer to use Unix, Ruby, and Open Source solutions. My curiosity led me to learn about security, privacy, cryptography, operating systems, networking, blockchains, and web-related fields. Privately, I enjoy contemplating classical paintings and sculptures. In my daily life, I try to apply principles of non-violent communication. I like to think about why people do what they do. I'm not sure what amazes me more: hard-core technology challenges or complexities of human nature."
+    },
+    {
+      "image": "/static/speakers/andrei-bondarev.jpg",
+      "name": "Andrei Bondarev",
+      "description": "Andrei has been a software engineering professional for almost 13 years. Among many others he’s been fortunate to make his impact at Spree Commerce (Acquired by First Data), WeddingWire (merged with The Knot), FiscalNote (IPO), National Public Radio, and USA Today. He currently runs a software dev firm, and serves as an Architect/Engineering Manager/Fractional CTO on the client projects. In his free time he enjoys playing tennis and going on long runs while listening to podcasts."
+    },
+    {
+      "image": "/static/speakers/erwin-kroon.jpg",
+      "name": "Erwin Kroon",
+      "description": "Erwin is a Full Stack developer currently working as a Software Engineer at GitHub on the Issues Platform team. He spends most of his time in Ruby/Rails code. In his free time he walks dogs."
+    },
+    {
+      "image": "/static/speakers/ivan-nemytchenko.jpg",
+      "name": "Ivan Nemytchenko",
+      "description": "Ivan is a serial CTO of early-stage startups. He is building and leading small teams of full-stack developers to help startups achieve their goals without compromising speed of development and quality. Ex-GitLab. Author of a book about complexity management \"Painless Rails\" and Modern Make handbook."
     }
   ],
   "comingSoonVersion": false,
@@ -105,6 +125,22 @@
     {
       "title": "One machine please, make it Turing",
       "speaker": "David Halász"
+    },
+    {
+      "title": "How I brought LCP down to under 350 ms for Google-referred users",
+      "speaker": "Paweł Pokrywka"
+    },
+    {
+      "title": "Building LLM-powered applications in Ruby",
+      "speaker": "Andrei Bondarev"
+    },
+    {
+      "title": "Introducing Sorbet into your Ruby codebase",
+      "speaker": "Erwin Kroon"
+    },
+    {
+      "title": "The Curse of Service Object",
+      "speaker": "Ivan Nemytchenko"
     }
   ],
   "supporters": [
