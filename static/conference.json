@@ -66,9 +66,9 @@
       "description": "Ivan is a serial CTO of early-stage startups. He is building and leading small teams of full-stack developers to help startups achieve their goals without compromising speed of development and quality. Ex-GitLab. Author of a book about complexity management \"Painless Rails\" and Modern Make handbook."
     },
     {
-      "image": "/static/speakers/bartosz-blimke.jpg",
+      "image": "/static/speakers/bartosz-blimke2.jpg",
       "name": "Bartosz Blimke",
-      "description": "Your's truly Webmock author"
+      "description": "Bartosz is the author and maintainer of WebMock, an iconic gem that has become a standard in Ruby for stubbing and setting expectations on HTTP requests. He is a seasoned software developer, with over 21 years in the game, an ex-CTO, and a consultant who's had a long-term relationship with Ruby for the past 17 years - sorry C++ and Java, it's serious! He's all about crafting clean, maintainable code. When he's not transforming ideas into code, he's a dad of two, who somehow also finds time to pursue his love for diving and specialty coffee brewing. He's all about exploring - whether it's underwater or in a coffee cup."
     }
   ],
   "comingSoonVersion": false,
