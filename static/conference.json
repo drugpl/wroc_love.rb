@@ -215,6 +215,11 @@
       "name": "AppSignal",
       "link": "https://www.appsignal.com/",
       "image": "appsignal.svg"
+    },
+    {
+      "name": "2n",
+      "link": "https://www.2n.pl/",
+      "image": "2n.svg"
     }
   ],
   "partners": [
