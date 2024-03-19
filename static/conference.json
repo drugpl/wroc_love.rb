@@ -69,6 +69,11 @@
       "image": "/static/speakers/bartosz-blimke2.jpg",
       "name": "Bartosz Blimke",
       "description": "Bartosz is the author and maintainer of WebMock, an iconic gem that has become a standard in Ruby for stubbing and setting expectations on HTTP requests. He is a seasoned software developer, with over 21 years in the game, an ex-CTO, and a consultant who's had a long-term relationship with Ruby for the past 17 years - sorry C++ and Java, it's serious! He's all about crafting clean, maintainable code. When he's not transforming ideas into code, he's a dad of two, who somehow also finds time to pursue his love for diving and specialty coffee brewing. He's all about exploring - whether it's underwater or in a coffee cup."
+    },
+    {
+      "image": "/static/speakers/pawel-strzalkowski.jpg",
+      "name": "Paweł Strzałkowski",
+      "description": "CTO, software consultant and full-stack developer at Visuality. Coding and building web applications since the past century. Implementing games on the side - in every technology he finds. Domain-Driven Design and event sourcing enthusiast, always trying to make other Ruby developers share his passion."
     }
   ],
   "comingSoonVersion": false,
