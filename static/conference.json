@@ -73,7 +73,11 @@
     {
       "image": "/static/speakers/pawel-strzalkowski.jpg",
       "name": "Paweł Strzałkowski",
-      "description": "CTO, software consultant and full-stack developer at Visuality. Coding and building web applications since the past century. Implementing games on the side - in every technology he finds. Domain-Driven Design and event sourcing enthusiast, always trying to make other Ruby developers share his passion."
+      "description": "CTO, software consultant and full-stack developer at Visuality. Coding and building web applications since the past century. Implementing games on the side - in every technology he finds. Domain-Driven Design and event sourcing enthusiast, always trying to make other Ruby developers share his passion.",
+      "links": {
+        "twitter": "https://twitter.com/realPawelS",
+        "linkedin": "https://www.linkedin.com/in/pawel-strzalkowski/"
+      }
     }
   ],
   "comingSoonVersion": false,
