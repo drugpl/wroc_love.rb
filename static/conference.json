@@ -83,7 +83,12 @@
       "label": "DAY 1: Friday\nApril 12",
       "date": "2024-04-12",
       "talks": [
-        { "start": "14:00", "end": "17:00", "title": "Workshops TBA" },
+        {
+          "start": "14:00",
+          "end": "17:00",
+          "speaker": "Paweł Strzałkowski",
+          "title": "Workshop: Game Development in Ruby on Rails"
+        },
         {
           "start": "17:00",
           "end": "18:00",
