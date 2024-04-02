@@ -78,6 +78,11 @@
         "twitter": "https://twitter.com/realPawelS",
         "linkedin": "https://www.linkedin.com/in/pawel-strzalkowski/"
       }
+    },
+    {
+      "image": "/static/speakers/chris-hasinski.png",
+      "name": "Chris Hasiński",
+      "description": "A developer with over 15 years of experience. Mainly interested in application performance and code readability, but happy to discuss all things software."
     }
   ],
   "comingSoonVersion": false,
@@ -92,6 +97,12 @@
           "end": "17:00",
           "speaker": "Paweł Strzałkowski",
           "title": "Workshop: Game Development in Ruby on Rails"
+        },
+        {
+          "start": "14:00",
+          "end": "17:00",
+          "speaker": "Chris Hasiński",
+          "title": "Workshop: Fixing performance issues with Rails"
         },
         {
           "start": "17:00",
