@@ -82,7 +82,12 @@
     {
       "image": "/static/speakers/chris-hasinski.png",
       "name": "Chris Hasiński",
-      "description": "A developer with over 15 years of experience. Mainly interested in application performance and code readability, but happy to discuss all things software."
+      "description": "A developer with over 15 years of experience. Mainly interested in application performance and code readability, but happy to discuss all things software.",
+      "links": {
+        "github": "https://github.com/khasinski",
+        "linkedin": "https://www.linkedin.com/in/khasinski/",
+        "twitter": "https://twitter.com/khasinski"
+      }
     }
   ],
   "comingSoonVersion": false,
