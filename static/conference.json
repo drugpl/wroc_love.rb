@@ -162,7 +162,7 @@
           "title": "Webmock unmocked"
         },
         { "start": "18:00", "end": "19:00", "title": "Lightning Talks" },
-        { "start": "20:00", "end": "00:00", "title": "Party @ Klubokawiarnia Mleczarnia, Włodkowica 5" }
+        { "start": "20:00", "end": "00:00", "speaker": "Party", "title": "Klubokawiarnia Mleczarnia, Włodkowica 5" }
       ]
     },
     {
