@@ -162,7 +162,7 @@
           "title": "Webmock unmocked"
         },
         { "start": "18:00", "end": "19:00", "title": "Lightning Talks" },
-        { "start": "20:00", "end": "00:00", "title": "Party" }
+        { "start": "20:00", "end": "00:00", "title": "Party @ Klubokawiarnia Mleczarnia, Włodkowica 5" }
       ]
     },
     {
@@ -197,8 +197,7 @@
           "title": "Introducing Sorbet into your Ruby codebase"
         },
         { "start": "17:00", "end": "18:00", "speaker": "(secret slot)" },
-        { "start": "18:00", "end": "19:00", "title": "Lightning Talks" },
-        { "start": "20:00", "end": "00:00", "title": "Party" }
+        { "start": "18:00", "end": "19:00", "title": "Lightning Talks" }
       ]
     }
   ],
