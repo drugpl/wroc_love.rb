@@ -249,6 +249,11 @@
       "name": "2n",
       "link": "https://www.2n.pl/",
       "image": "2n.svg"
+    },
+    {
+      "name": "Zendesk",
+      "link": "https://www.zendesk.com/",
+      "image": "zendesk.png"
     }
   ],
   "partners": [
