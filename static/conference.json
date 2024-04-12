@@ -88,6 +88,14 @@
         "linkedin": "https://www.linkedin.com/in/khasinski/",
         "twitter": "https://twitter.com/khasinski"
       }
+    },
+    {
+      "image": "/static/speakers/sebastian-wilgosz.jpg",
+      "name": "Sebastian Wilgosz",
+      "description": "Ruby developer, owner of Hanami Mastery initiative and a host of content_for :devs podcast, a coffee lover and blogger. His mission is to make Open-Source contributions attractive enough for developers to treat them as the main job.",
+      "links": {
+        "github": "https://github.com/swilgosz,
+      }
     }
   ],
   "comingSoonVersion": false,
@@ -196,7 +204,7 @@
           "speaker": "Erwin Kroon",
           "title": "Introducing Sorbet into your Ruby codebase"
         },
-        { "start": "17:00", "end": "18:00", "speaker": "(secret slot)" },
+        { "start": "17:00", "end": "18:00", "speaker": "Sebastian Wilgosz", "title": "Extracting logic from templates with Hanami Views" },
         { "start": "18:00", "end": "19:00", "title": "Lightning Talks" }
       ]
     }
