@@ -156,7 +156,7 @@
           "title": "Debug like a scientist!"
         },
         { "start": "13:00", "end": "15:00", "title": "Lunch break" },
-        { "start": "15:00", "end": "16:00", "title": "Discussion Panel" },
+        { "start": "15:00", "end": "16:00", "title": "Performance problems in (Rails) applications — tinyurl.com/wrocloverb" },
         {
           "start": "16:00",
           "end": "17:00",
