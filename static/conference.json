@@ -191,13 +191,12 @@
           "title": "How I brought LCP down to under 350 ms for Google-referred users"
         },
         {
-          "start": "12:00",
-          "end": "13:00",
+          "start": "12:30",
+          "end": "14:00",
           "speaker": "Ivan Nemytchenko",
           "title": "The  Curse of Service Object"
         },
-        { "start": "13:00", "end": "15:00", "title": "Lunch break" },
-        { "start": "15:00", "end": "16:00", "title": "Discussion Panel" },
+        { "start": "14:00", "end": "16:00", "title": "Lunch break" },
         {
           "start": "16:00",
           "end": "17:00",
